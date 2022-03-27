@@ -40,7 +40,7 @@ talent: 'Q > E'
 
 notes:
   en: 'Q at full stack, E > Q > (while Q) NAx4 > CA > NAx4 > CA > NAx2 > NA) > Swap'
-  zh: 'Q满层拔刀, E > Q > (while Q) NAx4 > CA > NAx4 > CA > NAx2 > NA) > Swap'
+  zh: 'Q满层拔刀, E > Q > (while Q) NAx4 > CA > NAx4 > CA > NAx2 > NA > Swap'
 
 source:
   - ccb: default

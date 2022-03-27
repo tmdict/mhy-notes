@@ -133,5 +133,23 @@
 
   <span slot="notes">
     <p>Optional notes for a build's talent priority as well as play style.</p>
+
+    <ul>
+      <li>A or NA: Normal Attack</li>
+      <li>E: Elemental Skill</li>
+      <li>Q: Elemental Burst</li>
+      <li>CA: Charged Attack</li>
+      <li>xN (where N is a number): repeat for N times</li>
+    </ul>
+
+    <p>
+      In talent priority, "A > E > Q" means to focus on upgrading normal attack, then elemental skill, and finally
+      burst.
+    </p>
+
+    <p>
+      In notes, a "NAx4 > CA > Q" is for a rotation in which you would use that character with 4 normal attacks (normal
+      attack x 4), followed by a charge attack, followed by a burst.
+    </p>
   </span>
 </BuildFaq>
