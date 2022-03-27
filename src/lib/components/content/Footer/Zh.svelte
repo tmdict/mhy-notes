@@ -1,1 +1,1 @@
-有疑问？请<a href="https://github.com/tmdict/genshin-tldr/issues">联系我们</a>
+有疑问？<a href="https://github.com/tmdict/genshin-tldr/issues">请联系我们</a>
