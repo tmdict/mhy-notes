@@ -2,6 +2,7 @@
   import { tooltip } from '$lib/util/tooltip';
 
   export let id;
+  export let title = id;
   export let src;
   export let rarity = -1;
   export let size = '60px';
@@ -25,7 +26,7 @@
     }
   }}
 >
-  <img src="/img/{src}.{ext}" title={id} alt={id} style="--icon-size: {size}" />
+  <img src="/img/{src}.{ext}" {title} alt={id} style="--icon-size: {size}" />
 </div>
 
 <style lang="scss">

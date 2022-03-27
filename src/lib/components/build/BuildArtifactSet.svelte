@@ -17,6 +17,7 @@
       <div class="artifact" on:click|stopPropagation>
         <Icon
           id={set}
+          title={details ? details['name'] : set}
           src="artifact/{set}"
           rarity={$rarity[set]}
           size="50px"

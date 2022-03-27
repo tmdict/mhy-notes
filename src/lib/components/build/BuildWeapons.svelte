@@ -19,6 +19,7 @@
     >
       <Icon
         id={weapon.name}
+        title={details ? details['name'] : weapon.name}
         src="weapon/{weapon.name === isHover ? 'ascension/' : ''}{weapon.name}"
         rarity={$rarity[weapon.name]}
         size="50px"

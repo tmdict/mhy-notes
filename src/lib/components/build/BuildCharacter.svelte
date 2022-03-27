@@ -1,5 +1,6 @@
 <script>
-  import { rarity } from '@store/gamedata';
+  import { characters, rarity } from '@store/gamedata';
+  import { lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
   export let character;
@@ -8,7 +9,14 @@
 </script>
 
 <div class="content-row character">
-  <Icon id={character} src="character/{character}" rarity={$rarity[character]} {size} margin="0" />
+  <Icon
+    id={character}
+    title={$characters[character] ? $characters[character].data[$lang].name : character}
+    src="character/{character}"
+    rarity={$rarity[character]}
+    {size}
+    margin="0"
+  />
   {#if constellation > 0}<div class="overlay">{constellation}</div>{/if}
 </div>
 
