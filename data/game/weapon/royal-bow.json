@@ -1,0 +1,19 @@
+{
+  "id": "royal-bow",
+  "type": "weapon",
+  "rarity": 4,
+  "weaponType": "bow",
+  "subStat": "atk",
+  "data": {
+    "en": {
+      "name": "Royal Bow",
+      "passiveName": "Focus",
+      "passiveDescription": "Upon damaging an opponent, increases CRIT Rate by {{8%//10%//12%//14%//16%}}. Max 5 stacks. A CRIT Hit removes all stacks."
+    },
+    "zh": {
+      "name": "宗室长弓",
+      "passiveName": "专注",
+      "passiveDescription": "攻击造成伤害时，暴击率提升{{8%//10%//12%//14%//16%}}，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "raiden-shogun",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "polearm",
+  "released": "2.1",
+  "data": {
+    "en": {
+      "name": "Raiden Shogun"
+    },
+    "zh": {
+      "name": "雷电将军"
+    }
+  }
+}

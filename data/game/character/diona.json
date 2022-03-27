@@ -1,0 +1,16 @@
+{
+  "id": "diona",
+  "type": "character",
+  "rarity": 4,
+  "vision": "cryo",
+  "weapon": "bow",
+  "released": "1.1",
+  "data": {
+    "en": {
+      "name": "Diona"
+    },
+    "zh": {
+      "name": "迪奥娜"
+    }
+  }
+}

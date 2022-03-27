@@ -1,0 +1,16 @@
+{
+  "id": "yanfei",
+  "type": "character",
+  "rarity": 4,
+  "vision": "pyro",
+  "weapon": "catalyst",
+  "released": "1.5",
+  "data": {
+    "en": {
+      "name": "Yanfei"
+    },
+    "zh": {
+      "name": "烟绯"
+    }
+  }
+}

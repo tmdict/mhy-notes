@@ -1,0 +1,47 @@
+---
+character: chongyun
+c: 2
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: wolfs-gravestone
+    r: 0
+  - name: serpent-spine
+    r: 0
+  - name: redhorn-stonethresher
+    r: 0
+
+artifact:
+  - set: [blizzard-strayer, noblesse-oblige]
+    p: 2
+  - set: [emblem-of-severed-fate]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+    - em
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - crit: '50% / 130%'
+  - atk: '2,500'
+  - em: ''
+  - er: ''
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/chongyun/

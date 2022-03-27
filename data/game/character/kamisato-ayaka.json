@@ -1,0 +1,16 @@
+{
+  "id": "kamisato-ayaka",
+  "type": "character",
+  "rarity": 5,
+  "vision": "cryo",
+  "weapon": "sword",
+  "released": "2.0",
+  "data": {
+    "en": {
+      "name": "Kamisato Ayaka"
+    },
+    "zh": {
+      "name": "神里绫华"
+    }
+  }
+}

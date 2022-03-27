@@ -1,0 +1,12 @@
+{
+  "id": "ashen-heart",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "la-signora",
+  "characters": [
+    "kujou-sara",
+    "arataki-itto",
+    "yun-jin"
+  ]
+}

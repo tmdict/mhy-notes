@@ -1,0 +1,16 @@
+{
+  "id": "guide-to-diligence",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 4,
+  "group": "diligence",
+  "day": 2,
+  "region": 2,
+  "characters": [
+    "xiangling",
+    "ganyu",
+    "hu-tao",
+    "kaedehara-kazuha",
+    "yun-jin"
+  ]
+}

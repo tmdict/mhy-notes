@@ -1,0 +1,19 @@
+{
+  "id": "amos-bow",
+  "type": "weapon",
+  "rarity": 5,
+  "weaponType": "bow",
+  "subStat": "atk",
+  "data": {
+    "en": {
+      "name": "Amos’ Bow",
+      "passiveName": "Strong-Willed",
+      "passiveDescription": "Increases Normal and Charged Attack DMG by {{12%//15%//18%//21%//24%}}. After a Normal or Charged Attack is fired, DMG dealt increases by a further {{8%//10%//12%//14%//16%}} every 0.1s the arrow is in the air for up to 5 times."
+    },
+    "zh": {
+      "name": "阿莫斯之弓",
+      "passiveName": "矢志不忘",
+      "passiveDescription": "普通攻击与重击造成的伤害提升{{12%//15%//18%//21%//24%}}；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升{{8%//10%//12%//14%//16%}}，至多提升5次。"
+    }
+  }
+}

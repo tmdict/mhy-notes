@@ -1,0 +1,47 @@
+---
+character: diluc
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: wolfs-gravestone
+    r: 0
+  - name: redhorn-stonethresher
+    r: 0
+  - name: serpent-spine
+    r: 0
+
+artifact:
+  - set: [crimson-witch-of-flames]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: '60% / 130%'
+  - atk: '2,100'
+  - em: '260'
+  - er: ''
+
+talent: 'A > E > Q'
+
+notes:
+  en: 'Q Vaporize, E > NAx2'
+  zh: 'Q蒸发, E > NAx2'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/diluc/

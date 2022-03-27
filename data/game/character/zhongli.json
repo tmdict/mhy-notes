@@ -1,0 +1,16 @@
+{
+  "id": "zhongli",
+  "type": "character",
+  "rarity": 5,
+  "vision": "geo",
+  "weapon": "polearm",
+  "released": "1.1",
+  "data": {
+    "en": {
+      "name": "Zhongli"
+    },
+    "zh": {
+      "name": "钟离"
+    }
+  }
+}

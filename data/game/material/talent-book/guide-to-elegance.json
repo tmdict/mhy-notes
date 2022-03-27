@@ -1,0 +1,14 @@
+{
+  "id": "guide-to-elegance",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 4,
+  "group": "elegance",
+  "day": 2,
+  "region": 3,
+  "characters": [
+    "kamisato-ayaka",
+    "kujou-sara",
+    "arataki-itto"
+  ]
+}

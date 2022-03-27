@@ -1,0 +1,18 @@
+{
+  "id": "teachings-of-freedom",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "freedom",
+  "day": 1,
+  "region": 1,
+  "characters": [
+    "amber",
+    "barbara",
+    "sucrose",
+    "klee",
+    "tartaglia",
+    "diona",
+    "aloy"
+  ]
+}

@@ -1,0 +1,44 @@
+---
+character: kaeya
+c: 1
+type:
+  - dps
+name:
+  en: 'Cryo DPS'
+  zh: '冰C'
+
+weapon:
+  - name: mistsplitter-reforged
+    r: 0
+  - name: summit-shaper
+    r: 0
+  - name: blackcliff-longsword
+    r: 0
+
+artifact:
+  - set: [blizzard-strayer]
+    p: 4
+  - set: [blizzard-strayer, gladiators-finale]
+    p: 2
+  - set: [gladiators-finale]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - cdmg: ''
+  - atk: ''
+  - er: '120%'
+  - cr: ''
+
+talent: 'Q > A > E'
+
+source:
+  - ccb: default
+  - kqm: https://keqingmains.com/kaeya/

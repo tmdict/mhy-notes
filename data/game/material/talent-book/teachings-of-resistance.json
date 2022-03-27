@@ -1,0 +1,18 @@
+{
+  "id": "teachings-of-resistance",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "resistance",
+  "day": 2,
+  "region": 1,
+  "characters": [
+    "bennett",
+    "diluc",
+    "jean",
+    "mona",
+    "noelle",
+    "razor",
+    "eula"
+  ]
+}

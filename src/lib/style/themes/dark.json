@@ -1,0 +1,43 @@
+{
+  "name": "dark",
+  "colors": {
+    "primary-yellow": "#f7d87c",
+    "primary-red": "#c05b4d",
+    "primary-blue": "#72a6c0",
+    "primary-gold": "#baaf81",
+
+    "header-bg-color": "#111",
+    "body-bg-color": "#121621",
+    "main-bg-color": "#18191b",
+    "main-bg-alt-color": "#242529",
+    "main-bg-hover": "#0c0c0e",
+    "filter-hover-color": "#393939",
+    "filter-active-color": "#393939",
+    "filter-active-hover-color": "#303136",
+    "input-bg": "#393939",
+    "label-bg": "#111",
+    "label-bg-highlight": "#111",
+
+    "text-normal": "#bfbfbf",
+    "text-strong": "#f5f5f5",
+    "text-main-title": "#f5f5f5",
+    "text-header-title": "#f5f5f5",
+    "text-header-highlight": "#f7d87c",
+    "text-body-highlight": "#f7d87c",
+    "text-body-highlight-alt": "#72a6c0",
+    "text-input": "#f4f4f4",
+
+    "text-overlay": "#555",
+    "text-overlay-shadow": "#f5f5f5",
+    "link-normal": "#639db9",
+    "link-hover": "#c05b4d",
+
+    "divider": "#f7d87c",
+    "main-border": "#242529",
+    "border-menu": "#ccc",
+    "border-light": "#777",
+
+    "main-font": "Verdana, Arial, 'Microsoft YaHei', sans-serif",
+    "header-font": "Georgia, serif"
+  }
+}

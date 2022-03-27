@@ -1,0 +1,45 @@
+---
+character: qiqi
+c: 1
+type:
+  - healer
+  - support
+  - meta
+name:
+  en: 'Healer'
+  zh: '治疗'
+
+weapon:
+  - name: sacrificial-sword
+    r: 0
+  - name: aquila-favonia
+    r: 0
+  - name: the-flute
+    r: 0
+
+artifact:
+  - set: [ocean-hued-clam]
+    p: 4
+  - set: [tenacity-of-the-millelith]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - atk
+  circlet:
+    - heal
+    - atk
+
+stats:
+  - atk: '1,900'
+  - heal: '70%'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/qiqi/

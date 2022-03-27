@@ -1,0 +1,48 @@
+---
+character: kujou-sara
+c: 2
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: skyward-harp
+    r: 0
+  - name: mouuns-moon
+    r: 0
+  - name: sacrificial-bow
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [thundering-fury, noblesse-oblige]
+    p: 2
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+    - atk
+  goblet:
+    - electro
+    - atk
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 100%'
+  - atk: '1,400'
+  - er: '220%'
+
+talent: E > Q
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/sara/

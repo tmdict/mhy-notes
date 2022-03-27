@@ -1,0 +1,16 @@
+{
+  "id": "sangonomiya-kokomi",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "catalyst",
+  "released": "2.1",
+  "data": {
+    "en": {
+      "name": "Sangonomiya Kokomi"
+    },
+    "zh": {
+      "name": "珊瑚宫心海"
+    }
+  }
+}

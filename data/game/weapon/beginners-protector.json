@@ -1,0 +1,15 @@
+{
+  "id": "beginners-protector",
+  "type": "weapon",
+  "rarity": 1,
+  "weaponType": "polearm",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Beginner’s Protector"
+    },
+    "zh": {
+      "name": "新手长枪"
+    }
+  }
+}

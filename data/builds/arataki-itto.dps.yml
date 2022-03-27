@@ -1,0 +1,50 @@
+---
+character: arataki-itto
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: redhorn-stonethresher
+    r: 0
+  - name: serpent-spine
+    r: 0
+  - name: whiteblind
+    r: 0
+
+artifact:
+  - set: [husk-of-opulent-dreams]
+    p: 4
+  - set: [retracing-bolide]
+    p: 4
+  - set: [husk-of-opulent-dreams, archaic-petra]
+    p: 2
+
+mainstat:
+  sand:
+    - def
+  goblet:
+    - geo
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 200%'
+  - def: '2,400'
+  - er: ''
+  - atk: '1,200'
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'Q > CA'
+  zh: '开Q重击连斩 Q > CA'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/itto/

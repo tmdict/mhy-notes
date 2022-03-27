@@ -1,0 +1,14 @@
+{
+  "id": "philosophies-of-transience",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "transience",
+  "day": 1,
+  "region": 3,
+  "characters": [
+    "yoimiya",
+    "sangonomiya-kokomi",
+    "thoma"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "shenhe",
+  "type": "character",
+  "rarity": 5,
+  "vision": "cryo",
+  "weapon": "polearm",
+  "released": "2.4",
+  "data": {
+    "en": {
+      "name": "Shenhe"
+    },
+    "zh": {
+      "name": "申鹤"
+    }
+  }
+}

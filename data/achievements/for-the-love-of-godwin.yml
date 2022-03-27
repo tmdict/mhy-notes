@@ -1,0 +1,37 @@
+---
+achievement: for-the-love-of-godwin
+version: "1.0"
+achievementType: "wonders-of-the-world"
+region: mondstadt
+checklist:
+- todo1
+- todo2
+- todo3
+- todo4
+- todo5
+en:
+  name: "For the Love of Godwin"
+  commission:
+  - "Whispers in the Wind"
+  description: "Finish “Whispers in the Wind” 5 times."
+  notes: |
+    Giving Dandelion Seeds directly from the inventory (instead of collecting new ones) does not counts towards the achievement. To get credit for the achievement, teleport to the Temple of the Falcon (domain Northwest of Windrise), climb above it and collect the seeds.
+  checklist:
+    todo1: "1"
+    todo2: "2"
+    todo3: "3"
+    todo4: "4"
+    todo5: "5"
+zh:
+  name: "过量的思念"
+  commission:
+  - "愿风带走思念"
+  description: "完成五次「愿风带走思念」。"
+  notes: |
+    已有的（而不是新摘的）种子不算。为获得成就，可以传送到西风之鹰神殿，爬到它上放收集种子。
+  checklist:
+    todo1: "1"
+    todo2: "2"
+    todo3: "3"
+    todo4: "4"
+    todo5: "5"

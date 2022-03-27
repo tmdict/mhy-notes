@@ -1,0 +1,12 @@
+{
+  "id": "molten-moment",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "la-signora",
+  "characters": [
+    "raiden-shogun",
+    "aloy",
+    "gorou"
+  ]
+}

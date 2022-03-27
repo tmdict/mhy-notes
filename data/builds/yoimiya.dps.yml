@@ -1,0 +1,51 @@
+---
+character: yoimiya
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: thundering-pulse
+    r: 0
+  - name: polar-star
+    r: 0
+  - name: rust
+    r: 5
+
+artifact:
+  - set: [shimenawas-reminiscence]
+    p: 4
+  - set: [crimson-witch-of-flames, shimenawas-reminiscence]
+    p: 2
+  - set: [crimson-witch-of-flames]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - em
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 180%'
+  - atk: '2,300'
+  - em: ''
+  - er: ''
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'E > (while E) A'
+  zh: '开E首箭'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/yoimiya/

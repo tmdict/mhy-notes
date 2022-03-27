@@ -1,0 +1,51 @@
+---
+character: lisa
+c: 2
+type:
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: kaguras-verity
+    r: 0
+  - name: skyward-atlas
+    r: 0
+  - name: the-widsith
+    r: 0
+
+artifact:
+  - set: [thundering-fury, gladiators-finale]
+    p: 2
+  - set: [thundering-fury, noblesse-oblige]
+    p: 2
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - er: ''
+  - crit: '70% / 150%'
+  - atk: '1,900'
+  - em: ''
+
+talent: 'E > Q'
+
+notes:
+  en: 'E > NAx2 > E > Q > Hold E'
+  zh: 'E > NAx2 > E > Q > Hold E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/lisa/

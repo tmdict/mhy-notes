@@ -1,0 +1,16 @@
+{
+  "id": "lisa",
+  "type": "character",
+  "rarity": 4,
+  "vision": "electro",
+  "weapon": "catalyst",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Lisa"
+    },
+    "zh": {
+      "name": "丽莎"
+    }
+  }
+}

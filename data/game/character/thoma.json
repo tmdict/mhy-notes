@@ -1,0 +1,16 @@
+{
+  "id": "thoma",
+  "type": "character",
+  "rarity": 4,
+  "vision": "pyro",
+  "weapon": "polearm",
+  "released": "2.2",
+  "data": {
+    "en": {
+      "name": "Thoma"
+    },
+    "zh": {
+      "name": "托马"
+    }
+  }
+}

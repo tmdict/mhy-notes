@@ -1,0 +1,15 @@
+{
+  "id": "silver-sword",
+  "type": "weapon",
+  "rarity": 2,
+  "weaponType": "sword",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Silver Sword"
+    },
+    "zh": {
+      "name": "银剑"
+    }
+  }
+}

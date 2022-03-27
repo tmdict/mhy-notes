@@ -1,0 +1,51 @@
+---
+character: bennett
+c: 1
+type:
+  - support
+  - healer
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: aquila-favonia
+    r: 0
+  - name: skyward-blade
+    r: 0
+  - name: the-alley-flash
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [the-exile, scholar]
+    p: 2
+  - set: [maiden-beloved]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+    - hp
+  goblet:
+    - hp
+  circlet:
+    - heal
+    - hp
+
+stats:
+  - er: '200%'
+  - hp: '26,000'
+  - atk: '1,500'
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q heal'
+  zh: 'Q治疗'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/bennett/

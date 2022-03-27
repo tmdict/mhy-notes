@@ -1,0 +1,16 @@
+{
+  "id": "fischl",
+  "type": "character",
+  "rarity": 4,
+  "vision": "electro",
+  "weapon": "bow",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Fischl"
+    },
+    "zh": {
+      "name": "菲谢尔"
+    }
+  }
+}

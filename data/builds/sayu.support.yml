@@ -1,0 +1,49 @@
+---
+character: sayu
+c: 1
+type:
+  - support
+  - healer
+  - meta
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: wolfs-gravestone
+    r: 0
+  - name: sacrificial-greatsword
+    r: 0
+  - name: favonius-greatsword
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [emblem-of-severed-fate, maiden-beloved]
+    p: 2
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - atk
+    - em
+  circlet:
+    - heal
+    - em
+
+stats:
+  - em: '440'
+  - er: '200%'
+  - atk: '2,400'
+  - heal: '35%'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

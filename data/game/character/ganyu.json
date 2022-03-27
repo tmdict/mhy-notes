@@ -1,0 +1,16 @@
+{
+  "id": "ganyu",
+  "type": "character",
+  "rarity": 5,
+  "vision": "cryo",
+  "weapon": "bow",
+  "released": "1.2",
+  "data": {
+    "en": {
+      "name": "Ganyu"
+    },
+    "zh": {
+      "name": "甘雨"
+    }
+  }
+}

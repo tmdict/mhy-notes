@@ -1,0 +1,12 @@
+{
+  "id": "tusk-of-monoceros-caeli",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "childe",
+  "characters": [
+    "albedo",
+    "zhongli",
+    "xinyan"
+  ]
+}

@@ -1,0 +1,52 @@
+---
+character: bennett
+c: 1
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: mistsplitter-reforged
+    r: 0
+  - name: aquila-favonia
+    r: 0
+  - name: the-alley-flash
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [crimson-witch-of-flames]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: '60% / 120%'
+  - atk: '1,600'
+  - er: '180%'
+  - em: '80'
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q > Vaporize'
+  zh: 'Q > 蒸发'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/bennett/

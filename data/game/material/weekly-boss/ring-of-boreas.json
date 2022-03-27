@@ -1,0 +1,13 @@
+{
+  "id": "ring-of-boreas",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "lupus-boreas-dominator-of-wolves",
+  "characters": [
+    "keqing",
+    "klee",
+    "mona",
+    "barbara"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "xinyan",
+  "type": "character",
+  "rarity": 4,
+  "vision": "pyro",
+  "weapon": "claymore",
+  "released": "1.1",
+  "data": {
+    "en": {
+      "name": "Xinyan"
+    },
+    "zh": {
+      "name": "辛焱"
+    }
+  }
+}

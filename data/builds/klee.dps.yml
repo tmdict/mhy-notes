@@ -1,0 +1,50 @@
+---
+character: klee
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: kaguras-verity
+    r: 0
+  - name: lost-prayer-to-the-sacred-winds
+    r: 0
+  - name: the-widsith
+    r: 5
+
+artifact:
+  - set: [crimson-witch-of-flames]
+    p: 4
+  - set: [crimson-witch-of-flames, gladiators-finale]
+    p: 2
+  - set: [lavawalker]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150%'
+  - atk: '1,900'
+  - em: '80'
+  - er: ''
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'CA + Vaporize'
+  zh: '金花重击蒸发'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/klee/

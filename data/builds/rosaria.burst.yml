@@ -1,0 +1,52 @@
+---
+character: rosaria
+c: 2
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: staff-of-homa
+    r: 0
+  - name: engulfing-lightning
+    r: 0
+  - name: the-catch
+    r: 5
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [blizzard-strayer, noblesse-oblige]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 100%'
+  - em: ''
+  - atk: '1,900'
+  - er: '160%'
+
+talent: 'Q > E'
+
+notes:
+  en: 'E > Q'
+  zh: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/rosaria/

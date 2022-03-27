@@ -1,0 +1,16 @@
+{
+  "id": "eula",
+  "type": "character",
+  "rarity": 5,
+  "vision": "cryo",
+  "weapon": "claymore",
+  "released": "1.5",
+  "data": {
+    "en": {
+      "name": "Eula"
+    },
+    "zh": {
+      "name": "优菈"
+    }
+  }
+}

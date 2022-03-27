@@ -1,0 +1,53 @@
+---
+character: diona
+c: 6
+type:
+  - support
+  - healer
+  - meta
+  - f2p
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: sacrificial-bow
+    r: 0
+  - name: favonius-warbow
+    r: 0
+  - name: elegy-for-the-end
+    r: 0
+
+artifact:
+  - set: [maiden-beloved, tenacity-of-the-millelith]
+    p: 2
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [emblem-of-severed-fate, tenacity-of-the-millelith]
+    p: 2
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hp
+  circlet:
+    - hp
+    - heal
+
+stats:
+  - hp: '31,000'
+  - er: '200%'
+  - atk: '1,200'
+
+talent: 'E >= Q'
+
+notes:
+  en: 'Hold E'
+  zh: '长E盾'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/diona/

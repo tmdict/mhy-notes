@@ -1,0 +1,44 @@
+---
+character: bennett
+c: 1
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: mistsplitter-reforged
+    r: 0
+  - name: primordial-jade-cutter
+    r: 0
+  - name: the-alley-flash
+    r: 0
+
+artifact:
+  - set: [crimson-witch-of-flames]
+    p: 4
+  - set: [crimson-witch-of-flames, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: ''
+  - em: ''
+  - atk: ''
+  - er: '130%'
+
+talent: 'E > Q > A'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/bennett/

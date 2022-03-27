@@ -1,0 +1,51 @@
+---
+character: aloy
+c: 0
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: thundering-pulse
+    r: 0
+  - name: skyward-harp
+    r: 0
+  - name: favonius-warbow
+    r: 0
+
+artifact:
+  - set: [blizzard-strayer]
+    p: 4
+  - set: [blizzard-strayer, noblesse-oblige]
+    p: 2
+  - set: [blizzard-strayer, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - crit: '50% / 130%'
+  - atk: '1,600'
+  - em: ''
+  - er: ''
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q'
+  zh: 'Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/aloy/

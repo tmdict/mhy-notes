@@ -1,0 +1,47 @@
+---
+character: sangonomiya-kokomi
+c: 0
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: everlasting-moonglow
+    r: 0
+  - name: prototype-amber
+    r: 0
+  - name: hakushin-ring
+    r: 0
+
+artifact:
+  - set: [ocean-hued-clam]
+    p: 4
+  - set: [heart-of-depth]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hydro
+  circlet:
+    - heal
+
+stats:
+  - hp: '40,000'
+  - er: ''
+  - atk: '1,300'
+  - heal: '85%'
+
+talent: 'Q > E > A'
+
+notes:
+  en: 'Q > (while Q) NAx2 > Dash'
+  zh: 'Q > (while Q) NAx2 > Dash'
+
+source:
+  - ccb: default
+  - ysmxt: default

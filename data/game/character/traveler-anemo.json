@@ -1,0 +1,16 @@
+{
+  "id": "traveler-anemo",
+  "type": "character",
+  "rarity": 5,
+  "vision": "anemo",
+  "weapon": "sword",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Traveler (Anemo)"
+    },
+    "zh": {
+      "name": "旅行者（风）"
+    }
+  }
+}

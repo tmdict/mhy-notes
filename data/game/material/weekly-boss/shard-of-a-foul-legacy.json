@@ -1,0 +1,12 @@
+{
+  "id": "shard-of-a-foul-legacy",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "childe",
+  "characters": [
+    "hu-tao",
+    "tartaglia",
+    "diona"
+  ]
+}

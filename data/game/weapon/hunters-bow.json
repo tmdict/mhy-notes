@@ -1,0 +1,15 @@
+{
+  "id": "hunters-bow",
+  "type": "weapon",
+  "rarity": 1,
+  "weaponType": "bow",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Hunter’s Bow"
+    },
+    "zh": {
+      "name": "猎弓"
+    }
+  }
+}

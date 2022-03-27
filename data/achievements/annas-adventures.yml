@@ -1,0 +1,59 @@
+---
+achievement: annas-adventures
+version: "2.4"
+achievementType: "wonders-of-the-world"
+region: inazuma
+checklist:
+- todo1
+- todo2
+- todo3
+- todo4
+- todo5
+en:
+  name: "Anna’s Adventures"
+  description: "Help Anna become an adventurer."
+  commission:
+  - "Miracle Medicine"
+  - "Recuperating From a Severe Illness"
+  - "Adventurer Exam: Battle Tactics"
+  - "Adventurer Exam: The Art of Adventure"
+  - "Adventurer Exam: Taking Flight"
+  - "Anna the Adventurer!"
+  notes: | 
+    Complete “Anna the Adventurer!” to receive the achievement. To unlock the quest you need to complete the following series of daily commissions:
+
+    1. Miracle Medicine x3 + Recuperating From a Severe Illness (Receive “Marvelous Medicine” achievement)
+    2. Adventurer Exam: Battle Tactics
+    3. Adventurer Exam: The Art of Adventure
+    4. Adventurer Exam: Taking Flight
+    5. Anna the Adventurer!
+  checklist:
+    todo1: "Miracle Medicine x3 + Recuperating From a Severe Illness"
+    todo2: "Adventurer Exam: Battle Tactics"
+    todo3: "Adventurer Exam: The Art of Adventure"
+    todo4: "Adventurer Exam: Taking Flight"
+    todo5: "Anna the Adventurer!"
+zh:
+  name: "安娜冒险记"
+  description: "帮助安娜成为一名冒险家。"
+  commission:
+  - "奇药庐中来"
+  - "大病初愈"
+  - "冒险家测验·作战方式"
+  - "冒险家测验·冒险诀窍"
+  - "冒险家测验·起飞方式"
+  - "冒险家，安娜！"
+  notes: | 
+    完成每日委托「冒险家，安娜」后获得。解锁这个委托需要完成以下一系列每日委托：
+    
+    1. 奇药庐中来（三次）+大病初愈（获得「妙手怪医」成就）
+    2. 冒险家测验·作战方式
+    3. 冒险家测验·冒险诀窍
+    4. 冒险家测验·起飞方式
+    5. 冒险家，安娜！
+  checklist:
+    todo1: "奇药庐中来（三次）+大病初愈"
+    todo2: "冒险家测验·作战方式"
+    todo3: "冒险家测验·冒险诀窍"
+    todo4: "冒险家测验·起飞方式"
+    todo5: "冒险家，安娜！"

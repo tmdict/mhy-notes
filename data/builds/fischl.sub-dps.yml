@@ -1,0 +1,43 @@
+---
+character: fischl
+c: 6
+type:
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: thundering-pulse
+    r: 0
+  - name: skyward-harp
+    r: 0
+  - name: the-stringless
+    r: 5
+
+artifact:
+  - set: [thundering-fury, gladiators-finale]
+    p: 2
+  - set: [thundersoother]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150%'
+  - atk: '2,300'
+  - er: ''
+  - em: ''
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default

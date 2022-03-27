@@ -1,0 +1,49 @@
+---
+character: xiangling
+c: 4
+type:
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: the-catch
+    r: 0
+  - name: staff-of-homa
+    r: 0
+  - name: skyward-spine
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [crimson-witch-of-flames]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - er: '170%'
+  - crit: '60% / 120%'
+  - atk: '1,700'
+  - em: '340'
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q > Swap'
+  zh: 'Q > Swap'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/xiangling/

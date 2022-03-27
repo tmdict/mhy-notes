@@ -1,0 +1,12 @@
+{
+  "id": "shadow-of-the-warrior",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "childe",
+  "characters": [
+    "ganyu",
+    "xiao",
+    "rosaria"
+  ]
+}

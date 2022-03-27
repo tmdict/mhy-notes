@@ -1,0 +1,51 @@
+---
+character: zhongli
+c: 0
+type:
+  - burst
+  - support
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: staff-of-homa
+    r: 0
+  - name: primordial-jade-winged-spear
+    r: 0
+  - name: the-catch
+    r: 5
+
+artifact:
+  - set: [archaic-petra, noblesse-oblige]
+    p: 2
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - hp
+  goblet:
+    - geo
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150%'
+  - atk: '1,600'
+  - hp: '35,000'
+  - er: ''
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q > E'
+  zh: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/zhongli/

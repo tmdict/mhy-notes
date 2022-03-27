@@ -1,0 +1,46 @@
+---
+character: lisa
+c: 0
+type:
+  - support
+  - f2p
+name:
+  en: 'EM Support'
+  zh: '精通辅助'
+
+weapon:
+  - name: sacrificial-fragments
+    r: 0
+  - name: favonius-codex
+    r: 0
+  - name: magic-guide
+    r: 0
+
+artifact:
+  - set: [instructor]
+    p: 4
+  - set: [thundering-fury]
+    p: 4
+  - set: [instructor, wanderers-troupe]
+    p: 2
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - em
+  circlet:
+    - em
+
+stats:
+  - em: ''
+  - er: '170%'
+  - atk: ''
+  - crit: ''
+
+talent: 'Q > E > A'
+
+source:
+  - ccb: default
+  - kqm: https://keqingmains.com/lisa/

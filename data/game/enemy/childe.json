@@ -1,0 +1,11 @@
+{
+  "id": "childe",
+  "type": "enemy",
+  "enemyType": "weekly-boss",
+  "order": 3,
+  "drop": [
+    "tusk-of-monoceros-caeli",
+    "shard-of-a-foul-legacy",
+    "shadow-of-the-warrior"
+  ]
+}

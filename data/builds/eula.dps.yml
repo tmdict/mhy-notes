@@ -1,0 +1,47 @@
+---
+character: eula
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'Physical DPS'
+  zh: '物伤'
+
+weapon:
+  - name: song-of-broken-pines
+    r: 0
+  - name: wolfs-gravestone
+    r: 0
+  - name: serpent-spine
+    r: 0
+
+artifact:
+  - set: [pale-flame]
+    p: 4
+  - set: [pale-flame, bloodstained-chivalry]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - physical
+  circlet:
+    - crit
+
+stats:
+  - crit: '60% / 150%'
+  - er: ''
+  - atk: '2,300'
+
+talent: 'Q = A > E'
+
+notes:
+  en: 'E > Q > NAx4 > E (hold) > NAx4; For more energy: E > Q > E > NAx4 > Dash cancel > NAx2 > E (hold) > NAx2'
+  zh: 'Q13层光剑, E > Q > NAx4 > E (hold) > NAx4; For more energy: E > Q > E > NAx4 > Dash cancel > NAx2 > E (hold) > NAx2'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/eula/

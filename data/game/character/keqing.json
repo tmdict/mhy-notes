@@ -1,0 +1,16 @@
+{
+  "id": "keqing",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "sword",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Keqing"
+    },
+    "zh": {
+      "name": "刻晴"
+    }
+  }
+}

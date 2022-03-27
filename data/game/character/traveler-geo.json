@@ -1,0 +1,16 @@
+{
+  "id": "traveler-geo",
+  "type": "character",
+  "rarity": 5,
+  "vision": "geo",
+  "weapon": "sword",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Traveler (Geo)"
+    },
+    "zh": {
+      "name": "旅行者（岩）"
+    }
+  }
+}

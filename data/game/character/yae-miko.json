@@ -1,0 +1,16 @@
+{
+  "id": "yae-miko",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "catalyst",
+  "released": "2.5",
+  "data": {
+    "en": {
+      "name": "Yae Miko"
+    },
+    "zh": {
+      "name": "八重神子"
+    }
+  }
+}

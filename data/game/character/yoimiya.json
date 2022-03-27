@@ -1,0 +1,16 @@
+{
+  "id": "yoimiya",
+  "type": "character",
+  "rarity": 5,
+  "vision": "pyro",
+  "weapon": "bow",
+  "released": "2.0",
+  "data": {
+    "en": {
+      "name": "Yoimiya"
+    },
+    "zh": {
+      "name": "宵宫"
+    }
+  }
+}

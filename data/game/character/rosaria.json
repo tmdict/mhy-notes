@@ -1,0 +1,16 @@
+{
+  "id": "rosaria",
+  "type": "character",
+  "rarity": 4,
+  "vision": "cryo",
+  "weapon": "polearm",
+  "released": "1.4",
+  "data": {
+    "en": {
+      "name": "Rosaria"
+    },
+    "zh": {
+      "name": "罗莎莉亚"
+    }
+  }
+}

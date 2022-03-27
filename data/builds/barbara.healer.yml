@@ -1,0 +1,48 @@
+---
+character: barbara
+c: 2
+type:
+  - healer
+  - support
+  - meta
+  - f2p
+name:
+  en: 'Healer'
+  zh: '治疗'
+
+weapon:
+  - name: thrilling-tales-of-dragon-slayers
+    r: 0
+  - name: prototype-amber
+    r: 0
+  - name: favonius-codex
+    r: 0
+
+artifact:
+  - set: [ocean-hued-clam]
+    p: 4
+  - set: [maiden-beloved]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hp
+  circlet:
+    - heal
+
+stats:
+  - hp: '36,000'
+  - er: ''
+  - heal: '60%'
+
+talent: 'Q > A > E'
+
+notes:
+  en: 'E and/or Q > Swap'
+
+source:
+  - ccb: default
+  - ysmxt: default

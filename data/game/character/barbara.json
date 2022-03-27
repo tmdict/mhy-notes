@@ -1,0 +1,16 @@
+{
+  "id": "barbara",
+  "type": "character",
+  "rarity": 4,
+  "vision": "hydro",
+  "weapon": "catalyst",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Barbara"
+    },
+    "zh": {
+      "name": "芭芭拉"
+    }
+  }
+}

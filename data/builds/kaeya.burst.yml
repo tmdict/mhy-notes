@@ -1,0 +1,46 @@
+---
+character: kaeya
+c: 2
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: primordial-jade-cutter
+    r: 0
+  - name: mistsplitter-reforged
+    r: 0
+  - name: lions-roar
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [blizzard-strayer, noblesse-oblige]
+    p: 2
+
+mainstat:
+  sand:
+    - er
+    - atk
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - er: '210%'
+  - crit: '70% / 170%'
+  - atk: '1,500'
+  - em: ''
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/kaeya/

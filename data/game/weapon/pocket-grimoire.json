@@ -1,0 +1,15 @@
+{
+  "id": "pocket-grimoire",
+  "type": "weapon",
+  "rarity": 2,
+  "weaponType": "catalyst",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Pocket Grimoire"
+    },
+    "zh": {
+      "name": "口袋魔导书"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hu-tao",
+  "type": "character",
+  "rarity": 5,
+  "vision": "pyro",
+  "weapon": "polearm",
+  "released": "1.3",
+  "data": {
+    "en": {
+      "name": "Hu Tao"
+    },
+    "zh": {
+      "name": "胡桃"
+    }
+  }
+}

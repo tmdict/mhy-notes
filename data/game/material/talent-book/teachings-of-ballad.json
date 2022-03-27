@@ -1,0 +1,17 @@
+{
+  "id": "teachings-of-ballad",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "ballad",
+  "day": 3,
+  "region": 1,
+  "characters": [
+    "fischl",
+    "kaeya",
+    "lisa",
+    "venti",
+    "albedo",
+    "rosaria"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "stormterror",
+  "type": "enemy",
+  "enemyType": "weekly-boss",
+  "order": 1,
+  "drop": [
+    "dvalins-plume",
+    "dvalins-claw",
+    "dvalins-sigh"
+  ]
+}

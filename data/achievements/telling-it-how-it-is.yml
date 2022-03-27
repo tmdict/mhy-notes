@@ -1,0 +1,31 @@
+---
+achievement: telling-it-how-it-is
+version: "1.0"
+achievementType: "snezhnaya-does-not-believe-in-tears-series-i"
+region: mondstadt
+checklist:
+- todo1
+- todo2
+- todo3
+en:
+  name: "Telling It How It Is"
+  description: "Gather intelligence concerning Snezhnaya in “Tales of Winter.”"
+  commission:
+  - "Tales of Winter"
+  notes: |
+    Completing “Tales of Winter” after selecting each of the 3 questions (by completing the commission at least 3 times) will grant the achievement “Telling It How It Is”. 
+  checklist:
+    todo1: "Fatui"
+    todo2: "Delusion"
+    todo3: "Tsaritsa"
+zh:
+  name: "有一说一"
+  description: "在「来自冬天的故事」中探听到所有关于至冬国的情报。"
+  commission:
+  - "来自冬天的故事"
+  notes: |
+    情报每次只能获得一条，获得三次不同情报可完成此成就。
+  checklist:
+    todo1: "愚人众"
+    todo2: "邪眼"
+    todo3: "女皇陛下"

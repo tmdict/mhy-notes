@@ -1,0 +1,12 @@
+{
+  "id": "hellfire-butterfly",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "la-signora",
+  "characters": [
+    "sangonomiya-kokomi",
+    "thoma",
+    "shenhe"
+  ]
+}

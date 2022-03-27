@@ -1,0 +1,9 @@
+{
+  "id": "tile-of-decarabians-tower",
+  "type": "material",
+  "materialType": "weapon-ascension",
+  "rarity": 2,
+  "group": "decarabians",
+  "day": 3,
+  "region": 1
+}

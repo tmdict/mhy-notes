@@ -1,0 +1,50 @@
+---
+character: noelle
+c: 6
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: redhorn-stonethresher
+    r: 0
+  - name: serpent-spine
+    r: 0
+  - name: whiteblind
+    r: 0
+
+artifact:
+  - set: [husk-of-opulent-dreams]
+    p: 4
+  - set: [retracing-bolide]
+    p: 4
+  - set: [gladiators-finale]
+    p: 4
+
+mainstat:
+  sand:
+    - def
+  goblet:
+    - geo
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 180%'
+  - er: ''
+  - def: '2,100'
+  - atk: '1,100'
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'E > Q > NAx4 > Dash'
+  zh: 'E > Q > NAx4 > Dash'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/noelle/

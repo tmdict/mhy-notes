@@ -1,0 +1,16 @@
+{
+  "id": "kaedehara-kazuha",
+  "type": "character",
+  "rarity": 5,
+  "vision": "anemo",
+  "weapon": "sword",
+  "released": "1.6",
+  "data": {
+    "en": {
+      "name": "Kaedehara Kazuha"
+    },
+    "zh": {
+      "name": "枫原万叶"
+    }
+  }
+}

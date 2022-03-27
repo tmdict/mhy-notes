@@ -1,0 +1,44 @@
+---
+character: traveler-electro
+c: 6
+type:
+  - support
+  - meta
+  - f2p
+name:
+  en: 'Support (Electro)'
+  zh: '辅助（雷）'
+
+weapon:
+  - name: favonius-sword
+    r: 3
+  - name: sacrificial-sword
+    r: 3
+  - name: skyward-blade
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - er: '250%'
+  - crit: '60% / 120%'
+  - atk: '1,200'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/electro-traveler/

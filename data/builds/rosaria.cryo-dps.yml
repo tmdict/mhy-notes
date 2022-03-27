@@ -1,0 +1,49 @@
+---
+character: rosaria
+c: 1
+type:
+  - dps
+name:
+  en: 'Cryo DPS'
+  zh: '冰C'
+
+weapon:
+  - name: staff-of-homa
+    r: 0
+  - name: primordial-jade-winged-spear
+    r: 0
+  - name: wavebreakers-fin
+    r: 5
+
+artifact:
+  - set: [blizzard-strayer]
+    p: 4
+  - set: [gladiators-finale]
+    p: 4
+  - set: [blizzard-strayer, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - cdmg: ''
+  - atk: ''
+  - er: '130%'
+  - cr: ''
+
+talent: 'Q > E > A'
+
+notes:
+  en: 'E > Q'
+  zh: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/rosaria/

@@ -1,0 +1,54 @@
+---
+character: jean
+c: 0
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: primordial-jade-cutter
+    r: 0
+  - name: aquila-favonia
+    r: 0
+  - name: festering-desire
+    r: 5
+
+artifact:
+  - set: [viridescent-venerer, gladiators-finale]
+    p: 2
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - atk
+    - anemo
+  circlet:
+    - heal
+    - crit
+
+stats:
+  - crit: ''
+  - atk: '2,100'
+  - er: '160%'
+  - heal: '50%'
+
+talent: 'Q = E > A'
+
+notes:
+  en: 'Q heal'
+  zh: 'Q治疗'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/jean/

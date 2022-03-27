@@ -1,0 +1,12 @@
+{
+  "id": "dvalins-plume",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "stormterror",
+  "characters": [
+    "bennett",
+    "diluc",
+    "jean"
+  ]
+}

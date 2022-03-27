@@ -1,0 +1,16 @@
+{
+  "id": "kujou-sara",
+  "type": "character",
+  "rarity": 4,
+  "vision": "electro",
+  "weapon": "bow",
+  "released": "2.1",
+  "data": {
+    "en": {
+      "name": "Kujou Sara"
+    },
+    "zh": {
+      "name": "九条裟罗"
+    }
+  }
+}

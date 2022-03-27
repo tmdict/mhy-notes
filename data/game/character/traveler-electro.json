@@ -1,0 +1,16 @@
+{
+  "id": "traveler-electro",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "sword",
+  "released": "2.0",
+  "data": {
+    "en": {
+      "name": "Traveler (Electro)"
+    },
+    "zh": {
+      "name": "旅行者（雷）"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "yun-jin",
+  "type": "character",
+  "rarity": 4,
+  "vision": "geo",
+  "weapon": "polearm",
+  "released": "2.4",
+  "data": {
+    "en": {
+      "name": "Yun Jin"
+    },
+    "zh": {
+      "name": "云堇"
+    }
+  }
+}

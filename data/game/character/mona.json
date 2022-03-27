@@ -1,0 +1,16 @@
+{
+  "id": "mona",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "catalyst",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Mona"
+    },
+    "zh": {
+      "name": "莫娜"
+    }
+  }
+}

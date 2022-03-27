@@ -1,0 +1,13 @@
+{
+  "id": "dvalins-claw",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "stormterror",
+  "characters": [
+    "xiangling",
+    "lisa",
+    "noelle",
+    "razor"
+  ]
+}

@@ -1,0 +1,41 @@
+---
+character: ningguang
+c: 1
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: lost-prayer-to-the-sacred-winds
+    r: 0
+  - name: memory-of-dust
+    r: 0
+  - name: solar-pearl
+    r: 0
+
+artifact:
+  - set: [archaic-petra, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - geo
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150%'
+  - atk: '1,900'
+  - er: ''
+
+talent: 'A > Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/ningguang/

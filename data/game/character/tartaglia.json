@@ -1,0 +1,16 @@
+{
+  "id": "tartaglia",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "bow",
+  "released": "1.1",
+  "data": {
+    "en": {
+      "name": "Tartaglia"
+    },
+    "zh": {
+      "name": "达达利亚"
+    }
+  }
+}

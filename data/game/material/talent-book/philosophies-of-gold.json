@@ -1,0 +1,16 @@
+{
+  "id": "philosophies-of-gold",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "gold",
+  "day": 3,
+  "region": 2,
+  "characters": [
+    "beidou",
+    "xingqiu",
+    "xinyan",
+    "zhongli",
+    "yanfei"
+  ]
+}

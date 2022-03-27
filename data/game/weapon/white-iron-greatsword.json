@@ -1,0 +1,19 @@
+{
+  "id": "white-iron-greatsword",
+  "type": "weapon",
+  "rarity": 3,
+  "weaponType": "claymore",
+  "subStat": "def",
+  "data": {
+    "en": {
+      "name": "White Iron Greatsword",
+      "passiveName": "Cull the Weak",
+      "passiveDescription": "Defeating an opponent restores {{8%//10%//12%//14%//16%}} HP."
+    },
+    "zh": {
+      "name": "白铁大剑",
+      "passiveName": "收割",
+      "passiveDescription": "击败敌人时，恢复{{8%//10%//12%//14%//16%}}生命值。"
+    }
+  }
+}

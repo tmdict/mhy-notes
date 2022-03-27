@@ -1,0 +1,46 @@
+---
+character: xiao
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: primordial-jade-winged-spear
+    r: 0
+  - name: staff-of-homa
+    r: 0
+  - name: deathmatch
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - anemo
+    - atk
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 160%'
+  - atk: '2,500'
+  - er: '120%'
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'E > E > Q > Plunge combo'
+  zh: 'E > E > Q > Plunge combo'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/xiao/

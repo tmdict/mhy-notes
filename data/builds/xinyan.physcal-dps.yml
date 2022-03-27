@@ -1,0 +1,48 @@
+---
+character: xinyan
+c: 1
+type:
+  - dps
+  - meta
+name:
+  en: 'Physical DPS'
+  zh: '物伤'
+
+weapon:
+  - name: skyward-pride
+    r: 0
+  - name: the-unforged
+    r: 0
+  - name: serpent-spine
+    r: 0
+
+artifact:
+  - set: [pale-flame, bloodstained-chivalry]
+    p: 2
+  - set: [retracing-bolide]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - physical
+  circlet:
+    - crit
+
+stats:
+  - crit: '60% / 120%'
+  - atk: '2,700'
+  - er: '130%'
+  - def: '1,000'
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'Nx2 > CA > Q > CA'
+  zh: 'Nx2 > CA > Q > CA'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/xinyan/

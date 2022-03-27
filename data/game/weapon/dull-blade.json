@@ -1,0 +1,15 @@
+{
+  "id": "dull-blade",
+  "type": "weapon",
+  "rarity": 1,
+  "weaponType": "sword",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Dull Blade"
+    },
+    "zh": {
+      "name": "无锋剑"
+    }
+  }
+}

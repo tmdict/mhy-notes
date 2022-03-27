@@ -1,0 +1,12 @@
+{
+  "id": "dragon-lords-crown",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "azhdaha",
+  "characters": [
+    "eula",
+    "traveler-electro",
+    "yoimiya"
+  ]
+}

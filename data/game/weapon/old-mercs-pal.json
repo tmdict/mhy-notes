@@ -1,0 +1,15 @@
+{
+  "id": "old-mercs-pal",
+  "type": "weapon",
+  "rarity": 2,
+  "weaponType": "claymore",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Old Merc’s Pal"
+    },
+    "zh": {
+      "name": "佣兵重剑"
+    }
+  }
+}

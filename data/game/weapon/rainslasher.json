@@ -1,0 +1,19 @@
+{
+  "id": "rainslasher",
+  "type": "weapon",
+  "rarity": 4,
+  "weaponType": "claymore",
+  "subStat": "em",
+  "data": {
+    "en": {
+      "name": "Rainslasher",
+      "passiveName": "Bane of Storm and Tide",
+      "passiveDescription": "Increases DMG against opponents affected by Hydro or Electro by {{20%//24%//28%//32%//36%}}."
+    },
+    "zh": {
+      "name": "雨裁",
+      "passiveName": "止水息雷",
+      "passiveDescription": "对处于水元素或雷元素影响下的敌人，造成的伤害提高{{20%//24%//28%//32%//36%}}。"
+    }
+  }
+}

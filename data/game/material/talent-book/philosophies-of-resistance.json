@@ -1,0 +1,18 @@
+{
+  "id": "philosophies-of-resistance",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "resistance",
+  "day": 2,
+  "region": 1,
+  "characters": [
+    "bennett",
+    "diluc",
+    "jean",
+    "mona",
+    "noelle",
+    "razor",
+    "eula"
+  ]
+}

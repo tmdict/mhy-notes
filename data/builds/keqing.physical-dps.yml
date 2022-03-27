@@ -1,0 +1,47 @@
+---
+character: keqing
+c: 0
+type:
+  - dps
+name:
+  en: 'Physical DPS'
+  zh: '物伤'
+
+weapon:
+  - name: aquila-favonia
+    r: 0
+  - name: primordial-jade-cutter
+    r: 0
+  - name: prototype-rancour
+    r: 0
+
+artifact:
+  - set: [pale-flame]
+    p: 4
+  - set: [pale-flame, bloodstained-chivalry]
+    p: 2
+  - set: [bloodstained-chivalry, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - physical
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 170%'
+  - atk: '2,200'
+  - em: ''
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'E > CA'
+  zh: 'E > CA'
+
+source:
+  - ccb: default
+  - kqm: https://keqingmains.com/keqing/

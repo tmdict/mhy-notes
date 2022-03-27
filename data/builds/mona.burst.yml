@@ -1,0 +1,49 @@
+---
+character: mona
+c: 0
+type:
+  - burst
+  - support
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: the-widsith
+    r: 0
+  - name: skyward-atlas
+    r: 0
+  - name: memory-of-dust
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [heart-of-depth, noblesse-oblige]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - hydro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 140%'
+  - er: '180%'
+  - atk: '1,700'
+  - em: '80'
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q > Vaporize'
+  zh: 'Q > 蒸发'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/mona/

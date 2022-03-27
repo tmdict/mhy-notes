@@ -1,0 +1,15 @@
+{
+  "id": "seasoned-hunters-bow",
+  "type": "weapon",
+  "rarity": 2,
+  "weaponType": "bow",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Seasoned Hunter’s Bow"
+    },
+    "zh": {
+      "name": "历练的猎弓"
+    }
+  }
+}

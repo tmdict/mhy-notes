@@ -1,0 +1,16 @@
+{
+  "id": "diluc",
+  "type": "character",
+  "rarity": 5,
+  "vision": "pyro",
+  "weapon": "claymore",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Diluc"
+    },
+    "zh": {
+      "name": "迪卢克"
+    }
+  }
+}

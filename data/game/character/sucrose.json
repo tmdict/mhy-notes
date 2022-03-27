@@ -1,0 +1,16 @@
+{
+  "id": "sucrose",
+  "type": "character",
+  "rarity": 4,
+  "vision": "anemo",
+  "weapon": "catalyst",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Sucrose"
+    },
+    "zh": {
+      "name": "砂糖"
+    }
+  }
+}

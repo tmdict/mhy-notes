@@ -1,0 +1,16 @@
+{
+  "id": "arataki-itto",
+  "type": "character",
+  "rarity": 5,
+  "vision": "geo",
+  "weapon": "claymore",
+  "released": "2.3",
+  "data": {
+    "en": {
+      "name": "Arataki Itto"
+    },
+    "zh": {
+      "name": "荒泷一斗"
+    }
+  }
+}

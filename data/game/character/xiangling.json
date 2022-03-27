@@ -1,0 +1,16 @@
+{
+  "id": "xiangling",
+  "type": "character",
+  "rarity": 4,
+  "vision": "pyro",
+  "weapon": "polearm",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Xiangling"
+    },
+    "zh": {
+      "name": "香菱"
+    }
+  }
+}

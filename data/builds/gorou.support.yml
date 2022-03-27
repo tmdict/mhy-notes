@@ -1,0 +1,49 @@
+---
+character: gorou
+c: 0
+type:
+  - support
+  - meta
+  - f2p
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: favonius-warbow
+    r: 0
+  - name: sacrificial-bow
+    r: 0
+  - name: elegy-for-the-end
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [the-exile]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - geo
+    - def
+  circlet:
+    - crit
+    - def
+
+stats:
+  - er: '250%'
+  - def: '1,000'
+  - cr: '60%'
+
+talent: 'E > Q'
+
+notes:
+  en: 'Q > Swap'
+  zh: 'Q > Swap'
+
+source:
+  - ccb: default
+  - ysmxt: default

@@ -1,0 +1,16 @@
+{
+  "id": "noelle",
+  "type": "character",
+  "rarity": 4,
+  "vision": "geo",
+  "weapon": "claymore",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Noelle"
+    },
+    "zh": {
+      "name": "诺艾尔"
+    }
+  }
+}

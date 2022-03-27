@@ -1,0 +1,52 @@
+---
+character: albedo
+c: 0
+type:
+  - sub-dps
+  - meta
+  - f2p
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: cinnabar-spindle
+    r: 5
+  - name: harbinger-of-dawn
+    r: 0
+  - name: primordial-jade-cutter
+    r: 0
+
+artifact:
+  - set: [husk-of-opulent-dreams]
+    p: 4
+  - set: [husk-of-opulent-dreams, archaic-petra]
+    p: 2
+  - set: [tenacity-of-the-millelith]
+    p: 4
+
+mainstat:
+  sand:
+    - def
+  goblet:
+    - geo
+  circlet:
+    - crit
+    - def
+
+stats:
+  - crit: '60% / 120%'
+  - def: '2,500'
+  - atk: '1,100'
+  - er: ''
+
+talent: 'E > Q'
+
+notes:
+  en: 'E (flower) > (optional) Q'
+  zh: '刹那之花 > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/albedo/

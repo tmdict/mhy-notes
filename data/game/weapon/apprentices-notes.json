@@ -1,0 +1,15 @@
+{
+  "id": "apprentices-notes",
+  "type": "weapon",
+  "rarity": 1,
+  "weaponType": "catalyst",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Apprentice’s Notes"
+    },
+    "zh": {
+      "name": "学徒笔记"
+    }
+  }
+}

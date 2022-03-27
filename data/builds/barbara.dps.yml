@@ -1,0 +1,44 @@
+---
+character: barbara
+c: 0
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: lost-prayer-to-the-sacred-winds
+    r: 0
+  - name: skyward-atlas
+    r: 0
+  - name: the-widsith
+    r: 0
+
+artifact:
+  - set: [heart-of-depth]
+    p: 4
+  - set: [wanderers-troupe]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - hydro
+  circlet:
+    - crit
+
+stats:
+  - crit: ''
+  - atk: ''
+  - em: ''
+
+talent: 'A > E > Q'
+
+notes:
+  en: 'E > CA (Vaporize) or NA (Electro-Charge)'
+
+source:
+  - ccb: default
+  - kqm: https://keqingmains.com/barbara/#DPS_Barbara

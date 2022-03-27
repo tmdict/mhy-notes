@@ -1,0 +1,43 @@
+---
+character: xinyan
+c: 4
+type:
+  - shield
+  - support
+  - f2p
+name:
+  en: 'Shield Support'
+  zh: '盾'
+
+weapon:
+  - name: sacrificial-greatsword
+    r: 0
+  - name: whiteblind
+    r: 0
+  - name: favonius-greatsword
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
+
+mainstat:
+  sand:
+    - def
+    - er
+  goblet:
+    - def
+  circlet:
+    - def
+
+stats:
+  - def: '2,700'
+  - er: ''
+  - atk: '1,700'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/xinyan/

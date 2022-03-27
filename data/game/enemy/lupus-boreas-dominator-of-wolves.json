@@ -1,0 +1,11 @@
+{
+  "id": "lupus-boreas-dominator-of-wolves",
+  "type": "enemy",
+  "enemyType": "weekly-boss",
+  "order": 2,
+  "drop": [
+    "tail-of-boreas",
+    "ring-of-boreas",
+    "spirit-locket-of-boreas"
+  ]
+}

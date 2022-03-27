@@ -1,0 +1,304 @@
+---
+_na:
+  en: '-'
+  zh: '-'
+achievements:
+  en: 'Achievements'
+  zh: '成就'
+all:
+  en: 'All'
+  zh: '全选'
+anemo:
+  en: 'Anemo'
+  zh: '风'
+artifact-mainstats:
+  en: 'Artifact Main Stats'
+  zh: '圣遗物主词条'
+artifact:
+  en: 'Artifact'
+  zh: '圣遗物'
+set-2p-bonus:
+  en: '2 Piece Bonus'
+  zh: '2件套效果'
+set-4p-bonus:
+  en: '4 Piece Bonus'
+  zh: '4件套效果'
+atk:
+  en: 'ATK'
+  zh: '攻'
+ballad:
+  en: 'Ballad'
+  zh: '诗文'
+basic-info:
+  en: 'Basic Info'
+  zh: '基础信息'
+build-editor:
+  en: 'Build Editor'
+  zh: '配装编辑器'
+build-type:
+  en: 'Build Type'
+  zh: '种类'
+build-type-placeholder:
+  en: 'Press enter to submit'
+  zh: '按回车键提交'
+builds:
+  en: 'Builds'
+  zh: '角色配装'
+burst:
+  en: 'Burst'
+  zh: '爆发'
+character:
+  en: 'Character'
+  zh: '角色'
+character-builds:
+  en: 'Character Builds'
+  zh: '角色配装参考'
+checklist:
+  en: 'Checklist'
+  zh: '清单'
+circlet:
+  en: 'Circlet'
+  zh: '冠'
+close-all:
+  en: 'Close All'
+  zh: '关闭全部'
+completed:
+  en: 'Incomplete'
+  zh: '未完成'
+constellation:
+  en: 'Constellation'
+  zh: '命座'
+cr:
+  en: 'Crit%'
+  zh: '暴率'
+create-builds:
+  en: 'Create Builds'
+  zh: '创建套装'
+crit:
+  en: 'Crit%/CDmg'
+  zh: '暴'
+cdmg:
+  en: 'CDmg%'
+  zh: '暴伤'
+commission-achievements:
+  en: 'Daily Commission Achievements'
+  zh: '每日委托成就'
+cryo:
+  en: 'Cryo'
+  zh: '冰'
+day1:
+  en: 'Mon · Thur'
+  zh: '周一 · 周四'
+day2:
+  en: 'Tue · Fri'
+  zh: '周二 · 周五'
+day3:
+  en: 'Wed · Sat'
+  zh: '周三 · 周六'
+def:
+  en: 'DEF'
+  zh: '防'
+delete:
+  en: 'Delete'
+  zh: '删除'
+diligence:
+  en: 'Diligence'
+  zh: '勤劳'
+dps:
+  en: 'DPS'
+  zh: '主C'
+edit:
+  en: 'Edit'
+  zh: '编辑'
+electro:
+  en: 'Electro'
+  zh: '雷'
+elegance:
+  en: 'Elegance'
+  zh: '风雅'
+em:
+  en: 'EM'
+  zh: '精'
+equipments:
+  en: 'Equipments'
+  zh: '装备'
+er:
+  en: 'ER%'
+  zh: '充'
+expand-all:
+  en: 'Expand All'
+  zh: '展开全部'
+export-data:
+  en: 'Export Data'
+  zh: '下载数据库'
+f2p:
+  en: 'F2P'
+  zh: '零氪'
+faq:
+  en: 'FAQ'
+  zh: '介绍'
+freedom:
+  en: 'Freedom'
+  zh: '自由'
+geo:
+  en: 'Geo'
+  zh: '岩'
+goblet:
+  en: 'Goblet'
+  zh: '杯'
+gold:
+  en: 'Gold'
+  zh: '黄金'
+heal:
+  en: 'Heal'
+  zh: '治'
+healer:
+  en: 'Healer'
+  zh: '治疗'
+hp:
+  en: 'HP'
+  zh: '生'
+hydro:
+  en: 'Hydro'
+  zh: '水'
+import-data:
+  en: 'Import Data'
+  zh: '上传数据库'
+inazuma:
+  en: 'Inazuma'
+  zh: '稻妻'
+light:
+  en: 'Light'
+  zh: '天光'
+link:
+  en: 'Link'
+  zh: '链接'
+links:
+  en: 'Links'
+  zh: '链接'
+liyue:
+  en: 'Liyue'
+  zh: '璃月'
+mainstat:
+  en: 'Main Stats'
+  zh: '主词条'
+manage-data:
+  en: 'Manage Data'
+  zh: '数据管理'
+materials:
+  en: 'Materials'
+  zh: '升级材料'
+meta:
+  en: 'Meta'
+  zh: '毕业面板'
+misc:
+  en: 'Misc'
+  zh: '其它'
+missing-req-field:
+  en: 'Missing Required Fields'
+  zh: '缺少必填字段'
+mondstadt:
+  en: 'Mondstadt'
+  zh: '蒙德'
+name:
+  en: 'Name'
+  zh: '名称'
+notes:
+  en: 'Notes'
+  zh: '其它笔记'
+optional:
+  en: 'Optional'
+  zh: 'Optional'
+physical:
+  en: 'Physical'
+  zh: '物'
+preview:
+  en: 'Preview'
+  zh: '预览'
+prosperity:
+  en: 'Prosperity'
+  zh: '繁荣'
+pyro:
+  en: 'Pyro'
+  zh: '火'
+clear-all:
+  en: 'Clear All'
+  zh: '清空全部'
+rarity:
+  en: 'Rarity'
+  zh: '稀有度'
+resistance:
+  en: 'Resistance'
+  zh: '抗争'
+sand:
+  en: 'Sand'
+  zh: '沙'
+save:
+  en: 'Save'
+  zh: '保存'
+saved-builds:
+  en: 'Saved Builds'
+  zh: '保存套装'
+share:
+  en: 'Share'
+  zh: '分享'
+shield:
+  en: 'Shield'
+  zh: '盾'
+sources:
+  en: 'Sources'
+  zh: '参考来源'
+stats:
+  en: 'Stats'
+  zh: '属性数据'
+stats-priority:
+  en: 'Stats Priority'
+  zh: '词条优先级'
+stats-reference:
+  en: 'Reference'
+  zh: '参考面板'
+sub-dps:
+  en: 'Sub DPS'
+  zh: '副C'
+sub-stat:
+  en: 'Sub Stat'
+  zh: '副属性'
+submitted-by:
+  en: 'Submitted By'
+  zh: '来源'
+support:
+  en: 'Support'
+  zh: '辅助'
+talent-priority:
+  en: 'Talent Priority'
+  zh: '优先天赋'
+transience:
+  en: 'Transience'
+  zh: '浮世'
+type:
+  en: 'Type'
+  zh: '分类'
+upgrade-material:
+  en: 'Upgrade Material'
+  zh: '升级材料'
+useful-links:
+  en: 'Useful Apps and Links'
+  zh: '其它用具和链接'
+vision:
+  en: 'Element'
+  zh: '元素'
+weapon:
+  en: 'Weapon'
+  zh: '武器'
+weapon-type:
+  en: 'Weapon Type'
+  zh: '武器种类'
+weekly-mat:
+  en: 'Weekly Material Rotation'
+  zh: '升级材料周常表'
+weekly-boss-mat:
+  en: 'Weekly Boss Materials'
+  zh: '周常BOSS素材'
+whale:
+  en: 'Whale'
+  zh: '氪佬'

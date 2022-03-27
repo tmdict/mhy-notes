@@ -1,0 +1,19 @@
+{
+  "id": "emerald-orb",
+  "type": "weapon",
+  "rarity": 3,
+  "weaponType": "catalyst",
+  "subStat": "em",
+  "data": {
+    "en": {
+      "name": "Emerald Orb",
+      "passiveName": "Rapids",
+      "passiveDescription": "Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by {{20%//25%//30%//35%//40%}} for 12s."
+    },
+    "zh": {
+      "name": "翡玉法球",
+      "passiveName": "激流",
+      "passiveDescription": "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高{{20%//25%//30%//35%//40%}}。"
+    }
+  }
+}

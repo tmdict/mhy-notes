@@ -1,0 +1,43 @@
+<script>
+  import { browser } from '$app/env';
+  import { setContext, onMount } from 'svelte';
+  import { writable } from 'svelte/store';
+  import dark from '$lib/style/themes/dark.json';
+  import light from '$lib/style/themes/light.json';
+
+  // Reference: https://dev.to/josef/theming-in-svelte-with-css-variables-53kd
+  const availableThemes = { [dark.name]: dark, [light.name]: light };
+  const defaultTheme = dark.name;
+  let currentTheme = browser ? localStorage.getItem('tmdict.genshin.theme') || defaultTheme : defaultTheme;
+
+  // Set up theme store, holding current theme object
+  const theme = writable(availableThemes[currentTheme]);
+  setContext('theme', {
+    // Expose theme store through context makes store readonly
+    theme: theme,
+    toggle: () => {
+      currentTheme = currentTheme === dark.name ? light.name : dark.name;
+      theme.update((t) => ({ ...t, ...availableThemes[currentTheme] }));
+      if (browser) {
+        localStorage.setItem('tmdict.genshin.theme', currentTheme);
+      }
+      setRootColors(availableThemes[currentTheme]);
+    }
+  });
+
+  // Set CSS vars on mount
+  onMount(() => {
+    setRootColors(availableThemes[currentTheme]);
+  });
+
+  // Sets CSS vars for easy use in components
+  // ex: var(--theme-background)
+  const setRootColors = (theme) => {
+    for (let [prop, color] of Object.entries(theme.colors)) {
+      let varString = `--theme-${prop}`;
+      document.documentElement.style.setProperty(varString, color);
+    }
+  };
+</script>
+
+<slot />

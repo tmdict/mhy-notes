@@ -1,0 +1,13 @@
+{
+  "id": "spirit-locket-of-boreas",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "lupus-boreas-dominator-of-wolves",
+  "characters": [
+    "sucrose",
+    "ningguang",
+    "kaeya",
+    "fischl"
+  ]
+}

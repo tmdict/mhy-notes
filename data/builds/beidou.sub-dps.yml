@@ -1,0 +1,50 @@
+---
+character: beidou
+c: 2
+type:
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: wolfs-gravestone
+    r: 0
+  - name: serpent-spine
+    r: 0
+  - name: redhorn-stonethresher
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [thundering-fury, noblesse-oblige]
+    p: 2
+
+mainstat:
+  sand:
+    - er
+    - atk
+  goblet:
+    - electro
+    - atk
+  circlet:
+    - crit
+
+stats:
+  - crit: '60% / 120%'
+  - atk: '2,300'
+  - er: '190%'
+  - em: ''
+
+talent: 'Q > E'
+
+notes:
+  en: 'Q > Swap'
+  zh: 'Q > Swap'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/beidou/

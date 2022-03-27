@@ -1,0 +1,16 @@
+{
+  "id": "xingqiu",
+  "type": "character",
+  "rarity": 4,
+  "vision": "hydro",
+  "weapon": "sword",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Xingqiu"
+    },
+    "zh": {
+      "name": "行秋"
+    }
+  }
+}

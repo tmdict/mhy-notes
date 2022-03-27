@@ -1,0 +1,16 @@
+{
+  "id": "albedo",
+  "type": "character",
+  "rarity": 5,
+  "vision": "geo",
+  "weapon": "sword",
+  "released": "1.2",
+  "data": {
+    "en": {
+      "name": "Albedo"
+    },
+    "zh": {
+      "name": "阿贝多"
+    }
+  }
+}

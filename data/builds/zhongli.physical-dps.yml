@@ -1,0 +1,49 @@
+---
+character: zhongli
+c: 0
+type:
+  - dps
+name:
+  en: 'Physical DPS'
+  zh: '物伤'
+
+weapon:
+  - name: crescent-pike
+    r: 0
+  - name: primordial-jade-winged-spear
+    r: 0
+  - name: staff-of-homa
+    r: 0
+
+artifact:
+  - set: [pale-flame]
+    p: 4
+  - set: [pale-flame, bloodstained-chivalry]
+    p: 2
+  - set: [gladiators-finale]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - hp
+  goblet:
+    - physical
+  circlet:
+    - crit
+
+stats:
+  - crit: ''
+  - atk: ''
+  - hp: ''
+  - er: ''
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'NA (until spear kick) > Dodge/jump cancel'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/zhongli/

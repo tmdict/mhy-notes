@@ -1,0 +1,47 @@
+---
+character: zhongli
+c: 0
+type:
+  - shield
+  - support
+  - meta
+  - f2p
+name:
+  en: 'Shield Support'
+  zh: '盾'
+
+weapon:
+  - name: black-tassel
+    r: 0
+  - name: favonius-lance
+    r: 0
+  - name: staff-of-homa
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+  goblet:
+    - hp
+  circlet:
+    - hp
+
+stats:
+  - hp: '55,000'
+  - er: ''
+  - atk: '1,000'
+
+talent: 'E > Q'
+
+notes:
+  en: 'E shield'
+  zh: 'E盾'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/zhongli/

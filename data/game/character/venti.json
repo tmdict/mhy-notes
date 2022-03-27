@@ -1,0 +1,16 @@
+{
+  "id": "venti",
+  "type": "character",
+  "rarity": 5,
+  "vision": "anemo",
+  "weapon": "bow",
+  "released": "1.0",
+  "data": {
+    "en": {
+      "name": "Venti"
+    },
+    "zh": {
+      "name": "温迪"
+    }
+  }
+}

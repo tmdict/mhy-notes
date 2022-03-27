@@ -1,0 +1,52 @@
+---
+character: sucrose
+c: 6
+type:
+  - support
+  - meta
+  - f2p
+name:
+  en: 'EM Support'
+  zh: '精通辅助'
+
+weapon:
+  - name: sacrificial-fragments
+    r: 0
+  - name: thrilling-tales-of-dragon-slayers
+    r: 0
+  - name: hakushin-ring
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [instructor]
+    p: 4
+  - set: [wanderers-troupe, instructor]
+    p: 2
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - em
+  circlet:
+    - em
+
+stats:
+  - em: '770'
+  - atk: '1,000'
+  - crit: ''
+  - er: ''
+
+talent: 'E > Q'
+
+notes:
+  en: 'E/Q swirl'
+  zh: 'E/Q扩散'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/sucrose/

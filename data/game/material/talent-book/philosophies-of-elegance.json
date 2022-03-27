@@ -1,0 +1,14 @@
+{
+  "id": "philosophies-of-elegance",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "elegance",
+  "day": 2,
+  "region": 3,
+  "characters": [
+    "kamisato-ayaka",
+    "kujou-sara",
+    "arataki-itto"
+  ]
+}

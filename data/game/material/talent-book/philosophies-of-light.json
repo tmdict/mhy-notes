@@ -1,0 +1,15 @@
+{
+  "id": "philosophies-of-light",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "light",
+  "day": 3,
+  "region": 3,
+  "characters": [
+    "sayu",
+    "raiden-shogun",
+    "gorou",
+    "yae-miko"
+  ]
+}

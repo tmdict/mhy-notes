@@ -1,0 +1,50 @@
+---
+character: yae-miko
+c: 0
+type:
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: kaguras-verity
+    r: 0
+  - name: skyward-atlas
+    r: 0
+  - name: solar-pearl
+    r: 0
+
+artifact:
+  - set: [thundering-fury, gladiators-finale]
+    p: 2
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [thundersoother]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 180%'
+  - atk: '1,900'
+  - er: ''
+  - em: '80'
+
+talent: 'E > Q'
+
+notes:
+  en: 'E > E > E > Q > E > E > E'
+  zh: '杀生樱落雷 E > E > E > Q > E > E > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

@@ -1,0 +1,15 @@
+{
+  "id": "waster-greatsword",
+  "type": "weapon",
+  "rarity": 1,
+  "weaponType": "claymore",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Waster Greatsword"
+    },
+    "zh": {
+      "name": "训练大剑"
+    }
+  }
+}

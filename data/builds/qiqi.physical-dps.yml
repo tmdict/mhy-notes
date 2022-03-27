@@ -1,0 +1,39 @@
+---
+character: qiqi
+c: 0
+type:
+  - dps
+name:
+  en: 'Physical DPS'
+  zh: '物伤'
+
+weapon:
+  - name: primordial-jade-cutter
+    r: 0
+  - name: the-black-sword
+    r: 5
+  - name: prototype-rancour
+    r: 2
+
+artifact:
+  - set: [pale-flame, bloodstained-chivalry]
+    p: 2
+  - set: [pale-flame]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - physical
+  circlet:
+    - crit
+
+stats:
+  - atk: ''
+  - crit: '70%'
+
+talent: 'A > E > Q'
+
+source:
+  - "EvaRia's DPS Qiqi Guide": https://docs.google.com/document/d/1bLIkVUckpNOuu2FhgrGhq32w_UsNVpzR5VZErhJzN3o/edit

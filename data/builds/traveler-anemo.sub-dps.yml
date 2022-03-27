@@ -1,0 +1,50 @@
+---
+character: traveler-anemo
+c: 6
+type:
+  - burst
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS (Anemo)'
+  zh: '脱手副C（风）'
+
+weapon:
+  - name: freedom-sworn
+    r: 0
+  - name: iron-sting
+    r: 0
+  - name: primordial-jade-cutter
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - em
+    - anemo
+  circlet:
+    - em
+    - crit
+
+stats:
+  - em: '740'
+  - er: '160%'
+  - atk: '1,200'
+  - crit: ''
+
+talent: 'E > Q'
+
+notes:
+  en: 'E/Q > Swap'
+  zh: 'E/Q > Swap'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/anemo-traveler/

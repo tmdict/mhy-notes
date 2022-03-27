@@ -1,0 +1,49 @@
+---
+character: yanfei
+c: 1
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: lost-prayer-to-the-sacred-winds
+    r: 0
+  - name: the-widsith
+    r: 5
+  - name: skyward-atlas
+    r: 0
+
+artifact:
+  - set: [crimson-witch-of-flames]
+    p: 4
+  - set: [wanderers-troupe]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - em
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150%'
+  - atk: '1,800'
+  - er: ''
+  - em: '160'
+
+talent: 'A > Q > E'
+
+notes:
+  en: 'Nx3 > CA'
+  zh: '开Q重击蒸发'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/yanfei/

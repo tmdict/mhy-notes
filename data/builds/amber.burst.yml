@@ -1,0 +1,46 @@
+---
+character: amber
+c: 0
+type:
+  - burst
+  - support
+  - meta
+name:
+  en: 'Burst'
+  zh: '爆发'
+
+weapon:
+  - name: elegy-for-the-end
+    r: 0
+  - name: favonius-warbow
+    r: 0
+  - name: sacrificial-bow
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [instructor]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - er: ''
+  - crit: '60% / 120%'
+  - atk: '2,300'
+  - em: '240'
+
+talent: 'Q > E > A'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/amber/

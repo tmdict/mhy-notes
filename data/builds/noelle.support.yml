@@ -1,0 +1,48 @@
+---
+character: noelle
+c: 1
+type:
+  - support
+  - healer
+  - shield
+  - f2p
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: whiteblind
+    r: 0
+  - name: sacrificial-greatsword
+    r: 5
+  - name: favonius-greatsword
+    r: 0
+
+artifact:
+  - set: [husk-of-opulent-dreams]
+    p: 4
+  - set: [husk-of-opulent-dreams, maiden-beloved]
+    p: 2
+
+mainstat:
+  sand:
+    - def
+  goblet:
+    - def
+  circlet:
+    - def
+
+stats:
+  - def: ''
+  - er: ''
+
+talent: 'E > Q > A'
+
+notes:
+  en: 'E > Q > Heal'
+  zh: 'E > Q > 治疗'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/noelle/

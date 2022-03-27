@@ -1,0 +1,48 @@
+---
+character: tartaglia
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: polar-star
+    r: 0
+  - name: thundering-pulse
+    r: 0
+  - name: the-viridescent-hunt
+    r: 0
+
+artifact:
+  - set: [heart-of-depth]
+    p: 4
+  - set: [heart-of-depth, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - hydro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150%'
+  - atk: '2,000'
+  - em: '80'
+  - er: ''
+
+talent: 'E > Q > A'
+
+notes:
+  en: 'NAx2 (or 3) > CA'
+  zh: '近战Q蒸发, NAx2 (or 3) > CA'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/tartaglia/

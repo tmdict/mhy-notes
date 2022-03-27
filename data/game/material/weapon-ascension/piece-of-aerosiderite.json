@@ -1,0 +1,9 @@
+{
+  "id": "piece-of-aerosiderite",
+  "type": "material",
+  "materialType": "weapon-ascension",
+  "rarity": 3,
+  "group": "aerosiderite",
+  "day": 3,
+  "region": 2
+}

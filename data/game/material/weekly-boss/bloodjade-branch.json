@@ -1,0 +1,11 @@
+{
+  "id": "bloodjade-branch",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "azhdaha",
+  "characters": [
+    "yanfei",
+    "kamisato-ayaka"
+  ]
+}

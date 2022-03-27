@@ -1,0 +1,15 @@
+{
+  "id": "iron-point",
+  "type": "weapon",
+  "rarity": 2,
+  "weaponType": "polearm",
+  "subStat": "_na",
+  "data": {
+    "en": {
+      "name": "Iron Point"
+    },
+    "zh": {
+      "name": "铁尖枪"
+    }
+  }
+}

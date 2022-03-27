@@ -1,0 +1,18 @@
+{
+  "id": "guide-to-resistance",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 4,
+  "group": "resistance",
+  "day": 2,
+  "region": 1,
+  "characters": [
+    "bennett",
+    "diluc",
+    "jean",
+    "mona",
+    "noelle",
+    "razor",
+    "eula"
+  ]
+}
