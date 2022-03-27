@@ -105,6 +105,12 @@
       description: '原神角色推荐榜。'
     },
     {
+      name: '椰羊cocogoat',
+      lang: ['English', '中文'],
+      url: 'https://cocogoat.work/',
+      description: '网页圣遗物管理·成就扫描。'
+    },
+    {
       name: 'Honey Impact',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://genshin.honeyhunterworld.com/',
