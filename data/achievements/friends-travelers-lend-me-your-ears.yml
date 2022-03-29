@@ -6,7 +6,6 @@ region: liyue
 checklist:
 - todo1
 - todo2
-- todo3
 en:
   name: "Friends, Travelers, Lend Me Your Ears..."
   description: "Finish listening to the tale of the Ring of Raining Blades in “Cliffhanger.”"
@@ -21,7 +20,6 @@ en:
   checklist:
     todo1: "Ring of Raining Blades - Part I"
     todo2: "Ring of Raining Blades - Part II"
-    todo3: "The Wrath of Haishan"
 zh:
   name: "旅者且留步…"
   description: "在「且听下回分解」中听完《裁雨声》。"
@@ -34,4 +32,3 @@ zh:
   checklist:
     todo1: "裁雨声·上"
     todo2: "裁雨声·中"
-    todo3: "海山履云记"
