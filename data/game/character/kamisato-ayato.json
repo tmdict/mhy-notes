@@ -1,0 +1,16 @@
+{
+  "id": "kamisato-ayato",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "sword",
+  "released": "2.6",
+  "data": {
+    "en": {
+      "name": "Kamisato Ayato"
+    },
+    "zh": {
+      "name": "神里綾人"
+    }
+  }
+}

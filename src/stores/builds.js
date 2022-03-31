@@ -27,8 +27,8 @@ export const buildfilters = derived([builds], ([$builds]) => {
     type: { type: 'text', filter: new Set() },
     vision: { type: 'icon', filter: new Set() },
     'weapon-type': { type: 'icon', filter: new Set() },
-    artifact: { type: 'icon', filter: new Set() }
-    //weapon: { type: 'icon', filter: new Set() }
+    artifact: { type: 'icon', filter: new Set() },
+    weapon: { type: 'icon', filter: new Set() }
   };
 
   Object.values($builds).forEach((b) => {
@@ -36,7 +36,7 @@ export const buildfilters = derived([builds], ([$builds]) => {
     filters.vision.filter.add(b.attr.vision); // Vision
     filters['weapon-type'].filter.add(b.attr.weapon); // Weapon type
     b.artifact.forEach((sets) => sets.set.forEach((s) => filters.artifact.filter.add(s))); // Artifacts
-    //b.weapon.forEach((w) => filters.weapon.filter.add(w.name)); // Weapons
+    b.weapon.forEach((w) => filters.weapon.filter.add(w.name)); // Weapons
   });
 
   return filters;

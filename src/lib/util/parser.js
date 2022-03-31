@@ -45,7 +45,7 @@ class Parser {
     tags.add(characters[build.character].vision);
     tags.add(characters[build.character].weapon);
     build.artifact.forEach((sets) => sets.set.forEach((s) => tags.add(s)));
-    //build.weapon.forEach((w) => tags.add(w.name));
+    build.weapon.forEach((w) => tags.add(w.name));
     return [...tags];
   }
 
