@@ -17,6 +17,8 @@ weapon:
     r: 0
 
 artifact:
+  - set: [vermillion-hereafter]
+    p: 4
   - set: [viridescent-venerer, gladiators-finale]
     p: 2
 

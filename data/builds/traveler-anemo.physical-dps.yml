@@ -4,8 +4,8 @@ c: 6
 type:
   - dps
 name:
-  en: '(Anemo) Physical DPS'
-  zh: '（风）物伤'
+  en: 'Physical DPS (Anemo)'
+  zh: '物伤（风）'
 
 weapon:
   - name: aquila-favonia
