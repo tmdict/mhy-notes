@@ -69,6 +69,18 @@
       description: 'Damage calculation tool.'
     },
     {
+      name: 'Project Celestia Database',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://www.projectcelestia.com/',
+      description: 'Genshin database.'
+    },
+    {
+      name: 'Project Amber',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://ambr.top/',
+      description: 'Genshin database and helper.'
+    },
+    {
       name: '原神冒险团',
       lang: ['中文'],
       url: 'https://mp.weixin.qq.com/s/Yk5mart2PBupmFL2jKQWmA',

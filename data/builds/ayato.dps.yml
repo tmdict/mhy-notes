@@ -21,6 +21,8 @@ artifact:
     p: 4
   - set: [heart-of-depth]
     p: 4
+  - set: [gladiators-finale]
+    p: 4
 
 mainstat:
   sand:
@@ -33,13 +35,14 @@ mainstat:
 stats:
   - crit: '80% / 180%'
   - atk: '2,000'
+  - er: '160%'
   - hp: '21,000'
 
-talent: 'E > Q > A'
+talent: 'E > Q'
 
 notes:
-  en: 'E'
-  zh: 'E'
+  en: 'Q > E'
+  zh: 'Q > E'
 
 source:
   - ccb: default
