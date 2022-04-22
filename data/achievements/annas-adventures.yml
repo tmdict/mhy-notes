@@ -2,7 +2,7 @@
 achievement: annas-adventures
 version: "2.4"
 achievementType: "wonders-of-the-world"
-region: inazuma
+region: mondstadt
 checklist:
 - todo1
 - todo2
