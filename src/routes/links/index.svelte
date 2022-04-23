@@ -45,6 +45,12 @@
       description: 'Resource planner and database.'
     },
     {
+      name: 'GI DMG Calculator',
+      lang: ['English'],
+      url: 'https://gidmgcalculator.github.io/csb-g7is6/',
+      description: 'Genshin Impact damahe calculator.'
+    },
+    {
       name: 'Uncle Dictionary',
       lang: ['English'],
       url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRvDFYG19Y9Y-uRH2_LsuIoOsLjefIfKu96WFgjXCcTFX93b9GT3e90QQxic7gWmEL-lQYpfD45O2Z-/pubhtml',
