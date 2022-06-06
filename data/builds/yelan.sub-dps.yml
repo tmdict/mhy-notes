@@ -1,0 +1,48 @@
+---
+character: yelan
+c: 0
+type:
+  - burst
+  - sub-dps
+  - meta
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: aqua-simulacra
+    r: 0
+  - name: elegy-for-the-end
+    r: 0
+  - name: favonius-warbow
+    r: 0
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [heart-of-depth, tenacity-of-the-millelith]
+    p: 2
+
+mainstat:
+  sand:
+    - er
+    - hp
+  goblet:
+    - hydro
+  circlet:
+    - crit
+
+stats:
+  - er: '190%'
+  - hp: '35,000'
+  - crit: '80% / 200%'
+
+talent: 'Q > E > A'
+
+notes:
+  en: 'Q off-field DPS'
+  zh: 'Q协同'
+
+source:
+  - ccb: default
+  - ysmxt: default

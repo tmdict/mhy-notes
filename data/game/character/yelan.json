@@ -1,0 +1,16 @@
+{
+  "id": "yelan",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "bow",
+  "released": "2.7",
+  "data": {
+    "en": {
+      "name": "Yelan"
+    },
+    "zh": {
+      "name": "夜兰"
+    }
+  }
+}

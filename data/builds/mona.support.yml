@@ -36,7 +36,7 @@ stats:
   - crit: '60% / 120%'
   - atk: '1,200'
 
-talent: 'Q > E'
+talent: 'Q'
 
 notes:
   en: 'Q + Freeze support'
