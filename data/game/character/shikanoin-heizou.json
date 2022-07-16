@@ -1,0 +1,16 @@
+{
+  "id": "shikanoin-heizou",
+  "type": "character",
+  "rarity": 4,
+  "vision": "anemo",
+  "weapon": "catalyst",
+  "released": "2.8",
+  "data": {
+    "en": {
+      "name": "Shikanoin Heizou"
+    },
+    "zh": {
+      "name": "鹿野院平藏"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+---
+character: kuki-shinobu
+c: 0
+type:
+  - support
+  - meta
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: freedom-sworn
+    r: 0
+  - name: iron-sting
+    r: 0
+  - name: favonius-sword
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - em
+  goblet:
+    - hp
+    - em
+  circlet:
+    - heal
+    - em
+
+stats:
+  - hp: '36,000'
+  - crit: ''
+  - em: '350'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default

@@ -1,0 +1,16 @@
+{
+  "id": "kuki-shinobu",
+  "type": "character",
+  "rarity": 4,
+  "vision": "electro",
+  "weapon": "sword",
+  "released": "2.7",
+  "data": {
+    "en": {
+      "name": "Kuki Shinobu"
+    },
+    "zh": {
+      "name": "久岐忍"
+    }
+  }
+}
