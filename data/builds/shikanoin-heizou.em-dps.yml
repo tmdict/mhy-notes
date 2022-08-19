@@ -3,7 +3,6 @@ character: shikanoin-heizou
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'EM DPS'
   zh: '元素反应伤'
