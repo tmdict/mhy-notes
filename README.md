@@ -4,7 +4,7 @@ A collection of simple tools and infographic contents related to the game Genshi
 
 ## Setup
 
-Install [Node.js](https://nodejs.org/) (^14.0.0 or above) and `npm`.
+Install [Node.js](https://nodejs.org/) (^16.9.0 or above) and `npm`.
 
 Installed dependencies with `npm install`.
 
