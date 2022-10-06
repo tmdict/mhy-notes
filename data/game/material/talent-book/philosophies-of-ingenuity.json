@@ -1,0 +1,12 @@
+{
+  "id": "philosophies-of-ingenuity",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "ingenuity",
+  "day": 2,
+  "region": 4,
+  "characters": [
+    "dori"
+  ]
+}

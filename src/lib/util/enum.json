@@ -232,7 +232,14 @@
     "whiteblind",
     "windblume-ode",
     "wine-and-song",
-    "wolfs-gravestone"
+    "wolfs-gravestone",
+    "candace",
+    "dendro",
+    "collei",
+    "cyno",
+    "dori",
+    "tighnari",
+    "traveler-dendro"
   ],
   "name2id": {
     "geo": 0,
@@ -467,6 +474,13 @@
     "whiteblind": 229,
     "windblume-ode": 230,
     "wine-and-song": 231,
-    "wolfs-gravestone": 232
+    "wolfs-gravestone": 232,
+    "candace": 233,
+    "dendro": 234,
+    "collei": 235,
+    "cyno": 236,
+    "dori": 237,
+    "tighnari": 238,
+    "traveler-dendro": 239
   }
 }

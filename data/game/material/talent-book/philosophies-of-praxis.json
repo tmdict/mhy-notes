@@ -1,0 +1,12 @@
+{
+  "id": "philosophies-of-praxis",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 5,
+  "group": "praxis",
+  "day": 3,
+  "region": 4,
+  "characters": [
+    "collei"
+  ]
+}

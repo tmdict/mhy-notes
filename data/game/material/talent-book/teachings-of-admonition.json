@@ -1,0 +1,14 @@
+{
+  "id": "teachings-of-admonition",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "admonition",
+  "day": 1,
+  "region": 4,
+  "characters": [
+    "tighnari",
+    "cyno",
+    "candace"
+  ]
+}

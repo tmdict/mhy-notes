@@ -5,7 +5,7 @@ import path from 'path';
 import process from 'process';
 
 // Builds an ENUM map of id to game terms
-const buildIdMap = (src, dest, filename = 'enum.json', overwrite = true) => {
+const buildIdMap = (src, dest, filename = 'enum.json', overwrite = false) => {
   // Try to load existing map
   let data;
   if (overwrite) {

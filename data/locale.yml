@@ -5,6 +5,9 @@ _na:
 achievements:
   en: 'Achievements'
   zh: '成就'
+admonition:
+  en: 'Admonition'
+  zh: '诤言'
 all:
   en: 'All'
   zh: '全选'
@@ -101,6 +104,9 @@ def:
 delete:
   en: 'Delete'
   zh: '删除'
+dendro:
+  en: 'Dendro'
+  zh: '草'
 diligence:
   en: 'Diligence'
   zh: '勤劳'
@@ -167,6 +173,9 @@ import-data:
 inazuma:
   en: 'Inazuma'
   zh: '稻妻'
+ingenuity:
+  en: 'Ingenuity'
+  zh: '巧思'
 light:
   en: 'Light'
   zh: '天光'
@@ -212,6 +221,9 @@ optional:
 physical:
   en: 'Physical'
   zh: '物'
+praxis:
+  en: 'Praxis'
+  zh: '笃行'
 preview:
   en: 'Preview'
   zh: '预览'

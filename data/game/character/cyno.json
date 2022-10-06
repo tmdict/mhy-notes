@@ -1,0 +1,16 @@
+{
+  "id": "cyno",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "polearm",
+  "released": "3.1",
+  "data": {
+    "en": {
+      "name": "Cyno"
+    },
+    "zh": {
+      "name": "赛诺"
+    }
+  }
+}

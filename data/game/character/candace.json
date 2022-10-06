@@ -1,0 +1,16 @@
+{
+  "id": "candace",
+  "type": "character",
+  "rarity": 4,
+  "vision": "hydro",
+  "weapon": "polearm",
+  "released": "3.1",
+  "data": {
+    "en": {
+      "name": "Candace"
+    },
+    "zh": {
+      "name": "坎蒂丝"
+    }
+  }
+}

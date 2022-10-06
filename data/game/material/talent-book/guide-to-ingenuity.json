@@ -1,0 +1,12 @@
+{
+  "id": "guide-to-ingenuity",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 4,
+  "group": "ingenuity",
+  "day": 2,
+  "region": 4,
+  "characters": [
+    "dori"
+  ]
+}

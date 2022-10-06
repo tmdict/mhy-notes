@@ -1,0 +1,12 @@
+{
+  "id": "teachings-of-praxis",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "praxis",
+  "day": 3,
+  "region": 4,
+  "characters": [
+    "collei"
+  ]
+}

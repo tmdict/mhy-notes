@@ -1,0 +1,12 @@
+{
+  "id": "teachings-of-ingenuity",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "ingenuity",
+  "day": 2,
+  "region": 4,
+  "characters": [
+    "dori"
+  ]
+}

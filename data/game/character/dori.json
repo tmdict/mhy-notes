@@ -1,0 +1,16 @@
+{
+  "id": "dori",
+  "type": "character",
+  "rarity": 4,
+  "vision": "electro",
+  "weapon": "claymore",
+  "released": "3.0",
+  "data": {
+    "en": {
+      "name": "Dori"
+    },
+    "zh": {
+      "name": "多莉"
+    }
+  }
+}
