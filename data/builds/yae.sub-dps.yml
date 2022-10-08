@@ -17,11 +17,11 @@ weapon:
     r: 0
 
 artifact:
+  - set: [gilded-dreams]
+    p: 4
   - set: [thundering-fury, gladiators-finale]
     p: 2
   - set: [emblem-of-severed-fate]
-    p: 4
-  - set: [thundersoother]
     p: 4
 
 mainstat:
@@ -37,7 +37,7 @@ stats:
   - crit: '80% / 180%'
   - atk: '1,900'
   - er: ''
-  - em: '80'
+  - em: '160'
 
 talent: 'E > Q'
 

@@ -17,12 +17,12 @@ weapon:
     r: 0
 
 artifact:
+  - set: [thundering-fury]
+    p: 4
   - set: [thundering-fury, gladiators-finale]
     p: 2
   - set: [thundersoother]
     p: 4
-  - set: [thundering-fury, noblesse-oblige]
-    p: 2
 
 mainstat:
   sand:
@@ -34,7 +34,7 @@ mainstat:
 
 stats:
   - crit: '70% / 170%'
-  - atk: '2,200'
+  - atk: '2,100'
   - em: ''
 
 talent: 'A > Q > E'

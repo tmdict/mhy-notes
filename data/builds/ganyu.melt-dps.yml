@@ -9,9 +9,9 @@ name:
   zh: '融化流'
 
 weapon:
-  - name: amos-bow
+  - name: hunters-path
     r: 0
-  - name: skyward-harp
+  - name: amos-bow
     r: 0
   - name: prototype-crescent
     r: 5
