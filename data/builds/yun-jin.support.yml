@@ -35,7 +35,7 @@ mainstat:
 
 stats:
   - def: '2,500'
-  - er: '260'
+  - er: '260%'
   - crit: ''
   - atk: '1,600'
 

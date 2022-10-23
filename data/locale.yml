@@ -62,6 +62,9 @@ checklist:
 circlet:
   en: 'Circlet'
   zh: '冠'
+clear-all:
+  en: 'Clear All'
+  zh: '清空全部'
 close-all:
   en: 'Close All'
   zh: '关闭全部'
@@ -233,9 +236,9 @@ prosperity:
 pyro:
   en: 'Pyro'
   zh: '火'
-clear-all:
-  en: 'Clear All'
-  zh: '清空全部'
+quickswap:
+  en: 'Quickswap'
+  zh: '速切'
 rarity:
   en: 'Rarity'
   zh: '稀有度'

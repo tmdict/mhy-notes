@@ -1,0 +1,43 @@
+---
+character: candace
+c: 0
+type:
+  - support
+  - meta
+  - f2p
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: favonius-lance
+    r: 0
+  - name: kitain-cross-spear
+    r: 0
+  - name: black-tassel
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4  
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hp
+  circlet:
+    - crit
+    - hp
+
+stats:
+  - er: '200%'
+  - crit: ''
+  - hp: '36,000'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

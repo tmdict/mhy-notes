@@ -1,0 +1,41 @@
+---
+character: nilou
+c: 0
+type:
+  - support
+  - meta
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: key-of-khaj-nisut
+    r: 0
+  - name: primordial-jade-cutter
+    r: 0
+  - name: xiphos-moonlight
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith, wanderers-troupe]
+    p: 2
+
+mainstat:
+  sand:
+    - hp
+  goblet:
+    - hp
+  circlet:
+    - hp
+
+stats:
+  - hp: '66,000'
+  - crit: ''
+  - er: '170%'
+  - em: '360'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

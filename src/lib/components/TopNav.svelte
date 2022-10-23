@@ -12,9 +12,11 @@
 
 <a href="/builds" style="margin-left:0;">{$l10n['builds'][$lang]}</a>
 <span class="separator">·</span>
-<a href="/achievements">{$l10n['achievements'][$lang]}</a>
-<span class="separator">·</span>
+<!--a href="/achievements">{$l10n['achievements'][$lang]}</a>
+<span class="separator">·</span-->
 <a href="/materials">{$l10n['materials'][$lang]}</a>
+<span class="separator">·</span>
+<a href="/boss-materials">{$l10n['weekly-boss-mat'][$lang]}</a>
 <span class="separator">·</span>
 <a href="/links">{$l10n['links'][$lang]}</a>
 <span class="separator">·</span>

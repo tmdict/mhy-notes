@@ -1,0 +1,47 @@
+---
+character: dori
+c: 0
+type:
+  - support
+  - meta
+  - f2p
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: favonius-greatsword
+    r: 0
+  - name: sacrificial-greatsword
+    r: 0
+  - name: katsuragikiri-nagamasa
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [deepwood-memories]
+    p: 4
+  - set: [instructor]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hp
+  circlet:
+    - heal
+
+stats:
+  - hp: '39,000'
+  - crit: ''
+  - er: '180%'
+  - em: ''
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

@@ -12,11 +12,11 @@
   <slot name="builds" />
 </div>
 
-<h4><a href="/achievements">{$l10n['commission-achievements'][$lang]}</a></h4>
+<!--h4><a href="/achievements">{$l10n['commission-achievements'][$lang]}</a></h4>
 
 <div class="section">
   <slot name="achievements" />
-</div>
+</div-->
 
 <h4><a href="/materials">{$l10n['weekly-mat'][$lang]}</a></h4>
 

@@ -1,0 +1,44 @@
+---
+character: cyno
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: staff-of-the-scarlet-sands
+    r: 0
+  - name: primordial-jade-winged-spear
+    r: 0
+  - name: deathmatch
+    r: 0
+
+artifact:
+  - set: [gilded-dreams]
+    p: 4
+  - set: [thundering-fury]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - er: '120%'
+  - crit: '80% / 200%'
+  - atk: '1,300'
+  - em: '340'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

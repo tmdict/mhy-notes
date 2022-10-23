@@ -1,0 +1,46 @@
+---
+character: tighnari
+c: 0
+type:
+  - sub-dps
+  - quickswap
+  - meta
+name:
+  en: 'Quickswap DPS'
+  zh: '速切副C'
+
+weapon:
+  - name: hunters-path
+    r: 0
+  - name: aqua-simulacra
+    r: 0
+  - name: the-viridescent-hunt
+    r: 0
+
+artifact:
+  - set: [deepwood-memories]
+    p: 4
+  - set: [gilded-dreams]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - dendro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 170%'
+  - em: '260'
+  - atk: '1,200'
+  - er: ''
+
+talent: 'A > Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/tighnari/

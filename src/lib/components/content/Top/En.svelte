@@ -20,12 +20,12 @@
     </p>
   </span>
 
-  <span slot="achievements">
+  <!--span slot="achievements">
     <p>
       Searchable list of achievements that are obtainable through daily commissions, as well as a tracker to keep track
       of your progress.
     </p>
-  </span>
+  </span-->
 
   <span slot="materials">
     <p>Yet another weekly material infographic.</p>

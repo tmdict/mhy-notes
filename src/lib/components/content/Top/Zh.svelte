@@ -16,11 +16,11 @@
     </p>
   </span>
 
-  <span slot="achievements">
+  <!--span slot="achievements">
     <p>
       一个方便搜索的成就表，记录了只有通过每日委托任务才能获得的隐藏成就以及完成方法，外加一个记录成就进度的清单工具。
     </p>
-  </span>
+  </span-->
 
   <span slot="materials">
     <p>一个平凡的升级材料周常表。</p>

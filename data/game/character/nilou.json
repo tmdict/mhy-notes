@@ -1,0 +1,16 @@
+{
+  "id": "nilou",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "sword",
+  "released": "3.1",
+  "data": {
+    "en": {
+      "name": "Nilou"
+    },
+    "zh": {
+      "name": "妮露"
+    }
+  }
+}
