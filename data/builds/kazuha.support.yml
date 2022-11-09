@@ -11,9 +11,9 @@ name:
 weapon:
   - name: freedom-sworn
     r: 0
-  - name: iron-sting
-    r: 0
   - name: favonius-sword
+    r: 0
+  - name: xiphos-moonlight
     r: 0
 
 artifact:

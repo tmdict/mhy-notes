@@ -1,0 +1,16 @@
+{
+  "id": "nahida",
+  "type": "character",
+  "rarity": 5,
+  "vision": "dendro",
+  "weapon": "catalyst",
+  "released": "3.2",
+  "data": {
+    "en": {
+      "name": "Nahida"
+    },
+    "zh": {
+      "name": "纳西妲"
+    }
+  }
+}

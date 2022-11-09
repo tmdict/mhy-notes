@@ -1,0 +1,42 @@
+---
+character: fischl
+c: 6
+type:
+  - sub-dps
+name:
+  en: 'Aggravate'
+  zh: '超激化'
+
+weapon:
+  - name: aqua-simulacra
+    r: 0
+  - name: polar-star
+    r: 0
+  - name: the-stringless
+    r: 5
+
+artifact:
+  - set: [thundering-fury, wanderers-troupe]
+    p: 2
+  - set: [gilded-dreams]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - em
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: ''
+  - atk: ''
+  - em: ''
+  - er: ''
+
+talent: 'E > Q'
+
+source:
+  - ccb: default

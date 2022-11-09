@@ -7,10 +7,7 @@ import preprocess from 'svelte-preprocess';
 const config = {
   kit: {
     adapter: adapter(),
-    appDir: 'bin',
-    prerender: {
-      default: true
-    }
+    appDir: 'bin'
   },
   preprocess: preprocess()
 };

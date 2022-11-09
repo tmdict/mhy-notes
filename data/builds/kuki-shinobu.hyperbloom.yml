@@ -1,0 +1,41 @@
+---
+character: kuki-shinobu
+c: 0
+type:
+  - support
+  - sub-dps
+name:
+  en: 'Hyperbloom'
+  zh: '超绽放'
+
+weapon:
+  - name: freedom-sworn
+    r: 0
+  - name: xiphos-moonlight
+    r: 0
+  - name: iron-sting
+    r: 0
+
+artifact:
+  - set: [gilded-dreams]
+    p: 4
+  - set: [gilded-dreams, wanderers-troupe]
+    p: 2
+
+mainstat:
+  sand:
+    - em
+  goblet:
+    - em
+  circlet:
+    - em
+
+stats:
+  - em: '850'
+  - hp: ''
+  - er: ''
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
