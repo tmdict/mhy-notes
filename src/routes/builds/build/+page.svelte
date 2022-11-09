@@ -1,6 +1,6 @@
 <script>
   import lzstring from 'lz-string';
-  import { browser } from '$app/env';
+  import { browser } from '$app/environment';
   import { l10n, lang } from '@store/site';
   import BuildFullPage from '$lib/components/build/BuildFullPage.svelte';
   import { decodeBuild, extractBuild } from '$lib/util/codec';

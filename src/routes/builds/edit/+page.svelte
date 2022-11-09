@@ -1,7 +1,7 @@
 <script>
   import { toast } from '@zerodevx/svelte-toast';
   import lzstring from 'lz-string';
-  import { browser } from '$app/env';
+  import { browser } from '$app/environment';
   import { availableInputs, buildEditor } from '@store/editor';
   import { characters, weapons } from '@store/gamedata';
   import { localData } from '@store/localdata';

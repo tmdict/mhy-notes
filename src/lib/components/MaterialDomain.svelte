@@ -1,5 +1,5 @@
 <script>
-  import { materials, rarity } from '@store/gamedata';
+  import { characters, materials, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
@@ -67,7 +67,12 @@
           </div>
           <div class="content-row">
             {#each material.characters as character}
-              <Icon id={character} src="character/{character}" rarity={$rarity[character]} />
+              <Icon
+                id={character}
+                title={$characters[character] ? $characters[character].data[$lang].name : character}
+                src="character/{character}"
+                rarity={$rarity[character]}
+              />
             {/each}
           </div>
         </div>

@@ -1,5 +1,5 @@
 <script>
-  import { browser } from '$app/env';
+  import { browser } from '$app/environment';
   import { setContext, onMount } from 'svelte';
   import { writable } from 'svelte/store';
   import dark from '$lib/style/themes/dark.json';

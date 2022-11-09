@@ -1,7 +1,7 @@
 <script>
   import { toast } from '@zerodevx/svelte-toast';
   import lzstring from 'lz-string';
-  import { browser } from '$app/env';
+  import { browser } from '$app/environment';
   import { localData } from '@store/localdata';
   import { l10n, lang, toastOption } from '@store/site';
   import { compressBuild, encodeBuild } from '$lib/util/codec';

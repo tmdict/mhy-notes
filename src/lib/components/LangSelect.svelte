@@ -1,5 +1,5 @@
 <script>
-  import { browser } from '$app/env';
+  import { browser } from '$app/environment';
   import { lang } from '@store/site';
 
   function setLang(l) {
