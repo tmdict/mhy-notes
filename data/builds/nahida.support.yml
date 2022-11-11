@@ -1,0 +1,42 @@
+---
+character: nahida
+c: 0
+type:
+  - support
+  - meta
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: a-thousand-floating-dreams
+    r: 0
+  - name: kaguras-verity
+    r: 0
+  - name: wandering-evenstar
+    r: 0
+
+artifact:
+  - set: [deepwood-memories]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+  goblet:
+    - em
+    - dendro
+  circlet:
+    - em
+    - crit
+
+stats:
+  - em: '940'
+  - atk: '1,100'
+  - crit: '30% / 100%'
+  - er: '130%'
+
+talent: 'E > Q'
+
+source:
+  - ysmxt: default
