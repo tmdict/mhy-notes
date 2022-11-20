@@ -7,7 +7,7 @@
     "primary-gold": "#baaf81",
 
     "header-bg-color": "#111",
-    "body-bg-color": "#474448",
+    "body-bg-color": "#222",
     "main-bg-color": "#eae5e0",
     "main-bg-alt-color": "#e0d9d1",
     "main-bg-hover": "#f6f2ee",
@@ -18,17 +18,18 @@
     "label-bg": "#fff",
     "label-bg-highlight": "#333",
 
-    "text-normal": "#415257",
+    "text-normal": "#333",
     "text-strong": "#333",
     "text-main-title": "#333",
     "text-header-title": "#eee",
+    "text-header-title-sub": "#c05b4d",
     "text-header-highlight": "#f7d87c",
     "text-body-highlight": "#c05b4d",
     "text-body-highlight-alt": "#f7d87c",
     "text-input": "#333",
 
     "text-overlay": "#fff",
-    "text-overlay-shadow": "#474448",
+    "text-overlay-shadow": "#222",
     "link-normal": "#baaf81",
     "link-hover": "#c05b4d",
 

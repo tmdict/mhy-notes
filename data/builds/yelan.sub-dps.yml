@@ -40,8 +40,8 @@ stats:
 talent: 'Q > E > A'
 
 notes:
-  en: 'Q off-field DPS'
-  zh: 'Q协同'
+  en: 'Q > Ex2 > Q, Burt > Skill provides an extra wave of projectiles. Skill > Burst allows Yelan to collect more particles.'
+  zh: 'Q > Ex2 > Q'
 
 source:
   - ccb: default

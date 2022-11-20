@@ -33,6 +33,18 @@
       description: 'Spiral Abyss data analystics contributed by players who with ★36 Abyssal Stars.'
     },
     {
+      name: 'Enka.Network',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://enka.network/',
+      description: 'Genshin Impact player cards creator.'
+    },
+    {
+      name: 'Akasha System',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://mimee.ovh/akasha',
+      description: 'Compare your Genshin characters against others.'
+    },
+    {
       name: 'ShinShin.moe',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://shinshin.moe/',

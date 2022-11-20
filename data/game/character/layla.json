@@ -1,0 +1,16 @@
+{
+  "id": "layla",
+  "type": "character",
+  "rarity": 4,
+  "vision": "cryo",
+  "weapon": "sword",
+  "released": "3.2",
+  "data": {
+    "en": {
+      "name": "Layla"
+    },
+    "zh": {
+      "name": "莱依拉"
+    }
+  }
+}

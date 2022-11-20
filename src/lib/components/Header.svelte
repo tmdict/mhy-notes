@@ -1,12 +1,17 @@
 <script>
+  import { getContext } from 'svelte';
   import Icon from './Icon.svelte';
   import LangSelect from '$lib/components/LangSelect.svelte';
   import TopNav from '$lib/components/TopNav.svelte';
-  let topImg = 'top';
+
+  const { theme } = getContext('theme');
+  
+  $: isLight = $theme.name === 'light' ? '_l' : '';
+  $: topImg = 'top' + isLight;
 </script>
 
 <div id="top">
-  <a href="/" on:mouseenter={() => (topImg = 'top_alt')} on:mouseleave={() => (topImg = 'top')}>
+  <a href="/" on:mouseenter={() => (topImg = 'top_alt' + isLight)} on:mouseleave={() => (topImg = 'top' + isLight)}>
     <Icon id="Genshin-TL;DR" src={topImg} size="100px" margin="0" />
   </a>
 
@@ -50,7 +55,7 @@
     }
 
     .highlight {
-      color: var(--theme-primary-red);
+      color: var(--theme-text-header-title-sub);
       font-size: 0.6em;
       vertical-align: top;
     }

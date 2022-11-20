@@ -2,11 +2,11 @@
 character: nahida
 c: 0
 type:
-  - support
+  - sub-dps
   - meta
 name:
-  en: 'Support'
-  zh: '辅助'
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
 
 weapon:
   - name: a-thousand-floating-dreams
@@ -18,6 +18,8 @@ weapon:
 
 artifact:
   - set: [deepwood-memories]
+    p: 4
+  - set: [gilded-dreams]
     p: 4
 
 mainstat:
@@ -31,12 +33,13 @@ mainstat:
     - crit
 
 stats:
+  - er: '130%'
+  - crit: '30% / 100%'
   - em: '940'
   - atk: '1,100'
-  - crit: '30% / 100%'
-  - er: '130%'
 
 talent: 'E > Q'
 
 source:
+  - ccb: default
   - ysmxt: default

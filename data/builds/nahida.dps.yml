@@ -1,0 +1,46 @@
+---
+character: nahida
+c: 6
+type:
+  - dps
+  - whale
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: a-thousand-floating-dreams
+    r: 0
+  - name: kaguras-verity
+    r: 0
+  - name: wandering-evenstar
+    r: 0
+
+artifact:
+  - set: [deepwood-memories]
+    p: 4
+  - set: [gilded-dreams]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - em
+    - dendro
+  circlet:
+    - em
+    - crit
+
+stats:
+  - er: '130%'
+  - crit: '30% / 100%'
+  - em: '940'
+  - atk: '1,100'
+
+talent: 'E > Q = A'
+
+source:
+  - ccb: default
+  - ysmxt: default
