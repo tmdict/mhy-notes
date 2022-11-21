@@ -12,6 +12,7 @@ export const characters = readable(grouped.character);
 export const enemies = readable(grouped.enemy);
 export const materials = readable(grouped.material);
 export const weapons = readable(grouped.weapon);
+export const misc = readable(grouped.misc);
 
 const rarityData = {};
 

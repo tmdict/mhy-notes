@@ -19,6 +19,7 @@
   }
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="content-row build" class:alt on:click={toggleDetails}>
   <div
     class="content-row build-info align-center"

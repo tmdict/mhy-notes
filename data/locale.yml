@@ -2,6 +2,9 @@
 _na:
   en: '-'
   zh: '-'
+a:
+  en: 'A'
+  zh: 'A'
 achievements:
   en: 'Achievements'
   zh: '成就'
@@ -20,6 +23,9 @@ artifact-mainstats:
 artifact:
   en: 'Artifact'
   zh: '圣遗物'
+ascension:
+  en: 'Ascension'
+  zh: '升级'
 set-2p-bonus:
   en: '2 Piece Bonus'
   zh: '2件套效果'
@@ -35,6 +41,12 @@ ballad:
 basic-info:
   en: 'Basic Info'
   zh: '基础信息'
+base-atk:
+  en: 'Base ATK'
+  zh: '基础攻击力'
+base-stat:
+  en: 'Base Stat'
+  zh: '基础属性'
 build-editor:
   en: 'Build Editor'
   zh: '配装编辑器'
@@ -56,6 +68,9 @@ character:
 character-builds:
   en: 'Character Builds'
   zh: '角色配装参考'
+character-scaling:
+  en: 'Character Scaling'
+  zh: '角色技能属性'
 checklist:
   en: 'Checklist'
   zh: '清单'
@@ -116,6 +131,9 @@ diligence:
 dps:
   en: 'DPS'
   zh: '主C'
+e:
+  en: 'E'
+  zh: 'E'
 edit:
   en: 'Edit'
   zh: '编辑'
@@ -125,6 +143,12 @@ electro:
 elegance:
   en: 'Elegance'
   zh: '风雅'
+elemental-skill:
+  en: 'Elemental Skill'
+  zh: '技能'
+elemental-burst:
+  en: 'Elemental Burst'
+  zh: '元素爆发'
 em:
   en: 'EM'
   zh: '精'
@@ -197,9 +221,6 @@ mainstat:
 manage-data:
   en: 'Manage Data'
   zh: '数据管理'
-materials:
-  en: 'Materials'
-  zh: '升级材料'
 meta:
   en: 'Meta'
   zh: '毕业面板'
@@ -215,6 +236,9 @@ mondstadt:
 name:
   en: 'Name'
   zh: '名称'
+normal-attack:
+  en: 'Normal Attack'
+  zh: '普通攻击'
 notes:
   en: 'Notes'
   zh: '其它笔记'
@@ -236,6 +260,9 @@ prosperity:
 pyro:
   en: 'Pyro'
   zh: '火'
+q:
+  en: 'Q'
+  zh: 'Q'
 quickswap:
   en: 'Quickswap'
   zh: '速切'
@@ -284,6 +311,9 @@ submitted-by:
 support:
   en: 'Support'
   zh: '辅助'
+talent-materials:
+  en: 'Talent Materials'
+  zh: '天赋升级材料'
 talent-priority:
   en: 'Talent Priority'
   zh: '优先天赋'
@@ -310,7 +340,7 @@ weapon-type:
   zh: '武器种类'
 weekly-mat:
   en: 'Weekly Material Rotation'
-  zh: '升级材料周常表'
+  zh: '天赋升级材料周常'
 weekly-boss-mat:
   en: 'Weekly Boss Materials'
   zh: '周常BOSS素材'

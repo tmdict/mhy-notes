@@ -14,14 +14,17 @@
 <span class="separator">·</span>
 <!--a href="/achievements">{$l10n['achievements'][$lang]}</a>
 <span class="separator">·</span-->
-<a href="/materials">{$l10n['materials'][$lang]}</a>
+<a href="/talent-materials">{$l10n['talent-materials'][$lang]}</a>
 <span class="separator">·</span>
-<a href="/boss-materials">{$l10n['weekly-boss-mat'][$lang]}</a>
+<a href="/weekly-boss-materials">{$l10n['weekly-boss-mat'][$lang]}</a>
+<span class="separator">·</span>
+<a href="/character-scaling">{$l10n['character-scaling'][$lang]}</a>
 <span class="separator">·</span>
 <a href="/links">{$l10n['links'][$lang]}</a>
 <span class="separator">·</span>
 <div id="svg-icons">
   <a class="last" href="https://github.com/tmdict/genshin-tldr"><GitIcon /></a>
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div class="theme-toggle" on:click={toggle}>
     {#if isDark}
       <ToggleLight />

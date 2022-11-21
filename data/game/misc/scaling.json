@@ -1,0 +1,648 @@
+{
+  "id": "scaling",
+  "type": "misc",
+  "data": {
+    "albedo": {
+      "ascension": "geo",
+      "a": ["atk"],
+      "e": ["atk", "def"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C2": ["def"] }
+      ]
+    },
+    "aloy": {
+      "ascension": "cryo",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "amber": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C1": ["normal-attack"] }
+      ]
+    },
+    "arataki-itto": {
+      "ascension": "cr",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "const": []
+    },
+    "barbara": {
+      "ascension": "hp",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "beidou": {
+      "ascension": "electro",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C1": ["hp"] },
+        { "C4": ["atk"] }]
+    },
+    "bennett": {
+      "ascension": "er",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["hp", "atk", "base-atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C1": ["atk"] },
+        { "C4": ["elemental-skill"] }
+      ]
+    },
+    "candace": {
+      "ascension": "hp",
+      "a": ["atk"],
+      "e": ["hp"],
+      "q": ["hp", "atk"],
+      "a1": [],
+      "a4": ["hp"],
+      "const": [
+        { "C6": ["hp"] }
+      ]
+    },
+    "chongyun": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["elemental-skill"],
+      "const": [
+        { "C1": ["atk"] }
+      ]
+    },
+    "collei": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "const": [
+        { "C2": ["atk"] },
+        { "C6": ["atk"] }
+      ]
+    },
+    "cyno": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": ["em"],
+      "const": []
+    },
+    "diluc": {
+      "ascension": "cr",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "diona": {
+      "ascension": "cryo",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C2": ["elemental-skill"] }
+      ]
+    },
+    "dori": {
+      "ascension": "hp",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["er"],
+      "const": [
+        { "C2": ["atk"] },
+        { "C6": ["hp"] }
+      ]
+    },
+    "eula": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["elemental-burst"],
+      "a4": [],
+      "const": []
+    },
+    "fischl": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["normal-attack"],
+      "a4": ["atk"],
+      "const": [
+        { "C1": ["atk"] },
+        { "C2": ["atk"] },
+        { "C4": ["hp", "atk"] },
+        { "C6": ["atk"] }
+      ]
+    },
+    "ganyu": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "gorou": {
+      "ascension": "geo",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["def", "elemental-skill"],
+      "a1": [],
+      "a4": ["def"],
+      "const": [
+        { "C2": ["def"] }
+      ]
+    },
+    "hu-tao": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["hp", "atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C2": ["hp"] }
+      ]
+    },
+    "jean": {
+      "ascension": "heal",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "const": []
+    },
+    "kaedehara-kazuha": {
+      "ascension": "em",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": ["em"],
+      "const": [
+        { "C6": ["em"] }
+      ]
+    },
+    "kaeya": {
+      "ascension": "er",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "const": [
+        { "C4": ["em"] }
+      ]
+    },
+    "kamisato-ayaka": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C2": ["elemental-burst"] }
+      ]
+    },
+    "kamisato-ayato": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C6": ["atk"] }
+      ]
+    },
+    "keqing": {
+      "ascension": "cdmg",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C1": ["atk"] }
+      ]
+    },
+    "klee": {
+      "ascension": "pyro",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C1": ["elemental-burst"] },
+        { "C4": ["atk"] }
+      ]
+    },
+    "kujou-sara": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk", "base-atk"],
+      "q": ["atk", "elemental-skill"],
+      "a1": [],
+      "a4": ["er"],
+      "const": [
+        { "C2": ["elemental-skill"] }
+      ]
+    },
+    "kuki-shinobu": {
+      "ascension": "hp",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["em"],
+      "const": [
+        { "C4": ["hp"] }
+      ]
+    },
+    "layla": {
+      "ascension": "hp",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["hp"],
+      "const": [
+        { "C4": ["hp"] }
+      ]
+    },
+    "lisa": {
+      "ascension": "em",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "mona": {
+      "ascension": "er",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["elemental-skill"],
+      "a4": ["er"],
+      "const": []
+    },
+    "nahida": {
+      "ascension": "em",
+      "a": ["atk"],
+      "e": ["atk", "em"],
+      "q": [],
+      "a1": ["em"],
+      "a4": ["em"],
+      "const": [
+        { "C6": ["atk", "em"] }
+      ]
+    },
+    "nilou": {
+      "ascension": "hp",
+      "a": ["atk"],
+      "e": ["hp"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["hp"],
+      "const": [
+        { "C6": ["hp"] }
+      ]
+    },
+    "ningguang": {
+      "ascension": "geo",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "noelle": {
+      "ascension": "def",
+      "a": ["atk"],
+      "e": ["atk", "def"],
+      "q": ["atk", "def"],
+      "a1": ["def"],
+      "a4": [],
+      "const": [
+        { "C4": ["atk"] },
+        { "C6": ["def"] }
+      ]
+    },
+    "qiqi": {
+      "ascension": "heal",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "raiden-shogun": {
+      "ascension": "er",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["er"],
+      "const": []
+    },
+    "razor": {
+      "ascension": "physical",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C4": ["atk"] }
+      ]
+    },
+    "rosaria": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["cr"],
+      "const": []
+    },
+    "sangonomiya-kokomi": {
+      "ascension": "hydro",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["heal"],
+      "const": [
+        { "C1": ["hp"] },
+        { "C2": ["hp"] }
+      ]
+    },
+    "sayu": {
+      "ascension": "em",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["em"],
+      "a4": ["hp"],
+      "const": [
+        { "C6": ["atk", "em"] }
+      ]
+    },
+    "shenhe": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "shikanoin-heizou": {
+      "ascension": "anemo",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "sucrose": {
+      "ascension": "anemo",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "const": []
+    },
+    "tartaglia": {
+      "ascension": "hydro",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "const": [
+        { "C4": ["normal-attack", "elemental-skill"] }
+      ]
+    },
+    "thoma": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["hp"],
+      "const": []
+    },
+    "tighnari": {
+      "ascension": "dendro",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "const": [
+        { "C6": ["atk"] }
+      ]
+    },
+    "traveler-anemo": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "const": []
+    },
+    "traveler-dendro": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "const": []
+    },
+    "traveler-electro": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["er"],
+      "const": []
+    },
+    "traveler-geo": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "const": [
+        { "C2": ["elemental-skill"] }
+      ]
+    },
+    "venti": {
+      "ascension": "er",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C1": ["normal-attack"] }
+      ]
+    },
+    "xiangling": {
+      "ascension": "em",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C2": ["atk"] }
+      ]
+    },
+    "xiao": {
+      "ascension": "cr",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": [],
+      "a1": [],
+      "a4": [],
+      "const": []
+    },
+    "xingqiu": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk", "hydro"],
+      "q": ["atk"],
+      "a1": ["hp"],
+      "a4": [],
+      "const": []
+    },
+    "xinyan": {
+      "ascension": "atk",
+      "a": ["atk"],
+      "e": ["atk", "def"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C6": ["def"] }
+      ]
+    },
+    "yae-miko": {
+      "ascension": "pyro",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "const": []
+    },
+    "yanfei": {
+      "ascension": "cr",
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "const": [
+        { "C4": ["hp"] }
+      ]
+    },
+    "yelan": {
+      "ascension": "cr",
+      "a": ["hp", "atk"],
+      "e": ["hp"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C2": ["hp"] },
+        { "C6": ["normal-attack"] }
+      ]
+    },
+    "yoimiya": {
+      "ascension": "cr",
+      "a": ["atk"],
+      "e": [],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "const": [
+        { "C6": ["normal-attack"] }
+      ]
+    },
+    "yun-jin": {
+      "ascension": "er",
+      "a": ["atk"],
+      "e": ["hp", "def"],
+      "q": ["atk", "def"],
+      "a1": [],
+      "a4": ["def"],
+      "const": []
+    },
+    "zhongli": {
+      "ascension": "geo",
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["hp"],
+      "const": [
+        { "C6": ["hp"] }
+      ]
+    }
+  }
+}

@@ -26,6 +26,10 @@
     );
 </script>
 
+<svelte:head>
+  <title>{$l10n['upgrade-material'][$lang]} | Genshin TL;DR</title>
+</svelte:head>
+
 <div id="boss-material">
   <h1>{$l10n['weekly-boss-mat'][$lang]}</h1>
 

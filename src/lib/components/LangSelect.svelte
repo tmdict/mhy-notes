@@ -10,6 +10,7 @@
   }
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="lang-select">
   <ul>
     <li on:click={() => setLang('en')}><img src="/img/en.png" alt="en" /> EN</li>

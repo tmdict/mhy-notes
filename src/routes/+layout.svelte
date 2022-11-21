@@ -82,6 +82,7 @@
   }
 
   #footer {
+    color: #bfbfbf;
     margin: 20px auto;
     font-family: var(--theme-main-font);
     font-size: 0.8rem;

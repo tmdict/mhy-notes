@@ -10,6 +10,7 @@
   }, {});
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 {#each artifacts as artifact, i}
   <div class="content-row" class:divider={i !== 0}>
     {#each artifact.set as set}

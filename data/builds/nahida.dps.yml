@@ -13,7 +13,7 @@ weapon:
     r: 0
   - name: kaguras-verity
     r: 0
-  - name: wandering-evenstar
+  - name: lost-prayer-to-the-sacred-winds
     r: 0
 
 artifact:
@@ -27,17 +27,17 @@ mainstat:
     - em
     - atk
   goblet:
-    - em
     - dendro
-  circlet:
     - em
+  circlet:
     - crit
+    - em
 
 stats:
-  - er: '130%'
-  - crit: '30% / 100%'
-  - em: '940'
-  - atk: '1,100'
+  - er: '140%'
+  - dendro: ''
+  - crit: ''
+  - em: '1,000'
 
 talent: 'E > Q = A'
 
