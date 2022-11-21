@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "cryo",
   "weapon": "sword",
-  "released": "1.0",
+  "released": "1.0.0",
   "data": {
     "en": {
       "name": "Qiqi"

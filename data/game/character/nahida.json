@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "dendro",
   "weapon": "catalyst",
-  "released": "3.2",
+  "released": "3.2.0",
   "data": {
     "en": {
       "name": "Nahida"

@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "geo",
   "weapon": "sword",
-  "released": "1.2",
+  "released": "1.2.0",
   "data": {
     "en": {
       "name": "Albedo"

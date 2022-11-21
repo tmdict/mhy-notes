@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "cryo",
   "weapon": "polearm",
-  "released": "2.4",
+  "released": "2.4.0",
   "data": {
     "en": {
       "name": "Shenhe"

@@ -9,12 +9,12 @@ name:
   zh: '主C'
 
 weapon:
-  - name: a-thousand-floating-dreams
-    r: 0
   - name: kaguras-verity
-    r: 0
+    r: 5
+  - name: a-thousand-floating-dreams
+    r: 5
   - name: lost-prayer-to-the-sacred-winds
-    r: 0
+    r: 5
 
 artifact:
   - set: [deepwood-memories]
@@ -43,4 +43,4 @@ talent: 'E > Q = A'
 
 source:
   - ccb: default
-  - ysmxt: default
+  - "NGA": https://bbs.nga.cn/read.php?tid=34257006

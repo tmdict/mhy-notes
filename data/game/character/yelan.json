@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "hydro",
   "weapon": "bow",
-  "released": "2.7",
+  "released": "2.7.0",
   "data": {
     "en": {
       "name": "Yelan"

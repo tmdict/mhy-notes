@@ -3,7 +3,14 @@
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
-  const scaling = $misc.scaling.data;
+  //const scaling = $misc.scaling.data;
+
+  let scaling = Object.keys($misc.scaling.data)
+    .sort((a, b) => $characters[b].released.localeCompare($characters[a].released) || b.localeCompare(a))
+    .map((char) => ({ ...$misc.scaling.data[char], id: char }));
+
+  //console.log(asd);
+
   const colors = {
     hp: 'common',
     atk: 'common',
@@ -50,19 +57,19 @@
     <div class="col flex const">{$l10n['constellation'][$lang]}</div>
   </div>
 
-  {#each Object.entries(scaling) as [character, data]}
+  {#each scaling as data}
     <div class="content-row scale">
       <div class="col icon">
         <Icon
-          id={character}
-          title={$characters[character] ? $characters[character].data[$lang].name : character}
-          src="character/{character}"
-          rarity={$rarity[character]}
+          id={data.id}
+          title={$characters[data.id] ? $characters[data.id].data[$lang].name : data.id}
+          src="character/{data.id}"
+          rarity={$rarity[data.id]}
           size="50px"
           margin="0"
         />
       </div>
-      <div class="col"><b>{$characters[character].data[$lang].name}</b></div>
+      <div class="col"><b>{$characters[data.id].data[$lang].name}</b></div>
       <div class="col">
         {#if windowWidth < 960}<b>{$l10n['base-stat'][$lang]}:</b> {/if}
         <span class={colors[data.ascension]}>{$l10n[data.ascension][$lang]}</span>

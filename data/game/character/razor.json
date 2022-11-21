@@ -4,7 +4,7 @@
   "rarity": 4,
   "vision": "electro",
   "weapon": "claymore",
-  "released": "1.0",
+  "released": "1.0.0",
   "data": {
     "en": {
       "name": "Razor"

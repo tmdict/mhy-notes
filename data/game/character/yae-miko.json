@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "electro",
   "weapon": "catalyst",
-  "released": "2.5",
+  "released": "2.5.0",
   "data": {
     "en": {
       "name": "Yae Miko"

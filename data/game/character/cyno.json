@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "electro",
   "weapon": "polearm",
-  "released": "3.1",
+  "released": "3.1.0",
   "data": {
     "en": {
       "name": "Cyno"

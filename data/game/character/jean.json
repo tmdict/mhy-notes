@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "anemo",
   "weapon": "sword",
-  "released": "1.0",
+  "released": "1.0.0",
   "data": {
     "en": {
       "name": "Jean"

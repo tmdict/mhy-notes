@@ -14,7 +14,9 @@ function parseBuilds(buildsData, charactersData) {
     };
     return d.default;
   });
-  return parsed.sort((a, b) => (a.attr.released < b.attr.released ? 1 : -1));
+  return parsed.sort(
+    (a, b) => b.attr.released.localeCompare(a.attr.released) || b.character.localeCompare(a.character)
+  );
 }
 
 export const builds = derived([characters], ([$characters]) => {

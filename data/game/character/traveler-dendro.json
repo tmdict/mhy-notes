@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "dendro",
   "weapon": "sword",
-  "released": "3.0",
+  "released": "3.0.0",
   "data": {
     "en": {
       "name": "Traveler (Dendro)"

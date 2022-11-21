@@ -4,7 +4,7 @@
   "rarity": 5,
   "vision": "electro",
   "weapon": "sword",
-  "released": "2.0",
+  "released": "2.0.0",
   "data": {
     "en": {
       "name": "Traveler (Electro)"
