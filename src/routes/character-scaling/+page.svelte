@@ -12,8 +12,6 @@
     .map((char) => ({ ...$misc.scaling.data[char], id: char }));
 
   const colors = {
-    cr: 'crit',
-    cdmg: 'crit',
     anemo: 'anemo',
     cryo: 'cryo',
     dendro: 'dendro',
@@ -51,18 +49,21 @@
 <div id="content">
   <div class="content-row header sticky">
     <div class="col name">{$l10n['name'][$lang]}</div>
-    <div class="col base-stat">{$l10n['base-stat'][$lang]}</div>
+    <div class="col base-stat separator">{$l10n['base-stat'][$lang]}</div>
     <div class="col normal-attack">{$l10n['a'][$lang]}</div>
     <div class="col elemental-skill">{$l10n['e'][$lang]}</div>
     <div class="col elemental-burst">{$l10n['q'][$lang]}</div>
     <div class="col ascension-1">{$l10n['ascension'][$lang]} 1</div>
     <div class="col ascension-4">{$l10n['ascension'][$lang]} 4</div>
-    <div class="col flex const">{$l10n['constellation'][$lang]}</div>
+    <div class="col constellation separator">{$l10n['constellation'][$lang]}</div>
+    <div class="col sand">{$l10n['sand'][$lang]}</div>
+    <div class="col goblet">{$l10n['goblet'][$lang]}</div>
+    <div class="col circlet">{$l10n['circlet'][$lang]}</div>
   </div>
 
   {#each scaling as data, n}
     <div class="content-row row" class:alt={n % 2 === 1}>
-      <div class="content-row group">
+      <div class="content-row group separator">
         <div class="col icon">
           <Icon
             id={data.id}
@@ -79,6 +80,7 @@
           <span class={colors[data.ascension]}>{$l10n[data.ascension][$lang]}</span>
         </div>
       </div>
+
       <div class="content-row group">
         <div class="col">
           {#if windowWidth < 960}<b>{$l10n['a'][$lang]}:</b>
@@ -114,7 +116,8 @@
           {/each}
         </div>
       </div>
-      <div class="content-row group flex">
+
+      <div class="content-row group separator">
         <div class="col">
           {#if windowWidth < 960}<b>{$l10n['ascension'][$lang]} 1:</b>
             {#if windowWidth < 960 && !data.a1.length}-{/if}
@@ -133,7 +136,7 @@
             <span class={colors[a4]}>{$l10n[a4][$lang]}</span>
           {/each}
         </div>
-        <div class="col flex">
+        <div class="col">
           {#if windowWidth < 960 && !data.const.length}-{/if}
           {#each data.const as con, i}
             {#each Object.entries(con) as [cname, cstats]}
@@ -147,17 +150,54 @@
           {/each}
         </div>
       </div>
+
+      <div class="content-row group">
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['a'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.a.length}-{/if}
+          {/if}
+          {#each data.a as a, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[a]} class:highlight={data.highlight && data.highlight.includes('a')}
+              >{$l10n[a][$lang]}</span
+            >
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['e'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.e.length}-{/if}
+          {/if}
+          {#each data.e as e, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[e]} class:highlight={data.highlight && data.highlight.includes('e')}
+              >{$l10n[e][$lang]}</span
+            >
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['q'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.q.length}-{/if}
+          {/if}
+          {#each data.q as q, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[q]} class:highlight={data.highlight && data.highlight.includes('q')}
+              >{$l10n[q][$lang]}</span
+            >
+          {/each}
+        </div>
+      </div>
     </div>
   {/each}
 </div>
 
 <style lang="scss">
   #content {
+    font-size: 0.9em;
     margin-bottom: 20px;
   }
 
   .header {
-    font-size: 0.85em;
+    font-size: 0.9em;
     font-weight: bold;
     border-bottom: 1px solid var(--theme-divider);
     padding-top: 10px;
@@ -179,7 +219,11 @@
     }
 
     .name {
-      margin-left: 80px;
+      margin-left: 65px;
+    }
+
+    .separator {
+      margin-right: 11px;
     }
   }
 
@@ -203,11 +247,17 @@
     @media only screen and (max-width: 900px) {
       width: 100%;
     }
+
+    &.separator {
+      border-right: 1px dotted var(--theme-border-light);
+      margin-right: 10px;
+    }
   }
 
   .col {
-    width: 100px;
+    width: 79px;
     padding: 5px;
+    overflow-wrap: break-word;
 
     @media only screen and (max-width: 900px) {
       width: 100%;
@@ -215,7 +265,7 @@
     }
 
     &.icon {
-      width: 80px;
+      width: 65px;
       border: 0;
     }
   }
@@ -227,10 +277,6 @@
   .highlight {
     color: var(--theme-text-body-highlight);
     font-weight: bold;
-  }
-
-  .crit {
-    color: var(--theme-text-body-highlight);
   }
 
   .anemo {
