@@ -153,23 +153,23 @@
   <title>{$l10n['useful-links'][$lang]} | Genshin TL;DR</title>
 </svelte:head>
 
-<div class="top">
-  <h1>{$l10n['useful-links'][$lang]}</h1>
-</div>
+<h1>{$l10n['useful-links'][$lang]}</h1>
 
-{#each links as link, i}
-  <div class="content-col link" class:alt={i % 2 === 0}>
-    <a href={link.url}>
-      <div class="content-row">
-        <h4>{link.name}</h4>
-        {#each link.lang as lang}
-          <div class="label">{lang}</div>
-        {/each}
-      </div>
-      <div class="description">{link.description}</div>
-    </a>
-  </div>
-{/each}
+<div id="content">
+  {#each links as link, i}
+    <div class="content-col link" class:alt={i % 2 === 0}>
+      <a href={link.url}>
+        <div class="content-row">
+          <h4>{link.name}</h4>
+          {#each link.lang as lang}
+            <div class="label">{lang}</div>
+          {/each}
+        </div>
+        <div class="description">{link.description}</div>
+      </a>
+    </div>
+  {/each}
+</div>
 
 <style lang="scss">
   .link {

@@ -36,18 +36,19 @@
   <title>{$l10n['character-scaling'][$lang]} | Genshin TL;DR</title>
 </svelte:head>
 
-<div id="character-scaling">
-  <h1>{$l10n['character-scaling'][$lang]}</h1>
+<h1>{$l10n['character-scaling'][$lang]}</h1>
 
-  <div class="menu">
-    <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+<div class="menu">
+  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+</div>
+
+{#if showFaq}
+  <div id="faq" transition:slide={{ delay: 250, duration: 300, easing: quintOut }}>
+    <svelte:component this={faq[$lang]} />
   </div>
+{/if}
 
-  {#if showFaq}
-    <div id="faq" transition:slide={{ delay: 250, duration: 300, easing: quintOut }}>
-      <svelte:component this={faq[$lang]} />
-    </div>
-  {/if}
+<div id="content">
   <div class="content-row header sticky">
     <div class="col name">{$l10n['name'][$lang]}</div>
     <div class="col base-stat">{$l10n['base-stat'][$lang]}</div>
@@ -151,12 +152,12 @@
 </div>
 
 <style lang="scss">
-  #character-scaling {
+  #content {
     margin-bottom: 20px;
   }
 
   .header {
-    font-size: 0.8em;
+    font-size: 0.85em;
     font-weight: bold;
     border-bottom: 1px solid var(--theme-divider);
     padding-top: 10px;

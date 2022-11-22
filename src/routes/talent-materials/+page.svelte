@@ -39,9 +39,9 @@
   <title>{$l10n['upgrade-material'][$lang]} | Genshin TL;DR</title>
 </svelte:head>
 
-<div id="talent-material">
-  <h1>{$l10n['weekly-mat'][$lang]}</h1>
+<h1>{$l10n['weekly-mat'][$lang]}</h1>
 
+<div id="content">
   <div class="content-row days">
     {#each weekdays as day, i}
       <div class="content-col medium-col" class:alt={i % 2 === 1}><h2>{day[$lang]}</h2></div>
@@ -86,6 +86,10 @@
 </div>
 
 <style lang="scss">
+  #content {
+    margin-top: 40px;
+  }
+
   h2 {
     margin: 10px;
   }
@@ -116,15 +120,11 @@
     }
   }
 
-  .days {
-    margin-top: 40px;
+  .days .medium-col {
+    align-items: center;
 
-    .medium-col {
-      align-items: center;
-
-      @media only screen and (max-width: 960px) {
-        display: none;
-      }
+    @media only screen and (max-width: 960px) {
+      display: none;
     }
   }
 

@@ -30,48 +30,42 @@
   <title>{$l10n['upgrade-material'][$lang]} | Genshin TL;DR</title>
 </svelte:head>
 
-<div id="boss-material">
-  <h1>{$l10n['weekly-boss-mat'][$lang]}</h1>
+<h1>{$l10n['weekly-boss-mat'][$lang]}</h1>
 
-  <div class="materials">
-    {#each Object.entries(bossMaterials) as [boss, bossData], idx}
-      <div class="content-row boss" class:alt={idx % 2 === 1}>
-        <div class="content-row">
-          <Icon id={boss} src="enemy/{boss}" size="220px" />
+<div id="content">
+  {#each Object.entries(bossMaterials) as [boss, bossData], idx}
+    <div class="content-row boss" class:alt={idx % 2 === 1}>
+      <div class="content-row">
+        <Icon id={boss} src="enemy/{boss}" size="220px" />
 
-          <div class="content-col">
-            {#each Object.entries(bossData) as [name, material]}
-              <div class="content-row">
-                <Icon id={name} src="material-weekly-boss/{name}" rarity={material.rarity} />
-                {#if material.characters.length > 0}
-                  <div class="content-row">
-                    {#each material.characters as character}
-                      <Icon
-                        id={character}
-                        title={$characters[character] ? $characters[character].data[$lang].name : character}
-                        src="character/{character}"
-                        rarity={$rarity[character]}
-                      />
-                    {/each}
-                  </div>
-                {/if}
-              </div>
-            {/each}
-          </div>
+        <div class="content-col">
+          {#each Object.entries(bossData) as [name, material]}
+            <div class="content-row">
+              <Icon id={name} src="material-weekly-boss/{name}" rarity={material.rarity} />
+              {#if material.characters.length > 0}
+                <div class="content-row">
+                  {#each material.characters as character}
+                    <Icon
+                      id={character}
+                      title={$characters[character] ? $characters[character].data[$lang].name : character}
+                      src="character/{character}"
+                      rarity={$rarity[character]}
+                    />
+                  {/each}
+                </div>
+              {/if}
+            </div>
+          {/each}
         </div>
       </div>
-    {/each}
-  </div>
+    </div>
+  {/each}
 </div>
 
 <style lang="scss">
-  #boss-material {
-    margin-top: 60px;
-    min-width: 260px;
-  }
-
-  .materials {
+  #content {
     margin-top: 40px;
+    min-width: 260px;
   }
 
   .boss {

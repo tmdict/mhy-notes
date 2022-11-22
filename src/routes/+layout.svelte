@@ -81,6 +81,10 @@
     }
   }
 
+  #content {
+    margin-top: 20px;
+  }
+
   #footer {
     color: #bfbfbf;
     margin: 20px auto;

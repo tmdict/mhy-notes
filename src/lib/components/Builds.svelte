@@ -53,7 +53,7 @@
     <svelte:component this={faq[$lang]} />
   </div>
 {/if}
-<div id="character-builds">
+<div id="content">
   <div id="build-list">
     <div class="content-row header">
       <div class="content-row weapons">{$l10n['weapon'][$lang]}</div>
@@ -86,10 +86,9 @@
 </div>
 
 <style lang="scss">
-  #character-builds {
+  #content {
     display: flex;
     flex-flow: row nowrap;
-    margin-top: 20px;
   }
 
   #build-list {
