@@ -37,7 +37,7 @@ stats:
   - er: '140%'
   - dendro: ''
   - crit: ''
-  - em: '1,000'
+  - atk: '1,100'
 
 talent: 'E > Q = A'
 

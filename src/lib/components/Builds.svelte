@@ -44,11 +44,7 @@
 <div class="menu">
   <a href="/builds/edit">{$l10n['create-builds'][$lang]}</a>
   <span class="menu-separator" />
-  <a
-    href="/#"
-    on:click|preventDefault={() => (showFaq = !showFaq)}
-    on:keydown|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a
-  >
+  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
   <span class="menu-separator" />
   <ManageData />
 </div>

@@ -12,13 +12,8 @@
     .map((char) => ({ ...$misc.scaling.data[char], id: char }));
 
   const colors = {
-    hp: 'common',
-    atk: 'common',
-    def: 'common',
-    em: 'sp',
-    cr: 'sp',
-    cdmg: 'sp',
-    er: 'sp',
+    cr: 'crit',
+    cdmg: 'crit',
     anemo: 'anemo',
     cryo: 'cryo',
     dendro: 'dendro',
@@ -26,12 +21,8 @@
     geo: 'geo',
     heal: 'none',
     hydro: 'hydro',
-    physical: 'none',
-    pyro: 'pyro',
-    'base-atk': 'none',
-    'normal-attack': 'none',
-    'elemental-skill': 'none',
-    'elemental-burst': 'none'
+    physical: 'physical',
+    pyro: 'pyro'
   };
 
   let showFaq = false;
@@ -68,8 +59,8 @@
     <div class="col flex const">{$l10n['constellation'][$lang]}</div>
   </div>
 
-  {#each scaling as data}
-    <div class="content-row row">
+  {#each scaling as data, n}
+    <div class="content-row row" class:alt={n % 2 === 1}>
       <div class="content-row group">
         <div class="col icon">
           <Icon
@@ -94,7 +85,9 @@
           {/if}
           {#each data.a as a, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[a]}>{$l10n[a][$lang]}</span>
+            <span class={colors[a]} class:highlight={data.highlight && data.highlight.includes('a')}
+              >{$l10n[a][$lang]}</span
+            >
           {/each}
         </div>
         <div class="col">
@@ -103,7 +96,9 @@
           {/if}
           {#each data.e as e, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[e]}>{$l10n[e][$lang]}</span>
+            <span class={colors[e]} class:highlight={data.highlight && data.highlight.includes('e')}
+              >{$l10n[e][$lang]}</span
+            >
           {/each}
         </div>
         <div class="col">
@@ -112,7 +107,9 @@
           {/if}
           {#each data.q as q, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[q]}>{$l10n[q][$lang]}</span>
+            <span class={colors[q]} class:highlight={data.highlight && data.highlight.includes('q')}
+              >{$l10n[q][$lang]}</span
+            >
           {/each}
         </div>
       </div>
@@ -215,6 +212,7 @@
       width: 100%;
       border-bottom: 1px dotted var(--theme-border-light);
     }
+
     &.icon {
       width: 80px;
       border: 0;
@@ -225,11 +223,12 @@
     flex-grow: 1;
   }
 
-  .common {
-    color: var(--theme-main-text-normal);
+  .highlight {
+    color: var(--theme-text-body-highlight);
+    font-weight: bold;
   }
 
-  .sp {
+  .crit {
     color: var(--theme-text-body-highlight);
   }
 
@@ -260,6 +259,11 @@
 
   .hydro {
     color: #1c72fd;
+    font-weight: bold;
+  }
+
+  .physical {
+    color: var(--theme-text-strong);
     font-weight: bold;
   }
 

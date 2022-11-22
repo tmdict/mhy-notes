@@ -34,9 +34,9 @@ mainstat:
 
 stats:
   - er: '130%'
+  - em: '1,000'
+  - dendro: ''
   - crit: '30% / 100%'
-  - em: '940'
-  - atk: '1,100'
 
 talent: 'E > Q'
 
