@@ -18,7 +18,7 @@
   <slot name="achievements" />
 </div-->
 
-<h4><a href="/materials">{$l10n['weekly-mat'][$lang]}</a></h4>
+<h4><a href="/talent-materials">{$l10n['weekly-mat'][$lang]}</a></h4>
 
 <div class="section">
   <slot name="materials" />

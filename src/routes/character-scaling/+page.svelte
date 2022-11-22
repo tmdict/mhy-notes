@@ -2,6 +2,8 @@
   import { characters, misc, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
+  import BuildFaqEn from '$lib/components/content/BuildFaq/En.svelte';
+  import BuildFaqZh from '$lib/components/content/BuildFaq/Zh.svelte';
 
   //const scaling = $misc.scaling.data;
 
@@ -34,7 +36,9 @@
     'elemental-burst': 'none'
   };
 
+  let showFaq = false;
   let windowWidth;
+  const faq = { en: BuildFaqEn, zh: BuildFaqZh };
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -46,6 +50,15 @@
 <div id="character-scaling">
   <h1>{$l10n['character-scaling'][$lang]}</h1>
 
+  <div class="menu">
+    <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+  </div>
+
+  {#if showFaq}
+    <div id="faq">
+      <svelte:component this={faq[$lang]} />
+    </div>
+  {/if}
   <div class="content-row header sticky">
     <div class="col name">{$l10n['name'][$lang]}</div>
     <div class="col base-stat">{$l10n['base-stat'][$lang]}</div>
@@ -58,69 +71,85 @@
   </div>
 
   {#each scaling as data}
-    <div class="content-row scale">
-      <div class="col icon">
-        <Icon
-          id={data.id}
-          title={$characters[data.id] ? $characters[data.id].data[$lang].name : data.id}
-          src="character/{data.id}"
-          rarity={$rarity[data.id]}
-          size="50px"
-          margin="0"
-        />
+    <div class="content-row row">
+      <div class="content-row group">
+        <div class="col icon">
+          <Icon
+            id={data.id}
+            title={$characters[data.id] ? $characters[data.id].data[$lang].name : data.id}
+            src="character/{data.id}"
+            rarity={$rarity[data.id]}
+            size="50px"
+            margin="0"
+          />
+        </div>
+        <div class="col"><b>{$characters[data.id].data[$lang].name}</b></div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['base-stat'][$lang]}:</b> {/if}
+          <span class={colors[data.ascension]}>{$l10n[data.ascension][$lang]}</span>
+        </div>
       </div>
-      <div class="col"><b>{$characters[data.id].data[$lang].name}</b></div>
-      <div class="col">
-        {#if windowWidth < 960}<b>{$l10n['base-stat'][$lang]}:</b> {/if}
-        <span class={colors[data.ascension]}>{$l10n[data.ascension][$lang]}</span>
+      <div class="content-row group">
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['a'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.a.length}-{/if}
+          {/if}
+          {#each data.a as a, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[a]}>{$l10n[a][$lang]}</span>
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['e'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.e.length}-{/if}
+          {/if}
+          {#each data.e as e, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[e]}>{$l10n[e][$lang]}</span>
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['q'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.q.length}-{/if}
+          {/if}
+          {#each data.q as q, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[q]}>{$l10n[q][$lang]}</span>
+          {/each}
+        </div>
       </div>
-      <div class="col">
-        {#if windowWidth < 960 && data.a.length > 0}<b>{$l10n['a'][$lang]}:</b> {/if}
-        {#each data.a as a, i}
-          {i > 0 ? ', ' : ''}
-          <span class={colors[a]}>{$l10n[a][$lang]}</span>
-        {/each}
-      </div>
-      <div class="col">
-        {#if windowWidth < 960 && data.e > 0}<b>{$l10n['e'][$lang]}:</b> {/if}
-        {#each data.e as e, i}
-          {i > 0 ? ', ' : ''}
-          <span class={colors[e]}>{$l10n[e][$lang]}</span>
-        {/each}
-      </div>
-      <div class="col">
-        {#if windowWidth < 960 && data.q > 0}<b>{$l10n['q'][$lang]}:</b> {/if}
-        {#each data.q as q, i}
-          {i > 0 ? ', ' : ''}
-          <span class={colors[q]}>{$l10n[q][$lang]}</span>
-        {/each}
-      </div>
-      <div class="col">
-        {#if windowWidth < 960 && data.a1.length > 0}<b>{$l10n['ascension'][$lang]} 1:</b> {/if}
-        {#each data.a1 as a1, i}
-          {i > 0 ? ', ' : ''}
-          <span class={colors[a1]}>{$l10n[a1][$lang]}</span>
-        {/each}
-      </div>
-      <div class="col">
-        {#if windowWidth < 960 && data.a4.length > 0}<b>{$l10n['ascension'][$lang]} 4:</b> {/if}
-        {#each data.a4 as a4, i}
-          {i > 0 ? ', ' : ''}
-          <span class={colors[a4]}>{$l10n[a4][$lang]}</span>
-        {/each}
-      </div>
-      <div class="col flex">
-        {#if windowWidth < 960 && data.const > 0}<b>{$l10n['constellation'][$lang]}:</b> {/if}
-        {#each data.const as con, i}
-          {#each Object.entries(con) as [cname, cstats]}
-            {#if i}<br />{/if}
-            <b>{cname}:</b>
-            {#each cstats as cstat, j}
-              {j > 0 ? ', ' : ''}
-              <span class={colors[cstat]}>{$l10n[cstat][$lang]}</span>
+      <div class="content-row group flex">
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['ascension'][$lang]} 1:</b>
+            {#if windowWidth < 960 && !data.a1.length}-{/if}
+          {/if}
+          {#each data.a1 as a1, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[a1]}>{$l10n[a1][$lang]}</span>
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['ascension'][$lang]} 4:</b>
+            {#if windowWidth < 960 && !data.a4.length}-{/if}
+          {/if}
+          {#each data.a4 as a4, i}
+            {i > 0 ? ', ' : ''}
+            <span class={colors[a4]}>{$l10n[a4][$lang]}</span>
+          {/each}
+        </div>
+        <div class="col flex">
+          {#if windowWidth < 960 && !data.const.length}-{/if}
+          {#each data.const as con, i}
+            {#each Object.entries(con) as [cname, cstats]}
+              {#if i}<br />{/if}
+              <b>{cname}:</b>
+              {#each cstats as cstat, j}
+                {j > 0 ? ', ' : ''}
+                <span class={colors[cstat]}>{$l10n[cstat][$lang]}</span>
+              {/each}
             {/each}
           {/each}
-        {/each}
+        </div>
       </div>
     </div>
   {/each}
@@ -144,7 +173,7 @@
       position: -webkit-sticky; /* for Safari */
       position: sticky;
       top: 0;
-      align-self: flex-start; /* <-- this is the fix */
+      align-self: flex-start;
       background-color: var(--theme-main-bg-color);
     }
 
@@ -157,27 +186,44 @@
     }
   }
 
-  .col {
-    flex: 0 1 100px;
-    padding: 5px;
-
-    &.icon {
-      flex-basis: 80px;
-    }
-
-    &.flex {
-      flex-grow: 1;
-    }
-  }
-
-  .scale {
+  .row {
     font-size: 0.9em;
-    align-items: center;
     border-bottom: 1px dotted var(--theme-border-light);
 
     &:hover {
       background: var(--theme-main-bg-hover);
     }
+  }
+
+  .group {
+    display: inline-flex;
+    align-items: center;
+
+    @media only screen and (max-width: 960px) {
+      align-items: flex-start;
+    }
+
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+    }
+  }
+
+  .col {
+    width: 100px;
+    padding: 5px;
+
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+      border-bottom: 1px dotted var(--theme-border-light);
+    }
+    &.icon {
+      width: 80px;
+      border: 0;
+    }
+  }
+
+  .flex {
+    flex-grow: 1;
   }
 
   .common {
@@ -221,5 +267,9 @@
   .pyro {
     color: #e2311d;
     font-weight: bold;
+  }
+
+  #faq {
+    padding: 20px;
   }
 </style>

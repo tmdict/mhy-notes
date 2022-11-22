@@ -176,7 +176,7 @@
   .menu {
     text-align: center;
     min-width: 300px;
-    margin: 0 auto 10px;
+    margin: 0 auto 30px;
     padding: 5px 20px;
   }
 

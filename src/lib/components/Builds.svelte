@@ -89,7 +89,6 @@
   #character-builds {
     display: flex;
     flex-flow: row nowrap;
-    margin-top: 20px;
   }
 
   #build-list {
