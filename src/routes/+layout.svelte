@@ -116,7 +116,7 @@
     color: var(--theme-text-body-highlight);
     font: 2.4em var(--theme-header-font);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   h2 {
@@ -176,7 +176,7 @@
   .menu {
     text-align: center;
     min-width: 300px;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
     padding: 5px 20px;
   }
 

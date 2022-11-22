@@ -10,9 +10,3 @@
 <h1>{$l10n['character-builds'][$lang]}</h1>
 
 <Builds />
-
-<style lang="scss">
-  h1 {
-    margin-bottom: 15px;
-  }
-</style>

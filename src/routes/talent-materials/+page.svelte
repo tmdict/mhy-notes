@@ -116,11 +116,15 @@
     }
   }
 
-  .days .medium-col {
-    align-items: center;
+  .days {
+    margin-top: 40px;
 
-    @media only screen and (max-width: 960px) {
-      display: none;
+    .medium-col {
+      align-items: center;
+
+      @media only screen and (max-width: 960px) {
+        display: none;
+      }
     }
   }
 
