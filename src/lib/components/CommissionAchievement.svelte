@@ -26,7 +26,12 @@
   }
 </script>
 
-<div class="content-col achievement" class:alt on:click={() => (expand = !expand)}>
+<div
+  class="content-col achievement"
+  class:alt
+  on:click={() => (expand = !expand)}
+  on:keydown={() => (expand = !expand)}
+>
   <div class="content-row">
     <h4 class:complete>{@html content.name}</h4>
     <div class="label region">{$l10n[achievement.region][$lang]}</div>
@@ -35,12 +40,12 @@
       <span class="label commission">{@html commission}</span>
     {/each}
   </div>
-  <div on:click|stopPropagation class="description">
+  <div on:click|stopPropagation on:keydown|stopPropagation class="description">
     {@html content.description}
   </div>
   {#if expand}
     <div transition:slide class="notes-checklist">
-      <span class="notes" on:click|stopPropagation>{@html marked(content.notes)}</span>
+      <span class="notes" on:click|stopPropagation on:keydown|stopPropagation>{@html marked(content.notes)}</span>
       <h5>{$l10n['checklist'][$lang]}</h5>
       <ul>
         {#each achievement.checklist as todo}
@@ -54,7 +59,7 @@
               value={content.checklist[todo]}
               checked={$localData['achievements'][achievement.achievement][todo]}
             />
-            <label on:click|stopPropagation for={todo}>{content.checklist[todo]}</label>
+            <label on:click|stopPropagation on:keydown|stopPropagation for={todo}>{content.checklist[todo]}</label>
           </li>
         {/each}
       </ul>

@@ -44,7 +44,11 @@
 <div class="menu">
   <a href="/builds/edit">{$l10n['create-builds'][$lang]}</a>
   <span class="menu-separator" />
-  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+  <a
+    href="/#"
+    on:click|preventDefault={() => (showFaq = !showFaq)}
+    on:keydown|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a
+  >
   <span class="menu-separator" />
   <ManageData />
 </div>
@@ -72,7 +76,7 @@
     {/each}
   </div>
   <div id="filter-list">
-    <div class="expand-builds" on:click={() => (expandAll = !expandAll)}>
+    <div class="expand-builds" on:click={() => (expandAll = !expandAll)} on:keydown={() => (expandAll = !expandAll)}>
       {#if !expandAll}
         <h4>{$l10n['expand-all'][$lang]}</h4>
       {:else}

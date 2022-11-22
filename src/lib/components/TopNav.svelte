@@ -24,8 +24,7 @@
 <span class="separator">·</span>
 <div id="svg-icons">
   <a class="last" href="https://github.com/tmdict/genshin-tldr"><GitIcon /></a>
-  <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <div class="theme-toggle" on:click={toggle}>
+  <div class="theme-toggle" on:click={toggle} on:keydown={toggle}>
     {#if isDark}
       <ToggleLight />
     {:else}

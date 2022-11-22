@@ -91,10 +91,14 @@
       autocomplete="off"
     />
     <div class:showAutocompleteResults class="autocomplete-results-container" autocomplete="off">
-      <div class="click-catcher" on:click={hideResults} />
+      <div class="click-catcher" on:click={hideResults} on:keydown={hideResults} />
       <ul class="results-list" class:border-none={!matches.length}>
         {#each matches as match, index (match)}
-          <li on:click={() => handleSubmit(match)} class:highlight={index === highlightIndex}>
+          <li
+            class:highlight={index === highlightIndex}
+            on:click={() => handleSubmit(match)}
+            on:keydown={() => handleSubmit(match)}
+          >
             {Object.keys(l10n).length === 0 ? match : l10n[match] ? l10n[match] : match}
           </li>
         {/each}

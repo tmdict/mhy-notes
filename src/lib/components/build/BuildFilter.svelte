@@ -13,17 +13,27 @@
 </script>
 
 <div class="filter">
-  <h4 class={isCollapse ? 'show' : 'collapse'} on:click={updateCollapse}>{$l10n[filter.name][$lang]}</h4>
+  <h4 class={isCollapse ? 'show' : 'collapse'} on:click={updateCollapse} on:keydown={updateCollapse}>
+    {$l10n[filter.name][$lang]}
+  </h4>
   {#if !isCollapse}
     <ul transition:slide={{ duration: 200 }}>
       <li>
-        <div class="list-text" on:click={() => filters.resetByType(filter.name)}>{$l10n['all'][$lang]}</div>
+        <div
+          class="list-text"
+          on:click={() => filters.resetByType(filter.name)}
+          on:keydown={() => filters.resetByType(filter.name)}
+        >
+          {$l10n['all'][$lang]}
+        </div>
       </li>
       {#each filter.filter as item}
         <BuildFilterItem name={filter.name} type={filter.type} {item} />
       {/each}
       <li>
-        <div class="list-text" on:click={() => filters.reset()}>{$l10n['clear-all'][$lang]}</div>
+        <div class="list-text" on:click={() => filters.reset()} on:keydown={() => filters.reset()}>
+          {$l10n['clear-all'][$lang]}
+        </div>
       </li>
     </ul>
   {/if}

@@ -18,6 +18,7 @@
     class="quick list-{type === 'icon' ? 'icon' : 'text'}"
     class:active={$filters[name].quick === item}
     on:click={() => filters.updateQuickFilter(name, item)}
+    on:keydown={() => filters.updateQuickFilter(name, item)}
   >
     {#if type === 'icon'}
       <Icon
@@ -35,6 +36,7 @@
     class="common list-{type}"
     class:active={$filters[name].common.includes(item)}
     on:click={() => filters.updateCommonFilter(name, item)}
+    on:keydown={() => filters.updateCommonFilter(name, item)}
   />
 </li>
 

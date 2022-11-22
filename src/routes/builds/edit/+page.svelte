@@ -111,8 +111,11 @@
       <div class="share">
         <a href="/#" on:click|preventDefault={saveBuild}>{$l10n['save'][$lang]}</a> ·
         <a href="/builds/build#{encoded}">{$l10n['share'][$lang]}</a> ·
-        <span class="copy" title="Copy to clipboard" on:click={() => copyToClipboard(`/builds/build#${encoded}`)}
-          ><Copy /></span
+        <span
+          class="copy"
+          title="Copy to clipboard"
+          on:click={() => copyToClipboard(`/builds/build#${encoded}`)}
+          on:keydown={() => copyToClipboard(`/builds/build#${encoded}`)}><Copy /></span
         >
       </div>
     {/if}
@@ -157,12 +160,21 @@
         {/each}
         <div class="content-row add-remove">
           {#if $buildEditor['num'].weapons < 3}
-            <span class="add-input" on:click={() => buildEditor.addInput('weapons', 3)}>+</span>
+            <span
+              class="add-input"
+              on:click={() => buildEditor.addInput('weapons', 3)}
+              on:keydown={() => buildEditor.addInput('weapons', 3)}>+</span
+            >
           {/if}
           {#if $buildEditor['num'].weapons > 1}
             <span
               class="remove-input"
               on:click={() =>
+                buildEditor.removeInput(
+                  'weapons',
+                  Object.values(buildEditor.getKeys.weapon($buildEditor['num']['weapons'] - 1))
+                )}
+              on:keydown={() =>
                 buildEditor.removeInput(
                   'weapons',
                   Object.values(buildEditor.getKeys.weapon($buildEditor['num']['weapons'] - 1))
@@ -178,12 +190,21 @@
         {/each}
         <div class="content-row add-remove">
           {#if $buildEditor['num'].artifacts < 3}
-            <span class="add-input" on:click={() => buildEditor.addInput('artifacts', 3)}>+</span>
+            <span
+              class="add-input"
+              on:click={() => buildEditor.addInput('artifacts', 3)}
+              on:keydown={() => buildEditor.addInput('artifacts', 3)}>+</span
+            >
           {/if}
           {#if $buildEditor['num'].artifacts > 1}
             <span
               class="remove-input"
               on:click={() =>
+                buildEditor.removeInput(
+                  'artifacts',
+                  Object.values(buildEditor.getKeys.artifact($buildEditor['num']['artifacts'] - 1))
+                )}
+              on:keydown={() =>
                 buildEditor.removeInput(
                   'artifacts',
                   Object.values(buildEditor.getKeys.artifact($buildEditor['num']['artifacts'] - 1))
@@ -214,12 +235,20 @@
             </div>
             <div class="content-row add-remove">
               {#if $buildEditor['num']['mainstat'][piece] < 2}
-                <span class="add-input" on:click={() => buildEditor.addNestedInput('mainstat', piece, 2)}>+</span>
+                <span
+                  class="add-input"
+                  on:click={() => buildEditor.addNestedInput('mainstat', piece, 2)}
+                  on:keydown={() => buildEditor.addNestedInput('mainstat', piece, 2)}>+</span
+                >
               {/if}
               {#if $buildEditor['num']['mainstat'][piece] > 1}
                 <span
                   class="remove-input"
                   on:click={() =>
+                    buildEditor.removeNestedInput('mainstat', piece, [
+                      buildEditor.getKeys.mainstat(piece, $buildEditor['num']['mainstat'][piece] - 1).mainstat
+                    ])}
+                  on:keydown={() =>
                     buildEditor.removeNestedInput('mainstat', piece, [
                       buildEditor.getKeys.mainstat(piece, $buildEditor['num']['mainstat'][piece] - 1).mainstat
                     ])}>-</span
@@ -237,12 +266,21 @@
         {/each}
         <div class="content-row add-remove">
           {#if $buildEditor['num'].stats < 4}
-            <span class="add-input" on:click={() => buildEditor.addInput('stats', 4)}>+</span>
+            <span
+              class="add-input"
+              on:click={() => buildEditor.addInput('stats', 4)}
+              on:keydown={() => buildEditor.addInput('stats', 4)}>+</span
+            >
           {/if}
           {#if $buildEditor['num'].stats > 1}
             <span
               class="remove-input"
               on:click={() =>
+                buildEditor.removeInput(
+                  'stats',
+                  Object.values(buildEditor.getKeys.stat($buildEditor['num']['stats'] - 1))
+                )}
+              on:keydown={() =>
                 buildEditor.removeInput(
                   'stats',
                   Object.values(buildEditor.getKeys.stat($buildEditor['num']['stats'] - 1))

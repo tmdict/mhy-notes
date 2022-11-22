@@ -10,11 +10,10 @@
   }
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="lang-select">
   <ul>
-    <li on:click={() => setLang('en')}><img src="/img/en.png" alt="en" /> EN</li>
-    <li on:click={() => setLang('zh')}><img src="/img/zh.png" alt="zh" /> 中文</li>
+    <li on:click={() => setLang('en')} on:keydown={() => setLang('en')}><img src="/img/en.png" alt="en" /> EN</li>
+    <li on:click={() => setLang('zh')} on:keydown={() => setLang('zh')}><img src="/img/zh.png" alt="zh" /> 中文</li>
   </ul>
 </div>
 

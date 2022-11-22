@@ -10,12 +10,11 @@
   }, {});
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
 {#each artifacts as artifact, i}
   <div class="content-row" class:divider={i !== 0}>
     {#each artifact.set as set}
       {@const details = data[set] ? data[set].data[$lang] : false}
-      <div class="artifact" on:click|stopPropagation>
+      <div class="artifact" on:click|stopPropagation on:keydown|stopPropagation>
         <Icon
           id={set}
           title={details ? details['name'] : set}
