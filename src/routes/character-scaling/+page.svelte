@@ -1,17 +1,15 @@
 <script>
+  import { slide } from 'svelte/transition';
+  import { quintOut } from 'svelte/easing';
   import { characters, misc, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
-  import BuildFaqEn from '$lib/components/content/BuildFaq/En.svelte';
-  import BuildFaqZh from '$lib/components/content/BuildFaq/Zh.svelte';
-
-  //const scaling = $misc.scaling.data;
+  import ScalingFaqEn from '$lib/components/content/ScalingFaq/En.svelte';
+  import ScalingFaqZh from '$lib/components/content/ScalingFaq/Zh.svelte';
 
   let scaling = Object.keys($misc.scaling.data)
     .sort((a, b) => $characters[b].released.localeCompare($characters[a].released) || b.localeCompare(a))
     .map((char) => ({ ...$misc.scaling.data[char], id: char }));
-
-  //console.log(asd);
 
   const colors = {
     hp: 'common',
@@ -38,7 +36,7 @@
 
   let showFaq = false;
   let windowWidth;
-  const faq = { en: BuildFaqEn, zh: BuildFaqZh };
+  const faq = { en: ScalingFaqEn, zh: ScalingFaqZh };
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -55,7 +53,7 @@
   </div>
 
   {#if showFaq}
-    <div id="faq">
+    <div id="faq" transition:slide={{ delay: 250, duration: 300, easing: quintOut }}>
       <svelte:component this={faq[$lang]} />
     </div>
   {/if}
@@ -164,6 +162,7 @@
     font-size: 0.8em;
     font-weight: bold;
     border-bottom: 1px solid var(--theme-divider);
+    padding-top: 10px;
 
     @media only screen and (max-width: 960px) {
       display: none;
