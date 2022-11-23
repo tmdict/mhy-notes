@@ -62,6 +62,7 @@
     .map((char) => ({ ...$misc.scaling.data[char], id: char }));
 
   let showFaq = false;
+  let showFilter = false;
   let windowWidth;
   let filteredScalings = allScalings;
 
@@ -85,7 +86,9 @@
         }
         if (base === 'base-stat') {
           // base-stat is a value
-          return filters.stat.common.includes(item[base]);
+          if (filters.stat.common.includes(item[base])) {
+            return true;
+          }
         } else if (base === 'constellation') {
           // constellation is an array of Object
           for (const c of item[base]) {
@@ -126,7 +129,7 @@
 <div class="menu">
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
   <span class="menu-separator" />
-  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['filters'][$lang]}</a>
+  <a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}>{$l10n['filters'][$lang]}</a>
 </div>
 
 {#if showFaq}
@@ -135,44 +138,48 @@
   </div>
 {/if}
 
-<div class="filter">
-  <ul>
-    {#each baseFilter as base}
+{#if showFilter}
+  <div class="filter" transition:slide>
+    <ul>
+      {#each baseFilter as base}
+        <li>
+          <a
+            class:active={$charScalingFilters.base.common.includes(base)}
+            href="/#"
+            on:click|preventDefault={() => charScalingFilters.updateCommonFilter('base', base)}>{$l10n[base][$lang]}</a
+          >
+        </li>
+      {/each}
+      <li><a href="/#" on:click|preventDefault={() => addAll(baseFilter, 'base')}>{$l10n['all'][$lang]}</a></li>
       <li>
-        <a
-          class:active={$charScalingFilters.base.common.includes(base)}
-          href="/#"
-          on:click|preventDefault={() => charScalingFilters.updateCommonFilter('base', base)}>{$l10n[base][$lang]}</a
+        <a href="/#" on:click|preventDefault={() => charScalingFilters.resetByType('base')}
+          >{$l10n['clear-all'][$lang]}</a
         >
       </li>
-    {/each}
-    <li><a href="/#" on:click|preventDefault={() => addAll(baseFilter, 'base')}>{$l10n['all'][$lang]}</a></li>
-    <li>
-      <a href="/#" on:click|preventDefault={() => charScalingFilters.resetByType('base')}>{$l10n['clear-all'][$lang]}</a
-      >
-    </li>
-  </ul>
-</div>
+    </ul>
+  </div>
 
-<div class="filter">
-  <h4>{$l10n['stats'][$lang]}</h4>
-  <ul>
-    {#each statFilter as stat}
+  <div class="filter">
+    <h4>{$l10n['stats'][$lang]}</h4>
+    <ul>
+      {#each statFilter as stat}
+        <li>
+          <a
+            class:active={$charScalingFilters.stat.common.includes(stat)}
+            href="/#"
+            on:click|preventDefault={() => charScalingFilters.updateCommonFilter('stat', stat)}>{$l10n[stat][$lang]}</a
+          >
+        </li>
+      {/each}
+      <li><a href="/#" on:click|preventDefault={() => addAll(statFilter, 'stat')}>{$l10n['all'][$lang]}</a></li>
       <li>
-        <a
-          class:active={$charScalingFilters.stat.common.includes(stat)}
-          href="/#"
-          on:click|preventDefault={() => charScalingFilters.updateCommonFilter('stat', stat)}>{$l10n[stat][$lang]}</a
+        <a href="/#" on:click|preventDefault={() => charScalingFilters.resetByType('stat')}
+          >{$l10n['clear-all'][$lang]}</a
         >
       </li>
-    {/each}
-    <li><a href="/#" on:click|preventDefault={() => addAll(statFilter, 'stat')}>{$l10n['all'][$lang]}</a></li>
-    <li>
-      <a href="/#" on:click|preventDefault={() => charScalingFilters.resetByType('stat')}>{$l10n['clear-all'][$lang]}</a
-      >
-    </li>
-  </ul>
-</div>
+    </ul>
+  </div>
+{/if}
 
 <div id="content">
   <div class="content-row header sticky">
@@ -206,7 +213,8 @@
         <div class="col">
           {#if windowWidth < 960}<b>{$l10n['base-stat'][$lang]}:</b> {/if}
           <span
-            class:highlight={$charScalingFilters.stat.common.includes(data['base-stat'])}
+            class:highlight={$charScalingFilters.stat.common.includes(data['base-stat']) &&
+              $charScalingFilters.base.common.includes('base-stat')}
             class={colors[data['base-stat']]}>{$l10n[data['base-stat']][$lang]}</span
           >
         </div>
@@ -221,7 +229,8 @@
             {i > 0 ? ', ' : ''}
             <span
               class={colors[a]}
-              class:highlight={$charScalingFilters.stat.common.includes(a)}
+              class:highlight={$charScalingFilters.stat.common.includes(a) &&
+                $charScalingFilters.base.common.includes('a')}
               class:recommended={data['recommended-talent'] && data['recommended-talent'].includes('a')}
               >{$l10n[a][$lang]}</span
             >
@@ -235,7 +244,8 @@
             {i > 0 ? ', ' : ''}
             <span
               class={colors[e]}
-              class:highlight={$charScalingFilters.stat.common.includes(e)}
+              class:highlight={$charScalingFilters.stat.common.includes(e) &&
+                $charScalingFilters.base.common.includes('e')}
               class:recommended={data['recommended-talent'] && data['recommended-talent'].includes('e')}
               >{$l10n[e][$lang]}</span
             >
@@ -249,7 +259,8 @@
             {i > 0 ? ', ' : ''}
             <span
               class={colors[q]}
-              class:highlight={$charScalingFilters.stat.common.includes(q)}
+              class:highlight={$charScalingFilters.stat.common.includes(q) &&
+                $charScalingFilters.base.common.includes('q')}
               class:recommended={data['recommended-talent'] && data['recommended-talent'].includes('q')}
               >{$l10n[q][$lang]}</span
             >
@@ -264,7 +275,11 @@
           {/if}
           {#each data.a1 as a1, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[a1]}>{$l10n[a1][$lang]}</span>
+            <span
+              class:highlight={$charScalingFilters.stat.common.includes(a1) &&
+                $charScalingFilters.base.common.includes('a1')}
+              class={colors[a1]}>{$l10n[a1][$lang]}</span
+            >
           {/each}
         </div>
         <div class="col">
@@ -273,7 +288,11 @@
           {/if}
           {#each data.a4 as a4, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[a4]}>{$l10n[a4][$lang]}</span>
+            <span
+              class:highlight={$charScalingFilters.stat.common.includes(a4) &&
+                $charScalingFilters.base.common.includes('a4')}
+              class={colors[a4]}>{$l10n[a4][$lang]}</span
+            >
           {/each}
         </div>
         <div class="col constellation">
@@ -284,7 +303,11 @@
               <b>{cname}:</b>
               {#each cstats as cstat, j}
                 {j > 0 ? ', ' : ''}
-                <span class={colors[cstat]}>{$l10n[cstat][$lang]}</span>
+                <span
+                  class:highlight={$charScalingFilters.stat.common.includes(cstat) &&
+                    $charScalingFilters.base.common.includes('constellation')}
+                  class={colors[cstat]}>{$l10n[cstat][$lang]}</span
+                >
               {/each}
             {/each}
           {/each}
@@ -298,7 +321,11 @@
           {/if}
           {#each data.sand as stat, i}
             {i > 0 ? ', ' : ''}
-            <span class={'highlight ' + colors[stat]}>{$l10n[stat][$lang]}</span>
+            <span
+              class:highlight={$charScalingFilters.stat.common.includes(stat) &&
+                $charScalingFilters.base.common.includes('sand')}
+              class={colors[stat]}>{$l10n[stat][$lang]}</span
+            >
           {/each}
         </div>
         <div class="col">
@@ -307,7 +334,11 @@
           {/if}
           {#each data.goblet as stat, i}
             {i > 0 ? ', ' : ''}
-            <span class={'highlight ' + colors[stat]}>{$l10n[stat][$lang]}</span>
+            <span
+              class:highlight={$charScalingFilters.stat.common.includes(stat) &&
+                $charScalingFilters.base.common.includes('goblet')}
+              class={colors[stat]}>{$l10n[stat][$lang]}</span
+            >
           {/each}
         </div>
         <div class="col">
@@ -316,7 +347,11 @@
           {/if}
           {#each data.circlet as stat, i}
             {i > 0 ? ', ' : ''}
-            <span class={'highlight ' + colors[stat]}>{$l10n[stat][$lang]}</span>
+            <span
+              class:highlight={$charScalingFilters.stat.common.includes(stat) &&
+                $charScalingFilters.base.common.includes('circlet')}
+              class={colors[stat]}>{$l10n[stat][$lang]}</span
+            >
           {/each}
         </div>
       </div>
