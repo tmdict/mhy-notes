@@ -116,7 +116,10 @@
 <h1>{$l10n['character-scaling'][$lang]}</h1>
 
 <div class="menu">
-  <a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}>{$l10n['filters'][$lang]}</a>
+  <a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}
+    >{$l10n['filters'][$lang]}
+    {#if showFilter}-{:else}+{/if}</a
+  >
   <span class="menu-separator" />
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
 </div>
