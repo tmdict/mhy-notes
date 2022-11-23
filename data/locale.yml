@@ -5,6 +5,12 @@ _na:
 a:
   en: 'A'
   zh: 'A'
+a1:
+  en: 'Ascend 1'
+  zh: '升级1'
+a4:
+  en: 'Ascend 4'
+  zh: '升级4'
 achievements:
   en: 'Achievements'
   zh: '成就'
@@ -23,9 +29,6 @@ artifact-mainstats:
 artifact:
   en: 'Artifact'
   zh: '圣遗物'
-ascension:
-  en: 'Ascend'
-  zh: '升级'
 set-2p-bonus:
   en: '2 Piece Bonus'
   zh: '2件套效果'
@@ -317,6 +320,9 @@ submitted-by:
 support:
   en: 'Support'
   zh: '辅助'
+recommended-talent:
+  en: 'Recommended Talent'
+  zh: '推荐天赋'
 talent-materials:
   en: 'Talent Materials'
   zh: '天赋升级材料'

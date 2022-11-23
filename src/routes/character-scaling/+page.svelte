@@ -22,9 +22,46 @@
     pyro: 'pyro'
   };
 
+  const statFilter = [
+    'hp',
+    'atk',
+    'def',
+    'em',
+    'crit-abbr',
+    'cr',
+    'cdmg',
+    'er',
+    'pyro',
+    'cryo',
+    'hydro',
+    'electro',
+    'geo',
+    'anemo',
+    'physical',
+    'heal'
+  ];
+
+  const baseFilter = [
+    'base-stat',
+    'a',
+    'e',
+    'q',
+    'a1',
+    'a4',
+    'constellation',
+    'sand',
+    'goblet',
+    'circlet',
+    'recommended-talent'
+  ];
+
+  const faq = { en: ScalingFaqEn, zh: ScalingFaqZh };
+
   let showFaq = false;
   let windowWidth;
-  const faq = { en: ScalingFaqEn, zh: ScalingFaqZh };
+
+  let selectedStats = [...statFilter];
+  let selectedBase = [];
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -47,6 +84,23 @@
   </div>
 {/if}
 
+<div class="filter">
+  <ul>
+    {#each baseFilter as filter}
+      <li><a href="/#">{$l10n[filter][$lang]}</a></li>
+    {/each}
+  </ul>
+</div>
+
+<div class="filter">
+  <h4>{$l10n['stats'][$lang]}</h4>
+  <ul>
+    {#each statFilter as filter}
+      <li><a href="/#">{$l10n[filter][$lang]}</a></li>
+    {/each}
+  </ul>
+</div>
+
 <div id="content">
   <div class="content-row header sticky">
     <div class="col name">{$l10n['name'][$lang]}</div>
@@ -54,8 +108,8 @@
     <div class="col normal-attack">{$l10n['a'][$lang]}</div>
     <div class="col elemental-skill">{$l10n['e'][$lang]}</div>
     <div class="col elemental-burst">{$l10n['q'][$lang]}</div>
-    <div class="col ascension-1">{$l10n['ascension'][$lang]} 1</div>
-    <div class="col ascension-4">{$l10n['ascension'][$lang]} 4</div>
+    <div class="col ascension-1">{$l10n['a1'][$lang]}</div>
+    <div class="col ascension-4">{$l10n['a4'][$lang]}</div>
     <div class="col constellation separator">{$l10n['constellation'][$lang]}</div>
     <div class="col sand">{$l10n['sand'][$lang]}</div>
     <div class="col goblet">{$l10n['goblet'][$lang]}</div>
@@ -89,7 +143,7 @@
           {/if}
           {#each data.a as a, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[a]} class:highlight={data.highlight && data.talent.includes('a')}
+            <span class={colors[a]} class:highlight={data.highlight && data['recommended-talent'].includes('a')}
               >{$l10n[a][$lang]}</span
             >
           {/each}
@@ -100,7 +154,7 @@
           {/if}
           {#each data.e as e, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[e]} class:highlight={data.highlight && data.talent.includes('e')}
+            <span class={colors[e]} class:highlight={data.highlight && data['recommended-talent'].includes('e')}
               >{$l10n[e][$lang]}</span
             >
           {/each}
@@ -111,7 +165,7 @@
           {/if}
           {#each data.q as q, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[q]} class:highlight={data.highlight && data.talent.includes('q')}
+            <span class={colors[q]} class:highlight={data.highlight && data['recommended-talent'].includes('q')}
               >{$l10n[q][$lang]}</span
             >
           {/each}
@@ -120,7 +174,7 @@
 
       <div class="content-row group ascension separator">
         <div class="col">
-          {#if windowWidth < 960}<b>{$l10n['ascension'][$lang]} 1:</b>
+          {#if windowWidth < 960}<b>{$l10n['a1'][$lang]}:</b>
             {#if windowWidth < 960 && !data.a1.length}-{/if}
           {/if}
           {#each data.a1 as a1, i}
@@ -129,7 +183,7 @@
           {/each}
         </div>
         <div class="col">
-          {#if windowWidth < 960}<b>{$l10n['ascension'][$lang]} 4:</b>
+          {#if windowWidth < 960}<b>{$l10n['a4'][$lang]}:</b>
             {#if windowWidth < 960 && !data.a4.length}-{/if}
           {/if}
           {#each data.a4 as a4, i}
@@ -326,5 +380,37 @@
 
   #faq {
     padding: 0 20px 20px;
+  }
+
+  .filter {
+    margin: 15px 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    h4 {
+      text-align: center;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: center;
+
+      li {
+        display: list-item;
+        margin: 0 5px 5px 0;
+
+        a {
+          display: block;
+          padding: 5px 10px;
+          border: 1px solid var(--theme-border-light);
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 </style>
