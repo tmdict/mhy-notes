@@ -2,7 +2,8 @@
 
 <p>
   Information on which stats each character scales with, as well as recommended main stats for different artifact
-  pieces, used to help decide whether an artifact with certain main and sub stats is good for a character.
+  pieces, used to help decide whether an artifact with certain main and sub stats is good for a character, or which
+  off-piece artifact to keep.
 </p>
 
 <p>
@@ -34,18 +35,18 @@
 
 <ul>
   <li>
-    <span class="highlight">A stat is highlighted</span> if it's selected in the stats filter AND is a scaling-stat for the
+    A stat <span class="highlight">is highlighted</span> if it's selected in the stats filter AND is a scaling-stat for the
     key selected in the keys filter.
   </li>
 
   <li>
-    <span class="recommended">A stat is highlighted</span> if it's a scaling stat for a talent (normal attack, elemental
+    A stat <span class="recommended">is highlighted</span> if it's a scaling stat for a talent (normal attack, elemental
     skill, or elemental burst) AND said talent is the top recommended talent (the one that should be leveled first) for that
     character's "meta" build.
   </li>
 
   <li>
-    All elemental damage bonus stats are show under their respective color: <span class="anemo"
+    All elemental damage bonus stats are shown in their respective color: <span class="anemo"
       >Anemo, <span class="cryo"
         >Cryo, <span class="dendro"
           >Dendro, <span class="electro"
