@@ -226,6 +226,46 @@
     background: url('/img/rarity/sp.png');
   }
 
+  .anemo {
+    color: #33ccb3;
+    font-weight: bold;
+  }
+
+  .cryo {
+    color: #98c8e8;
+    font-weight: bold;
+  }
+
+  .dendro {
+    color: #7bb42d;
+    font-weight: bold;
+  }
+
+  .electro {
+    color: #d376f0;
+    font-weight: bold;
+  }
+
+  .geo {
+    color: #cfa726;
+    font-weight: bold;
+  }
+
+  .hydro {
+    color: #1c72fd;
+    font-weight: bold;
+  }
+
+  .physical {
+    color: var(--theme-text-strong);
+    font-weight: bold;
+  }
+
+  .pyro {
+    color: #e2311d;
+    font-weight: bold;
+  }
+
   .overlay {
     position: absolute;
     text-align: right;

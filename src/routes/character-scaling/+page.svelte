@@ -13,7 +13,6 @@
     dendro: 'dendro',
     electro: 'electro',
     geo: 'geo',
-    heal: 'none',
     hydro: 'hydro',
     physical: 'physical',
     pyro: 'pyro'
@@ -41,19 +40,7 @@
     'elemental-burst'
   ];
 
-  const baseFilter = [
-    'base-stat',
-    'a',
-    'e',
-    'q',
-    'a1',
-    'a4',
-    'constellation',
-    'sand',
-    'goblet',
-    'circlet',
-    'recommended-talent'
-  ];
+  const baseFilter = ['base-stat', 'a', 'e', 'q', 'a1', 'a4', 'constellation', 'sand', 'goblet', 'circlet'];
 
   const faq = { en: ScalingFaqEn, zh: ScalingFaqZh };
 
@@ -127,9 +114,9 @@
 <h1>{$l10n['character-scaling'][$lang]}</h1>
 
 <div class="menu">
-  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
-  <span class="menu-separator" />
   <a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}>{$l10n['filters'][$lang]}</a>
+  <span class="menu-separator" />
+  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
 </div>
 
 {#if showFaq}
@@ -140,6 +127,7 @@
 
 {#if showFilter}
   <div class="filter" transition:slide>
+    <h4>Keys</h4>
     <ul>
       {#each baseFilter as base}
         <li>
@@ -457,46 +445,6 @@
 
   .recommended {
     color: var(--theme-primary-red);
-  }
-
-  .anemo {
-    color: #33ccb3;
-    font-weight: bold;
-  }
-
-  .cryo {
-    color: #98c8e8;
-    font-weight: bold;
-  }
-
-  .dendro {
-    color: #7bb42d;
-    font-weight: bold;
-  }
-
-  .electro {
-    color: #d376f0;
-    font-weight: bold;
-  }
-
-  .geo {
-    color: #cfa726;
-    font-weight: bold;
-  }
-
-  .hydro {
-    color: #1c72fd;
-    font-weight: bold;
-  }
-
-  .physical {
-    color: var(--theme-text-strong);
-    font-weight: bold;
-  }
-
-  .pyro {
-    color: #e2311d;
-    font-weight: bold;
   }
 
   #faq {
