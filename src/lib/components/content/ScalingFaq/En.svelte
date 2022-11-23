@@ -68,7 +68,7 @@
   }
 
   .recommended {
-    color: var(--theme-primary-red);
+    color: var(--theme-text-body-highlight-alt2);
     font-weight: bold;
   }
 </style>
