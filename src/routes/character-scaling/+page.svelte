@@ -121,8 +121,8 @@
   <div class="header sticky">
     <div class="content-row top">
       <div class="col empty separator" />
-      <div class="col mainstat separator">Artifact Main Stat</div>
-      <div class="col charscaling">Character Scaling</div>
+      <div class="col mainstat separator">{$l10n['artifact-mainstats'][$lang]}</div>
+      <div class="col charscaling">{$l10n['character-scaling'][$lang]}</div>
     </div>
     <div class="content-row">
       <div class="col name">{$l10n['name'][$lang]}</div>
@@ -193,13 +193,13 @@
 
     .top {
       border-top: 1px solid var(--theme-divider);
-      border-bottom: 1px solid var(--theme-divider);
+      border-bottom: 1px dotted var(--theme-border-light);
       color: #777;
     }
 
     .col {
       width: 75px;
-      padding: 2px 5px;
+      padding: 3px 5px;
     }
 
     .empty {
