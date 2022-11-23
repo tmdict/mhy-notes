@@ -1,6 +1,5 @@
 <script>
   import { slide } from 'svelte/transition';
-  import { quintOut } from 'svelte/easing';
   import { characters, misc, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
@@ -38,10 +37,12 @@
 
 <div class="menu">
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+  <span class="menu-separator" />
+  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['filters'][$lang]}</a>
 </div>
 
 {#if showFaq}
-  <div id="faq" transition:slide={{ delay: 250, duration: 300, easing: quintOut }}>
+  <div id="faq" transition:slide>
     <svelte:component this={faq[$lang]} />
   </div>
 {/if}
@@ -63,7 +64,7 @@
 
   {#each scaling as data, n}
     <div class="content-row row" class:alt={n % 2 === 1}>
-      <div class="content-row group separator">
+      <div class="content-row group basic separator">
         <div class="col icon">
           <Icon
             id={data.id}
@@ -81,14 +82,14 @@
         </div>
       </div>
 
-      <div class="content-row group">
+      <div class="content-row group talent">
         <div class="col">
           {#if windowWidth < 960}<b>{$l10n['a'][$lang]}:</b>
             {#if windowWidth < 960 && !data.a.length}-{/if}
           {/if}
           {#each data.a as a, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[a]} class:highlight={data.highlight && data.highlight.includes('a')}
+            <span class={colors[a]} class:highlight={data.highlight && data.talent.includes('a')}
               >{$l10n[a][$lang]}</span
             >
           {/each}
@@ -99,7 +100,7 @@
           {/if}
           {#each data.e as e, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[e]} class:highlight={data.highlight && data.highlight.includes('e')}
+            <span class={colors[e]} class:highlight={data.highlight && data.talent.includes('e')}
               >{$l10n[e][$lang]}</span
             >
           {/each}
@@ -110,14 +111,14 @@
           {/if}
           {#each data.q as q, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[q]} class:highlight={data.highlight && data.highlight.includes('q')}
+            <span class={colors[q]} class:highlight={data.highlight && data.talent.includes('q')}
               >{$l10n[q][$lang]}</span
             >
           {/each}
         </div>
       </div>
 
-      <div class="content-row group separator">
+      <div class="content-row group ascension separator">
         <div class="col">
           {#if windowWidth < 960}<b>{$l10n['ascension'][$lang]} 1:</b>
             {#if windowWidth < 960 && !data.a1.length}-{/if}
@@ -136,7 +137,7 @@
             <span class={colors[a4]}>{$l10n[a4][$lang]}</span>
           {/each}
         </div>
-        <div class="col">
+        <div class="col constellation">
           {#if windowWidth < 960 && !data.const.length}-{/if}
           {#each data.const as con, i}
             {#each Object.entries(con) as [cname, cstats]}
@@ -151,38 +152,32 @@
         </div>
       </div>
 
-      <div class="content-row group">
+      <div class="content-row group artifact">
         <div class="col">
-          {#if windowWidth < 960}<b>{$l10n['a'][$lang]}:</b>
-            {#if windowWidth < 960 && !data.a.length}-{/if}
-          {/if}
-          {#each data.a as a, i}
-            {i > 0 ? ', ' : ''}
-            <span class={colors[a]} class:highlight={data.highlight && data.highlight.includes('a')}
-              >{$l10n[a][$lang]}</span
-            >
-          {/each}
-        </div>
-        <div class="col">
-          {#if windowWidth < 960}<b>{$l10n['e'][$lang]}:</b>
-            {#if windowWidth < 960 && !data.e.length}-{/if}
-          {/if}
-          {#each data.e as e, i}
-            {i > 0 ? ', ' : ''}
-            <span class={colors[e]} class:highlight={data.highlight && data.highlight.includes('e')}
-              >{$l10n[e][$lang]}</span
-            >
-          {/each}
-        </div>
-        <div class="col">
-          {#if windowWidth < 960}<b>{$l10n['q'][$lang]}:</b>
+          {#if windowWidth < 960}<b>{$l10n['sand'][$lang]}:</b>
             {#if windowWidth < 960 && !data.q.length}-{/if}
           {/if}
-          {#each data.q as q, i}
+          {#each data.sand as stat, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[q]} class:highlight={data.highlight && data.highlight.includes('q')}
-              >{$l10n[q][$lang]}</span
-            >
+            <span class={'highlight ' + colors[stat]}>{$l10n[stat][$lang]}</span>
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['goblet'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.q.length}-{/if}
+          {/if}
+          {#each data.goblet as stat, i}
+            {i > 0 ? ', ' : ''}
+            <span class={'highlight ' + colors[stat]}>{$l10n[stat][$lang]}</span>
+          {/each}
+        </div>
+        <div class="col">
+          {#if windowWidth < 960}<b>{$l10n['circlet'][$lang]}:</b>
+            {#if windowWidth < 960 && !data.q.length}-{/if}
+          {/if}
+          {#each data.circlet as stat, i}
+            {i > 0 ? ', ' : ''}
+            <span class={'highlight ' + colors[stat]}>{$l10n[stat][$lang]}</span>
           {/each}
         </div>
       </div>
@@ -222,6 +217,10 @@
       margin-left: 65px;
     }
 
+    .sand {
+      margin-left: 35px;
+    }
+
     .separator {
       margin-right: 11px;
     }
@@ -241,42 +240,48 @@
     align-items: center;
 
     @media only screen and (max-width: 960px) {
-      align-items: flex-start;
-    }
-
-    @media only screen and (max-width: 900px) {
-      width: 100%;
+      width: 50%;
     }
 
     &.separator {
       border-right: 1px dotted var(--theme-border-light);
       margin-right: 10px;
+
+      @media only screen and (max-width: 960px) {
+        border-right: 0;
+        margin-right: 0;
+      }
+    }
+
+    &.talent .highlight {
+      font-weight: bold;
+    }
+
+    .col {
+      &.icon {
+        width: 65px;
+        border: 0;
+      }
+
+      &.constellation {
+        min-width: 110px;
+      }
     }
   }
 
   .col {
-    width: 79px;
+    width: 75px;
     padding: 5px;
     overflow-wrap: break-word;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 960px) {
       width: 100%;
       border-bottom: 1px dotted var(--theme-border-light);
     }
-
-    &.icon {
-      width: 65px;
-      border: 0;
-    }
-  }
-
-  .flex {
-    flex-grow: 1;
   }
 
   .highlight {
     color: var(--theme-text-body-highlight);
-    font-weight: bold;
   }
 
   .anemo {

@@ -62,6 +62,9 @@ builds:
 burst:
   en: 'Burst'
   zh: '爆发'
+cdmg:
+  en: 'CDmg%'
+  zh: '暴伤'
 character:
   en: 'Character'
   zh: '角色'
@@ -83,6 +86,9 @@ clear-all:
 close-all:
   en: 'Close All'
   zh: '关闭全部'
+commission-achievements:
+  en: 'Daily Commission Achievements'
+  zh: '每日委托成就'
 completed:
   en: 'Incomplete'
   zh: '未完成'
@@ -98,12 +104,9 @@ create-builds:
 crit:
   en: 'Crit%/CDmg'
   zh: '暴'
-cdmg:
-  en: 'CDmg%'
-  zh: '暴伤'
-commission-achievements:
-  en: 'Daily Commission Achievements'
-  zh: '每日委托成就'
+crit-abbr:
+  en: 'Crit'
+  zh: '暴'
 cryo:
   en: 'Cryo'
   zh: '冰'
@@ -170,6 +173,9 @@ f2p:
 faq:
   en: 'FAQ'
   zh: '介绍'
+filters:
+  en: 'Filters'
+  zh: '搜索'
 freedom:
   en: 'Freedom'
   zh: '自由'

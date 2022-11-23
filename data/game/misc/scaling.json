@@ -12,7 +12,10 @@
       "const": [
         { "C2": ["def"] }
       ],
-      "highlight": ["e"]
+      "sand": ["def"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr", "def"],
+      "talent": ["e"]
     },
     "aloy": {
       "ascension": "cryo",
@@ -22,7 +25,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["atk"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "amber": {
       "ascension": "atk",
@@ -34,7 +40,10 @@
       "const": [
         { "C1": ["normal-attack"] }
       ],
-      "highlight": ["q"]
+      "sand": ["atk", "er"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "arataki-itto": {
       "ascension": "cr",
@@ -44,7 +53,10 @@
       "a1": [],
       "a4": ["atk"],
       "const": [],
-      "highlight": ["a"]
+      "sand": ["def"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "barbara": {
       "ascension": "hp",
@@ -54,7 +66,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["hp", "er"],
+      "goblet": ["hp"],
+      "circlet": ["heal"],
+      "talent": ["q"]
     },
     "beidou": {
       "ascension": "electro",
@@ -67,7 +82,10 @@
         { "C1": ["hp"] },
         { "C4": ["atk"] }
       ],
-      "highlight": ["q"]
+      "sand": ["er", "atk"],
+      "goblet": ["electro", "atk"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "bennett": {
       "ascension": "er",
@@ -80,7 +98,10 @@
         { "C1": ["atk"] },
         { "C4": ["elemental-skill"] }
       ],
-      "highlight": ["q"]
+      "sand": ["er", "atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "candace": {
       "ascension": "hp",
@@ -92,7 +113,10 @@
       "const": [
         { "C6": ["hp"] }
       ],
-      "highlight": ["q"]
+      "sand": ["hp", "er"],
+      "goblet": ["hp"],
+      "circlet": ["crit-abbr", "hp"],
+      "talent": ["q"]
     },
     "chongyun": {
       "ascension": "atk",
@@ -104,7 +128,10 @@
       "const": [
         { "C1": ["atk"] }
       ],
-      "highlight": ["q"]
+      "sand": ["atk", "er", "em"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "collei": {
       "ascension": "atk",
@@ -117,7 +144,10 @@
         { "C2": ["atk"] },
         { "C6": ["atk"] }
       ],
-      "highlight": ["q"]
+      "sand": ["er", "atk"],
+      "goblet": ["dendro", "em"],
+      "circlet": ["crit-abbr", "em"],
+      "talent": ["q"]
     },
     "cyno": {
       "ascension": "cdmg",
@@ -127,7 +157,10 @@
       "a1": ["atk"],
       "a4": ["em"],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["em", "atk"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "diluc": {
       "ascension": "cr",
@@ -137,7 +170,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["a"]
+      "sand": ["em", "atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "diona": {
       "ascension": "cryo",
@@ -149,7 +185,10 @@
       "const": [
         { "C2": ["elemental-skill"] }
       ],
-      "highlight": ["e", "q"]
+      "sand": ["hp", "er"],
+      "goblet": ["hp"],
+      "circlet": ["hp", "heal"],
+      "talent": ["e", "q"]
     },
     "dori": {
       "ascension": "hp",
@@ -162,7 +201,10 @@
         { "C2": ["atk"] },
         { "C6": ["hp"] }
       ],
-      "highlight": ["q"]
+      "sand": ["hp", "er"],
+      "goblet": ["hp"],
+      "circlet": ["heal"],
+      "talent": ["q"]
     },
     "eula": {
       "ascension": "cdmg",
@@ -172,7 +214,10 @@
       "a1": ["elemental-burst"],
       "a4": [],
       "const": [],
-      "highlight": ["a", "q"]
+      "sand": ["atk"],
+      "goblet": ["physical"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a", "q"]
     },
     "fischl": {
       "ascension": "atk",
@@ -187,7 +232,10 @@
         { "C4": ["hp", "atk"] },
         { "C6": ["atk"] }
       ],
-      "highlight": ["e"]
+      "sand": ["atk"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "ganyu": {
       "ascension": "cdmg",
@@ -197,7 +245,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["a"]
+      "sand": ["atk", "em"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "gorou": {
       "ascension": "geo",
@@ -209,7 +260,10 @@
       "const": [
         { "C2": ["def"] }
       ],
-      "highlight": ["e"]
+      "sand": ["er"],
+      "goblet": ["geo", "def"],
+      "circlet": ["crit-abbr", "def"],
+      "talent": ["e"]
     },
     "hu-tao": {
       "ascension": "cdmg",
@@ -221,7 +275,10 @@
       "const": [
         { "C2": ["hp"] }
       ],
-      "highlight": ["a"]
+      "sand": ["hp", "em"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "jean": {
       "ascension": "heal",
@@ -231,7 +288,10 @@
       "a1": ["atk"],
       "a4": [],
       "const": [],
-      "highlight": ["e", "q"]
+      "sand": ["atk", "er"],
+      "goblet": ["atk", "anemo"],
+      "circlet": ["heal", "crit-abbr"],
+      "talent": ["e", "q"]
     },
     "kaedehara-kazuha": {
       "ascension": "em",
@@ -243,7 +303,10 @@
       "const": [
         { "C6": ["em"] }
       ],
-      "highlight": ["q"]
+      "sand": ["em", "er"],
+      "goblet": ["em"],
+      "circlet": ["em"],
+      "talent": ["q"]
     },
     "kaeya": {
       "ascension": "er",
@@ -255,7 +318,10 @@
       "const": [
         { "C4": ["em"] }
       ],
-      "highlight": ["q"]
+      "sand": ["er", "atk"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "kamisato-ayaka": {
       "ascension": "cdmg",
@@ -267,7 +333,10 @@
       "const": [
         { "C2": ["elemental-burst"] }
       ],
-      "highlight": ["q"]
+      "sand": ["atk"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr", "atk"],
+      "talent": ["q"]
     },
     "kamisato-ayato": {
       "ascension": "cdmg",
@@ -279,7 +348,10 @@
       "const": [
         { "C6": ["atk"] }
       ],
-      "highlight": ["e"]
+      "sand": ["atk"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "keqing": {
       "ascension": "cdmg",
@@ -291,7 +363,10 @@
       "const": [
         { "C1": ["atk"] }
       ],
-      "highlight": ["a"]
+      "sand": ["atk"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "klee": {
       "ascension": "pyro",
@@ -304,7 +379,10 @@
         { "C1": ["elemental-burst"] },
         { "C4": ["atk"] }
       ],
-      "highlight": ["a"]
+      "sand": ["atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "kujou-sara": {
       "ascension": "atk",
@@ -316,7 +394,10 @@
       "const": [
         { "C2": ["elemental-skill"] }
       ],
-      "highlight": ["e"]
+      "sand": ["er", "atk"],
+      "goblet": ["electro", "atk"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "kuki-shinobu": {
       "ascension": "hp",
@@ -328,7 +409,10 @@
       "const": [
         { "C4": ["hp"] }
       ],
-      "highlight": ["e"]
+      "sand": ["hp", "em"],
+      "goblet": ["hp", "em"],
+      "circlet": ["heal", "em"],
+      "talent": ["e"]
     },
     "layla": {
       "ascension": "hp",
@@ -340,7 +424,10 @@
       "const": [
         { "C4": ["hp"] }
       ],
-      "highlight": ["e"]
+      "sand": ["hp", "er"],
+      "goblet": ["hp", "cryo"],
+      "circlet": ["hp", "crit-abbr"],
+      "talent": ["e"]
     },
     "lisa": {
       "ascension": "em",
@@ -350,7 +437,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["atk", "er"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "mona": {
       "ascension": "er",
@@ -360,7 +450,10 @@
       "a1": ["elemental-skill"],
       "a4": ["er"],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["er"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "nahida": {
       "ascension": "em",
@@ -372,7 +465,10 @@
       "const": [
         { "C6": ["atk", "em"] }
       ],
-      "highlight": ["e"]
+      "sand": ["em"],
+      "goblet": ["em", "dendro"],
+      "circlet": ["em", "crit-abbr"],
+      "talent": ["e"]
     },
     "nilou": {
       "ascension": "hp",
@@ -384,7 +480,10 @@
       "const": [
         { "C6": ["hp"] }
       ],
-      "highlight": ["q"]
+      "sand": ["hp"],
+      "goblet": ["hp"],
+      "circlet": ["hp"],
+      "talent": ["q"]
     },
     "ningguang": {
       "ascension": "geo",
@@ -394,7 +493,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["a"]
+      "sand": ["atk"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "noelle": {
       "ascension": "def",
@@ -407,7 +509,10 @@
         { "C4": ["atk"] },
         { "C6": ["def"] }
       ],
-      "highlight": ["a"]
+      "sand": ["def"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "qiqi": {
       "ascension": "heal",
@@ -417,7 +522,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["atk", "er"],
+      "goblet": ["atk"],
+      "circlet": ["heal", "atk"],
+      "talent": ["q"]
     },
     "raiden-shogun": {
       "ascension": "er",
@@ -427,7 +535,10 @@
       "a1": [],
       "a4": ["er"],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["er", "atk"],
+      "goblet": ["electro", "atk"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "razor": {
       "ascension": "physical",
@@ -439,7 +550,10 @@
       "const": [
         { "C4": ["atk"] }
       ],
-      "highlight": ["a"]
+      "sand": ["atk"],
+      "goblet": ["physical"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "rosaria": {
       "ascension": "atk",
@@ -449,7 +563,10 @@
       "a1": [],
       "a4": ["cr"],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["atk", "er"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "sangonomiya-kokomi": {
       "ascension": "hydro",
@@ -462,7 +579,10 @@
         { "C1": ["hp"] },
         { "C2": ["hp"] }
       ],
-      "highlight": ["e"]
+      "sand": ["hp", "er"],
+      "goblet": ["hp"],
+      "circlet": ["heal"],
+      "talent": ["e"]
     },
     "sayu": {
       "ascension": "em",
@@ -474,7 +594,10 @@
       "const": [
         { "C6": ["atk", "em"] }
       ],
-      "highlight": ["q"]
+      "sand": ["em", "er"],
+      "goblet": ["atk", "em"],
+      "circlet": ["heal", "em"],
+      "talent": ["q"]
     },
     "shenhe": {
       "ascension": "atk",
@@ -484,7 +607,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["atk", "er"],
+      "goblet": ["atk"],
+      "circlet": ["atk"],
+      "talent": ["e"]
     },
     "shikanoin-heizou": {
       "ascension": "anemo",
@@ -494,7 +620,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["atk"],
+      "goblet": ["anemo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "sucrose": {
       "ascension": "anemo",
@@ -504,7 +633,10 @@
       "a1": [],
       "a4": ["em"],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["em", "er"],
+      "goblet": ["em"],
+      "circlet": ["em"],
+      "talent": ["e"]
     },
     "tartaglia": {
       "ascension": "hydro",
@@ -516,7 +648,10 @@
       "const": [
         { "C4": ["normal-attack", "elemental-skill"] }
       ],
-      "highlight": ["e"]
+      "sand": ["atk"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "thoma": {
       "ascension": "atk",
@@ -526,7 +661,10 @@
       "a1": [],
       "a4": ["hp"],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["er", "hp"],
+      "goblet": ["hp"],
+      "circlet": ["hp", "crit-abbr"],
+      "talent": ["e"]
     },
     "tighnari": {
       "ascension": "dendro",
@@ -538,7 +676,10 @@
       "const": [
         { "C6": ["atk"] }
       ],
-      "highlight": ["a"]
+      "sand": ["em", "atk"],
+      "goblet": ["dendro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "traveler-anemo": {
       "ascension": "atk",
@@ -548,7 +689,10 @@
       "a1": ["atk"],
       "a4": [],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["em", "atk"],
+      "goblet": ["em", "anemo"],
+      "circlet": ["em", "crit-abbr"],
+      "talent": ["e"]
     },
     "traveler-dendro": {
       "ascension": "atk",
@@ -558,7 +702,10 @@
       "a1": [],
       "a4": ["em"],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["em", "er"],
+      "goblet": ["dendro", "em"],
+      "circlet": ["crit-abbr", "em"],
+      "talent": ["q"]
     },
     "traveler-electro": {
       "ascension": "atk",
@@ -568,7 +715,10 @@
       "a1": [],
       "a4": ["er"],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["er"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "traveler-geo": {
       "ascension": "atk",
@@ -580,7 +730,10 @@
       "const": [
         { "C2": ["elemental-skill"] }
       ],
-      "highlight": ["e", "q"]
+      "sand": ["atk"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e", "q"]
     },
     "venti": {
       "ascension": "er",
@@ -592,7 +745,10 @@
       "const": [
         { "C1": ["normal-attack"] }
       ],
-      "highlight": ["q"]
+      "sand": ["em", "atk"],
+      "goblet": ["em", "anemo"],
+      "circlet": ["em", "crit-abbr"],
+      "talent": ["q"]
     },
     "xiangling": {
       "ascension": "em",
@@ -604,7 +760,10 @@
       "const": [
         { "C2": ["atk"] }
       ],
-      "highlight": ["q"]
+      "sand": ["em", "er"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "xiao": {
       "ascension": "cr",
@@ -614,7 +773,10 @@
       "a1": [],
       "a4": [],
       "const": [],
-      "highlight": ["a"]
+      "sand": ["atk"],
+      "goblet": ["anemo", "atk"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "xingqiu": {
       "ascension": "atk",
@@ -624,7 +786,10 @@
       "a1": ["hp"],
       "a4": [],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["er", "atk"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "xinyan": {
       "ascension": "atk",
@@ -636,7 +801,10 @@
       "const": [
         { "C6": ["def"] }
       ],
-      "highlight": ["a"]
+      "sand": ["atk"],
+      "goblet": ["physical"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "yae-miko": {
       "ascension": "cr",
@@ -646,7 +814,10 @@
       "a1": [],
       "a4": ["em"],
       "const": [],
-      "highlight": ["e"]
+      "sand": ["atk", "er"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["e"]
     },
     "yanfei": {
       "ascension": "cr",
@@ -658,7 +829,10 @@
       "const": [
         { "C4": ["hp"] }
       ],
-      "highlight": ["a"]
+      "sand": ["atk", "em"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "yelan": {
       "ascension": "cr",
@@ -671,7 +845,10 @@
         { "C2": ["hp"] },
         { "C6": ["normal-attack"] }
       ],
-      "highlight": ["q"]
+      "sand": ["er", "hp"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["q"]
     },
     "yoimiya": {
       "ascension": "cr",
@@ -683,7 +860,10 @@
       "const": [
         { "C6": ["normal-attack"] }
       ],
-      "highlight": ["a"]
+      "sand": ["atk", "em"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "talent": ["a"]
     },
     "yun-jin": {
       "ascension": "er",
@@ -693,7 +873,10 @@
       "a1": [],
       "a4": ["def"],
       "const": [],
-      "highlight": ["q"]
+      "sand": ["def"],
+      "goblet": ["def"],
+      "circlet": ["def", "crit-abbr"],
+      "talent": ["q"]
     },
     "zhongli": {
       "ascension": "geo",
@@ -705,7 +888,10 @@
       "const": [
         { "C6": ["hp"] }
       ],
-      "highlight": ["e"]
+      "sand": ["hp"],
+      "goblet": ["hp"],
+      "circlet": ["hp"],
+      "talent": ["e"]
     }
   }
 }
