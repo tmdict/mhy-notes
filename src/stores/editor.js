@@ -31,7 +31,7 @@ export const availableInputs = derived([artifacts, characters, weapons], ([$arti
     }, {}),
     characters: ['-', ...Object.keys($characters).sort()],
     sand: ['hp', 'atk', 'def', 'er', 'em'],
-    goblet: ['hp', 'atk', 'def', 'em', 'pyro', 'cryo', 'hydro', 'electro', 'geo', 'anemo', 'physical'],
+    goblet: ['hp', 'atk', 'def', 'em', 'pyro', 'cryo', 'dendro', 'hydro', 'electro', 'geo', 'anemo', 'physical'],
     circlet: ['hp', 'atk', 'def', 'crit', 'em', 'heal'],
     stat: ['hp', 'atk', 'crit', 'def', 'er', 'em'],
     talents: ['a', 'e', 'q'],

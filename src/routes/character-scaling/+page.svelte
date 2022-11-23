@@ -33,8 +33,10 @@
     'electro',
     'geo',
     'anemo',
+    'dendro',
     'physical',
     'heal',
+    'base-atk',
     'normal-attack',
     'elemental-skill',
     'elemental-burst'
