@@ -48,8 +48,8 @@
     .sort((a, b) => $characters[b].released.localeCompare($characters[a].released) || b.localeCompare(a))
     .map((char) => ({ ...$misc.scaling.data[char], id: char }));
 
+  let showFilter = true;
   let showFaq = false;
-  let showFilter = false;
   let windowWidth;
   let filteredScalings = allScalings;
 
