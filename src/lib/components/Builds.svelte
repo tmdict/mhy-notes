@@ -1,6 +1,6 @@
 <script>
   import { builds, buildfilters } from '@store/builds';
-  import { filters } from '@store/filterlist';
+  import { buildsFilters } from '@store/filterlist';
   import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
   import Build from '$lib/components/build/Build.svelte';
@@ -13,12 +13,12 @@
   let showFaq = false;
   let filteredBuilds = $builds;
   let filteredSavedBuilds = $localData['builds'];
-  filters.init(Object.keys($buildfilters));
+  buildsFilters.init(Object.keys($buildfilters));
   const faq = { en: BuildFaqEn, zh: BuildFaqZh };
 
   $: {
-    filteredBuilds = filterBuilds($builds, Object.values($filters));
-    filteredSavedBuilds = filterBuilds($localData['builds'], Object.values($filters));
+    filteredBuilds = filterBuilds($builds, Object.values($buildsFilters));
+    filteredSavedBuilds = filterBuilds($localData['builds'], Object.values($buildsFilters));
   }
 
   function filterBuilds(list, filters) {

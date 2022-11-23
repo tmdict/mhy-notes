@@ -55,4 +55,5 @@ function createFilters() {
   };
 }
 
-export const filters = createFilters();
+export const buildsFilters = createFilters();
+export const charScalingFilters = createFilters();

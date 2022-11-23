@@ -1,5 +1,5 @@
 <script>
-  import { filters } from '@store/filterlist';
+  import { buildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
@@ -10,15 +10,15 @@
 </script>
 
 <li
-  class:active={$filters[name].quick === item || $filters[name].common.includes(item)}
+  class:active={$buildsFilters[name].quick === item || $buildsFilters[name].common.includes(item)}
   on:mouseenter={() => (isHover = item)}
   on:mouseleave={() => (isHover = '')}
 >
   <div
     class="quick list-{type === 'icon' ? 'icon' : 'text'}"
-    class:active={$filters[name].quick === item}
-    on:click={() => filters.updateQuickFilter(name, item)}
-    on:keydown={() => filters.updateQuickFilter(name, item)}
+    class:active={$buildsFilters[name].quick === item}
+    on:click={() => buildsFilters.updateQuickFilter(name, item)}
+    on:keydown={() => buildsFilters.updateQuickFilter(name, item)}
   >
     {#if type === 'icon'}
       <Icon
@@ -34,9 +34,9 @@
   </div>
   <div
     class="common list-{type}"
-    class:active={$filters[name].common.includes(item)}
-    on:click={() => filters.updateCommonFilter(name, item)}
-    on:keydown={() => filters.updateCommonFilter(name, item)}
+    class:active={$buildsFilters[name].common.includes(item)}
+    on:click={() => buildsFilters.updateCommonFilter(name, item)}
+    on:keydown={() => buildsFilters.updateCommonFilter(name, item)}
   />
 </li>
 
@@ -69,7 +69,7 @@
       background: var(--theme-filter-active-color);
 
       &:hover {
-        background: var(--theme-filter-active-hover-color);
+        background: var(--theme-filter-active-alt-color);
       }
     }
 
@@ -97,7 +97,7 @@
       min-height: 45px;
 
       &:hover {
-        background: var(--theme-filter-active-hover-color);
+        background: var(--theme-filter-active-alt-color);
         min-height: 70px;
       }
     }

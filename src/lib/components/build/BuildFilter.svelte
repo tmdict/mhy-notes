@@ -1,6 +1,6 @@
 <script>
   import { slide } from 'svelte/transition';
-  import { filters } from '@store/filterlist';
+  import { buildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
   import BuildFilterItem from '$lib/components/build/BuildFilterItem.svelte';
 
@@ -21,8 +21,8 @@
       <li>
         <div
           class="list-text"
-          on:click={() => filters.resetByType(filter.name)}
-          on:keydown={() => filters.resetByType(filter.name)}
+          on:click={() => buildsFilters.resetByType(filter.name)}
+          on:keydown={() => buildsFilters.resetByType(filter.name)}
         >
           {$l10n['all'][$lang]}
         </div>
@@ -31,7 +31,7 @@
         <BuildFilterItem name={filter.name} type={filter.type} {item} />
       {/each}
       <li>
-        <div class="list-text" on:click={() => filters.reset()} on:keydown={() => filters.reset()}>
+        <div class="list-text" on:click={() => buildsFilters.reset()} on:keydown={() => buildsFilters.reset()}>
           {$l10n['clear-all'][$lang]}
         </div>
       </li>

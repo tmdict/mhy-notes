@@ -13,7 +13,7 @@
     "main-bg-hover": "#e0d9d1",
     "filter-hover-color": "#e0d9d1",
     "filter-active-color": "#fff",
-    "filter-active-hover-color": "#e0d9d1",
+    "filter-active-alt-color": "#e0d9d1",
     "input-bg": "#fff",
     "label-bg": "#fff",
     "label-bg-highlight": "#333",

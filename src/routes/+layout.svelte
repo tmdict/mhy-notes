@@ -277,7 +277,7 @@
   @import 'tippy.js/animations/scale-subtle.css';
 
   .tippy-box[data-theme~='custom'] {
-    background-color: var(--theme-filter-active-hover-color);
+    background-color: var(--theme-filter-active-alt-color);
     border: 1px solid #555;
     border-radius: 5px;
     font: 1rem normal var(--theme-main-font);

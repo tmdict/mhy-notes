@@ -1,14 +1,11 @@
 <script>
   import { slide } from 'svelte/transition';
+  import { charScalingFilters } from '@store/filterlist';
   import { characters, misc, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
   import ScalingFaqEn from '$lib/components/content/ScalingFaq/En.svelte';
   import ScalingFaqZh from '$lib/components/content/ScalingFaq/Zh.svelte';
-
-  let scaling = Object.keys($misc.scaling.data)
-    .sort((a, b) => $characters[b].released.localeCompare($characters[a].released) || b.localeCompare(a))
-    .map((char) => ({ ...$misc.scaling.data[char], id: char }));
 
   const colors = {
     anemo: 'anemo',
@@ -38,7 +35,10 @@
     'geo',
     'anemo',
     'physical',
-    'heal'
+    'heal',
+    'normal-attack',
+    'elemental-skill',
+    'elemental-burst'
   ];
 
   const baseFilter = [
@@ -57,11 +57,62 @@
 
   const faq = { en: ScalingFaqEn, zh: ScalingFaqZh };
 
+  const allScalings = Object.keys($misc.scaling.data)
+    .sort((a, b) => $characters[b].released.localeCompare($characters[a].released) || b.localeCompare(a))
+    .map((char) => ({ ...$misc.scaling.data[char], id: char }));
+
   let showFaq = false;
   let windowWidth;
+  let filteredScalings = allScalings;
 
-  let selectedStats = [...statFilter];
-  let selectedBase = [];
+  charScalingFilters.init(['stat', 'base']);
+  charScalingFilters.updateCommonFilter('base', 'a');
+  charScalingFilters.updateCommonFilter('base', 'e');
+  charScalingFilters.updateCommonFilter('base', 'q');
+  charScalingFilters.updateCommonFilter('base', 'sand');
+  charScalingFilters.updateCommonFilter('base', 'goblet');
+  charScalingFilters.updateCommonFilter('base', 'circlet');
+  statFilter.forEach((stat) => charScalingFilters.updateCommonFilter('stat', stat));
+
+  $: filteredScalings = filterScalings(allScalings, $charScalingFilters);
+
+  function filterScalings(list, filters) {
+    return list.filter((item) => {
+      for (const base of baseFilter) {
+        // Go through each base filter and check if it is selected
+        if (!filters.base.common.includes(base)) {
+          continue;
+        }
+        if (base === 'base-stat') {
+          // base-stat is a value
+          return filters.stat.common.includes(item[base]);
+        } else if (base === 'constellation') {
+          // constellation is an array of Object
+          for (const c of item[base]) {
+            if (
+              Object.values(c)
+                .flat()
+                .some((e) => filters.stat.common.includes(e))
+            ) {
+              return true;
+            }
+          }
+        } else {
+          // If at least one element in current scaling base is selected in stats filter
+          if (item[base].some((e) => filters.stat.common.includes(e))) {
+            return true;
+          }
+        }
+      }
+      // Selected filters not found in current character scaling
+      return false;
+    });
+  }
+
+  function addAll(filters, type) {
+    charScalingFilters.resetByType(type);
+    filters.forEach((item) => charScalingFilters.updateCommonFilter(type, item));
+  }
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
@@ -86,18 +137,40 @@
 
 <div class="filter">
   <ul>
-    {#each baseFilter as filter}
-      <li><a href="/#">{$l10n[filter][$lang]}</a></li>
+    {#each baseFilter as base}
+      <li>
+        <a
+          class:active={$charScalingFilters.base.common.includes(base)}
+          href="/#"
+          on:click|preventDefault={() => charScalingFilters.updateCommonFilter('base', base)}>{$l10n[base][$lang]}</a
+        >
+      </li>
     {/each}
+    <li><a href="/#" on:click|preventDefault={() => addAll(baseFilter, 'base')}>{$l10n['all'][$lang]}</a></li>
+    <li>
+      <a href="/#" on:click|preventDefault={() => charScalingFilters.resetByType('base')}>{$l10n['clear-all'][$lang]}</a
+      >
+    </li>
   </ul>
 </div>
 
 <div class="filter">
   <h4>{$l10n['stats'][$lang]}</h4>
   <ul>
-    {#each statFilter as filter}
-      <li><a href="/#">{$l10n[filter][$lang]}</a></li>
+    {#each statFilter as stat}
+      <li>
+        <a
+          class:active={$charScalingFilters.stat.common.includes(stat)}
+          href="/#"
+          on:click|preventDefault={() => charScalingFilters.updateCommonFilter('stat', stat)}>{$l10n[stat][$lang]}</a
+        >
+      </li>
     {/each}
+    <li><a href="/#" on:click|preventDefault={() => addAll(statFilter, 'stat')}>{$l10n['all'][$lang]}</a></li>
+    <li>
+      <a href="/#" on:click|preventDefault={() => charScalingFilters.resetByType('stat')}>{$l10n['clear-all'][$lang]}</a
+      >
+    </li>
   </ul>
 </div>
 
@@ -116,7 +189,7 @@
     <div class="col circlet">{$l10n['circlet'][$lang]}</div>
   </div>
 
-  {#each scaling as data, n}
+  {#each filteredScalings as data, n}
     <div class="content-row row" class:alt={n % 2 === 1}>
       <div class="content-row group basic separator">
         <div class="col icon">
@@ -132,7 +205,10 @@
         <div class="col"><b>{$characters[data.id].data[$lang].name}</b></div>
         <div class="col">
           {#if windowWidth < 960}<b>{$l10n['base-stat'][$lang]}:</b> {/if}
-          <span class={colors[data.ascension]}>{$l10n[data.ascension][$lang]}</span>
+          <span
+            class:highlight={$charScalingFilters.stat.common.includes(data['base-stat'])}
+            class={colors[data['base-stat']]}>{$l10n[data['base-stat']][$lang]}</span
+          >
         </div>
       </div>
 
@@ -143,7 +219,10 @@
           {/if}
           {#each data.a as a, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[a]} class:highlight={data.highlight && data['recommended-talent'].includes('a')}
+            <span
+              class={colors[a]}
+              class:highlight={$charScalingFilters.stat.common.includes(a)}
+              class:recommended={data['recommended-talent'] && data['recommended-talent'].includes('a')}
               >{$l10n[a][$lang]}</span
             >
           {/each}
@@ -154,7 +233,10 @@
           {/if}
           {#each data.e as e, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[e]} class:highlight={data.highlight && data['recommended-talent'].includes('e')}
+            <span
+              class={colors[e]}
+              class:highlight={$charScalingFilters.stat.common.includes(e)}
+              class:recommended={data['recommended-talent'] && data['recommended-talent'].includes('e')}
               >{$l10n[e][$lang]}</span
             >
           {/each}
@@ -165,7 +247,10 @@
           {/if}
           {#each data.q as q, i}
             {i > 0 ? ', ' : ''}
-            <span class={colors[q]} class:highlight={data.highlight && data['recommended-talent'].includes('q')}
+            <span
+              class={colors[q]}
+              class:highlight={$charScalingFilters.stat.common.includes(q)}
+              class:recommended={data['recommended-talent'] && data['recommended-talent'].includes('q')}
               >{$l10n[q][$lang]}</span
             >
           {/each}
@@ -192,8 +277,8 @@
           {/each}
         </div>
         <div class="col constellation">
-          {#if windowWidth < 960 && !data.const.length}-{/if}
-          {#each data.const as con, i}
+          {#if windowWidth < 960 && !data.constellation.length}-{/if}
+          {#each data.constellation as con, i}
             {#each Object.entries(con) as [cname, cstats]}
               {#if i}<br />{/if}
               <b>{cname}:</b>
@@ -307,10 +392,6 @@
       }
     }
 
-    &.talent .highlight {
-      font-weight: bold;
-    }
-
     .col {
       &.icon {
         width: 65px;
@@ -336,6 +417,11 @@
 
   .highlight {
     color: var(--theme-text-body-highlight);
+    font-weight: bold;
+  }
+
+  .recommended {
+    color: var(--theme-primary-red);
   }
 
   .anemo {
@@ -408,6 +494,15 @@
 
           &:hover {
             text-decoration: none;
+          }
+
+          &.active {
+            background-color: var(--theme-filter-active-alt-color);
+            border: 1px solid var(--theme-divider);
+
+            &:hover {
+              background-color: var(--theme-filter-active-color);
+            }
           }
         }
       }
