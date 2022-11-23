@@ -1,5 +1,5 @@
 <script>
-  import { slide } from 'svelte/transition';
+  import { slide, fade } from 'svelte/transition';
   import { charScalingFilters } from '@store/filterlist';
   import { characters, misc, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
@@ -197,7 +197,7 @@
   </div>
 
   {#each filteredScalings as data, n}
-    <div class="content-row row" class:alt={n % 2 === 1}>
+    <div class="content-row row" class:alt={n % 2 === 1} transition:fade>
       <div class="content-row group basic separator">
         <div class="col icon">
           <Icon
@@ -507,6 +507,11 @@
     margin: 15px 40px;
     align-items: flex-start;
     justify-content: space-between;
+    font-size: 0.95em;
+
+    @media only screen and (max-width: 960px) {
+      margin: 5px 10px;
+    }
 
     h4 {
       text-align: center;
