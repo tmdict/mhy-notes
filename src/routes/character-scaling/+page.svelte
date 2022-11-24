@@ -230,6 +230,10 @@
     font-size: 0.9em;
     border-bottom: 1px dotted var(--theme-border-light);
 
+    @media only screen and (max-width: 960px) {
+      border-bottom: 0;
+    }
+
     &:hover {
       background: var(--theme-main-bg-hover);
     }

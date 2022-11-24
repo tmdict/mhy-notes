@@ -52,7 +52,6 @@
     padding-left: 15px;
 
     @media only screen and (max-width: 460px) {
-      border-left: none;
       margin-left: 5px;
       padding-left: 5px;
     }

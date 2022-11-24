@@ -42,6 +42,7 @@
 
     @media only screen and (max-width: 960px) {
       margin: 5px 0;
+      font-size: 0.8em;
     }
 
     h4 {
