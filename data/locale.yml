@@ -191,6 +191,9 @@ goblet:
 gold:
   en: 'Gold'
   zh: '黄金'
+guides:
+  en: 'Guides'
+  zh: '攻略'
 heal:
   en: 'Heal'
   zh: '治'
@@ -284,6 +287,9 @@ recommended-artifact-mainstats:
 resistance:
   en: 'Resistance'
   zh: '抗争'
+resources:
+  en: 'Resources'
+  zh: '资源'
 sand:
   en: 'Sand'
   zh: '沙'

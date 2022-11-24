@@ -4,6 +4,6 @@
 
 <style lang="scss">
   #intro {
-    padding: 0 20px 20px;
+    padding: 20px 40px;
   }
 </style>

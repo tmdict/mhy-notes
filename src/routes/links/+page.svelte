@@ -1,13 +1,7 @@
 <script>
   import { l10n, lang } from '@store/site';
 
-  const links = [
-    {
-      name: 'Keqing Mains',
-      lang: ['English'],
-      url: 'https://keqingmains.com/',
-      description: 'Comprehensive theorycrafting and guides.'
-    },
+  const guides = [
     {
       name: 'Genshin Community Character Builds',
       lang: ['English'],
@@ -15,22 +9,37 @@
       description: 'Character builds by Genshin Impact Helper Team.'
     },
     {
-      name: 'Genshin Optimizer',
-      lang: ['Multi-lingual · 多语言'],
-      url: 'https://frzyc.github.io/genshin-optimizer/#/',
-      description: 'Builds, artifacts and character recommendation and optmization tool.'
+      name: 'Keqing Mains',
+      lang: ['English'],
+      url: 'https://keqingmains.com/',
+      description: 'Comprehensive theorycrafting and guides.'
     },
     {
-      name: 'Paimon.moe',
-      lang: ['Multi-lingual · 多语言'],
-      url: 'https://paimon.moe/',
-      description: 'Genshin database website with a information on builds, a wish history tracker, timelines, and more.'
+      name: 'Kusanali Mains',
+      lang: ['English'],
+      url: 'https://kusanalimains.com/',
+      description: 'Theorycrafting, guides, infographics, and more.'
     },
     {
-      name: 'Spiral Abyss Analytics',
-      lang: ['English', '中文'],
-      url: 'https://spiralabyss.org/',
-      description: 'Spiral Abyss data analystics contributed by players who with ★36 Abyssal Stars.'
+      name: 'NGA / 原神冒险团',
+      lang: ['中文'],
+      url: 'https://bbs.nga.cn/read.php?tid=25843014',
+      description: '全角色收益曲线、圣遗物思路推荐、参考面板属性。'
+    },
+    {
+      name: '原神冒险团',
+      lang: ['中文'],
+      url: 'https://mp.weixin.qq.com/s/Yk5mart2PBupmFL2jKQWmA',
+      description: '原神角色攻略、探索解谜、入坑指南。'
+    }
+  ];
+
+  const resource = [
+    {
+      name: 'Akasha System',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://mimee.ovh/akasha',
+      description: 'Compare your Genshin characters against others.'
     },
     {
       name: 'Enka.Network',
@@ -39,40 +48,16 @@
       description: 'Genshin Impact player cards creator.'
     },
     {
-      name: 'Akasha System',
-      lang: ['Multi-lingual · 多语言'],
-      url: 'https://mimee.ovh/akasha',
-      description: 'Compare your Genshin characters against others.'
-    },
-    {
-      name: 'ShinShin.moe',
-      lang: ['Multi-lingual · 多语言'],
-      url: 'https://shinshin.moe/',
-      description: 'Genshin card generator to create a collage of your Genshin Impact character builds.'
-    },
-    {
-      name: 'SEELIE',
-      lang: ['English', 'Português', 'Español', '中文'],
-      url: 'https://seelie.me/',
-      description: 'Resource planner and database.'
+      name: 'gcsim',
+      lang: ['English', 'Español', '日本語', '中文'],
+      url: 'https://www.gcsim.app/',
+      description: 'Team DPS simulator.'
     },
     {
       name: 'GI DMG Calculator',
       lang: ['English'],
       url: 'https://gidmgcalculator.github.io/csb-g7is6/',
-      description: 'Genshin Impact damahe calculator.'
-    },
-    {
-      name: 'Uncle Dictionary',
-      lang: ['English'],
-      url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRvDFYG19Y9Y-uRH2_LsuIoOsLjefIfKu96WFgjXCcTFX93b9GT3e90QQxic7gWmEL-lQYpfD45O2Z-/pubhtml',
-      description: ''
-    },
-    {
-      name: 'gcsim',
-      lang: ['English', 'Español', '日本語', '中文'],
-      url: 'https://www.gcsim.app/',
-      description: 'Team DPS simulator.'
+      description: 'Genshin Impact damage calculator.'
     },
     {
       name: 'gensh.in',
@@ -87,6 +72,24 @@
       description: 'Damage calculation tool.'
     },
     {
+      name: 'Genshin Optimizer',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://frzyc.github.io/genshin-optimizer/#/',
+      description: 'Builds, artifacts and character recommendation and optmization tool.'
+    },
+    {
+      name: 'Honey Impact',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://genshin.honeyhunterworld.com/',
+      description: 'Genshin Impact database and tools.'
+    },
+    {
+      name: 'Paimon.moe',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://paimon.moe/',
+      description: 'Genshin database website with a information on builds, a wish history tracker, timelines, and more.'
+    },
+    {
       name: 'Project Celestia Database',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://www.projectcelestia.com/',
@@ -99,28 +102,22 @@
       description: 'Genshin database and helper.'
     },
     {
-      name: '原神冒险团',
-      lang: ['中文'],
-      url: 'https://mp.weixin.qq.com/s/Yk5mart2PBupmFL2jKQWmA',
-      description: '原神角色攻略、探索解谜、入坑指南。'
+      name: 'SEELIE',
+      lang: ['English', 'Português', 'Español', '中文'],
+      url: 'https://seelie.me/',
+      description: 'Resource planner and database.'
     },
     {
-      name: 'NGA / 原神冒险团',
-      lang: ['中文'],
-      url: 'https://bbs.nga.cn/read.php?tid=25843014',
-      description: '全角色收益曲线、圣遗物思路推荐、参考面板属性。'
+      name: 'ShinShin.moe',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://shinshin.moe/',
+      description: 'Genshin card generator to create a collage of your Genshin Impact character builds.'
     },
     {
-      name: '莫娜占卜铺',
-      lang: ['中文'],
-      url: 'https://www.mona-uranai.com/',
-      description: '圣遗物配装。'
-    },
-    {
-      name: '可莉特调',
-      lang: ['中文'],
-      url: 'https://genshin.pub/',
-      description: '每日素材，养成计算器，圣遗物评分，玩家身份证。'
+      name: 'Spiral Abyss Analytics',
+      lang: ['English', '中文'],
+      url: 'https://spiralabyss.org/',
+      description: 'Spiral Abyss data analystics contributed by players who with ★36 Abyssal Stars.'
     },
     {
       name: 'Ysin',
@@ -129,22 +126,34 @@
       description: '角色练度评测。'
     },
     {
+      name: '可莉特调',
+      lang: ['中文'],
+      url: 'https://genshin.pub/',
+      description: '每日素材，养成计算器，圣遗物评分，玩家身份证。'
+    },
+    {
+      name: '莫娜占卜铺',
+      lang: ['中文'],
+      url: 'https://www.mona-uranai.com/',
+      description: '圣遗物配装。'
+    },
+    {
       name: '兎老师',
       lang: ['中文'],
       url: 'https://space.bilibili.com/24889090',
       description: '原神角色推荐榜。'
     },
     {
+      name: '虚空数据库',
+      lang: ['English', '中文'],
+      url: 'https://xk.jdsha.com/',
+      description: 'Database, guides, Abyss statistics and more.'
+    },
+    {
       name: '椰羊cocogoat',
       lang: ['English', '中文'],
       url: 'https://cocogoat.work/',
       description: '网页圣遗物管理·成就扫描。'
-    },
-    {
-      name: 'Honey Impact',
-      lang: ['Multi-lingual · 多语言'],
-      url: 'https://genshin.honeyhunterworld.com/',
-      description: 'Genshin Impact database and tools.'
     }
   ];
 </script>
@@ -156,11 +165,27 @@
 <h1>{$l10n['useful-links'][$lang]}</h1>
 
 <div id="content">
-  {#each links as link, i}
+  <h4>{$l10n['guides'][$lang]}</h4>
+  {#each guides as link, i}
     <div class="content-col link" class:alt={i % 2 === 0}>
       <a href={link.url}>
         <div class="content-row">
-          <h4>{link.name}</h4>
+          <h5>{link.name}</h5>
+          {#each link.lang as lang}
+            <div class="label">{lang}</div>
+          {/each}
+        </div>
+        <div class="description">{link.description}</div>
+      </a>
+    </div>
+  {/each}
+
+  <h4>{$l10n['resources'][$lang]}</h4>
+  {#each resource as link, i}
+    <div class="content-col link" class:alt={i % 2 === 0}>
+      <a href={link.url}>
+        <div class="content-row">
+          <h5>{link.name}</h5>
           {#each link.lang as lang}
             <div class="label">{lang}</div>
           {/each}
@@ -172,6 +197,12 @@
 </div>
 
 <style lang="scss">
+  h4 {
+    color: var(--theme-primary-red);
+    margin: 40px 0 5px;
+    text-align: center;
+  }
+
   .link {
     padding: 10px 10px 10px 20px;
     color: var(--theme-text-normal);
@@ -188,16 +219,18 @@
       &:hover {
         text-decoration: none;
 
-        h4 {
+        h5 {
           color: var(--theme-link-hover);
         }
       }
 
-      h4 {
+      h5 {
+        color: var(--theme-text-body-highlight);
         padding-top: 2px;
         font-size: 1rem;
         text-transform: none;
         letter-spacing: normal;
+        margin: 0;
       }
 
       .label {

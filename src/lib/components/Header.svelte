@@ -143,6 +143,7 @@
         }
 
         .separator {
+          color: #ccc;
           margin: 0 2px;
         }
       }
