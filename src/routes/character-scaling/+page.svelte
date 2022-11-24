@@ -121,7 +121,7 @@
   <div class="header sticky">
     <div class="content-row top">
       <div class="col empty separator" />
-      <div class="col mainstat separator">{$l10n['artifact-mainstats'][$lang]}</div>
+      <div class="col mainstat separator">{$l10n['recommended-artifact-mainstats'][$lang]}</div>
       <div class="col charscaling">{$l10n['character-scaling'][$lang]}</div>
     </div>
     <div class="content-row">

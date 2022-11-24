@@ -278,6 +278,9 @@ quickswap:
 rarity:
   en: 'Rarity'
   zh: '稀有度'
+recommended-artifact-mainstats:
+  en: 'Recommended Main Stats'
+  zh: '推荐主词条'
 resistance:
   en: 'Resistance'
   zh: '抗争'

@@ -17,6 +17,5 @@
 <style lang="scss">
   h1 {
     text-align: center;
-    padding-left: 20px;
   }
 </style>
