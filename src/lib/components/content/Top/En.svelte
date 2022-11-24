@@ -11,23 +11,4 @@
       reference purposes only.
     </p></span
   >
-
-  <span slot="builds">
-    <p>
-      High-level summary of popular builds using information aggregated from multiple theorycrafting guides and
-      supplemented using data such as popular abyss run compositions. There is also an experimental builds editor that
-      lets you create and share builds.
-    </p>
-  </span>
-
-  <!--span slot="achievements">
-    <p>
-      Searchable list of achievements that are obtainable through daily commissions, as well as a tracker to keep track
-      of your progress.
-    </p>
-  </span-->
-
-  <span slot="materials">
-    <p>Yet another weekly material infographic.</p>
-  </span>
 </Top>

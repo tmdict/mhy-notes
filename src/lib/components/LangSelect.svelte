@@ -19,14 +19,6 @@
 
 <style lang="scss">
   .lang-select {
-    margin-left: auto;
-    margin-right: 10px;
-    font-size: 0.9em;
-
-    @media only screen and (max-width: 460px) {
-      margin: 0 5px 5px;
-    }
-
     ul {
       display: flex;
       margin: 0;
@@ -36,12 +28,9 @@
       li {
         display: flex;
         align-items: center;
-        margin-left: 15px;
+        margin-left: 5px;
+        margin-right: 10px;
         color: #aaa;
-
-        @media only screen and (max-width: 460px) {
-          margin: 5px 0 0 10px;
-        }
 
         img {
           margin-right: 5px;
