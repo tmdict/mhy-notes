@@ -1,0 +1,47 @@
+---
+character: layla
+c: 0
+type:
+  - support
+  - meta
+  - f2p
+name:
+  en: 'EM Support'
+  zh: '精通辅助'
+
+weapon:
+  - name: key-of-khaj-nisut
+    r: 0
+  - name: primordial-jade-cutter
+    r: 0
+  - name: favonius-sword
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 2
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hp
+    - cryo
+  circlet:
+    - hp
+    - crit
+
+stats:
+  - hp: '40,000'
+  - er: '180%'
+  - crit: ''
+  - atk: '1,000'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default

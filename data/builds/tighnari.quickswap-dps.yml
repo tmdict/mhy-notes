@@ -40,6 +40,10 @@ stats:
 
 talent: 'A > Q > E'
 
+notes:
+  en: 'E > CA > Q > CAx2'
+  zh: 'E > CA > Q > CAx2'
+
 source:
   - ccb: default
   - ysmxt: default
