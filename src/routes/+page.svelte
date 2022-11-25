@@ -5,7 +5,7 @@
 
   const links = [
     {
-      name: 'builds',
+      name: 'character-builds',
       url: 'builds',
       updated: '2022-11-24'
     },
@@ -23,6 +23,11 @@
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
       updated: '2022-11-19'
+    },
+    {
+      name: 'commission-achievements',
+      url: 'achievements',
+      updated: '2022-04-21'
     }
   ];
 
@@ -39,7 +44,7 @@
   <a href="/{link.url}">
     <div class="content-col link" class:alt={i % 2 === 0}>
       <div class="content-row">
-        <h1>{$l10n[link.name][$lang]}</h1>
+        <div class="name">{$l10n[link.name][$lang]}</div>
         <div class="label">{link.updated}</div>
       </div>
     </div>
@@ -47,10 +52,6 @@
 {/each}
 
 <style lang="scss">
-  h1 {
-    text-align: center;
-  }
-
   a {
     color: var(--theme-text-normal);
 
@@ -70,7 +71,15 @@
       }
 
       .content-row {
-        align-items: center;
+        align-items: start;
+        margin-left: 88px;
+      }
+
+      .name {
+        color: var(--theme-text-body-highlight);
+        font: 2.4em var(--theme-header-font);
+        text-align: center;
+        margin-bottom: 10px;
       }
 
       .label {

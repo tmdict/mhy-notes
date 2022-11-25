@@ -39,7 +39,7 @@
   <title>{$l10n['upgrade-material'][$lang]} | Genshin TL;DR</title>
 </svelte:head>
 
-<h1>{$l10n['weekly-mat'][$lang]}</h1>
+<h1>{$l10n['weekly-talent-mat'][$lang]}</h1>
 
 <div id="content">
   <div class="content-row days">

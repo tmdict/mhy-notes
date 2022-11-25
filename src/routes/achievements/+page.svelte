@@ -107,7 +107,7 @@
   .top {
     input {
       width: 90%;
-      margin: 0 auto 30px;
+      margin: 10px auto 20px;
       padding: 10px;
       flex: 1 1 auto;
       font-size: 1.4rem;

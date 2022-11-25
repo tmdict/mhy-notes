@@ -52,11 +52,12 @@
       <div class="group">
         <a href="/talent-materials">{$l10n['talent-materials'][$lang]}</a>
         <span class="separator">·</span>
-        <a href="/weekly-boss-materials">{$l10n['weekly-boss-mat'][$lang]}</a>
+        <a href="/weekly-boss-materials">{$l10n['boss-materials'][$lang]}</a>
+        <span class="separator">·</span>
+        <a href="/achievements">{$l10n['achievements'][$lang]}</a>
       </div>
       <div class="group last">
         <a href="/links">{$l10n['links'][$lang]}</a>
-        <!--a href="/achievements">{$l10n['achievements'][$lang]}</a-->
       </div>
     </div>
   </div>

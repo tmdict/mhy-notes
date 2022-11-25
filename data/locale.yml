@@ -50,6 +50,9 @@ base-atk:
 base-stat:
   en: 'Base Stat'
   zh: '基础属性'
+boss-materials:
+  en: 'Boss Materials'
+  zh: 'BOSS素材'
 build-editor:
   en: 'Build Editor'
   zh: '配装编辑器'
@@ -359,7 +362,7 @@ weapon:
 weapon-type:
   en: 'Weapon Type'
   zh: '武器种类'
-weekly-mat:
+weekly-talent-mat:
   en: 'Weekly Material Rotation'
   zh: '天赋升级材料周常'
 weekly-boss-mat:
