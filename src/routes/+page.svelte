@@ -7,10 +7,11 @@
     {
       name: 'character-builds',
       url: 'builds',
+      new: true,
       updated: '2022-11-24'
     },
     {
-      name: 'character-scaling',
+      name: 'character-stat-scaling',
       url: 'character-scaling',
       updated: '2022-11-23'
     },
@@ -27,7 +28,8 @@
     {
       name: 'commission-achievements',
       url: 'achievements',
-      updated: '2022-04-21'
+      new: true,
+      updated: '2022-11-25'
     }
   ];
 
@@ -45,7 +47,7 @@
     <div class="content-col link" class:alt={i % 2 === 0}>
       <div class="content-row">
         <div class="name">{$l10n[link.name][$lang]}</div>
-        <div class="label">{link.updated}</div>
+        <div class="label" class:new={link.new}>{link.updated}</div>
       </div>
     </div>
   </a>
@@ -83,12 +85,16 @@
       }
 
       .label {
-        color: var(--theme-text-body-highlight-alt);
+        color: var(--theme-text-body-highlight-alt3);
         background: var(--theme-label-bg-highlight);
         font-size: 0.85rem;
         margin: 0 5px 5px;
         padding: 2px 10px;
         border-radius: 10px;
+      }
+
+      .new {
+        color: var(--theme-text-body-highlight-alt4);
       }
     }
   }

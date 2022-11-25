@@ -21,7 +21,7 @@ artifact:
   - set: [tenacity-of-the-millelith]
     p: 4
   - set: [noblesse-oblige]
-    p: 2
+    p: 4
 
 mainstat:
   sand:

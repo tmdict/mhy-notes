@@ -1,19 +1,25 @@
 <script>
   import Fuse from 'fuse.js';
   import cloneDeep from 'lodash.clonedeep';
+  import { slide } from 'svelte/transition';
   import { achievements } from '@store/gamedata';
   import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
   import CommissionAchievement from '$lib/components/CommissionAchievement.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
+  import AchievementFaqEn from '$lib/components/content/AchievementFaq/En.svelte';
+  import AchievementFaqZh from '$lib/components/content/AchievementFaq/Zh.svelte';
   import { highlight } from '$lib/util/highlight';
 
   let searchTerm = '';
-  let filters = ['mondstadt', 'liyue', 'inazuma'];
+  let filters = ['mondstadt', 'liyue', 'inazuma', 'sumeru'];
 
   let filteredList = cloneDeep($achievements);
   let currentFilter = { field: '', value: '' };
   let sortByCompletion = false;
+  let showFaq = false;
+
+  const faq = { en: AchievementFaqEn, zh: AchievementFaqZh };
 
   const searchOptions = {
     includeMatches: true,
@@ -78,6 +84,13 @@
 
   <div class="content-col">
     <input class="search" bind:value={searchTerm} />
+
+    <div class="menu">
+      <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+      <span class="menu-separator" />
+      <ManageData />
+    </div>
+
     <div class="menu">
       {#each filters as filter}
         <a
@@ -89,11 +102,15 @@
       <a href="/#" on:click|preventDefault={() => (sortByCompletion = !sortByCompletion)}>{$l10n.completed[$lang]}</a>
       <span class="menu-separator" />
       <a href="/#" on:click|preventDefault={clearAll}>{$l10n['clear-all'][$lang]}</a>
-      <span class="menu-separator" />
-      <ManageData />
     </div>
   </div>
 </div>
+
+{#if showFaq}
+  <div id="faq" transition:slide>
+    <svelte:component this={faq[$lang]} />
+  </div>
+{/if}
 
 {#each filteredList as achievement, i}
   <CommissionAchievement

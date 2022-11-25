@@ -27,6 +27,8 @@
     "text-body-highlight": "#f7d87c",
     "text-body-highlight-alt": "#72a6c0",
     "text-body-highlight-alt2": "#c05b4d",
+    "text-body-highlight-alt3": "#72a6c0",
+    "text-body-highlight-alt4": "#c05b4d",
     "text-input": "#f4f4f4",
 
     "text-overlay": "#555",

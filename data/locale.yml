@@ -79,7 +79,10 @@ character-builds:
   zh: '角色配装参考'
 character-scaling:
   en: 'Character Scaling'
-  zh: '角色技能属性'
+  zh: '有效词条'
+character-stat-scaling:
+  en: 'Character Stat Scaling'
+  zh: '角色有效词条'
 checklist:
   en: 'Checklist'
   zh: '清单'
@@ -332,6 +335,9 @@ submitted-by:
 support:
   en: 'Support'
   zh: '辅助'
+sumeru:
+  en: 'Sumeru'
+  zh: '须弥'
 recommended-talent:
   en: 'Recommended Talent'
   zh: '推荐天赋'

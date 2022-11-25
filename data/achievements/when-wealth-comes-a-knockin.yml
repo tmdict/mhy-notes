@@ -1,0 +1,36 @@
+---
+achievement: when-wealth-comes-a-knockin
+version: "3.0"
+achievementType: "wonders-of-the-world"
+region: sumeru
+checklist:
+- todo1
+- todo2
+en:
+  name: "When Wealth Comes A-Knockin’"
+  description: "Give Hatim some Apple Cider."
+  commission:
+  - "Gold Devouring and Mora Gathering"
+  notes: | 
+    After getting the initial commission “Gold Devouring and Mora Gathering,” you will receive this achievement if the follow-up commission is the one where Hatim goes bargain-hunting.
+    
+    Getting the “Fortune” version will lead to the “Kalimi’s Fungus” achievement. Other follow-ups yield no achievements.
+
+    Follow-up commission may be related to quality of food used, a "delicious" version may increase your chance of getting “fortune” follow-ups, while a “suspcious” version increases the chance of getting “loss” follow-ups. The food chosen does not affect the follow-up.
+  checklist:
+    todo1: "Bargain-Hunting Version"
+    todo2: "Fortune Version"
+zh:
+  name: "当财运来敲门"
+  description: "将苹果酿带给哈特姆。"
+  commission:
+  - "吞金和蓄财"
+  notes: | 
+    首先接到每日任务「吞金和蓄财」，三种吞金料理任选其一提交后可能出现三种后续，若为大亏，则获得成就。
+
+    若后续为大赚，可以获得成就「卡里米之蕈兽」。其它后续无成就。
+
+    后续与交付料理品质有关，给美味的料理赚钱的可能性越大，给奇怪的料理赔钱的可能性更大。三种食物于后续无关。
+  checklist:
+    todo1: "究极亏本状态"
+    todo2: "大赚一笔"

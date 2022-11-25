@@ -257,8 +257,4 @@
       margin-right: 0;
     }
   }
-
-  #faq {
-    padding: 0 20px 20px;
-  }
 </style>

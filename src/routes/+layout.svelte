@@ -308,6 +308,14 @@
     background-color: var(--theme-text-overlay);
   }
 
+  #faq {
+    padding: 0 20px 20px;
+
+    h5 {
+      text-align: center;
+    }
+  }
+
   ._toastMsg {
     font: 1rem normal var(--theme-main-font);
     margin-left: 5px;
