@@ -30,7 +30,7 @@
         <div class="content-row icons">
           <LangSelect />
           <div id="svg-icons">
-            <a class="last" href="https://github.com/tmdict/genshin-tldr"><GitIcon /></a>
+            <a class="last" href="https://github.com/tmdict/genshin-notes"><GitIcon /></a>
             <div class="theme-toggle" on:click={toggle} on:keydown={toggle}>
               {#if isDark}
                 <ToggleLight />
