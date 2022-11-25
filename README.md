@@ -1,4 +1,4 @@
-# Genshin TL;DR
+# Genshin Notes
 
 A collection of simple tools and infographic contents related to the game Genshin Impact.
 

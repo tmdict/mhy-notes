@@ -35,7 +35,7 @@
 </script>
 
 <svelte:head>
-  <title>Genshin TL;DR</title>
+  <title>Genshin Notes</title>
 </svelte:head>
 
 <svelte:component this={top[$lang]} />

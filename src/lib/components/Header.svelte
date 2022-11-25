@@ -20,12 +20,12 @@
   <div class="content-col iconnavmenu">
     <div class="content-row iconnav">
       <a href="/" on:mouseenter={() => (topImg = 'top_alt' + isLight)} on:mouseleave={() => (topImg = 'top' + isLight)}>
-        <Icon id="Genshin-TL;DR" src={topImg} size="100px" margin="0" />
+        <Icon id="Genshin-Notes" src={topImg} size="100px" margin="0" />
       </a>
 
       <div class="content-col nav">
         <div id="name">
-          GENSHIN<span class="highlight">TL;DR</span>
+          GENSHIN<span class="highlight">notes</span>
         </div>
         <div class="content-row icons">
           <LangSelect />

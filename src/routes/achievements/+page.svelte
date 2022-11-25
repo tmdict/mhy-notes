@@ -70,7 +70,7 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['achievements'][$lang]} | Genshin TL;DR</title>
+  <title>{$l10n['achievements'][$lang]} | Genshin Notes</title>
 </svelte:head>
 
 <div class="top">

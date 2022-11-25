@@ -5,7 +5,7 @@
 <Top>
   <span slot="intro"
     ><p>
-      Genshin TL;DR is a collection of simple tools and infographic contents related to the game <a
+      Genshin Notes is a collection of simple tools and infographic contents related to the game <a
         href="https://genshin.mihoyo.com/">Genshin Impact</a
       >. All contents are presented in a light-weight, concise format intended for quick consumption and used for
       reference purposes only.
