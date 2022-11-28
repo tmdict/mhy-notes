@@ -9,17 +9,27 @@
   import ToggleLight from '$lib/svg/sun.svelte';
 
   const { theme, toggle } = getContext('theme');
+  let spin = false;
 
   $: isDark = $theme.name === 'dark';
+  $: lightExt = !isDark ? '_l' : '';
+  $: topImg = 'top' + lightExt;
 
-  $: isLight = $theme.name === 'light' ? '_l' : '';
-  $: topImg = 'top' + isLight;
+  $: {
+    $theme.name;
+    spin = true;
+    setTimeout(() => (spin = false), 650);
+  }
 </script>
 
 <div id="top">
   <div class="content-col content">
     <div class="content-row content-top">
-      <a href="/" on:mouseenter={() => (topImg = 'top_alt' + isLight)} on:mouseleave={() => (topImg = 'top' + isLight)}>
+      <a
+        href="/"
+        on:mouseenter={() => (topImg = 'top_alt' + lightExt)}
+        on:mouseleave={() => (topImg = 'top' + lightExt)}
+      >
         <Icon id="Genshin-Notes" src={topImg} size="100px" margin="0" />
       </a>
 
@@ -31,7 +41,7 @@
           <LangSelect />
           <div id="svg-icons">
             <a class="last" href="https://github.com/tmdict/genshin-notes"><GitIcon /></a>
-            <div class="theme-toggle" on:click={toggle} on:keydown={toggle}>
+            <div class="theme-toggle" class:spin-left={spin} on:click={toggle} on:keydown={toggle}>
               {#if isDark}
                 <ToggleLight />
               {:else}
@@ -164,6 +174,22 @@
 
     &.last:after {
       content: none;
+    }
+  }
+
+  %spin {
+    animation: spin 575ms cubic-bezier(0.075, 0.82, 0.17, 1.135);
+  }
+
+  .spin-left {
+    @extend %spin;
+    @keyframes spin {
+      0% {
+        transform: scale(0) rotate(0deg);
+      }
+      100% {
+        transform: scale(1) rotate(-720deg);
+      }
     }
   }
 </style>
