@@ -17,8 +17,8 @@
 </script>
 
 <div id="top">
-  <div class="content-col iconnavmenu">
-    <div class="content-row iconnav">
+  <div class="content-col content">
+    <div class="content-row content-top">
       <a href="/" on:mouseenter={() => (topImg = 'top_alt' + isLight)} on:mouseleave={() => (topImg = 'top' + isLight)}>
         <Icon id="Genshin-Notes" src={topImg} size="100px" margin="0" />
       </a>
@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <div class="content-row menu">
+    <div class="content-row content-menu">
       <div class="group">
         <a href="/builds" style="margin-left:0;">{$l10n['builds'][$lang]}</a>
         <span class="separator">·</span>
@@ -93,10 +93,10 @@
     }
   }
 
-  .iconnavmenu {
+  .content {
     align-items: center;
 
-    .iconnav {
+    .content-top {
       align-items: end;
     }
 
@@ -126,14 +126,15 @@
       }
     }
 
-    .menu {
-      margin-top: 10px;
+    .content-menu {
+      margin-top: 15px;
       justify-content: center;
 
       .group {
         border-right: 1px dotted var(--theme-border-light);
-        margin: 0 10px 0 5px;
+        margin: 2px 10px;
         padding-right: 15px;
+        text-align: center;
 
         @media only screen and (max-width: 460px) {
           border: 0;
