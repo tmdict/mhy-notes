@@ -15,10 +15,9 @@
   $: lightExt = !isDark ? '_l' : '';
   $: topImg = 'top' + lightExt;
 
-  $: {
-    $theme.name;
+  function spinIcon(duration) {
     spin = true;
-    setTimeout(() => (spin = false), 650);
+    setTimeout(() => (spin = false), duration);
   }
 </script>
 
@@ -41,7 +40,13 @@
           <LangSelect />
           <div id="svg-icons">
             <a class="last" href="https://github.com/tmdict/genshin-notes"><GitIcon /></a>
-            <div class="theme-toggle" class:spin-left={spin} on:click={toggle} on:keydown={toggle}>
+            <div
+              class="theme-toggle"
+              class:spin-left={spin}
+              on:click={toggle}
+              on:click={() => spinIcon(650)}
+              on:keydown={toggle}
+            >
               {#if isDark}
                 <ToggleLight />
               {:else}
