@@ -65,7 +65,6 @@
       padding: 10px 10px 10px 20px;
       color: var(--theme-text-normal);
       line-height: 1.2em;
-      align-items: center;
 
       &:hover {
         background: var(--theme-main-bg-hover);
@@ -74,14 +73,17 @@
 
       .content-row {
         align-items: start;
-        margin-left: 88px;
       }
 
       .name {
         color: var(--theme-text-body-highlight);
-        font: 2.4em var(--theme-header-font);
-        text-align: center;
-        margin-bottom: 10px;
+        font: 2.2rem var(--theme-header-font);
+        margin: 10px 5px;
+
+        @media only screen and (max-width: 540px) {
+          font-size: 1.6rem;
+          width: 100%;
+        }
       }
 
       .label {
@@ -91,6 +93,11 @@
         margin: 0 5px 5px;
         padding: 2px 10px;
         border-radius: 10px;
+
+        @media only screen and (max-width: 540px) {
+          font-size: 0.7rem;
+          padding: 2px 10px;
+        }
       }
 
       .new {
