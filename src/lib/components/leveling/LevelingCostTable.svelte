@@ -1,29 +1,20 @@
 <script>
-  import { misc } from '@store/gamedata';
+  import { slide } from 'svelte/transition';
   import { l10n, lang } from '@store/site';
   import LevelingCostItem from '$lib/components/leveling/LevelingCostItem.svelte';
 
   export let tableData;
   export let keys;
   export let total;
+
+  let showDetail = false;
+
+  function toggleDetails() {
+    showDetail = !showDetail;
+  }
 </script>
 
-{#each Object.values(tableData) as data}
-  <div class="content-row row">
-    <div class="content-row group separator">
-      <div class="content-row level"><span class="from">{data.from}</span> > <span class="to">{data.to}</span></div>
-    </div>
-    {#each Object.values(keys) as characterKeys, n}
-      <div class="content-row group" class:separator={n < Object.keys(keys).length - 1}>
-        {#each characterKeys as key}
-          <LevelingCostItem id={data.cost[key].id} count={data.cost[key].count} rarity={data.cost[key].rarity} />
-        {/each}
-      </div>
-    {/each}
-  </div>
-{/each}
-
-<div class="content-row row total">
+<div class="content-row row total" on:click={toggleDetails} on:keydown={toggleDetails}>
   <div class="content-row group separator">
     <div class="content-row level">{$l10n['total'][$lang]}</div>
   </div>
@@ -39,8 +30,30 @@
     </div>
   {/each}
 </div>
+{#if showDetail}
+  <div transition:slide={{ duration: 200 }}>
+    {#each Object.values(tableData) as data}
+      <div class="content-row row">
+        <div class="content-row group separator">
+          <div class="content-row level"><span class="from">{data.from}</span> > <span class="to">{data.to}</span></div>
+        </div>
+        {#each Object.values(keys) as characterKeys, n}
+          <div class="content-row group" class:separator={n < Object.keys(keys).length - 1}>
+            {#each characterKeys as key}
+              <LevelingCostItem id={data.cost[key].id} count={data.cost[key].count} rarity={data.cost[key].rarity} />
+            {/each}
+          </div>
+        {/each}
+      </div>
+    {/each}
+  </div>
+{/if}
 
 <style lang="scss">
+  .total:hover {
+    cursor: pointer;
+  }
+
   .row {
     font-size: 0.9em;
     background: var(--theme-main-bg-hover);
