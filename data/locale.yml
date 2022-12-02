@@ -2,6 +2,12 @@
 _na:
   en: '-'
   zh: '-'
+4star:
+  en: '4 Star'
+  zh: '4星'
+5star:
+  en: '5 Star'
+  zh: '5星'
 a:
   en: 'A'
   zh: 'A'

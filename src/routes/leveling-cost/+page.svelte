@@ -7,6 +7,10 @@
     level: ['heros-wit', 'adventurers-experience', 'mora-level'],
     ascension: ['jewel', 'normal-boss', 'local-specialty', 'common-material', 'mora-ascension']
   };
+  const weapon = {
+    level: ['mystic-enhancement-ore', 'mora-level'],
+    ascension: ['weapon-ascension', 'common-material-1', 'common-material-2', 'mora-ascension']
+  };
 
   function getTotal(data) {
     const result = {};
@@ -37,6 +41,9 @@
   }
 
   const characterTotal = getTotal($misc.leveling.data.character);
+  const weaponTotal = getTotal($misc.leveling.data.weapon5);
+
+  console.log(weaponTotal);
 </script>
 
 <svelte:head>
@@ -45,18 +52,32 @@
 
 <h1>{$l10n['leveling-cost'][$lang]}</h1>
 
-<h4>{$l10n['character-ascension'][$lang]}</h4>
-
-<div id="content">
-  <div class="header">
-    <div class="content-row">
-      <div class="empty" />
-      <div class="levelup">{$l10n['level-up'][$lang]}</div>
-      <div class="ascension">{$l10n['ascension'][$lang]}</div>
+<div id="character">
+  <h4>{$l10n['character-ascension'][$lang]}</h4>
+  <div id="content">
+    <div class="header">
+      <div class="content-row">
+        <div class="empty" />
+        <div class="levelup">{$l10n['level-up'][$lang]}</div>
+        <div class="ascension">{$l10n['ascension'][$lang]}</div>
+      </div>
     </div>
+    <LevelingCostTable tableData={$misc.leveling.data.character} keys={character} total={characterTotal} />
   </div>
+</div>
 
-  <LevelingCostTable tableData={$misc.leveling.data.character} keys={character} total={characterTotal} />
+<div id="weapon5">
+  <h4>{$l10n['5star'][$lang]} {$l10n['weapon'][$lang]}</h4>
+  <div id="content">
+    <div class="header">
+      <div class="content-row">
+        <div class="empty" />
+        <div class="levelup">{$l10n['level-up'][$lang]}</div>
+        <div class="ascension">{$l10n['ascension'][$lang]}</div>
+      </div>
+    </div>
+    <LevelingCostTable tableData={$misc.leveling.data.weapon5} keys={weapon} total={weaponTotal} />
+  </div>
 </div>
 
 <style lang="scss">
@@ -81,17 +102,33 @@
     @media only screen and (max-width: 960px) {
       display: none;
     }
+  }
 
+  #character {
     .empty {
-      width: 101px;
+      width: 81px;
     }
 
     .levelup {
-      width: 320px;
+      width: 321px;
     }
 
     .ascension {
       width: 520px;
+    }
+  }
+
+  #weapon5 {
+    .empty {
+      width: 81px;
+    }
+
+    .levelup {
+      width: 221px;
+    }
+
+    .ascension {
+      width: 420px;
     }
   }
 </style>
