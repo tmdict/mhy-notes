@@ -29,12 +29,9 @@ artifact-mainstats:
 artifact:
   en: 'Artifact'
   zh: '圣遗物'
-set-2p-bonus:
-  en: '2 Piece Bonus'
-  zh: '2件套效果'
-set-4p-bonus:
-  en: '4 Piece Bonus'
-  zh: '4件套效果'
+ascension:
+  en: 'Ascension'
+  zh: '突破'
 atk:
   en: 'ATK'
   zh: '攻'
@@ -74,6 +71,9 @@ cdmg:
 character:
   en: 'Character'
   zh: '角色'
+character-ascension:
+  en: 'Character Ascension'
+  zh: '角色突破'
 character-builds:
   en: 'Character Builds'
   zh: '角色配装参考'
@@ -221,6 +221,12 @@ inazuma:
 ingenuity:
   en: 'Ingenuity'
   zh: '巧思'
+level-up:
+  en: 'Level Up'
+  zh: '升级'
+leveling-cost:
+  en: 'Leveling Costs'
+  zh: '升级消耗'
 light:
   en: 'Light'
   zh: '天光'
@@ -305,6 +311,12 @@ save:
 saved-builds:
   en: 'Saved Builds'
   zh: '保存套装'
+set-2p-bonus:
+  en: '2 Piece Bonus'
+  zh: '2件套效果'
+set-4p-bonus:
+  en: '4 Piece Bonus'
+  zh: '4件套效果'
 share:
   en: 'Share'
   zh: '分享'
@@ -347,6 +359,9 @@ talent-materials:
 talent-priority:
   en: 'Talent Priority'
   zh: '优先天赋'
+total:
+  en: 'Total'
+  zh: '合计'
 transience:
   en: 'Transience'
   zh: '浮世'
