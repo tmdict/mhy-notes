@@ -17,6 +17,7 @@
     "input-bg": "#fff",
     "label-bg": "#fff",
     "label-bg-highlight": "#333",
+    "label-bg-light": "#fff",
 
     "text-normal": "#333",
     "text-strong": "#333",

@@ -1,0 +1,51 @@
+<script>
+  import Icon from '$lib/components/Icon.svelte';
+
+  export let id;
+  const mora = ['mora-level', 'mora-ascension'].includes(id);
+
+  export let imgSrc = mora ? 'mora' : id;
+  export let count = -1;
+  export let rarity = -1;
+</script>
+
+<div class="icon" class:empty={count < 1} class:mora>
+  {#if count > 0}
+    <Icon {id} src="leveling-cost/{imgSrc}" {rarity} size="30px" margin="0" />
+    <div class="count">{count.toLocaleString('en-US')}</div>
+  {:else}
+    <div class="placeholder" />
+  {/if}
+</div>
+
+<style lang="scss">
+  .icon {
+    min-width: 80px;
+    height: 30px;
+    display: flex;
+    margin: 5px 10px;
+    background-color: var(--theme-label-bg-light);
+    border-radius: 5px 5px 5px 5px;
+    align-items: center;
+
+    &.empty {
+      background: none;
+    }
+
+    &.mora {
+      min-width: 100px;
+    }
+
+    .placeholder {
+      width: 30px;
+      height: 30px;
+    }
+
+    .count {
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-align: center;
+      padding-left: 5px;
+    }
+  }
+</style>
