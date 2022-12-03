@@ -7,13 +7,18 @@
     {
       name: 'character-builds',
       url: 'builds',
-      new: true,
       updated: '2022-11-24'
     },
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
       updated: '2022-11-23'
+    },
+    {
+      name: 'leveling-cost',
+      url: 'leveling-cost',
+      new: true,
+      updated: '2022-12-02'
     },
     {
       name: 'talent-materials',
@@ -28,7 +33,6 @@
     {
       name: 'commission-achievements',
       url: 'achievements',
-      new: true,
       updated: '2022-11-25'
     }
   ];

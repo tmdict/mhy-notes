@@ -359,6 +359,9 @@ sumeru:
 recommended-talent:
   en: 'Recommended Talent'
   zh: '推荐天赋'
+talent:
+  en: 'Talent'
+  zh: '天赋'
 talent-materials:
   en: 'Talent Materials'
   zh: '天赋升级材料'

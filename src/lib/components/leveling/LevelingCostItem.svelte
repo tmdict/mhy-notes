@@ -30,6 +30,10 @@
 
     &.empty {
       background: none;
+
+      @media only screen and (max-width: 960px) {
+        display: none;
+      }
     }
 
     &.mora {

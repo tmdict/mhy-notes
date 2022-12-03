@@ -7,6 +7,9 @@
     level: ['heros-wit', 'adventurers-experience', 'mora-level'],
     ascension: ['jewel', 'normal-boss', 'local-specialty', 'common-material', 'mora-ascension']
   };
+  const talent = {
+    level: ['talent-material', 'common-material', 'weekly-boss', 'crown-of-insight', 'mora-level']
+  };
   const weapon = {
     level: ['mystic-enhancement-ore', 'mora-level'],
     ascension: ['weapon-ascension', 'common-material-1', 'common-material-2', 'mora-ascension']
@@ -40,10 +43,10 @@
     return result;
   }
 
-  const characterTotal = getTotal($misc.leveling.data.character);
-  const weaponTotal = getTotal($misc.leveling.data.weapon5);
-
-  console.log(weaponTotal);
+  const characterTotal = getTotal($misc['leveling-character'].data);
+  const talentTotal = getTotal($misc['leveling-talent'].data);
+  const weapon4Total = getTotal($misc['leveling-weapon4'].data);
+  const weapon5Total = getTotal($misc['leveling-weapon5'].data);
 </script>
 
 <svelte:head>
@@ -62,7 +65,20 @@
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
     </div>
-    <LevelingCostTable tableData={$misc.leveling.data.character} keys={character} total={characterTotal} />
+    <LevelingCostTable tableData={$misc['leveling-character'].data} keys={character} total={characterTotal} />
+  </div>
+</div>
+
+<div id="talent">
+  <h4>{$l10n['talent'][$lang]}</h4>
+  <div id="content">
+    <div class="header">
+      <div class="content-row">
+        <div class="empty" />
+        <div class="levelup">{$l10n['level-up'][$lang]}</div>
+      </div>
+    </div>
+    <LevelingCostTable tableData={$misc['leveling-talent'].data} keys={talent} total={talentTotal} />
   </div>
 </div>
 
@@ -76,7 +92,21 @@
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
     </div>
-    <LevelingCostTable tableData={$misc.leveling.data.weapon5} keys={weapon} total={weaponTotal} />
+    <LevelingCostTable tableData={$misc['leveling-weapon5'].data} keys={weapon} total={weapon5Total} />
+  </div>
+</div>
+
+<div id="weapon4">
+  <h4>{$l10n['4star'][$lang]} {$l10n['weapon'][$lang]}</h4>
+  <div id="content">
+    <div class="header">
+      <div class="content-row">
+        <div class="empty" />
+        <div class="levelup">{$l10n['level-up'][$lang]}</div>
+        <div class="ascension">{$l10n['ascension'][$lang]}</div>
+      </div>
+    </div>
+    <LevelingCostTable tableData={$misc['leveling-weapon4'].data} keys={weapon} total={weapon4Total} />
   </div>
 </div>
 
@@ -96,7 +126,6 @@
     font-size: 0.9em;
     font-weight: bold;
     border-bottom: 1px solid var(--theme-divider);
-    text-align: center;
     padding: 3px 0;
 
     @media only screen and (max-width: 960px) {
@@ -118,7 +147,18 @@
     }
   }
 
-  #weapon5 {
+  #talent {
+    .empty {
+      width: 81px;
+    }
+
+    .levelup {
+      width: 321px;
+    }
+  }
+
+  #weapon5,
+  #weapon4 {
     .empty {
       width: 81px;
     }

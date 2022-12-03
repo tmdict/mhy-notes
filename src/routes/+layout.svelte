@@ -51,7 +51,7 @@
     align-items: flex-start;
     width: 100%;
     min-width: 320px;
-    height: 225px;
+    height: 245px;
     background-color: var(--theme-header-bg-color);
     margin: 0 auto;
     padding: 20px 0;

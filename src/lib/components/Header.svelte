@@ -63,6 +63,8 @@
         <a href="/builds" style="margin-left:0;">{$l10n['builds'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/character-scaling">{$l10n['character-scaling'][$lang]}</a>
+        <span class="separator">·</span>
+        <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
       </div>
       <div class="group">
         <a href="/talent-materials">{$l10n['talent-materials'][$lang]}</a>
@@ -70,8 +72,7 @@
         <a href="/weekly-boss-materials">{$l10n['boss-materials'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/achievements">{$l10n['achievements'][$lang]}</a>
-      </div>
-      <div class="group last">
+        <span class="separator">·</span>
         <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
     </div>
@@ -142,22 +143,12 @@
     }
 
     .content-menu {
-      margin-top: 15px;
-      justify-content: center;
+      margin-top: 10px;
 
       .group {
-        border-right: 1px dotted var(--theme-border-light);
-        margin: 2px 10px;
-        padding-right: 15px;
+        width: 100%;
+        margin: 4px;
         text-align: center;
-
-        @media only screen and (max-width: 460px) {
-          border: 0;
-        }
-
-        &.last {
-          border-right: 0;
-        }
 
         .separator {
           color: #ccc;
