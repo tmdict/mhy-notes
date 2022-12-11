@@ -139,7 +139,7 @@
     </div>
   </div>
 
-  {#each filteredScalings as data, n}
+  {#each filteredScalings as data, n (data.id)}
     <div class="content-row row" class:alt={n % 2 === 1} transition:fade>
       <div class="content-row group basic separator">
         <ScalingStatCol {data} baseKey="icon" icon={true} />

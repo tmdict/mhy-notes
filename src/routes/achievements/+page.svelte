@@ -112,7 +112,7 @@
   </div>
 {/if}
 
-{#each filteredList as achievement, i}
+{#each filteredList as achievement, i (achievement.achievement)}
   <CommissionAchievement
     {achievement}
     content={achievement[$lang] ? achievement[$lang] : achievement[lang.default()]}
