@@ -1,0 +1,46 @@
+---
+character: faruzan
+c: 6
+type:
+  - meta
+  - support
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: elegy-for-the-end
+    r: 0
+  - name: favonius-warbow
+    r: 0
+  - name: end-of-the-line
+    r: 5
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - anemo
+  circlet:
+    - crit
+
+stats:
+  - er: '230%'
+  - crit: '60% / 120%'
+  - atk: '1,500'
+
+talent: 'Q > E > A'
+
+notes:
+  en: 'E > CA/Q > Q/CA'
+  zh: 'E > CA/Q > Q/CA'
+
+source:
+  - ccb: default
+  - ysmxt: default

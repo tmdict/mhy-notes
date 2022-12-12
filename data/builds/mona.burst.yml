@@ -3,6 +3,7 @@ character: mona
 c: 0
 type:
   - burst
+  - f2p
   - support
 name:
   en: 'Burst'

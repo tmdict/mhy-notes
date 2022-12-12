@@ -3,6 +3,7 @@ character: rosaria
 c: 2
 type:
   - burst
+  - f2p
   - support
 name:
   en: 'Burst Support'

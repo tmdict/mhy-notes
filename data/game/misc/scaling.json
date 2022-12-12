@@ -219,6 +219,19 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a", "q"]
     },
+    "faruzan": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["elemental-burst"],
+      "a4": ["base-atk"],
+      "constellation": [],
+      "sand": ["er"],
+      "goblet": ["anemo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "fischl": {
       "base-stat": ["atk"],
       "a": ["atk"],
@@ -749,6 +762,21 @@
       "goblet": ["em", "anemo"],
       "circlet": ["em", "crit-abbr"],
       "recommended-talent": ["e", "q"]
+    },
+    "wanderer": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "constellation": [
+        { "C1": ["atk"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["anemo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["a"]
     },
     "xiangling": {
       "base-stat": ["em"],

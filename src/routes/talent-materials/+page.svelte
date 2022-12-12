@@ -48,7 +48,7 @@
     {/each}
   </div>
 
-  {#each Object.entries(talentMaterials) as [region, regionByDay]}
+  {#each Object.entries(talentMaterials).reverse() as [region, regionByDay]}
     <div class="content-row">
       {#each Object.entries(regionByDay) as [weekday, material]}
         <div class="content-col medium-col" class:alt={parseInt(weekday) % 2 === 0}>

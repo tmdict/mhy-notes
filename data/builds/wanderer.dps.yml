@@ -1,0 +1,48 @@
+---
+character: wanderer
+c: 2
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: tulaytullahs-remembrance
+    r: 0
+  - name: lost-prayer-to-the-sacred-winds
+    r: 0
+  - name: the-widsith
+    r: 0
+
+artifact:
+  - set: [desert-pavilion-chronicle]
+    p: 4
+  - set: [shimenawas-reminiscence]
+    p: 4
+  - set: [echoes-of-an-offering]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - anemo
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 190%'
+  - atk: '2,100'
+  - er: '160%'
+
+talent: 'A > E > Q'
+
+notes:
+  en: 'Q > E > CA > NA3x6'
+  zh: 'Q > E > CA > NA3x6'
+
+source:
+  - ccb: default
+  - ysmxt: default

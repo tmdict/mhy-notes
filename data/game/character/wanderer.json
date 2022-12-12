@@ -1,0 +1,16 @@
+{
+  "id": "wanderer",
+  "type": "character",
+  "rarity": 5,
+  "vision": "anemo",
+  "weapon": "catalyst",
+  "released": "3.3.0",
+  "data": {
+    "en": {
+      "name": "Wanderer"
+    },
+    "zh": {
+      "name": "流浪者"
+    }
+  }
+}

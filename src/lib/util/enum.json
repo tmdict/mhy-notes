@@ -258,7 +258,12 @@
     "staff-of-the-scarlet-sands",
     "wandering-evenstar",
     "xiphos-moonlight",
-    "layla"
+    "layla",
+    "faruzan",
+    "wanderer",
+    "desert-pavilion-chronicle",
+    "flower-of-paradise-lost",
+    "tulaytullahs-remembrance"
   ],
   "name2id": {
     "geo": 0,
@@ -519,6 +524,11 @@
     "staff-of-the-scarlet-sands": 255,
     "wandering-evenstar": 256,
     "xiphos-moonlight": 257,
-    "layla": 258
+    "layla": 258,
+    "faruzan": 259,
+    "wanderer": 260,
+    "desert-pavilion-chronicle": 261,
+    "flower-of-paradise-lost": 262,
+    "tulaytullahs-remembrance": 263
   }
 }

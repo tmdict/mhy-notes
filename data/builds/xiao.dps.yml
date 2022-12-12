@@ -19,6 +19,8 @@ weapon:
 artifact:
   - set: [vermillion-hereafter]
     p: 4
+  - set: [desert-pavilion-chronicle]
+    p: 4
   - set: [viridescent-venerer, gladiators-finale]
     p: 2
 
