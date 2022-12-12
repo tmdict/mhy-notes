@@ -2,8 +2,9 @@
 character: kuki-shinobu
 c: 0
 type:
-  - support
+  - aggravate
   - sub-dps
+  - support
 name:
   en: 'Aggravate'
   zh: '超激化'
@@ -18,6 +19,8 @@ weapon:
 
 artifact:
   - set: [gilded-dreams]
+    p: 4
+  - set: [thundersoother]
     p: 4
 
 mainstat:

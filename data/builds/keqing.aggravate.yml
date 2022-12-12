@@ -2,41 +2,44 @@
 character: keqing
 c: 0
 type:
+  - aggravate
   - dps
 name:
-  en: 'Physical DPS'
-  zh: '物伤'
+  en: 'Aggravate DPS'
+  zh: '超激化'
 
 weapon:
-  - name: aquila-favonia
+  - name: mistsplitter-reforged
     r: 0
   - name: primordial-jade-cutter
     r: 0
-  - name: prototype-rancour
-    r: 0
+  - name: harbinger-of-dawn
+    r: 5
 
 artifact:
-  - set: [pale-flame]
+  - set: [thundering-fury]
     p: 4
-  - set: [pale-flame, bloodstained-chivalry]
-    p: 2
-  - set: [bloodstained-chivalry, gladiators-finale]
-    p: 2
+  - set: [thundersoother]
+    p: 4
+  - set: [gilded-dreams]
+    p: 4
 
 mainstat:
   sand:
     - atk
+    - em
   goblet:
-    - physical
+    - electro
   circlet:
     - crit
 
 stats:
-  - crit: '70% / 170%'
-  - atk: '2,200'
+  - crit: ''
+  - atk: ''
   - em: ''
+  - er: ''
 
-talent: 'A > Q > E'
+talent: 'A > Q = E'
 
 notes:
   en: 'E > CA'

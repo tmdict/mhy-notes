@@ -2,27 +2,27 @@
 character: lisa
 c: 0
 type:
-  - support
   - f2p
+  - support
 name:
   en: 'EM Support'
   zh: '精通辅助'
 
 weapon:
-  - name: sacrificial-fragments
+  - name: fruit-of-fulfillment
     r: 0
-  - name: favonius-codex
+  - name: sacrificial-fragments
     r: 0
   - name: magic-guide
     r: 0
 
 artifact:
-  - set: [instructor]
+  - set: [gilded-dreams]
     p: 4
+  - set: [gilded-dreams, wanderers-troupe]
+    p: 2
   - set: [thundering-fury]
     p: 4
-  - set: [instructor, wanderers-troupe]
-    p: 2
 
 mainstat:
   sand:
@@ -35,7 +35,7 @@ mainstat:
 
 stats:
   - em: ''
-  - er: '170%'
+  - er: '190%'
   - atk: ''
   - crit: ''
 

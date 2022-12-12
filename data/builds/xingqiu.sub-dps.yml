@@ -3,8 +3,8 @@ character: xingqiu
 c: 6
 type:
   - burst
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -35,12 +35,12 @@ mainstat:
     - crit
 
 stats:
-  - crit: '80% / 160%'
-  - atk: '1,600'
+  - crit: '80% / 170%'
+  - atk: '1,700'
   - er: '190%'
   - em: ''
 
-talent: 'E > Q'
+talent: 'Q > E'
 
 notes:
   en: 'Q off-field DPS'

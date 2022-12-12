@@ -3,10 +3,10 @@ character: kaeya
 c: 2
 type:
   - burst
-  - support
   - meta
+  - support
 name:
-  en: 'Burst'
+  en: 'Burst Support'
   zh: '爆发'
 
 weapon:
@@ -33,9 +33,9 @@ mainstat:
     - crit
 
 stats:
-  - er: '210%'
-  - crit: '70% / 170%'
-  - atk: '1,500'
+  - er: '230%'
+  - crit: '70% / 180%'
+  - atk: '1,600'
   - em: ''
 
 talent: 'Q > E'

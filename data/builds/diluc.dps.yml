@@ -19,6 +19,8 @@ weapon:
 artifact:
   - set: [crimson-witch-of-flames]
     p: 4
+  - set: [gilded-dreams]
+    p: 4
 
 mainstat:
   sand:
@@ -30,8 +32,8 @@ mainstat:
     - crit
 
 stats:
-  - crit: '60% / 130%'
-  - atk: '2,100'
+  - crit: '70% / 140%'
+  - atk: '2,200'
   - em: '260'
   - er: ''
 

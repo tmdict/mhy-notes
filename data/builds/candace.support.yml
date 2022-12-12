@@ -2,9 +2,9 @@
 character: candace
 c: 0
 type:
-  - support
-  - meta
   - f2p
+  - meta
+  - support
 name:
   en: 'Support'
   zh: '辅助'
@@ -19,7 +19,9 @@ weapon:
 
 artifact:
   - set: [noblesse-oblige]
-    p: 4  
+    p: 4
+  - set: [emblem-of-severed-fate]
+    p: 4
 
 mainstat:
   sand:
@@ -32,9 +34,10 @@ mainstat:
     - hp
 
 stats:
-  - er: '200%'
-  - crit: ''
-  - hp: '36,000'
+  - er: '210%'
+  - crit: '50% / 60%'
+  - hp: '37,000'
+  - atk: '1,100'
 
 talent: 'Q > E'
 

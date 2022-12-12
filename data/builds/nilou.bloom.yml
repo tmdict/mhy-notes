@@ -2,10 +2,11 @@
 character: nilou
 c: 0
 type:
-  - support
+  - bloom
   - meta
+  - support
 name:
-  en: 'Support'
+  en: 'Bloom Support'
   zh: '辅助'
 
 weapon:
@@ -29,12 +30,16 @@ mainstat:
     - hp
 
 stats:
-  - hp: '66,000'
+  - hp: '67,000'
   - crit: ''
   - er: '170%'
   - em: '360'
 
 talent: 'Q > E'
+
+notes:
+  en: 'E > NAx3'
+  zh: 'E > NAx3'
 
 source:
   - ccb: default

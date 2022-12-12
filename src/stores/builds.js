@@ -2,7 +2,24 @@ import { derived } from 'svelte/store';
 import { characters } from '@store/gamedata';
 import { parser } from '$lib/util/parser';
 
-export const buildtypes = ['dps', 'sub-dps', 'support', 'burst', 'healer', 'shield', 'meta', 'f2p', 'whale'];
+export const buildtypes = [
+  'aggravate',
+  'bloom',
+  'burgeon',
+  'burst',
+  'dps',
+  'f2p',
+  'freeze',
+  'healer',
+  'hyperbloom',
+  'melt',
+  'meta',
+  'physical',
+  'shield',
+  'sub-dps',
+  'support',
+  'whale'
+];
 
 function parseBuilds(buildsData, charactersData) {
   const parsed = Object.values(buildsData).map((d) => {

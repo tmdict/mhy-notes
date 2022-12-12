@@ -2,17 +2,17 @@
 character: diona
 c: 6
 type:
-  - support
+  - f2p
   - healer
   - meta
-  - f2p
+  - support
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
   - name: sacrificial-bow
-    r: 0
+    r: 3
   - name: favonius-warbow
     r: 0
   - name: elegy-for-the-end
@@ -37,11 +37,11 @@ mainstat:
     - heal
 
 stats:
-  - hp: '31,000'
+  - hp: '33,000'
   - er: '200%'
   - atk: '1,200'
 
-talent: 'E >= Q'
+talent: 'E = Q'
 
 notes:
   en: 'Hold E'

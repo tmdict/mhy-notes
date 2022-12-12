@@ -2,18 +2,18 @@
 character: kuki-shinobu
 c: 0
 type:
+  - f2p
   - support
-  - meta
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
+  - name: favonius-sword
+    r: 0
   - name: freedom-sworn
     r: 0
-  - name: iron-sting
-    r: 0
-  - name: favonius-sword
+  - name: key-of-khaj-nisut
     r: 0
 
 artifact:
@@ -25,18 +25,17 @@ artifact:
 mainstat:
   sand:
     - hp
-    - em
   goblet:
     - hp
-    - em
   circlet:
     - heal
-    - em
+    - hp
+    - cr
 
 stats:
-  - hp: '36,000'
-  - crit: ''
-  - em: '350'
+  - hp: '41,000'
+  - cr: ''
+  - em: '330'
 
 talent: 'E > Q'
 

@@ -2,9 +2,10 @@
 character: fischl
 c: 6
 type:
+  - aggravate
   - sub-dps
 name:
-  en: 'Aggravate'
+  en: 'Off-Field Aggravate'
   zh: '超激化'
 
 weapon:

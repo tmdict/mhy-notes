@@ -2,8 +2,8 @@
 character: beidou
 c: 2
 type:
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -34,7 +34,7 @@ mainstat:
 
 stats:
   - crit: '60% / 120%'
-  - atk: '2,300'
+  - atk: '2,000'
   - er: '190%'
   - em: ''
 

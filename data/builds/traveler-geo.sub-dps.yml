@@ -3,8 +3,8 @@ character: traveler-anemo
 c: 6
 type:
   - burst
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS (Geo)'
   zh: '脱手副C（岩）'
@@ -19,6 +19,8 @@ weapon:
 
 artifact:
   - set: [archaic-petra, gladiators-finale]
+    p: 2
+  - set: [archaic-petra, noblesse-oblige]
     p: 2
 
 mainstat:

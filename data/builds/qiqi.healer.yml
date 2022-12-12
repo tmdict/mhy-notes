@@ -2,9 +2,10 @@
 character: qiqi
 c: 1
 type:
+  - f2p
   - healer
-  - support
   - meta
+  - support
 name:
   en: 'Healer'
   zh: '治疗'
@@ -22,6 +23,8 @@ artifact:
     p: 4
   - set: [tenacity-of-the-millelith]
     p: 4
+  - set: [maiden-beloved]
+    p: 4
 
 mainstat:
   sand:
@@ -34,7 +37,8 @@ mainstat:
     - atk
 
 stats:
-  - atk: '1,900'
+  - atk: '2,600'
+  - er: ''
   - heal: '70%'
 
 talent: 'Q > E'

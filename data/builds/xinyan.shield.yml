@@ -2,9 +2,9 @@
 character: xinyan
 c: 4
 type:
+  - f2p
   - shield
   - support
-  - f2p
 name:
   en: 'Shield Support'
   zh: '盾'
@@ -20,6 +20,8 @@ weapon:
 artifact:
   - set: [tenacity-of-the-millelith]
     p: 4
+  - set: [husk-of-opulent-dreams]
+    p: 4
 
 mainstat:
   sand:
@@ -31,9 +33,9 @@ mainstat:
     - def
 
 stats:
-  - def: '2,700'
+  - def: '3,100'
   - er: ''
-  - atk: '1,700'
+  - atk: '1,900'
 
 talent: 'E > Q'
 

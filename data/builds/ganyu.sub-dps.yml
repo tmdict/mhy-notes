@@ -34,13 +34,12 @@ mainstat:
 
 stats:
   - er: ''
-  - atk: ''
   - crit: ''
+  - atk: ''
   - em: ''
 
 talent: 'Q > E > A'
 
 source:
   - ccb: default
-  - ysmxt: default
   - kqm: https://keqingmains.com/ganyu/

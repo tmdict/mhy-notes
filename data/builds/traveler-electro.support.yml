@@ -2,25 +2,27 @@
 character: traveler-electro
 c: 6
 type:
-  - support
-  - meta
   - f2p
+  - meta
+  - support
 name:
   en: 'Support (Electro)'
   zh: '辅助（雷）'
 
 weapon:
   - name: favonius-sword
-    r: 3
+    r: 0
+  - name: freedom-sworn
+    r: 0
   - name: sacrificial-sword
-    r: 3
-  - name: skyward-blade
     r: 0
 
 artifact:
   - set: [emblem-of-severed-fate]
     p: 4
   - set: [noblesse-oblige]
+    p: 4
+  - set: [instructor]
     p: 4
 
 mainstat:
@@ -33,8 +35,8 @@ mainstat:
 
 stats:
   - er: '250%'
+  - atk: '1,300'
   - crit: '60% / 120%'
-  - atk: '1,200'
 
 talent: 'E > Q'
 

@@ -2,9 +2,9 @@
 character: tighnari
 c: 0
 type:
-  - sub-dps
-  - quickswap
+  - dps
   - meta
+  - sub-dps
 name:
   en: 'Quickswap DPS'
   zh: '速切副C'
@@ -12,15 +12,17 @@ name:
 weapon:
   - name: hunters-path
     r: 0
-  - name: aqua-simulacra
+  - name: elegy-for-the-end
     r: 0
   - name: the-viridescent-hunt
     r: 0
 
 artifact:
-  - set: [deepwood-memories]
+  - set: [wanderers-troupe]
     p: 4
   - set: [gilded-dreams]
+    p: 4
+  - set: [deepwood-memories]
     p: 4
 
 mainstat:
@@ -34,7 +36,7 @@ mainstat:
 
 stats:
   - crit: '80% / 170%'
-  - em: '260'
+  - em: '350'
   - atk: '1,200'
   - er: ''
 

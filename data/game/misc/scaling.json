@@ -69,7 +69,7 @@
       "sand": ["hp", "er"],
       "goblet": ["hp"],
       "circlet": ["heal"],
-      "recommended-talent": ["q"]
+      "recommended-talent": ["e"]
     },
     "beidou": {
       "base-stat": ["electro"],
@@ -496,7 +496,7 @@
       "sand": ["atk"],
       "goblet": ["geo"],
       "circlet": ["crit-abbr"],
-      "recommended-talent": ["a"]
+      "recommended-talent": ["q"]
     },
     "noelle": {
       "base-stat": ["def"],
@@ -748,7 +748,7 @@
       "sand": ["em", "atk"],
       "goblet": ["em", "anemo"],
       "circlet": ["em", "crit-abbr"],
-      "recommended-talent": ["q"]
+      "recommended-talent": ["e", "q"]
     },
     "xiangling": {
       "base-stat": ["em"],

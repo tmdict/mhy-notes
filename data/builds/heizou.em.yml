@@ -37,6 +37,11 @@ stats:
 
 talent: 'E > A > Q'
 
+notes:
+  en: 'NAx4 > CA'
+  zh: 'NAx4 > CA'
+
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/heizou/

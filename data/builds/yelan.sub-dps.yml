@@ -3,8 +3,8 @@ character: yelan
 c: 0
 type:
   - burst
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -34,8 +34,8 @@ mainstat:
 
 stats:
   - er: '190%'
-  - hp: '35,000'
-  - crit: '80% / 200%'
+  - hp: '28,000'
+  - crit: '80% / 210%'
 
 talent: 'Q > E > A'
 

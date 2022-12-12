@@ -33,7 +33,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 170%'
+  - crit: '70% / 180%'
   - atk: '2,100'
   - em: ''
 

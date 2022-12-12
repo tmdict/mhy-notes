@@ -3,6 +3,7 @@ character: zhongli
 c: 0
 type:
   - burst
+  - meta
   - support
 name:
   en: 'Burst'
@@ -34,9 +35,9 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 150%'
+  - crit: '80% / 150%'
   - atk: '1,600'
-  - hp: '35,000'
+  - hp: '34,000'
   - er: ''
 
 talent: 'Q > E'

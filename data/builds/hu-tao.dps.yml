@@ -11,15 +11,17 @@ name:
 weapon:
   - name: staff-of-homa
     r: 0
-  - name: dragons-bane
+  - name: staff-of-the-scarlet-sands
     r: 0
-  - name: deathmatch
+  - name: dragons-bane
     r: 0
 
 artifact:
   - set: [crimson-witch-of-flames]
     p: 4
   - set: [shimenawas-reminiscence]
+    p: 4
+  - set: [gilded-dreams]
     p: 4
 
 mainstat:
@@ -33,9 +35,9 @@ mainstat:
 
 stats:
   - crit: '70% / 200%'
-  - em: '260'
-  - hp: '28,000'
-  - atk: '3,300'
+  - em: '270'
+  - hp: '35,000'
+  - atk: '3,500'
 
 talent: 'A > E > Q'
 

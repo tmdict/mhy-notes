@@ -1,30 +1,34 @@
 ---
 character: xinyan
-c: 1
+c: 2
 type:
   - dps
   - meta
+  - physical
 name:
   en: 'Physical DPS'
   zh: '物伤'
 
 weapon:
-  - name: skyward-pride
-    r: 0
-  - name: the-unforged
+  - name: redhorn-stonethresher
     r: 0
   - name: serpent-spine
+    r: 5
+  - name: the-unforged
     r: 0
 
 artifact:
   - set: [pale-flame, bloodstained-chivalry]
     p: 2
+  - set: [pale-flame]
+    p: 4
   - set: [retracing-bolide]
     p: 4
 
 mainstat:
   sand:
     - atk
+    - er
   goblet:
     - physical
   circlet:
@@ -32,11 +36,11 @@ mainstat:
 
 stats:
   - crit: '60% / 120%'
-  - atk: '2,700'
+  - atk: '2,800'
   - er: '130%'
-  - def: '1,000'
+  - def: '1,700'
 
-talent: 'A > Q > E'
+talent: 'A >= Q >= E'
 
 notes:
   en: 'Nx2 > CA > Q > CA'

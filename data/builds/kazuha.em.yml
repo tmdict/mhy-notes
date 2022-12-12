@@ -2,8 +2,8 @@
 character: kaedehara-kazuha
 c: 0
 type:
-  - support
   - meta
+  - support
 name:
   en: 'EM Support'
   zh: '精通辅助'
@@ -11,9 +11,9 @@ name:
 weapon:
   - name: freedom-sworn
     r: 0
-  - name: favonius-sword
-    r: 0
   - name: xiphos-moonlight
+    r: 0
+  - name: sacrificial-sword
     r: 0
 
 artifact:
@@ -35,11 +35,11 @@ mainstat:
 
 stats:
   - em: '1,000'
-  - er: '180%'
-  - atk: '1,300'
+  - er: '190%'
+  - atk: '1,400'
   - crit: ''
 
-talent: 'Q > E > A'
+talent: 'Q > A > E'
 
 source:
   - ccb: default

@@ -31,7 +31,7 @@ mainstat:
     - heal
 
 stats:
-  - hp: '40,000'
+  - hp: '41,000'
   - er: ''
   - atk: '1,300'
   - heal: '85%'

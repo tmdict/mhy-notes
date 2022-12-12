@@ -2,8 +2,8 @@
 character: lisa
 c: 2
 type:
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -35,9 +35,9 @@ mainstat:
 
 stats:
   - er: ''
-  - crit: '70% / 150%'
+  - crit: '80% / 150%'
   - atk: '1,900'
-  - em: ''
+  - em: '180'
 
 talent: 'E > Q'
 

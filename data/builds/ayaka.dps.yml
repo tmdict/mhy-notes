@@ -11,7 +11,7 @@ name:
 weapon:
   - name: mistsplitter-reforged
     r: 0
-  - name: summit-shaper
+  - name: haran-geppaku-futsu
     r: 0
   - name: amenoma-kageuchi
     r: 0
@@ -34,9 +34,10 @@ mainstat:
     - atk
 
 stats:
-  - crit: '30% / 250%'
-  - atk: '2,100'
+  - cdmg: '250%'
+  - atk: '2,200'
   - er: '180'
+  - cr: '40%'
 
 talent: 'Q > A > E'
 

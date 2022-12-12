@@ -2,9 +2,9 @@
 character: venti
 c: 0
 type:
+  - meta
   - sub-dps
   - support
-  - meta
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -35,12 +35,12 @@ mainstat:
     - crit
 
 stats:
-  - em: '800'
-  - er: '200%'
-  - atk: '1,300'
+  - em: '780'
+  - er: '210%'
+  - atk: '1,400'
   - crit: ''
 
-talent: 'Q > E'
+talent: 'Q = E'
 
 source:
   - ccb: default

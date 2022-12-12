@@ -4,6 +4,7 @@ c: 4
 type:
   - dps
   - meta
+  - physical
 name:
   en: 'Physical DPS'
   zh: '物伤'
@@ -34,7 +35,7 @@ mainstat:
 
 stats:
   - crit: '70% / 140%'
-  - atk: '1,700'
+  - atk: '1,800'
   - er: ''
   - em: ''
 

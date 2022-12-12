@@ -1,21 +1,21 @@
 ---
-character: kuki-shinobu
-c: 0
+character: thoma
+c: 4
 type:
-  - hyperbloom
+  - burgeon
+  - f2p
   - meta
-  - sub-dps
   - support
 name:
-  en: 'Hyperbloom'
-  zh: '超绽放'
+  en: 'Burgeon'
+  zh: '烈绽放'
 
 weapon:
-  - name: freedom-sworn
+  - name: kitain-cross-spear
     r: 0
-  - name: xiphos-moonlight
+  - name: favonius-lance
     r: 0
-  - name: iron-sting
+  - name: dragons-bane
     r: 0
 
 artifact:
@@ -26,6 +26,7 @@ artifact:
 
 mainstat:
   sand:
+    - er
     - em
   goblet:
     - em
@@ -33,11 +34,13 @@ mainstat:
     - em
 
 stats:
-  - em: '950'
-  - hp: '27,000'
   - er: ''
+  - em: ''
+  - hp: ''
+  - cr: ''
 
 talent: 'E > Q'
 
 source:
   - ccb: default
+  - kqm: https://keqingmains.com/thoma/

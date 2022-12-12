@@ -2,19 +2,19 @@
 character: traveler-anemo
 c: 6
 type:
-  - burst
-  - sub-dps
+  - dps
   - meta
+  - sub-dps
 name:
-  en: 'Off-Field DPS (Anemo)'
-  zh: '脱手副C（风）'
+  en: 'Anemo DPS (Anemo)'
+  zh: '风C（风）'
 
 weapon:
   - name: freedom-sworn
     r: 0
-  - name: iron-sting
-    r: 0
   - name: primordial-jade-cutter
+    r: 0
+  - name: sacrificial-sword
     r: 0
 
 artifact:
@@ -33,9 +33,9 @@ mainstat:
     - crit
 
 stats:
-  - em: '740'
+  - em: '720'
   - er: '160%'
-  - atk: '1,200'
+  - atk: '1,300'
   - crit: ''
 
 talent: 'E > Q'

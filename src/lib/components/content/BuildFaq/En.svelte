@@ -124,7 +124,7 @@
     </ol>
 
     <p>
-      The stat reference values are rounded down to the nearest 10th/100th place. Note many values are meant to be the
+      The stat reference values are rounded to the nearest 10th/100th place. Note many values are meant to be the
       optimal value based on a character's damage curve and can be very difficult to reach, we recommend using them as a
       reference for ratios between stats, or as a long term goal to aim for. Due to these being an aggregated summary,
       accuracies may be lost, please use linked source materials for accurate, in-depth analysis.

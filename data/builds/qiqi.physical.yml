@@ -3,6 +3,7 @@ character: qiqi
 c: 0
 type:
   - dps
+  - physical
 name:
   en: 'Physical DPS'
   zh: '物伤'

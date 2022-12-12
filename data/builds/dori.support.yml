@@ -2,9 +2,9 @@
 character: dori
 c: 0
 type:
-  - support
-  - meta
   - f2p
+  - meta
+  - support
 name:
   en: 'Support'
   zh: '辅助'
@@ -20,7 +20,7 @@ weapon:
 artifact:
   - set: [noblesse-oblige]
     p: 4
-  - set: [deepwood-memories]
+  - set: [ocean-hued-clam]
     p: 4
   - set: [instructor]
     p: 4
@@ -35,9 +35,9 @@ mainstat:
     - heal
 
 stats:
-  - hp: '39,000'
   - crit: ''
   - er: '180%'
+  - hp: '39,000'
   - em: ''
 
 talent: 'Q > E'

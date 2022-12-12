@@ -2,10 +2,10 @@
 character: sangonomiya-kokomi
 c: 0
 type:
-  - healer
-  - support
-  - meta
   - f2p
+  - healer
+  - meta
+  - support
 name:
   en: 'Support'
   zh: '辅助'
@@ -23,6 +23,8 @@ artifact:
     p: 4
   - set: [ocean-hued-clam]
     p: 4
+  - set: [maiden-beloved]
+    p: 4
 
 mainstat:
   sand:
@@ -34,9 +36,9 @@ mainstat:
     - heal
 
 stats:
-  - hp: '47,000'
-  - er: '170%'
-  - atk: '1,000'
+  - hp: '48,000'
+  - er: '220%'
+  - atk: '1,100'
   - heal: '60%'
 
 talent: 'E > Q > A'

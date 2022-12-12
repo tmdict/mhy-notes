@@ -1,21 +1,20 @@
 ---
-character: kuki-shinobu
+character: raiden-shogun
 c: 0
 type:
+  - f2p
   - hyperbloom
-  - meta
-  - sub-dps
   - support
 name:
   en: 'Hyperbloom'
   zh: '超绽放'
 
 weapon:
-  - name: freedom-sworn
+  - name: dragons-bane
     r: 0
-  - name: xiphos-moonlight
+  - name: moonpiercer
     r: 0
-  - name: iron-sting
+  - name: kitain-cross-spear
     r: 0
 
 artifact:
@@ -33,11 +32,13 @@ mainstat:
     - em
 
 stats:
-  - em: '950'
-  - hp: '27,000'
+  - em: '1,000'
+  - atk: ''
   - er: ''
+  - crit: ''
 
 talent: 'E > Q'
 
 source:
   - ccb: default
+  - kqm: https://keqingmains.com/raiden/

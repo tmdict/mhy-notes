@@ -1,6 +1,6 @@
 ---
 character: shikanoin-heizou
-c: 0
+c: 4
 type:
   - dps
   - meta
@@ -29,13 +29,18 @@ mainstat:
     - crit
 
 stats:
-  - crit: '60% / 120%'
-  - atk: '2,100'
-  - er: ''
+  - crit: '70% / 150%'
+  - atk: '2,200'
+  - er: '130%'
   - em: ''
 
 talent: 'E > A > Q'
 
+notes:
+  en: 'NA > Q > E'
+  zh: 'NA > Q > E'
+
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/heizou/

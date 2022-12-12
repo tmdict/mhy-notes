@@ -11,8 +11,8 @@ name:
 weapon:
   - name: elegy-for-the-end
     r: 0
-  - name: sacrificial-bow
-    r: 4
+  - name: polar-star
+    r: 0
   - name: favonius-warbow
     r: 0
 
@@ -36,16 +36,18 @@ mainstat:
     - em
 
 stats:
-  - er: '170%'
+  - er: '180%'
   - crit: '60% / 120%'
-  - atk: '1,800'
+  - atk: '1,900'
   - em: '120'
 
 talent: 'Q > E > A'
 
 notes:
-  en: 'Rotation: Skill > Burst > Swap'
+  en: 'E > Q > Swap'
+  zh: 'E > Q > Swap'
 
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/collei/

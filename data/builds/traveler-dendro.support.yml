@@ -2,8 +2,8 @@
 character: traveler-dendro
 c: 6
 type:
-  - support
   - meta
+  - support
 name:
   en: 'Support (Dendro)'
   zh: '辅助（草）'

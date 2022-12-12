@@ -2,8 +2,8 @@
 character: bennett
 c: 1
 type:
-  - support
   - healer
+  - support
 name:
   en: 'Support'
   zh: '辅助'
@@ -21,8 +21,8 @@ artifact:
     p: 4
   - set: [the-exile, scholar]
     p: 2
-  - set: [maiden-beloved]
-    p: 4
+  - set: [tenacity-of-the-millelith, maiden-beloved]
+    p: 2
 
 mainstat:
   sand:

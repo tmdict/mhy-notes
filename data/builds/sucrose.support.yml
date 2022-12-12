@@ -2,19 +2,19 @@
 character: sucrose
 c: 6
 type:
-  - support
-  - meta
   - f2p
+  - meta
+  - support
 name:
   en: 'EM Support'
   zh: '精通辅助'
 
 weapon:
+  - name: a-thousand-floating-dreams
+    r: 0
   - name: sacrificial-fragments
     r: 0
   - name: thrilling-tales-of-dragon-slayers
-    r: 0
-  - name: hakushin-ring
     r: 0
 
 artifact:
@@ -35,10 +35,10 @@ mainstat:
     - em
 
 stats:
-  - em: '770'
-  - atk: '1,000'
-  - crit: ''
+  - em: '750'
   - er: ''
+  - atk: '1,100'
+  - crit: ''
 
 talent: 'E > Q'
 

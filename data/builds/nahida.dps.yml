@@ -9,11 +9,11 @@ name:
   zh: '主C'
 
 weapon:
-  - name: kaguras-verity
-    r: 5
   - name: a-thousand-floating-dreams
     r: 5
-  - name: lost-prayer-to-the-sacred-winds
+  - name: kaguras-verity
+    r: 5
+  - name: the-widsith
     r: 5
 
 artifact:
@@ -35,9 +35,9 @@ mainstat:
 
 stats:
   - er: '140%'
-  - dendro: ''
-  - crit: ''
-  - atk: '1,100'
+  - crit: '50% / 130%'
+  - em: '1,000'
+  - atk: '1,500'
 
 talent: 'E > Q = A'
 

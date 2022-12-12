@@ -3,24 +3,27 @@ character: rosaria
 c: 1
 type:
   - dps
+  - freeze
+  - meta
+  - sub-dps
 name:
-  en: 'Cryo DPS'
-  zh: '冰C'
+  en: 'Freeze DPS'
+  zh: '永冻流'
 
 weapon:
   - name: staff-of-homa
     r: 0
-  - name: primordial-jade-winged-spear
-    r: 0
   - name: wavebreakers-fin
     r: 5
+  - name: vortex-vanquisher
+    r: 0
 
 artifact:
   - set: [blizzard-strayer]
     p: 4
-  - set: [gladiators-finale]
+  - set: [noblesse-oblige]
     p: 4
-  - set: [blizzard-strayer, gladiators-finale]
+  - set: [blizzard-strayer, noblesse-oblige]
     p: 2
 
 mainstat:
@@ -32,10 +35,10 @@ mainstat:
     - crit
 
 stats:
-  - cdmg: ''
-  - atk: ''
-  - er: '130%'
-  - cr: ''
+  - cdmg: '100%'
+  - atk: '1,900'
+  - er: '150%'
+  - cr: '70%'
 
 talent: 'Q > E > A'
 

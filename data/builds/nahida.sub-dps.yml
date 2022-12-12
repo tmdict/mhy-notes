@@ -2,8 +2,8 @@
 character: nahida
 c: 0
 type:
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'

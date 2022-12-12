@@ -3,6 +3,8 @@ character: ganyu
 c: 0
 type:
   - dps
+  - freeze
+  - meta
 name:
   en: 'Freeze DPS'
   zh: '永冻流'
@@ -10,7 +12,7 @@ name:
 weapon:
   - name: polar-star
     r: 0
-  - name: thundering-pulse
+  - name: aqua-simulacra
     r: 0
   - name: prototype-crescent
     r: 5
@@ -30,7 +32,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '25% / 220%'
+  - crit: '30% / 230%'
   - atk: '2,400'
   - er: ''
 

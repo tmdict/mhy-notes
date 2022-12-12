@@ -9,12 +9,12 @@ name:
   zh: '主C'
 
 weapon:
-  - name: kaguras-verity
-    r: 0
   - name: lost-prayer-to-the-sacred-winds
     r: 0
   - name: the-widsith
     r: 5
+  - name: kaguras-verity
+    r: 0
 
 artifact:
   - set: [crimson-witch-of-flames]
@@ -33,7 +33,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 150%'
+  - crit: '80% / 150%'
   - atk: '1,900'
   - em: '80'
   - er: ''

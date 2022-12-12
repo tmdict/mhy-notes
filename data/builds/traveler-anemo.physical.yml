@@ -1,18 +1,19 @@
 ---
-character: fischl
+character: traveler-anemo
 c: 6
 type:
   - dps
+  - physical
 name:
-  en: 'DPS'
-  zh: '主C'
+  en: 'Physical DPS (Anemo)'
+  zh: '物伤（风）'
 
 weapon:
-  - name: skyward-harp
+  - name: aquila-favonia
     r: 0
-  - name: polar-star
+  - name: summit-shaper
     r: 0
-  - name: mitternachts-waltz
+  - name: blackcliff-longsword
     r: 0
 
 artifact:
@@ -20,14 +21,11 @@ artifact:
     p: 4
   - set: [pale-flame, bloodstained-chivalry]
     p: 2
-  - set: [thundersoother]
-    p: 4
 
 mainstat:
   sand:
     - atk
   goblet:
-    - electro
     - physical
   circlet:
     - crit
@@ -36,13 +34,13 @@ stats:
   - crit: ''
   - atk: ''
   - er: ''
-  - em: ''
 
 talent: 'A > E > Q'
 
 notes:
-  en: 'E/Q > NA > CA > Re-summon Oz'
-  zh: 'E/Q > NA > CA > Re-summon Oz'
+  en: 'Not recommended'
+  zh: '不推荐'
 
 source:
   - ccb: default
+  - kqm: https://keqingmains.com/anemo-traveler/

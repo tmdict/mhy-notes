@@ -2,12 +2,13 @@
 character: mona
 c: 0
 type:
-  - support
-  - meta
   - f2p
+  - freeze
+  - meta
+  - support
 name:
-  en: 'Support'
-  zh: '辅助'
+  en: 'Freeze Support'
+  zh: '永冻流辅助'
 
 weapon:
   - name: thrilling-tales-of-dragon-slayers
@@ -34,9 +35,9 @@ mainstat:
 stats:
   - er: '210%'
   - crit: '60% / 120%'
-  - atk: '1,200'
+  - atk: '1,300'
 
-talent: 'Q'
+talent: 'Q > E'
 
 notes:
   en: 'Q + Freeze support'

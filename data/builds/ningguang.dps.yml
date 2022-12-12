@@ -1,6 +1,6 @@
 ---
 character: ningguang
-c: 1
+c: 2
 type:
   - dps
   - meta
@@ -19,6 +19,10 @@ weapon:
 artifact:
   - set: [archaic-petra, gladiators-finale]
     p: 2
+  - set: [archaic-petra, noblesse-oblige]
+    p: 2
+  - set: [noblesse-oblige, gladiators-finale]
+    p: 2
 
 mainstat:
   sand:
@@ -29,11 +33,11 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 150%'
-  - atk: '1,900'
+  - crit: '80% / 150%'
+  - atk: '2,300'
   - er: ''
 
-talent: 'A > Q > E'
+talent: 'Q > A > E'
 
 source:
   - ccb: default

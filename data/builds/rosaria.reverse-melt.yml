@@ -1,31 +1,34 @@
 ---
 character: rosaria
-c: 2
+c: 1
 type:
-  - burst
-  - support
+  - dps
+  - melt
+  - meta
 name:
-  en: 'Burst Support'
-  zh: '爆发'
+  en: 'Reverse-Melt'
+  zh: '融化流'
 
 weapon:
-  - name: favonius-lance
-    r: 0
   - name: staff-of-the-scarlet-sands
     r: 0
-  - name: deathmatch
+  - name: staff-of-homa
     r: 0
+  - name: wavebreakers-fin
+    r: 5
 
 artifact:
-  - set: [noblesse-oblige]
+  - set: [lavawalker]
     p: 4
-  - set: [instructor]
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [gilded-dreams]
     p: 4
 
 mainstat:
   sand:
+    - em
     - atk
-    - er
   goblet:
     - cryo
   circlet:
@@ -33,9 +36,9 @@ mainstat:
 
 stats:
   - cr: '70%'
-  - er: '160%'
   - cdmg: '100%'
-  - atk: '1,900'
+  - em: ''
+  - atk: ''
 
 talent: 'Q > E'
 
@@ -45,5 +48,4 @@ notes:
 
 source:
   - ccb: default
-  - ysmxt: default
   - kqm: https://keqingmains.com/rosaria/

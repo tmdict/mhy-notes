@@ -1,0 +1,44 @@
+---
+character: yelan
+c: 6
+type:
+  - burst
+  - dps
+  - whale
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: aqua-simulacra
+    r: 5
+  - name: polar-star
+    r: 5
+  - name: thundering-pulse
+    r: 5
+
+artifact:
+  - set: [emblem-of-severed-fate]
+    p: 4
+  - set: [heart-of-depth, tenacity-of-the-millelith]
+    p: 2
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hydro
+  circlet:
+    - crit
+
+stats:
+  - er: '200%'
+  - hp: '35,000'
+  - crit: '80% / 210%'
+  - atk: '1,300'
+
+talent: 'Q > E > A'
+
+source:
+  - ysmxt: default

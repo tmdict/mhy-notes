@@ -2,18 +2,18 @@
 character: xiangling
 c: 4
 type:
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
 
 weapon:
+  - name: staff-of-the-scarlet-sands
+    r: 0
   - name: the-catch
-    r: 0
+    r: 5
   - name: staff-of-homa
-    r: 0
-  - name: skyward-spine
     r: 0
 
 artifact:
@@ -24,8 +24,9 @@ artifact:
 
 mainstat:
   sand:
-    - em
     - er
+    - em
+    - atk
   goblet:
     - pyro
   circlet:
@@ -33,8 +34,8 @@ mainstat:
 
 stats:
   - er: '170%'
-  - crit: '60% / 120%'
-  - atk: '1,700'
+  - crit: '60% / 130%'
+  - atk: '1,900'
   - em: '340'
 
 talent: 'Q > E'

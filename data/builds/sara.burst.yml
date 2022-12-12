@@ -3,16 +3,16 @@ character: kujou-sara
 c: 2
 type:
   - burst
-  - support
   - meta
+  - support
 name:
-  en: 'Burst'
+  en: 'Burst Support'
   zh: '爆发'
 
 weapon:
   - name: skyward-harp
     r: 0
-  - name: mouuns-moon
+  - name: elegy-for-the-end
     r: 0
   - name: sacrificial-bow
     r: 0
@@ -20,10 +20,10 @@ weapon:
 artifact:
   - set: [emblem-of-severed-fate]
     p: 4
-  - set: [thundering-fury, noblesse-oblige]
-    p: 2
   - set: [noblesse-oblige]
     p: 4
+  - set: [thundering-fury, noblesse-oblige]
+    p: 2
 
 mainstat:
   sand:
@@ -36,9 +36,9 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 100%'
-  - atk: '1,400'
   - er: '220%'
+  - crit: '80% / 150%'
+  - atk: '1,600'
 
 talent: E > Q
 

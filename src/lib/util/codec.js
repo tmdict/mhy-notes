@@ -1,7 +1,24 @@
 import * as data from '$lib/util/enum.json';
 
 const delimiter = '\0';
-const typeReplacer = ['meta', 'f2p', 'whale', 'dps', 'sub-dps', 'support', 'burst', 'healer', 'shield'];
+const typeReplacer = [
+  'aggravate',
+  'bloom',
+  'burgeon',
+  'burst',
+  'dps',
+  'f2p',
+  'freeze',
+  'healer',
+  'hyperbloom',
+  'melt',
+  'meta',
+  'physical',
+  'shield',
+  'sub-dps',
+  'support',
+  'whale'
+];
 const sourceReplacer = ['ccb', 'ysmxt', 'kqm', 'submitted'];
 const statReplacer = [
   'atk',

@@ -2,9 +2,9 @@
 character: albedo
 c: 0
 type:
-  - sub-dps
-  - meta
   - f2p
+  - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -36,8 +36,8 @@ mainstat:
 
 stats:
   - crit: '60% / 120%'
-  - def: '2,500'
-  - atk: '1,100'
+  - def: '2,600'
+  - atk: '1,200'
   - er: ''
 
 talent: 'E > Q'

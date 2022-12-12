@@ -2,10 +2,9 @@
 character: thoma
 c: 0
 type:
+  - f2p
   - shield
   - support
-  - meta
-  - f2p
 name:
   en: 'Shield Support'
   zh: '盾'
@@ -40,7 +39,7 @@ stats:
   - er: '220'
   - hp: '23,000'
   - cr: '70%'
-  - atk: '1,400'
+  - atk: '1,500'
 
 talent: 'E > Q'
 

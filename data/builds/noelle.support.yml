@@ -2,10 +2,10 @@
 character: noelle
 c: 1
 type:
-  - support
+  - f2p
   - healer
   - shield
-  - f2p
+  - support
 name:
   en: 'Support'
   zh: '辅助'

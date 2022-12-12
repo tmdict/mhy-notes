@@ -1,18 +1,20 @@
 ---
-character: xiangling
-c: 2
+character: zhongli
+c: 0
 type:
   - dps
+  - f2p
+  - physical
 name:
   en: 'Physical DPS'
   zh: '物伤'
 
 weapon:
-  - name: primordial-jade-winged-spear
-    r: 0
   - name: crescent-pike
     r: 0
-  - name: vortex-vanquisher
+  - name: primordial-jade-winged-spear
+    r: 0
+  - name: staff-of-homa
     r: 0
 
 artifact:
@@ -26,6 +28,7 @@ artifact:
 mainstat:
   sand:
     - atk
+    - hp
   goblet:
     - physical
   circlet:
@@ -34,12 +37,14 @@ mainstat:
 stats:
   - crit: ''
   - atk: ''
+  - hp: ''
   - er: ''
-  - em: ''
 
 talent: 'A > Q > E'
 
+notes:
+  en: 'NA (until spear kick) > Dodge/jump cancel'
+
 source:
   - ccb: default
-  - ysmxt: default
-  - kqm: https://keqingmains.com/xiangling/
+  - kqm: https://keqingmains.com/zhongli/

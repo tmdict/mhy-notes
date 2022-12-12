@@ -2,9 +2,9 @@
 character: layla
 c: 0
 type:
-  - support
-  - meta
   - f2p
+  - meta
+  - support
 name:
   en: 'EM Support'
   zh: '精通辅助'
@@ -35,7 +35,7 @@ mainstat:
     - crit
 
 stats:
-  - hp: '40,000'
+  - hp: '41,000'
   - er: '180%'
   - crit: ''
   - atk: '1,000'

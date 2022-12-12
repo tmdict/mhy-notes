@@ -36,3 +36,6 @@ stats:
   - er: '140%'
 
 talent: 'E = A > Q'
+
+source:
+  - ysmxt: default

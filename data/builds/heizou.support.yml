@@ -2,8 +2,8 @@
 character: shikanoin-heizou
 c: 0
 type:
-  - support
   - f2p
+  - support
 name:
   en: 'Support'
   zh: '辅助'
@@ -20,6 +20,8 @@ artifact:
   - set: [viridescent-venerer]
     p: 4
   - set: [instructor]
+    p: 4
+  - set: [noblesse-oblige]
     p: 4
 
 mainstat:
@@ -43,4 +45,3 @@ talent: 'E > A > Q'
 
 source:
   - ccb: default
-  - ysmxt: default

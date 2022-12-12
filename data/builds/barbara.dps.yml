@@ -8,22 +8,23 @@ name:
   zh: '主C'
 
 weapon:
-  - name: lost-prayer-to-the-sacred-winds
-    r: 0
   - name: skyward-atlas
+    r: 0
+  - name: lost-prayer-to-the-sacred-winds
     r: 0
   - name: the-widsith
     r: 0
 
 artifact:
-  - set: [heart-of-depth]
-    p: 4
   - set: [wanderers-troupe]
+    p: 4
+  - set: [heart-of-depth]
     p: 4
 
 mainstat:
   sand:
     - atk
+    - em
   goblet:
     - hydro
   circlet:

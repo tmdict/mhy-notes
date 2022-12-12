@@ -1,21 +1,19 @@
 ---
-character: kuki-shinobu
+character: barbara
 c: 0
 type:
-  - hyperbloom
-  - meta
-  - sub-dps
-  - support
+  - bloom
+  - dps
 name:
-  en: 'Hyperbloom'
-  zh: '超绽放'
+  en: 'Bloom DPS'
+  zh: '绽放'
 
 weapon:
-  - name: freedom-sworn
+  - name: a-thousand-floating-dreams
     r: 0
-  - name: xiphos-moonlight
+  - name: sacrificial-fragments
     r: 0
-  - name: iron-sting
+  - name: magic-guide
     r: 0
 
 artifact:
@@ -33,11 +31,11 @@ mainstat:
     - em
 
 stats:
-  - em: '950'
-  - hp: '27,000'
+  - em: ''
   - er: ''
 
 talent: 'E > Q'
 
 source:
   - ccb: default
+  - kqm: https://keqingmains.com/barbara/#DPS_Barbara

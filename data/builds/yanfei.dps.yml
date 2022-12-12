@@ -11,15 +11,15 @@ name:
 weapon:
   - name: lost-prayer-to-the-sacred-winds
     r: 0
+  - name: memory-of-dust
+    r: 0
   - name: the-widsith
     r: 5
-  - name: skyward-atlas
-    r: 0
 
 artifact:
-  - set: [crimson-witch-of-flames]
-    p: 4
   - set: [gilded-dreams]
+    p: 4
+  - set: [crimson-witch-of-flames]
     p: 4
   - set: [wanderers-troupe]
     p: 4
@@ -34,7 +34,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 150%'
+  - crit: '80% / 150%'
   - atk: '1,800'
   - er: ''
   - em: '160'

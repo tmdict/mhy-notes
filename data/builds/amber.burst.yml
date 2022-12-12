@@ -3,10 +3,10 @@ character: amber
 c: 0
 type:
   - burst
-  - support
   - meta
+  - support
 name:
-  en: 'Burst'
+  en: 'Burst Support'
   zh: '爆发'
 
 weapon:

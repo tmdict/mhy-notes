@@ -34,7 +34,7 @@ stats:
   - crit: ''
   - em: ''
   - atk: ''
-  - er: '130%'
+  - er: '150%'
 
 talent: 'E > Q > A'
 

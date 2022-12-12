@@ -3,6 +3,7 @@ character: ganyu
 c: 0
 type:
   - dps
+  - melt
   - meta
 name:
   en: 'Melt DPS'
@@ -13,13 +14,13 @@ weapon:
     r: 0
   - name: amos-bow
     r: 0
-  - name: prototype-crescent
-    r: 5
+  - name: hamayumi
+    r: 0
 
 artifact:
-  - set: [shimenawas-reminiscence]
-    p: 4
   - set: [wanderers-troupe]
+    p: 4
+  - set: [shimenawas-reminiscence]
     p: 4
 
 mainstat:
@@ -33,9 +34,8 @@ mainstat:
 
 stats:
   - crit: '50% / 170%'
-  - em: ''
+  - em: '270'
   - atk: '2,400'
-  - er: ''
 
 talent: 'A > E > Q'
 

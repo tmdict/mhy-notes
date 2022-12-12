@@ -26,13 +26,14 @@ mainstat:
   sand:
     - atk
     - er
+    - em
   goblet:
     - hydro
   circlet:
     - crit
 
 stats:
-  - crit: '70% / 140%'
+  - crit: '70% / 150%'
   - er: '180%'
   - atk: '1,700'
   - em: '80'

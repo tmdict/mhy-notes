@@ -3,27 +3,28 @@ character: jean
 c: 0
 type:
   - burst
-  - support
+  - healer
   - meta
+  - support
 name:
-  en: 'Burst'
+  en: 'Burst Support'
   zh: '爆发'
 
 weapon:
   - name: primordial-jade-cutter
     r: 0
+  - name: amenoma-kageuchi
+    r: 0
   - name: aquila-favonia
     r: 0
-  - name: festering-desire
-    r: 5
 
 artifact:
-  - set: [viridescent-venerer, gladiators-finale]
-    p: 2
   - set: [viridescent-venerer]
     p: 4
   - set: [noblesse-oblige]
     p: 4
+  - set: [viridescent-venerer, gladiators-finale]
+    p: 2
 
 mainstat:
   sand:
@@ -38,9 +39,9 @@ mainstat:
 
 stats:
   - crit: ''
-  - atk: '2,100'
-  - er: '160%'
-  - heal: '50%'
+  - atk: '2,200'
+  - er: '170%'
+  - heal: '60%'
 
 talent: 'Q = E > A'
 

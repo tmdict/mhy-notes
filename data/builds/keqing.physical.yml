@@ -1,18 +1,19 @@
 ---
-character: zhongli
+character: keqing
 c: 0
 type:
   - dps
+  - physical
 name:
   en: 'Physical DPS'
   zh: '物伤'
 
 weapon:
-  - name: crescent-pike
+  - name: aquila-favonia
     r: 0
-  - name: primordial-jade-winged-spear
+  - name: primordial-jade-cutter
     r: 0
-  - name: staff-of-homa
+  - name: the-black-sword
     r: 0
 
 artifact:
@@ -20,30 +21,29 @@ artifact:
     p: 4
   - set: [pale-flame, bloodstained-chivalry]
     p: 2
-  - set: [gladiators-finale]
-    p: 4
+  - set: [bloodstained-chivalry, gladiators-finale]
+    p: 2
 
 mainstat:
   sand:
     - atk
-    - hp
   goblet:
     - physical
   circlet:
     - crit
 
 stats:
-  - crit: ''
-  - atk: ''
-  - hp: ''
+  - crit: '80% / 220%'
+  - atk: '2,200'
+  - em: ''
   - er: ''
 
 talent: 'A > Q > E'
 
 notes:
-  en: 'NA (until spear kick) > Dodge/jump cancel'
+  en: 'E > CA'
+  zh: 'E > CA'
 
 source:
   - ccb: default
-  - ysmxt: default
-  - kqm: https://keqingmains.com/zhongli/
+  - kqm: https://keqingmains.com/keqing/

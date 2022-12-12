@@ -2,10 +2,10 @@
 character: zhongli
 c: 0
 type:
+  - f2p
+  - meta
   - shield
   - support
-  - meta
-  - f2p
 name:
   en: 'Shield Support'
   zh: '盾'
@@ -13,9 +13,9 @@ name:
 weapon:
   - name: black-tassel
     r: 0
-  - name: favonius-lance
-    r: 0
   - name: staff-of-homa
+    r: 0
+  - name: favonius-lance
     r: 0
 
 artifact:
@@ -31,7 +31,7 @@ mainstat:
     - hp
 
 stats:
-  - hp: '55,000'
+  - hp: '56,000'
   - er: ''
   - atk: '1,000'
 

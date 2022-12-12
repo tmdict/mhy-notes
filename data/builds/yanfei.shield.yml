@@ -2,9 +2,9 @@
 character: yanfei
 c: 4
 type:
+  - f2p
   - shield
   - support
-  - f2p
 name:
   en: 'Shield Support'
   zh: '盾'

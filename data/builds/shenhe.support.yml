@@ -2,8 +2,8 @@
 character: shenhe
 c: 0
 type:
-  - support
   - meta
+  - support
 name:
   en: 'Support'
   zh: '辅助'
@@ -21,8 +21,6 @@ artifact:
     p: 2
   - set: [noblesse-oblige]
     p: 4
-  - set: [blizzard-strayer]
-    p: 4
 
 mainstat:
   sand:
@@ -35,7 +33,7 @@ mainstat:
 
 stats:
   - atk: '4,000'
-  - er: '180'
+  - er: '220%'
   - crit: ''
 
 talent: 'E > Q'

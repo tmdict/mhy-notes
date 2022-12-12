@@ -3,16 +3,16 @@ character: aloy
 c: 0
 type:
   - burst
-  - support
   - meta
+  - support
 name:
-  en: 'Burst'
+  en: 'Burst Support'
   zh: '爆发'
 
 weapon:
   - name: thundering-pulse
     r: 0
-  - name: skyward-harp
+  - name: polar-star
     r: 0
   - name: favonius-warbow
     r: 0
@@ -34,8 +34,8 @@ mainstat:
     - crit
 
 stats:
-  - crit: '50% / 130%'
-  - atk: '1,600'
+  - crit: '50% / 140%'
+  - atk: '1,700'
   - em: ''
   - er: ''
 

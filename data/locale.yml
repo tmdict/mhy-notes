@@ -23,6 +23,9 @@ achievements:
 admonition:
   en: 'Admonition'
   zh: '诤言'
+aggravate:
+  en: 'Aggravate'
+  zh: '超激化'
 all:
   en: 'All'
   zh: '全选'
@@ -68,6 +71,12 @@ build-type-placeholder:
 builds:
   en: 'Builds'
   zh: '角色配装'
+bloom:
+  en: 'Bloom'
+  zh: '绽放'
+burgeon:
+  en: 'Burgeon'
+  zh: '烈绽放'
 burst:
   en: 'Burst'
   zh: '爆发'
@@ -194,6 +203,9 @@ filters:
 freedom:
   en: 'Freedom'
   zh: '自由'
+freeze:
+  en: 'Freeze'
+  zh: '永冻'
 geo:
   en: 'Geo'
   zh: '岩'
@@ -218,6 +230,9 @@ hp:
 hydro:
   en: 'Hydro'
   zh: '水'
+hyperbloom:
+  en: 'Hyperbloom'
+  zh: '超绽放'
 import-data:
   en: 'Import Data'
   zh: '上传数据库'
@@ -251,6 +266,9 @@ mainstat:
 manage-data:
   en: 'Manage Data'
   zh: '数据管理'
+melt:
+  en: 'Melt'
+  zh: '融化'
 meta:
   en: 'Meta'
   zh: '毕业面板'

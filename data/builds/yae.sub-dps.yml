@@ -2,8 +2,8 @@
 character: yae-miko
 c: 0
 type:
-  - sub-dps
   - meta
+  - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
@@ -17,10 +17,10 @@ weapon:
     r: 0
 
 artifact:
-  - set: [gilded-dreams]
-    p: 4
   - set: [thundering-fury, gladiators-finale]
     p: 2
+  - set: [gilded-dreams]
+    p: 4
   - set: [emblem-of-severed-fate]
     p: 4
 
@@ -34,8 +34,8 @@ mainstat:
     - crit
 
 stats:
-  - crit: '80% / 180%'
-  - atk: '1,900'
+  - crit: '80% / 190%'
+  - atk: '2,200'
   - er: ''
   - em: '160'
 
