@@ -74,9 +74,6 @@ builds:
 bloom:
   en: 'Bloom'
   zh: '绽放'
-burgeon:
-  en: 'Burgeon'
-  zh: '烈绽放'
 burst:
   en: 'Burst'
   zh: '爆发'
@@ -230,9 +227,6 @@ hp:
 hydro:
   en: 'Hydro'
   zh: '水'
-hyperbloom:
-  en: 'Hyperbloom'
-  zh: '超绽放'
 import-data:
   en: 'Import Data'
   zh: '上传数据库'

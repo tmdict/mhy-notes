@@ -4,13 +4,11 @@ const delimiter = '\0';
 const typeReplacer = [
   'aggravate',
   'bloom',
-  'burgeon',
   'burst',
   'dps',
   'f2p',
   'freeze',
   'healer',
-  'hyperbloom',
   'melt',
   'meta',
   'physical',

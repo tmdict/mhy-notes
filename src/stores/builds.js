@@ -5,13 +5,11 @@ import { parser } from '$lib/util/parser';
 export const buildtypes = [
   'aggravate',
   'bloom',
-  'burgeon',
   'burst',
   'dps',
   'f2p',
   'freeze',
   'healer',
-  'hyperbloom',
   'melt',
   'meta',
   'physical',

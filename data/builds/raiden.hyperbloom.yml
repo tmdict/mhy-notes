@@ -2,8 +2,8 @@
 character: raiden-shogun
 c: 0
 type:
+  - bloom
   - f2p
-  - hyperbloom
   - support
 name:
   en: 'Hyperbloom'
