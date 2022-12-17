@@ -34,7 +34,7 @@ mainstat:
 
 stats:
   - cr: '70%'
-  - er: '160%'
+  - er: ''
   - cdmg: '100%'
   - atk: '1,900'
 

@@ -42,6 +42,12 @@
       description: 'Compare your Genshin characters against others.'
     },
     {
+      name: 'Energy Recharge Calculator',
+      lang: ['English'],
+      url: 'https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit#gid=818973096',
+      description: 'KQM Energy Recharge Calculator.'
+    },
+    {
       name: 'Enka.Network',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://enka.network/',

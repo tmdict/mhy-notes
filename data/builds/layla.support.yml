@@ -35,7 +35,7 @@ mainstat:
 
 stats:
   - hp: '41,000'
-  - er: '180%'
+  - er: ''
   - crit: ''
   - atk: '1,000'
 

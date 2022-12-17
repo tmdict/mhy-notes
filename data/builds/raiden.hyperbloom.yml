@@ -18,6 +18,8 @@ weapon:
     r: 0
 
 artifact:
+  - set: [flower-of-paradise-lost]
+    p: 4
   - set: [gilded-dreams]
     p: 4
   - set: [gilded-dreams, wanderers-troupe]

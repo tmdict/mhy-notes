@@ -33,7 +33,7 @@ mainstat:
     - hp
 
 stats:
-  - er: '240%'
+  - er: ''
   - hp: ''
 
 source:

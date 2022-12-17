@@ -34,7 +34,7 @@ mainstat:
 
 stats:
   - em: '720'
-  - er: '160%'
+  - er: ''
   - atk: '1,300'
   - crit: ''
 

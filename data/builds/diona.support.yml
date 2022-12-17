@@ -38,7 +38,7 @@ mainstat:
 
 stats:
   - hp: '33,000'
-  - er: '200%'
+  - er: ''
   - atk: '1,200'
 
 talent: 'E = Q'

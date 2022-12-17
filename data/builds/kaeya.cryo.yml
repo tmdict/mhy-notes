@@ -34,7 +34,7 @@ mainstat:
 stats:
   - cdmg: ''
   - atk: ''
-  - er: '120%'
+  - er: ''
   - cr: ''
 
 talent: 'Q > A > E'

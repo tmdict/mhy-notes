@@ -8,7 +8,7 @@
       name: 'character-builds',
       url: 'builds',
       new: true,
-      updated: '2022-12-12'
+      updated: '2022-12-17'
     },
     {
       name: 'character-stat-scaling',
