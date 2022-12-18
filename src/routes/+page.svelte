@@ -13,7 +13,6 @@
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      new: true,
       updated: '2022-12-12'
     },
     {
@@ -24,13 +23,11 @@
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      new: true,
       updated: '2022-12-12'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      new: true,
       updated: '2022-12-12'
     },
     {
