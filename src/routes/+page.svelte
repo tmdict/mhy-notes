@@ -7,13 +7,13 @@
     {
       name: 'character-builds',
       url: 'builds',
-      new: true,
       updated: '2022-12-17'
     },
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      updated: '2022-12-12'
+      new: true,
+      updated: '2023-01-30'
     },
     {
       name: 'leveling-cost',
@@ -23,12 +23,14 @@
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      updated: '2022-12-12'
+      new: true,
+      updated: '2023-01-30'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      updated: '2022-12-12'
+      new: true,
+      updated: '2023-01-30'
     },
     {
       name: 'commission-achievements',

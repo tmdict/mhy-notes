@@ -17,6 +17,19 @@
       "circlet": ["crit-abbr", "def"],
       "recommended-talent": ["e"]
     },
+    "alhaitham": {
+      "base-stat": ["dendro"],
+      "a": ["atk"],
+      "e": ["atk", "em"],
+      "q": ["atk", "em"],
+      "a1": [],
+      "a4": ["em"],
+      "constellation": [],
+      "sand": ["em"],
+      "goblet": ["dendro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "aloy": {
       "base-stat": ["cryo"],
       "a": ["atk"],
@@ -861,6 +874,22 @@
       "goblet": ["pyro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
+    },
+    "yaoyao": {
+      "base-stat": ["hp"],
+      "a": ["atk"],
+      "e": ["atk", "hp"],
+      "q": ["atk", "hp"],
+      "a1": [],
+      "a4": ["hp"],
+      "constellation": [
+        { "C4": ["hp"] },
+        { "C6": ["atk", "hp"] }
+      ],
+      "sand": ["hp"],
+      "goblet": ["hp"],
+      "circlet": ["heal"],
+      "recommended-talent": ["e"]
     },
     "yelan": {
       "base-stat": ["cr"],

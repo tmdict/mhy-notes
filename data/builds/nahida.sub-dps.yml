@@ -4,6 +4,7 @@ c: 0
 type:
   - meta
   - sub-dps
+  - bloom
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'

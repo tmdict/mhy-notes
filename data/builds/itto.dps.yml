@@ -19,10 +19,10 @@ weapon:
 artifact:
   - set: [husk-of-opulent-dreams]
     p: 4
+  - set: [desert-pavilion-chronicle]
+    p: 4
   - set: [retracing-bolide]
     p: 4
-  - set: [husk-of-opulent-dreams, archaic-petra]
-    p: 2
 
 mainstat:
   sand:

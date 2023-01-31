@@ -2,7 +2,6 @@
 character: lisa
 c: 2
 type:
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
