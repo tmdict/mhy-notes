@@ -21,21 +21,21 @@
 
   const faq = { en: AchievementFaqEn, zh: AchievementFaqZh };
 
-  const searchOptions = {
-    includeMatches: true,
-    minMatchCharLength: 2,
-    findAllMatches: true,
-    shouldSort: true,
-    distance: 20
-  };
-
   $: {
     // 1. filter by search
     if (searchTerm !== '') {
       // Update what language to search for
+      let minMatchCharLen = (searchTerm.length > 3) ? searchTerm.length - 2 : 2
       const fuse = new Fuse($achievements, {
-        ...searchOptions,
-        keys: [$lang + '.name', $lang + '.commission', $lang + '.description']
+        ...{
+          includeMatches: true,
+          minMatchCharLength: minMatchCharLen,
+          findAllMatches: true,
+          shouldSort: true,
+          ignoreLocation: true,
+          threshold: 0.0,
+        },
+        keys: [{ name: $lang + '.commission', weight: 2 }, $lang + '.name', $lang + '.description']
       });
       const results = fuse.search(searchTerm);
       if (results.length > 0) {

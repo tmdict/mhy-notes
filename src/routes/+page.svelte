@@ -35,7 +35,8 @@
     {
       name: 'commission-achievements',
       url: 'achievements',
-      updated: '2022-11-25'
+      new: true,
+      updated: '2023-02-05'
     }
   ];
 
