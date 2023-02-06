@@ -54,12 +54,12 @@
               on:click|stopPropagation={() => updateChecklist(achievement.achievement, todo)}
               class="checklist"
               type="checkbox"
-              id={todo}
-              name={todo}
+              id="{achievement.achievement}-{todo}"
+              name="{achievement.achievement}-{todo}"
               value={content.checklist[todo]}
               checked={$localData['achievements'][achievement.achievement][todo]}
             />
-            <label on:click|stopPropagation on:keydown|stopPropagation for={todo}>{content.checklist[todo]}</label>
+            <label on:click|stopPropagation on:keydown|stopPropagation for="{achievement.achievement}-{todo}">{content.checklist[todo]}</label>
           </li>
         {/each}
       </ul>
