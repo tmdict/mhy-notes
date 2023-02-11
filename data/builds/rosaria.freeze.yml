@@ -7,7 +7,7 @@ type:
   - meta
   - sub-dps
 name:
-  en: 'Freeze DPS'
+  en: 'Freeze'
   zh: '永冻流'
 
 weapon:

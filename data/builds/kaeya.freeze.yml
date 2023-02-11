@@ -3,16 +3,17 @@ character: kaeya
 c: 1
 type:
   - dps
+  - freeze
 name:
-  en: 'Cryo DPS'
-  zh: '冰C'
+  en: 'Freeze'
+  zh: '永冻流'
 
 weapon:
   - name: mistsplitter-reforged
     r: 0
-  - name: summit-shaper
+  - name: light-of-foliar-incision
     r: 0
-  - name: blackcliff-longsword
+  - name: kagotsurube-isshin
     r: 0
 
 artifact:

@@ -20,10 +20,10 @@ weapon:
 artifact:
   - set: [emblem-of-severed-fate]
     p: 4
-  - set: [heart-of-depth, noblesse-oblige]
-    p: 2
   - set: [noblesse-oblige]
     p: 4
+  - set: [heart-of-depth, noblesse-oblige]
+    p: 2
 
 mainstat:
   sand:

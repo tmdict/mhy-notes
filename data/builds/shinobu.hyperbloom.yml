@@ -19,9 +19,9 @@ weapon:
     r: 0
 
 artifact:
-  - set: [flower-of-paradise-lost]
-    p: 4
   - set: [gilded-dreams]
+    p: 4
+  - set: [flower-of-paradise-lost]
     p: 4
   - set: [gilded-dreams, wanderers-troupe]
     p: 2
@@ -35,9 +35,10 @@ mainstat:
     - em
 
 stats:
-  - em: '950'
-  - hp: '27,000'
+  - em: '960'
+  - hp: '22,000'
   - er: ''
+  - atk: '1,100'
 
 talent: 'E > Q'
 

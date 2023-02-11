@@ -3,11 +3,12 @@ character: kaeya
 c: 2
 type:
   - burst
+  - melt
   - meta
   - support
 name:
-  en: 'Burst Support'
-  zh: '爆发'
+  en: 'Reverse-Melt'
+  zh: '融化流'
 
 weapon:
   - name: primordial-jade-cutter

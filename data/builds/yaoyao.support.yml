@@ -1,49 +1,40 @@
 ---
-character: kuki-shinobu
+character: yaoyao
 c: 0
 type:
   - f2p
+  - meta
   - support
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
-  - name: favonius-sword
+  - name: favonius-lance
     r: 0
-  - name: freedom-sworn
+  - name: black-tassel
     r: 0
-  - name: key-of-khaj-nisut
+  - name: moonpiercer
     r: 0
 
 artifact:
-  - set: [gilded-dreams]
-    p: 4
   - set: [tenacity-of-the-millelith]
-    p: 4
-  - set: [noblesse-oblige]
     p: 4
 
 mainstat:
   sand:
     - hp
-    - em
   goblet:
     - hp
-    - em
   circlet:
     - heal
-    - hp
-    - cr
 
 stats:
-  - hp: '27,000'
-  - cr: ''
-  - em: '780'
+  - hp: '47,000'
+  - cr: '30%'
   - atk: '1,100'
 
 talent: 'E > Q'
 
 source:
-  - ccb: default
   - ysmxt: default

@@ -7,12 +7,12 @@
     {
       name: 'character-builds',
       url: 'builds',
-      updated: '2022-12-17'
+      new: true,
+      updated: '2023-02-10'
     },
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      new: true,
       updated: '2023-01-30'
     },
     {
@@ -23,13 +23,11 @@
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      new: true,
       updated: '2023-01-30'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      new: true,
       updated: '2023-01-30'
     },
     {

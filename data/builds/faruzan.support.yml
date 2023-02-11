@@ -17,6 +17,8 @@ weapon:
     r: 5
 
 artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
   - set: [viridescent-venerer]
     p: 4
   - set: [noblesse-oblige]

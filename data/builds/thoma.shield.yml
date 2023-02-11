@@ -22,7 +22,7 @@ artifact:
     p: 2
   - set: [noblesse-oblige]
     p: 4
-  - set: [emblem-of-severed-fate]
+  - set: [instructor]
     p: 4
 
 mainstat:
