@@ -6,7 +6,7 @@ region: mondstadt
 checklist:
 - todo1
 en:
-  name: "...Odomu?"
+  name: "…Odomu?"
   description: "Successfully conduct cultural exchange with the hilichurls in “Language Exchange.”"
   commission:
   - "Language Exchange"

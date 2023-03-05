@@ -6,7 +6,7 @@ region: liyue
 checklist:
 - todo1
 en:
-  name: "Once Upon a Time..."
+  name: "Once Upon a Time…"
   description: "Finish listening to the tale of The Wrath of Haishan in “Cliffhanger.”"
   commission:
   - "Cliffhanger"
@@ -15,7 +15,7 @@ en:
 
     After giving one excerpt to Liu Su, the other excerpt will remain in your inventory and can be used during future commissions.
 
-    Choosing Part I and Part II of Ring of Raining Blades will give you the “Friends, Travelers, Lend Me Your Ears...” achievement.
+    Choosing Part I and Part II of Ring of Raining Blades will give you the “Friends, Travelers, Lend Me Your Ears…” achievement.
   checklist:
     todo1: "The Wrath of Haishan"
 zh:

@@ -7,7 +7,7 @@ checklist:
 - todo1
 en:
   name: "Get Your Own Emergency Food!"
-  description: "Consume the food during “Food Delivery”...?"
+  description: "Consume the food during “Food Delivery”…?"
   commission:
   - "Food Delivery"
   notes: | 

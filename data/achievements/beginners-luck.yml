@@ -8,11 +8,11 @@ checklist:
 en:
   name: "Beginner’s Luck"
   commission:
-  - "Diamond in the Rough..."
+  - "Diamond in the Rough…"
   description: "Select the highest-value jade on your first try."
   notes: ""
   checklist:
-    todo1: "Diamond in the Rough..."
+    todo1: "Diamond in the Rough…"
 zh:
   name: "时也运也"
   commission:
