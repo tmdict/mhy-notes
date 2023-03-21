@@ -35,7 +35,7 @@ function parseBuilds(buildsData, charactersData) {
 }
 
 export const builds = derived([characters], ([$characters]) => {
-  const buildData = import.meta.globEager('../../data/builds/*.yml');
+  const buildData = import.meta.glob('../../data/builds/*.yml', { eager: true });
   return parseBuilds(buildData, $characters);
 });
 

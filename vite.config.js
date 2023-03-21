@@ -1,12 +1,12 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { fileURLToPath, URL } from 'url';
-import content from '@originjs/vite-plugin-content';
+import ViteYaml from '@modyfi/vite-plugin-yaml';
 
 /** @type {import('vite').UserConfig} */
 const config = {
 	plugins: [
     sveltekit(),
-    content.default() // For loading yml
+    ViteYaml() // For loading yml
   ],
   resolve: {
     alias: {

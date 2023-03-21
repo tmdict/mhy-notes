@@ -1,6 +1,6 @@
 import { readable } from 'svelte/store';
 
-const raw = import.meta.globEager('../../data/game/**/*.json');
+const raw = import.meta.glob('../../data/game/**/*.json', { eager: true });
 const grouped = Object.values(raw).reduce((acc, d) => {
   acc[d.default.type] = acc[d.default.type] || {};
   acc[d.default.type] = { [d.default.id]: d.default, ...acc[d.default.type] };
@@ -23,5 +23,5 @@ Object.values(grouped).forEach((data) => {
 });
 export const rarity = readable(rarityData);
 
-const achievementData = import.meta.globEager('../../data/achievements/*.yml');
+const achievementData = import.meta.glob('../../data/achievements/*.yml', { eager: true });
 export const achievements = readable(Object.values(achievementData).map((d) => d.default));
