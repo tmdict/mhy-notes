@@ -2,13 +2,14 @@
 character: kuki-shinobu
 c: 0
 type:
+  - aggravate
   - bloom
   - meta
   - sub-dps
   - support
 name:
-  en: 'Hyperbloom'
-  zh: '超绽放'
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
 
 weapon:
   - name: freedom-sworn
@@ -29,10 +30,13 @@ artifact:
 mainstat:
   sand:
     - em
+    - er
   goblet:
     - em
+    - electro
   circlet:
     - em
+    - crit
 
 stats:
   - em: '960'
@@ -44,3 +48,4 @@ talent: 'E > Q'
 
 source:
   - ccb: default
+  - ysmxt: default

@@ -1,0 +1,42 @@
+---
+character: dehya
+c: 0
+type:
+  - dps
+  - meta
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: beacon-of-the-reed-sea
+    r: 0
+  - name: wolfs-gravestone
+    r: 0
+  - name: the-bell
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
+  - set: [emblem-of-severed-fate]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - hp: '33,000'
+  - crit: '80% / 150%'
+  - atk: '1,900'
+
+talent: 'E > Q'
+
+source:
+  - ysmxt: default

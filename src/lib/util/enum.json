@@ -263,7 +263,15 @@
     "wanderer",
     "desert-pavilion-chronicle",
     "flower-of-paradise-lost",
-    "tulaytullahs-remembrance"
+    "tulaytullahs-remembrance",
+    "alhaitham",
+    "dehya",
+    "mika",
+    "yaoyao",
+    "beacon-of-the-reed-sea",
+    "light-of-foliar-incision",
+    "mailed-flower",
+    "toukabou-shigure"
   ],
   "name2id": {
     "geo": 0,
@@ -529,6 +537,14 @@
     "wanderer": 260,
     "desert-pavilion-chronicle": 261,
     "flower-of-paradise-lost": 262,
-    "tulaytullahs-remembrance": 263
+    "tulaytullahs-remembrance": 263,
+    "alhaitham": 264,
+    "dehya": 265,
+    "mika": 266,
+    "yaoyao": 267,
+    "beacon-of-the-reed-sea": 268,
+    "light-of-foliar-incision": 269,
+    "mailed-flower": 270,
+    "toukabou-shigure": 271
   }
 }

@@ -1,0 +1,42 @@
+---
+character: mika
+c: 0
+type:
+  - f2p
+  - healer
+  - meta
+  - support
+name:
+  en: 'Healer'
+  zh: '治疗'
+
+weapon:
+  - name: favonius-lance
+    r: 0
+  - name: kitain-cross-spear
+    r: 0
+  - name: prototype-starglitter
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - hp
+  circlet:
+    - heal
+
+stats:
+  - er: '200%'
+  - hp: '31,000'
+  - heal: '60%'
+  - atk: '2,000'
+
+talent: 'E > Q'
+
+source:
+  - ysmxt: default

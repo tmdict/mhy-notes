@@ -1,9 +1,11 @@
 ---
 character: cyno
-c: 0
+c: 2
 type:
   - dps
   - meta
+  - aggravate
+  - bloom
 name:
   en: 'DPS'
   zh: '主C'
@@ -25,7 +27,6 @@ artifact:
 mainstat:
   sand:
     - em
-    - atk
   goblet:
     - electro
   circlet:

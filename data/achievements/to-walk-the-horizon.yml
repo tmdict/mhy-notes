@@ -21,7 +21,7 @@ en:
   notes: | 
     After completing “The Sparrow Studies the Blade,” finish “The Day the Sword Departs” series of commissions to receive the achievment.
     
-    Because this is a new achievement, previous completions of “The Sparrow Studies the Blade” and you need to complete it once after version 3.3.
+    Because this is a new achievement, previous completions of “The Sparrow Studies the Blade” do not count and you need to complete it once after version 3.3.
   checklist:
     todo1: "The Sparrow Studies the Blade"
     todo2: "The Day the Sword Departs - Encounter"
@@ -40,7 +40,7 @@ zh:
   notes: | 
     完成「飞雀扰剑意」后，完成「剑去之日」一系列任务（一共四次）即可拿到成就。
     
-    因为是新增委托的缘故，之前完成的「飞雀扰剑意」不作数的，得在3.3版本更新后重新再做一遍。
+    因为是新增委托的缘故，之前完成的「飞雀扰剑意」不作数，得在3.3版本更新后重新再做一遍。
   checklist:
     todo1: "试问，藏锋何处？"
     todo2: "剑去之日 - 与孙宇对话"

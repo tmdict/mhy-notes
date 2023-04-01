@@ -1,0 +1,16 @@
+{
+  "id": "mika",
+  "type": "character",
+  "rarity": 4,
+  "vision": "cryo",
+  "weapon": "polearm",
+  "released": "3.5.1",
+  "data": {
+    "en": {
+      "name": "Mika"
+    },
+    "zh": {
+      "name": "米卡"
+    }
+  }
+}

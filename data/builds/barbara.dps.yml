@@ -2,43 +2,41 @@
 character: barbara
 c: 0
 type:
+  - bloom
   - dps
 name:
-  en: 'DPS'
-  zh: '主C'
+  en: 'Bloom DPS'
+  zh: '绽放'
 
 weapon:
-  - name: skyward-atlas
+  - name: a-thousand-floating-dreams
     r: 0
-  - name: lost-prayer-to-the-sacred-winds
+  - name: sacrificial-fragments
     r: 0
-  - name: the-widsith
+  - name: magic-guide
     r: 0
 
 artifact:
-  - set: [wanderers-troupe]
+  - set: [flower-of-paradise-lost]
     p: 4
-  - set: [heart-of-depth]
+  - set: [gilded-dreams]
     p: 4
+  - set: [gilded-dreams, wanderers-troupe]
+    p: 2
 
 mainstat:
   sand:
-    - atk
     - em
   goblet:
-    - hydro
+    - em
   circlet:
-    - crit
+    - em
 
 stats:
-  - crit: ''
-  - atk: ''
   - em: ''
+  - er: ''
 
-talent: 'A > E > Q'
-
-notes:
-  en: 'E > CA (Vaporize) or NA (Electro-Charge)'
+talent: 'E > Q'
 
 source:
   - ccb: default

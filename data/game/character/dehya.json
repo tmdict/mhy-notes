@@ -1,0 +1,16 @@
+{
+  "id": "dehya",
+  "type": "character",
+  "rarity": 5,
+  "vision": "pyro",
+  "weapon": "claymore",
+  "released": "3.5.0",
+  "data": {
+    "en": {
+      "name": "Dehya"
+    },
+    "zh": {
+      "name": "迪希雅"
+    }
+  }
+}

@@ -175,6 +175,19 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
     },
+    "dehya": {
+      "base-stat": ["hp"],
+      "a": ["atk", "hp"],
+      "e": ["atk", "hp"],
+      "q": [],
+      "a1": [],
+      "a4": [],
+      "constellation": [],
+      "sand": ["hp", "atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "diluc": {
       "base-stat": ["cr"],
       "a": ["atk"],
@@ -466,6 +479,19 @@
       "sand": ["atk", "er"],
       "goblet": ["electro"],
       "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
+    "mika": {
+      "base-stat": ["hp"],
+      "a": ["atk"],
+      "e": ["hp"],
+      "q": [],
+      "a1": [],
+      "a4": [],
+      "constellation": [],
+      "sand": ["er"],
+      "goblet": ["hp"],
+      "circlet": ["heal"],
       "recommended-talent": ["e"]
     },
     "mona": {
