@@ -13,16 +13,25 @@
   // Go through checklist to determine achievement completion status
   $: complete = Object.values($localData['achievements'][achievement.achievement]).every((c) => c === true);
 
-  function updateChecklist(achievement, todo) {
+  function updateChecklist(achievementName, todo) {
     // Update local storage
     const local = $localData;
-    local['achievements'][achievement][todo] = !local['achievements'][achievement][todo];
+    if (Object.keys(local['achievements'][achievementName]).length !== achievement.checklist.length) {
+      let updated = achievement.checklist.reduce((acc, c) => {
+        if (Object.keys(local['achievements'][achievementName]).includes(c)) {
+          acc[c] = local['achievements'][achievementName][c]
+        }
+        return acc
+      }, {})
+      local['achievements'][achievementName] = updated
+    }
+    local['achievements'][achievementName][todo] = !local['achievements'][achievementName][todo];
     $localData = local;
     if (browser) {
       localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
     }
     // Update achievement completion status
-    complete = Object.values($localData['achievements'][achievement]).every((c) => c === true);
+    complete = Object.values($localData['achievements'][achievementName]).every((c) => c === true);
   }
 </script>
 
