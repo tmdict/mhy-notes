@@ -14,6 +14,7 @@ checklist:
 - todo8
 - todo9
 - todo10
+- todo11
 en:
   name: "Hidden in Plain Sight"
   description: "Help Sango and Ryuuji solve the case."
@@ -31,10 +32,10 @@ en:
     todo3: "Bantan Sango Case File: The Search - East of Inazuma City"
     todo4: "Bantan Sango Case File: The Search - East of Amakane Island"
     todo5: "Bantan Sango Case File: The Search - Northeast of Kamisato Estate, at the base of the cliff"
-    todo6: "Bantan Sango Case File: Misdirectione - Commission"
-    todo7: "Bantan Sango Case File: Misdirectione - East of Inazuma City"
-    todo8: "Bantan Sango Case File: Misdirectione - East of Amakane Island"
-    todo9: "Bantan Sango Case File: Misdirectione - Northeast of Kamisato Estate, at the base of the cliff"
+    todo6: "Bantan Sango Case File: Misdirection - Commission"
+    todo7: "Bantan Sango Case File: Misdirection - East of Inazuma City"
+    todo8: "Bantan Sango Case File: Misdirection - East of Amakane Island"
+    todo9: "Bantan Sango Case File: Misdirection - Northeast of Kamisato Estate, at the base of the cliff"
     todo10: "Bantan Sango Case File: The Right Identity"
     todo11: "Bantan Sango Case File: Case-Closing Time"
 zh:
