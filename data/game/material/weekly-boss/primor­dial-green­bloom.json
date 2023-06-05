@@ -1,0 +1,10 @@
+{
+  "id": "primor­dial-green­bloom",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "warden-of-the-last-oasis",
+  "characters": [
+    "kaveh"
+  ]
+}

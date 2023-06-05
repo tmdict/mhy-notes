@@ -17,9 +17,9 @@ weapon:
     r: 0
 
 artifact:
-  - set: [tenacity-of-the-millelith]
+  - set: [vourukashas-glow]
     p: 4
-  - set: [emblem-of-severed-fate]
+  - set: [tenacity-of-the-millelith]
     p: 4
 
 mainstat:
@@ -32,9 +32,9 @@ mainstat:
     - crit
 
 stats:
-  - hp: '33,000'
+  - hp: '40,000'
   - crit: '80% / 150%'
-  - atk: '1,900'
+  - atk: '2,000'
 
 talent: 'E > Q'
 

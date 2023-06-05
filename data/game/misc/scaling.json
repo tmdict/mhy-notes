@@ -71,6 +71,21 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
     },
+    "baizhu": {
+      "base-stat": ["hp"],
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["hp", "atk"],
+      "a1": [],
+      "a4": ["hp"],
+      "constellation": [
+        { "C6": ["hp"] }
+      ],
+      "sand": ["er"],
+      "goblet": ["hp"],
+      "circlet": ["heal", "hp"],
+      "recommended-talent": ["q"]
+    },
     "barbara": {
       "base-stat": ["hp"],
       "a": ["atk"],
@@ -392,6 +407,21 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
     },
+    "kaveh": {
+      "base-stat": ["em"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["em"],
+      "a4": [],
+      "constellation": [
+        { "C6": ["atk"] }
+      ],
+      "sand": ["er"],
+      "goblet": ["em"],
+      "circlet": ["em"],
+      "recommended-talent": ["q"]
+    },
     "keqing": {
       "base-stat": ["cdmg"],
       "a": ["atk"],
@@ -406,6 +436,21 @@
       "goblet": ["electro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
+    },
+    "kirara": {
+      "base-stat": ["hp"],
+      "a": ["atk"],
+      "e": ["hp", "atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["hp"],
+      "constellation": [
+        { "C4": ["atk"] }
+      ],
+      "sand": ["hp"],
+      "goblet": ["hp"],
+      "circlet": ["hp"],
+      "recommended-talent": ["e"]
     },
     "klee": {
       "base-stat": ["pyro"],

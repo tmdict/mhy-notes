@@ -17,12 +17,12 @@ weapon:
     r: 0
 
 artifact:
+  - set: [nymphs-dream]
+    p: 4
   - set: [heart-of-depth, gladiators-finale]
     p: 2
   - set: [heart-of-depth]
     p: 4
-  - set: [heart-of-depth, wanderers-troupe]
-    p: 2
 
 mainstat:
   sand:
@@ -34,7 +34,7 @@ mainstat:
 
 stats:
   - crit: '80% / 150%'
-  - atk: '2,200'
+  - atk: '2,000'
   - em: '80'
   - er: ''
 

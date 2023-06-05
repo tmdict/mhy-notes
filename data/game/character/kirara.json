@@ -1,0 +1,16 @@
+{
+  "id": "kirara",
+  "type": "character",
+  "rarity": 4,
+  "vision": "dendro",
+  "weapon": "sword",
+  "released": "3.7.0",
+  "data": {
+    "en": {
+      "name": "Kirara"
+    },
+    "zh": {
+      "name": "绮良良"
+    }
+  }
+}

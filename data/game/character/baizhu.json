@@ -1,0 +1,16 @@
+{
+  "id": "baizhu",
+  "type": "character",
+  "rarity": 5,
+  "vision": "dendro",
+  "weapon": "catalyst",
+  "released": "3.6.1",
+  "data": {
+    "en": {
+      "name": "Baizhu"
+    },
+    "zh": {
+      "name": "白术"
+    }
+  }
+}
