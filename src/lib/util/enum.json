@@ -271,7 +271,14 @@
     "beacon-of-the-reed-sea",
     "light-of-foliar-incision",
     "mailed-flower",
-    "toukabou-shigure"
+    "toukabou-shigure",
+    "baizhu",
+    "kaveh",
+    "kirara",
+    "nymphs-dream",
+    "vourukashas-glow",
+    "ibis-piercer",
+    "jadefalls-splendor"
   ],
   "name2id": {
     "geo": 0,
@@ -545,6 +552,13 @@
     "beacon-of-the-reed-sea": 268,
     "light-of-foliar-incision": 269,
     "mailed-flower": 270,
-    "toukabou-shigure": 271
+    "toukabou-shigure": 271,
+    "baizhu": 272,
+    "kaveh": 273,
+    "kirara": 274,
+    "nymphs-dream": 275,
+    "vourukashas-glow": 276,
+    "ibis-piercer": 277,
+    "jadefalls-splendor": 278
   }
 }
