@@ -1,0 +1,12 @@
+{
+  "id": "teachings-of-order",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 2,
+  "group": "order",
+  "day": 3,
+  "region": 5,
+  "characters": [
+    "lynette"
+  ]
+}

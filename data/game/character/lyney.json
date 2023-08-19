@@ -1,0 +1,16 @@
+{
+  "id": "lyney",
+  "type": "character",
+  "rarity": 5,
+  "vision": "pyro",
+  "weapon": "bow",
+  "released": "4.0.0",
+  "data": {
+    "en": {
+      "name": "Lyney"
+    },
+    "zh": {
+      "name": "林尼"
+    }
+  }
+}

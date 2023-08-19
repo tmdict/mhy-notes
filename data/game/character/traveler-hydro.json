@@ -1,0 +1,16 @@
+{
+  "id": "traveler-hydro",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "sword",
+  "released": "4.0.0",
+  "data": {
+    "en": {
+      "name": "Traveler (Hydro)"
+    },
+    "zh": {
+      "name": "旅行者（水）"
+    }
+  }
+}

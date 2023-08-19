@@ -1,8 +1,8 @@
 {
-  "id": "philosophies-of-transience",
+  "id": "guide-to-transience",
   "type": "material",
   "materialType": "talent-book",
-  "rarity": 5,
+  "rarity": 3,
   "group": "transience",
   "day": 1,
   "region": 3,

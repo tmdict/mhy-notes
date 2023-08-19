@@ -278,7 +278,23 @@
     "nymphs-dream",
     "vourukashas-glow",
     "ibis-piercer",
-    "jadefalls-splendor"
+    "jadefalls-splendor",
+    "lynette",
+    "lyney",
+    "traveler-hydro",
+    "golden-troupe",
+    "marechaussee-hunter",
+    "finale-of-the-deep",
+    "flowing-purity",
+    "rightful-reward",
+    "song-of-stillness",
+    "the-first-great-magic",
+    "tidal-shadow",
+    "ballad-of-the-fjords",
+    "sacrificial-jade",
+    "scion-of-the-blazing-sun",
+    "talking-stick",
+    "wolf-fang"
   ],
   "name2id": {
     "geo": 0,
@@ -559,6 +575,22 @@
     "nymphs-dream": 275,
     "vourukashas-glow": 276,
     "ibis-piercer": 277,
-    "jadefalls-splendor": 278
+    "jadefalls-splendor": 278,
+    "lynette": 279,
+    "lyney": 280,
+    "traveler-hydro": 281,
+    "golden-troupe": 282,
+    "marechaussee-hunter": 283,
+    "finale-of-the-deep": 284,
+    "flowing-purity": 285,
+    "rightful-reward": 286,
+    "song-of-stillness": 287,
+    "the-first-great-magic": 288,
+    "tidal-shadow": 289,
+    "ballad-of-the-fjords": 290,
+    "sacrificial-jade": 291,
+    "scion-of-the-blazing-sun": 292,
+    "talking-stick": 293,
+    "wolf-fang": 294
   }
 }

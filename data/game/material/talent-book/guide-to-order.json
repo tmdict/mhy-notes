@@ -1,0 +1,12 @@
+{
+  "id": "guide-to-order",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "order",
+  "day": 3,
+  "region": 5,
+  "characters": [
+    "lynette"
+  ]
+}

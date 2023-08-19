@@ -1,0 +1,10 @@
+{
+  "id": "teachings-of-justice",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 2,
+  "group": "justice",
+  "day": 2,
+  "region": 5,
+  "characters": []
+}

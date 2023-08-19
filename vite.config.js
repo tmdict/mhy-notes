@@ -4,7 +4,7 @@ import ViteYaml from '@modyfi/vite-plugin-yaml';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [
+  plugins: [
     sveltekit(),
     ViteYaml() // For loading yml
   ],

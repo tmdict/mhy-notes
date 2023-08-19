@@ -1,0 +1,12 @@
+{
+  "id": "guide-to-equity",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "equity",
+  "day": 1,
+  "region": 5,
+  "characters": [
+    "lyney"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "guide-to-justice",
+  "type": "material",
+  "materialType": "talent-book",
+  "rarity": 3,
+  "group": "justice",
+  "day": 2,
+  "region": 5,
+  "characters": []
+}

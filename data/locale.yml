@@ -179,6 +179,9 @@ em:
 equipments:
   en: 'Equipments'
   zh: '装备'
+equity:
+  en: 'Equity'
+  zh: '公平'
 er:
   en: 'ER%'
   zh: '充'
@@ -236,6 +239,9 @@ inazuma:
 ingenuity:
   en: 'Ingenuity'
   zh: '巧思'
+justice:
+  en: 'Justice'
+  zh: '正义'
 level-up:
   en: 'Level Up'
   zh: '升级'
@@ -287,6 +293,9 @@ notes:
 optional:
   en: 'Optional'
   zh: 'Optional'
+order:
+  en: 'Order'
+  zh: '秩序'
 physical:
   en: 'Physical'
   zh: '物'
