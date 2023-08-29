@@ -3,8 +3,7 @@ achievement: yo-dala
 version: "1.0"
 achievementType: "olah-series-i"
 region: mondstadt
-checklist:
-- todo1
+checklist: 1
 en:
   name: "Yo dala?"
   description: "Successfully conduct cultural exchange with the hilichurls in “Poetry Exchange.”"
@@ -17,7 +16,7 @@ en:
     - Muhe ye
     - Ye dada!
   checklist:
-    todo1: "Poetry Exchange"
+    1: "Poetry Exchange"
 zh:
   name: "Yo dala？"
   description: "在「诗歌交流」中与丘丘人交流成功。"
@@ -30,4 +29,4 @@ zh:
     - Muhe ye
     - Ye dada!
   checklist:
-    todo1: "诗歌交流"
+    1: "诗歌交流"

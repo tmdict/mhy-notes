@@ -3,9 +3,7 @@ achievement: taking-responsibility-for-your-actions
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: mondstadt
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "Taking Responsibility for Your Actions"
   commission:
@@ -15,8 +13,8 @@ en:
   notes: |
     Killing the ducks in “Pigeon, Duck, and Child” leads to the “Sorry, Timmie!” commission the next day, which will grant the achievement.
   checklist:
-    todo1: "Pigeon, Duck, and Child"
-    todo2: "Sorry, Timmie!"
+    1: "Pigeon, Duck, and Child"
+    2: "Sorry, Timmie!"
 zh:
   name: "略表歉意"
   commission:
@@ -26,5 +24,5 @@ zh:
   notes: |
     在「鸽子、鸭子、小孩子」任务里将鸭子杀掉，完成第二天的任务「提米对不起」即可达成。
   checklist:
-    todo1: "鸽子、鸭子、小孩子"
-    todo2: "提米对不起"
+    1: "鸽子、鸭子、小孩子"
+    2: "提米对不起"

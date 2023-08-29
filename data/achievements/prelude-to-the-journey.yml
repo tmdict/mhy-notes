@@ -3,11 +3,7 @@ achievement: prelude-to-the-journey
 version: "2.4"
 achievementType: "wonders-of-the-world"
 region: liyue
-checklist:
-- todo1
-- todo2
-- todo3
-- todo4
+checklist: 4
 en:
   name: "Prelude to the Journey"
   commission:
@@ -24,10 +20,10 @@ en:
     3. Troubles Traveling Through Tributaries
     4. The Little Pirate Goes Out to Sea
   checklist:
-    todo1: "Pirate Invasion, in Liyue Harbor!"
-    todo2: "Ahoy! A Pirate's Growth for Ye!"
-    todo3: "Troubles Traveling Through Tributaries"
-    todo4: "The Little Pirate Goes Out to Sea"
+    1: "Pirate Invasion, in Liyue Harbor!"
+    2: "Ahoy! A Pirate's Growth for Ye!"
+    3: "Troubles Traveling Through Tributaries"
+    4: "The Little Pirate Goes Out to Sea"
 zh:
   name: "远大前程"
   commission:
@@ -44,7 +40,7 @@ zh:
     3. 随水而来的烦恼
     4. 小海盗，要出海
   checklist:
-    todo1: "璃月港，有海盗"
-    todo2: "哎呀，海盗想长大"
-    todo3: 随水而来的烦恼"
-    todo4: 小海盗，要出海"
+    1: "璃月港，有海盗"
+    2: "哎呀，海盗想长大"
+    3: 随水而来的烦恼"
+    4: 小海盗，要出海"

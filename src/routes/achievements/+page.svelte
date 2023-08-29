@@ -1,4 +1,5 @@
 <script>
+  import { browser } from '$app/environment';
   import Fuse from 'fuse.js';
   import cloneDeep from 'lodash.clonedeep';
   import { slide } from 'svelte/transition';
@@ -20,6 +21,25 @@
   let showFaq = false;
 
   const faq = { en: AchievementFaqEn, zh: AchievementFaqZh };
+
+  function migrateAchievements() {
+    const local = $localData;
+    if (local['achievements'] && !Array.isArray(local['achievements']['a-lingering-fragrance'])) {
+      const local = $localData;
+      let migrated = {};
+      for (const [key, value] of Object.entries(local.achievements)) {
+        if (!Array.isArray(value)) {
+          const migratedAchievement = Object.values(value)
+          migrated[key] = migratedAchievement
+        }
+      }
+      local['achievements'] = migrated
+      $localData = local;
+      browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
+      console.log('migration complete')
+    }
+  }
+  migrateAchievements()
 
   $: {
     // 1. filter by search

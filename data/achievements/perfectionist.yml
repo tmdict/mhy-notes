@@ -3,10 +3,7 @@ achievement: perfectionist
 version: "1.0"
 achievementType: "snezhnaya-does-not-believe-in-tears-series-i"
 region: mondstadt
-checklist:
-- todo1
-- todo2
-- todo3
+checklist: 3
 en:
   name: "Perfectionist"
   description: "Complete all of Tsarevich’s commissions flawlessly in “Reliable Helper.”"
@@ -19,9 +16,9 @@ en:
     - Mountainside: Do not destroy the crates for flawless completion. If the cargo is destroyed, Tsarevich will be displeased regardless of who or what destroyed the cargo. Lure the hilichurls away from the boxes before starting the fight.
     - Mountaintop: Defeat the Blazing Axe Mitachurl first, followed by the Wooden Shieldwall Mitachurl, and finally the Samachurl for a flawless completion.
   checklist:
-    todo1: "Foot of the mountains"
-    todo2: "Mountainside"
-    todo3: "Mountaintop"
+    1: "Foot of the mountains"
+    2: "Mountainside"
+    3: "Mountaintop"
 zh:
   name: "追求极致"
   description: "在「说到做到！」中完美完成查耶维奇的所有委托。"
@@ -34,6 +31,6 @@ zh:
     - 山腰：不破坏任何货物的情况下击杀所有怪物。不破坏箱子，记得把丘丘人拉到一边，就不会误伤了。
     - 山顶：依次击杀火斧丘丘人、木盾丘丘人、水丘丘萨满
   checklist:
-    todo1: "山底"
-    todo2: "山腰"
-    todo3: "山顶"
+    1: "山底"
+    2: "山腰"
+    3: "山顶"

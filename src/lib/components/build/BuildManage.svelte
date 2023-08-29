@@ -18,9 +18,7 @@
     try {
       const afterDeletion = $localData['builds'].filter((b) => b.id != build.id);
       $localData = { ...$localData, builds: afterDeletion };
-      if (browser) {
-        localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
-      }
+      browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
       toast.push('Build deleted.', $toastOption['success']);
     } catch (err) {
       toast.push(`Something went wrong: ${err}`, $toastOption['error']);

@@ -3,11 +3,7 @@ achievement: in-the-name-of-favonius
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: mondstadt
-checklist:
-- todo1
-- todo2
-- todo3
-- todo4
+checklist: 4
 en:
   name: "In the Name of Favonius"
   description: "Witness Jilliana's tale."
@@ -20,10 +16,10 @@ en:
     
     You do not need to choose the new option to unlock the next option. For example, Vile’s option will be unlocked even if you played only Marjorie's version for the previous three times.
   checklist:
-    todo1: "Marjorie"
-    todo2: "Quinn"
-    todo3: "Sara"
-    todo4: "Vile"
+    1: "Marjorie"
+    2: "Quinn"
+    3: "Sara"
+    4: "Vile"
 zh:
   name: "西风佑我"
   description: "见证吉丽安娜的故事。"
@@ -34,7 +30,7 @@ zh:
     
     帮鲁道夫准备礼物时分别要去找水果老板，猎鹿人老板莎拉，荣光之风老板帮忙准备礼物。最后第四次任务去鲁道夫那会出现第四个选项，然后就是隐藏剧情了，做完了就会有成就。
   checklist:
-    todo1: "纪念品商店老板玛乔丽"
-    todo2: "水果店老板昆恩"
-    todo3: "猎鹿人老板莎拉"
-    todo4: "薇尔"
+    1: "纪念品商店老板玛乔丽"
+    2: "水果店老板昆恩"
+    3: "猎鹿人老板莎拉"
+    4: "薇尔"

@@ -3,10 +3,7 @@ achievement: relaxation-therapy
 version: "3.0"
 achievementType: "wonders-of-the-world"
 region: sumeru
-checklist:
-- todo1
-- todo2
-- todo3
+checklist: 3
 en:
   name: "Relaxation Therapy"
   description: "Fulfill the 3 patients’ wishes."
@@ -15,9 +12,9 @@ en:
   notes: | 
     This achievement is granted after giving all three patients their medicine, and talking to them again immediately afterwards to give them an additional item.
   checklist:
-    todo1: "Gurgen’s Medicine: Helped with weeds"
-    todo2: "Azra’s Medicine: Gave Sugar x1"
-    todo3: "Aftab’s Medicine: Gave Delicious Steak x1"
+    1: "Gurgen’s Medicine: Helped with weeds"
+    2: "Azra’s Medicine: Gave Sugar x1"
+    3: "Aftab’s Medicine: Gave Delicious Steak x1"
 zh:
   name: "放松疗法"
   description: "满足三个病人的愿望。"
@@ -27,6 +24,6 @@ zh:
     找到病人交付药品后不要离开，接着对话触发后续。
 
   checklist:
-    todo1: "古尔根：初次对话后清理旁边杂草，再次对话。"
-    todo2: "阿兹拉：再次对话后交付糖"
-    todo3: "阿夫塔：再次对话后交付烤肉排"
+    1: "古尔根：初次对话后清理旁边杂草，再次对话。"
+    2: "阿兹拉：再次对话后交付糖"
+    3: "阿夫塔：再次对话后交付烤肉排"

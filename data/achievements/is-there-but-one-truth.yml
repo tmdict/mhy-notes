@@ -3,19 +3,7 @@ achievement: is-there-but-one-truth
 version: "2.0"
 achievementType: "wonders-of-the-world"
 region: inazuma
-checklist:
-- todo1
-- todo2
-- todo3
-- todo4
-- todo5
-- todo6
-- todo7
-- todo8
-- todo9
-- todo10
-- todo11
-- todo12
+checklist: 12
 en:
   name: "Is There But One Truth…?"
   description: "Witness Ryuuji’s tale."
@@ -29,18 +17,18 @@ en:
   notes: | 
     Complete Bantan Sango Case File series.
   checklist:
-    todo1: "Bantan Sango Case File"
-    todo2: "Bantan Sango Case File: The Search - Commission"
-    todo3: "Bantan Sango Case File: The Search - East of Inazuma City"
-    todo4: "Bantan Sango Case File: The Search - East of Amakane Island"
-    todo5: "Bantan Sango Case File: The Search - Northeast of Kamisato Estate, at the base of the cliff"
-    todo6: "Bantan Sango Case File: Misdirection - Commission"
-    todo7: "Bantan Sango Case File: Misdirection - East of Inazuma City"
-    todo8: "Bantan Sango Case File: Misdirection - East of Amakane Island"
-    todo9: "Bantan Sango Case File: Misdirection - Northeast of Kamisato Estate, at the base of the cliff"
-    todo10: "Bantan Sango Case File: The Right Identity"
-    todo11: "Bantan Sango Case File: Case-Closing Time"
-    todo12: "Bantan Sango Case File: Cleanup Work"
+    1: "Bantan Sango Case File"
+    2: "Bantan Sango Case File: The Search - Commission"
+    3: "Bantan Sango Case File: The Search - East of Inazuma City"
+    4: "Bantan Sango Case File: The Search - East of Amakane Island"
+    5: "Bantan Sango Case File: The Search - Northeast of Kamisato Estate, at the base of the cliff"
+    6: "Bantan Sango Case File: Misdirection - Commission"
+    7: "Bantan Sango Case File: Misdirection - East of Inazuma City"
+    8: "Bantan Sango Case File: Misdirection - East of Amakane Island"
+    9: "Bantan Sango Case File: Misdirection - Northeast of Kamisato Estate, at the base of the cliff"
+    10: "Bantan Sango Case File: The Right Identity"
+    11: "Bantan Sango Case File: Case-Closing Time"
+    12: "Bantan Sango Case File: Cleanup Work"
 zh:
   name: "真相只有一个…？"
   description: "见证龙二的故事。"
@@ -54,15 +42,15 @@ zh:
   notes: | 
     必须完成过前一个阶段任务，才有可能接到下一个阶段任务（非连续）。
   checklist:
-    todo1: "万端珊瑚事件簿"
-    todo2: "万端珊瑚事件簿·搜索工作"
-    todo3: "万端珊瑚事件簿·搜索工作 - 稻妻城附近"
-    todo4: "万端珊瑚事件簿·搜索工作 - 甘金岛附近"
-    todo5: "万端珊瑚事件簿·搜索工作 - 神里屋敷附近"
-    todo6: "万端珊瑚事件簿·迷惑行动"
-    todo7: "万端珊瑚事件簿·迷惑行动 - 稻妻城附近"
-    todo8: "万端珊瑚事件簿·迷惑行动 - 甘金岛附近"
-    todo9: "万端珊瑚事件簿·迷惑行动 - 神里屋敷附近"
-    todo10: "万端珊瑚事件簿·合适的身份"
-    todo11: "万端珊瑚事件簿·结案时刻"
-    todo12: "万端珊瑚事件簿·收尾工作"
+    1: "万端珊瑚事件簿"
+    2: "万端珊瑚事件簿·搜索工作"
+    3: "万端珊瑚事件簿·搜索工作 - 稻妻城附近"
+    4: "万端珊瑚事件簿·搜索工作 - 甘金岛附近"
+    5: "万端珊瑚事件簿·搜索工作 - 神里屋敷附近"
+    6: "万端珊瑚事件簿·迷惑行动"
+    7: "万端珊瑚事件簿·迷惑行动 - 稻妻城附近"
+    8: "万端珊瑚事件簿·迷惑行动 - 甘金岛附近"
+    9: "万端珊瑚事件簿·迷惑行动 - 神里屋敷附近"
+    10: "万端珊瑚事件簿·合适的身份"
+    11: "万端珊瑚事件簿·结案时刻"
+    12: "万端珊瑚事件簿·收尾工作"

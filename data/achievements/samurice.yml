@@ -3,9 +3,7 @@ achievement: samurice
 version: "2.0"
 achievementType: "wonders-of-the-world"
 region: inazuma
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "Samurice"
   description: "Help Kamei Munehisa collect ingredients from the camps on either side."
@@ -14,8 +12,8 @@ en:
   notes: | 
     Completing both sides in “The Gourmet Supremos: Extreme Cookery” grants the achievement.
   checklist:
-    todo1: "Left"
-    todo2: "Right"
+    1: "Left"
+    2: "Right"
 zh:
   name: "武士饭"
   description: "帮助龟井宗久搜集过全部两侧营地的食材。"
@@ -24,5 +22,5 @@ zh:
   notes: | 
     完成「全能美食队·厨道的极意」两次，左边右边两个选项都选过一遍后可获取成就。
   checklist:
-    todo1: "左边"
-    todo2: "右边"
+    1: "左边"
+    2: "右边"

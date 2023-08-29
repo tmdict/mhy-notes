@@ -3,9 +3,7 @@ achievement: a-nourishing-friendship
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: liyue
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "A Nourishing Friendship"
   commission:
@@ -14,8 +12,8 @@ en:
   description: "Complete “Fishing Jiangxue” and “Yanxiao’s Dilemma.”"
   notes: ""
   checklist:
-    todo1: "Fishing Jiangxue"
-    todo2: "Yanxiao's Dilemma"
+    1: "Fishing Jiangxue"
+    2: "Yanxiao's Dilemma"
 zh:
   name: "厨子与渔夫"
   commission:
@@ -24,5 +22,5 @@ zh:
   description: "完成「独钓江雪」与「勿言勿笑」"
   notes: ""
   checklist:
-    todo1: "独钓江雪"
-    todo2: "勿言勿笑"
+    1: "独钓江雪"
+    2: "勿言勿笑"

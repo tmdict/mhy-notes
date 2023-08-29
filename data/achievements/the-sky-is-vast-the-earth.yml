@@ -3,10 +3,7 @@ achievement: the-sky-is-vast-the-earth
 version: "3.0"
 achievementType: "wonders-of-the-world"
 region: sumeru
-checklist:
-- todo1
-- todo2
-- todo3
+checklist: 3
 en:
   name: "The Sky is Vast; The Earth…"
   commission:
@@ -15,9 +12,9 @@ en:
   notes: | 
     Complete all versions of “To Measure the World!.”
   checklist:
-    todo1: "Defeating monsters"
-    todo2: "Setting up beacons"
-    todo3: "Retrieving up beacons"
+    1: "Defeating monsters"
+    2: "Setting up beacons"
+    3: "Retrieving up beacons"
 zh:
   name: "天有多高，地有多…"
   commission:
@@ -26,6 +23,6 @@ zh:
   notes: | 
     完成所有“衡量世界之人”的任务之后得到。
   checklist:
-    todo1: "打怪"
-    todo2: "放置信标"
-    todo3: "回收信标"
+    1: "打怪"
+    2: "放置信标"
+    3: "回收信标"

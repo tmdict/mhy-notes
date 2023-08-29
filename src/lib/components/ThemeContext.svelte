@@ -18,9 +18,7 @@
     toggle: () => {
       currentTheme = currentTheme === dark.name ? light.name : dark.name;
       theme.update((t) => ({ ...t, ...availableThemes[currentTheme] }));
-      if (browser) {
-        localStorage.setItem('tmdict.genshin.theme', currentTheme);
-      }
+      browser && localStorage.setItem('tmdict.genshin.theme', currentTheme);
       setRootColors(availableThemes[currentTheme]);
     }
   });

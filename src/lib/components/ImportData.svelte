@@ -18,9 +18,7 @@
       try {
         const imported = JSON.parse(reader.result);
         $localData = imported;
-        if (browser) {
-          localStorage.setItem('tmdict.genshin.data', reader.result);
-        }
+        browser && localStorage.setItem('tmdict.genshin.data', reader.result);
         toast.push('Import successful!', $toastOption['success']);
       } catch (err) {
         toast.push(`Import failed: ${err}`, $toastOption['error']);

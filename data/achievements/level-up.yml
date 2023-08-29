@@ -3,9 +3,7 @@ achievement: level-up
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: liyue
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "Level Up"
   commission:
@@ -14,8 +12,8 @@ en:
   notes: |
     Completing both parts of this quest will award the achievement “Level Up”.
   checklist:
-    todo1: "1"
-    todo2: "2"
+    1: "1"
+    2: "2"
 zh:
   name: "更上一层楼"
   commission:
@@ -24,5 +22,5 @@ zh:
   notes: |
     该成就分为两个每日委托，会在解锁望舒客栈后刷新，完成两个委托后会获得该成就。
   checklist:
-    todo1: "1"
-    todo2: "2"
+    1: "1"
+    2: "2"

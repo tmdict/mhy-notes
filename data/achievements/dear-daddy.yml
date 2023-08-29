@@ -3,9 +3,7 @@ achievement: dear-daddy
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: mondstadt
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "“Dear Daddy…”"
   commission:
@@ -15,8 +13,8 @@ en:
   notes: |
     Finding Draff’s Letter during the Hilichurl version of “Pigeons Go AWOL” unlocks the commission “A Boy’s Letter” (it is not guaranteed the next day), which will lead to this achievement.
   checklist:
-    todo1: "Pigeons Go AWOL"
-    todo2: "A Boy’s Letter"
+    1: "Pigeons Go AWOL"
+    2: "A Boy’s Letter"
 zh:
   name: "「您好，亲爱的爸爸…」"
   commission:
@@ -31,5 +29,5 @@ zh:
     
     只有第一个分支可以进入后续任务，捡到信后会随机出后续任务「一个男孩的去信」。
   checklist:
-    todo1: "鸽子习惯一去不回"
-    todo2: "一个男孩的去信"
+    1: "鸽子习惯一去不回"
+    2: "一个男孩的去信"

@@ -3,11 +3,7 @@ achievement: her-and-her-cat
 version: "2.1"
 achievementType: "wonders-of-the-world"
 region: inazuma
-checklist:
-- todo1
-- todo2
-- todo3
-- todo4
+checklist: 4
 en:
   name: "Her and Her Cat"
   description: "Follow Neko up Mt. Yougou to find “Hibiki”’s trail."
@@ -24,10 +20,10 @@ en:
 
     This unlocks the World Quest “The Narukami Trail”, completing it grants the achievement.
   checklist:
-    todo1: "1"
-    todo2: "2"
-    todo3: "3"
-    todo4: "4"
+    1: "1"
+    2: "2"
+    3: "3"
+    4: "4"
 zh:
   name: "她和她的猫"
   description: "陪寝子前往影向山，寻找「阿响」的痕迹。"
@@ -44,7 +40,7 @@ zh:
 
     之后解锁世界任务「鸣神寻踪」，完成后取得成就。
   checklist:
-    todo1: "1"
-    todo2: "2"
-    todo3: "3"
-    todo4: "4"
+    1: "1"
+    2: "2"
+    3: "3"
+    4: "4"

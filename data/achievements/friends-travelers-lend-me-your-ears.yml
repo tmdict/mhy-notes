@@ -3,9 +3,7 @@ achievement: friends-travelers-lend-me-your-ears
 version: "1.0"
 achievementType: "stone-harbors-nostalgia-series-i"
 region: liyue
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "Friends, Travelers, Lend Me Your Ears…"
   description: "Finish listening to the tale of the Ring of Raining Blades in “Cliffhanger.”"
@@ -18,8 +16,8 @@ en:
 
     Choosing The Wrath of Haishan will give you the “Once Upon a Time…” achievement.
   checklist:
-    todo1: "Ring of Raining Blades - Part I"
-    todo2: "Ring of Raining Blades - Part II"
+    1: "Ring of Raining Blades - Part I"
+    2: "Ring of Raining Blades - Part II"
 zh:
   name: "旅者且留步…"
   description: "在「且听下回分解」中听完《裁雨声》。"
@@ -30,5 +28,5 @@ zh:
 
     交付《海山履云记》的话可以获得成就「且听我一言」。
   checklist:
-    todo1: "裁雨声·上"
-    todo2: "裁雨声·中"
+    1: "裁雨声·上"
+    2: "裁雨声·中"

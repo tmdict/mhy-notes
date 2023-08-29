@@ -3,10 +3,7 @@ achievement: non-obligatory-request
 version: "3.0"
 achievementType: "wonders-of-the-world"
 region: sumeru
-checklist:
-- todo1
-- todo2
-- todo3
+checklist: 3
 en:
   name: "Non-Obligatory Request"
   description: "Find all the items that Gulabgir made for his snakes."
@@ -20,9 +17,9 @@ en:
     - Tree nest camp: Strange Tiny Hats are found in a fourth nest near the top of the tree.
     - Thorny vine camp and the food-in-pot camp do not have additional quest items.
   checklist:
-    todo1: "Fungi camp: Strange Bead"
-    todo2: "Rockslide camp: Shabby Rack"
-    todo3: "Tree nest camp: Strange Tiny Hats"
+    1: "Fungi camp: Strange Bead"
+    2: "Rockslide camp: Shabby Rack"
+    3: "Tree nest camp: Strange Tiny Hats"
 zh:
   name: "非必要需求"
   description: "找到古拉布吉尔给小蛇制作的所有道具。"
@@ -36,6 +33,6 @@ zh:
     - 树梢顶部：找到口粮后，前往树梢顶部获得-奇怪的小型帽子
     - 罐子营地和藤蔓无成就道具。
   checklist:
-    todo1: "蕈兽营地：奇怪的珠子"
-    todo2: "碎石堆：奇怪的架子"
-    todo3: "树梢顶部：奇怪的小型帽子"
+    1: "蕈兽营地：奇怪的珠子"
+    2: "碎石堆：奇怪的架子"
+    3: "树梢顶部：奇怪的小型帽子"

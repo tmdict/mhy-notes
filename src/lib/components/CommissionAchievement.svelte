@@ -10,29 +10,37 @@
   export let alt = false;
   let expand = false;
 
-  // Go through checklist to determine achievement completion status
-  $: complete = Object.values($localData['achievements'][achievement.achievement]).every((c) => c === true);
-
+  // Update local storage
   function updateChecklist(achievementName, todo) {
-    // Update local storage
-    const local = $localData;
-    if (Object.keys(local['achievements'][achievementName]).length !== achievement.checklist.length) {
-      let updated = achievement.checklist.reduce((acc, c) => {
-        if (Object.keys(local['achievements'][achievementName]).includes(c)) {
-          acc[c] = local['achievements'][achievementName][c]
-        }
-        return acc
-      }, {})
-      local['achievements'][achievementName] = updated
-    }
-    local['achievements'][achievementName][todo] = !local['achievements'][achievementName][todo];
-    $localData = local;
-    if (browser) {
-      localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
-    }
+    //const local = $localData;
+    $localData['achievements'][achievementName][todo] = !$localData['achievements'][achievementName][todo];
+    browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
     // Update achievement completion status
     complete = Object.values($localData['achievements'][achievementName]).every((c) => c === true);
   }
+
+  function trueUpChecklist(achievement) {
+    // Update local storage
+    //const local = $localData;
+    // Compare number of todo's between local storage and achievement data
+    if (Object.keys($localData['achievements'][achievement.achievement]).length !== achievement.checklist) {
+      let updated = new Array(achievement.checklist).fill(false);
+      for (let i = 0; i < $localData['achievements'][achievement.achievement].length; i++) {
+        if (i < achievement.checklist) {
+          updated[i] = $localData['achievements'][achievement.achievement][i];
+        }
+      }
+      $localData['achievements'][achievement.achievement] = updated;
+      browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
+      console.log(`Achievement checklist updated: ${achievement.achievement}`);
+    }
+  }
+
+  // Update outdated achievement checklist
+  trueUpChecklist(achievement);
+
+  // Go through checklist to determine achievement completion status
+  $: complete = Object.values($localData['achievements'][achievement.achievement]).every((c) => c === true);
 </script>
 
 <div
@@ -57,7 +65,7 @@
       <span class="notes" on:click|stopPropagation on:keydown|stopPropagation>{@html marked(content.notes)}</span>
       <h5>{$l10n['checklist'][$lang]}</h5>
       <ul>
-        {#each achievement.checklist as todo}
+        {#each [...Array(achievement.checklist).keys()] as todo}
           <li>
             <input
               on:click|stopPropagation={() => updateChecklist(achievement.achievement, todo)}
@@ -65,10 +73,10 @@
               type="checkbox"
               id="{achievement.achievement}-{todo}"
               name="{achievement.achievement}-{todo}"
-              value={content.checklist[todo]}
+              value={content.checklist[todo + 1]}
               checked={$localData['achievements'][achievement.achievement][todo]}
             />
-            <label on:click|stopPropagation on:keydown|stopPropagation for="{achievement.achievement}-{todo}">{content.checklist[todo]}</label>
+            <label on:click|stopPropagation on:keydown|stopPropagation for="{achievement.achievement}-{todo}">{content.checklist[todo + 1]}</label>
           </li>
         {/each}
       </ul>

@@ -3,13 +3,7 @@ achievement: scholarly-in-sumeru
 version: "3.0"
 achievementType: "wonders-of-the-world"
 region: sumeru
-checklist:
-- todo1
-- todo2
-- todo3
-- todo4
-- todo5
-- todo6
+checklist: 6
 en:
   name: "Scholarly in Sumeru"
   description: "Answer 6 different questions correctly."
@@ -20,12 +14,12 @@ en:
 
     While you can only gets 3 questions, you can quit the game after the first two then re-enter (caution: do not answer the 3rd question), repeat until all 6 questions have been answered, then quit and re-enter one final time, to receive the achievement in one go.
   checklist:
-    todo1: "Amurta"
-    todo2: "Spantamad"
-    todo3: "Divine Tree"
-    todo4: "Wall of Samiel"
-    todo5: "Sumpter Beast"
-    todo6: "Fungi"
+    1: "Amurta"
+    2: "Spantamad"
+    3: "Divine Tree"
+    4: "Wall of Samiel"
+    5: "Sumpter Beast"
+    6: "Fungi"
 zh:
   name: "须弥博学者"
   description: "答对六道不同的问题。"
@@ -36,9 +30,9 @@ zh:
 
     虽然每次只能答3道题，可以答对两道题后退出游戏然后重进（注意，一定不要答第三个），反复刷，直到6道题都答对后再次退出重进，然后就可以直接在成就里看到未领取的成就了。
   checklist:
-    todo1: "阿弥利多学院"
-    todo2: "悉般多摩学院"
-    todo3: "圣树"
-    todo4: "防沙壁"
-    todo5: "驮兽"
-    todo6: "蕈兽"
+    1: "阿弥利多学院"
+    2: "悉般多摩学院"
+    3: "圣树"
+    4: "防沙壁"
+    5: "驮兽"
+    6: "蕈兽"

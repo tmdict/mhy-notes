@@ -3,9 +3,7 @@ achievement: poet-vs-paycheck
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: liyue
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "Poet Vs. Paycheck"
   commission:
@@ -15,8 +13,8 @@ en:
   notes: |
     Incorrectly reporting the ship numbers to Linling in the “One Ship, Two Ships, Three Ships…” commission triggers the “So-Called Work” commission the next day, completing it grants the achievement.
   checklist:
-    todo1: "One Ship, Two Ships, Three Ships…"
-    todo2: "So-Called Work"
+    1: "One Ship, Two Ships, Three Ships…"
+    2: "So-Called Work"
 zh:
   name: "梦想与工作，诗与面包"
   commission:
@@ -26,5 +24,5 @@ zh:
   notes: |
     在每日任务「港口驶过几艘船，二四六七八」中选择错误，并在第二天完成『所谓「工作」』的委托。
   checklist:
-    todo1: "港口驶过几艘船，二四六七八"
-    todo2: "所谓「工作」"
+    1: "港口驶过几艘船，二四六七八"
+    2: "所谓「工作」"

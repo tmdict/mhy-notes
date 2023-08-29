@@ -3,11 +3,7 @@ achievement: geo-archon-anecdotes
 version: "1.0"
 achievementType: "stone-harbors-nostalgia-series-i"
 region: liyue
-checklist:
-- todo1
-- todo2
-- todo3
-- todo4
+checklist: 4
 en:
   name: "Geo Archon Anecdotes"
   description: "Collect all the stories about Rex Lapis in the “Geo Travel Diary.”"
@@ -21,10 +17,10 @@ en:
     - God of History (Dishes): Almond Tofu, Black-Back Perch Stew, Jade Parcels, Jewelry Soup, Jueyun Chili Chicken, Matsutake Meat Rolls, Mora Meat, Squirrel Fish, Stir-Fried Filet, Zhongyuan Chop Suey
     - God of Wealth: Glaze Lily
   checklist:
-    todo1: "Branch 1: (Plants and Ingredients) - The Groundbreaker"
-    todo2: "Branch 2: (Ores) - God of the Stove"
-    todo3: "Branch 3: (Dishes) - God of History"
-    todo4: "Branch 4: (Glaze Lily) - God of Wealth"
+    1: "Branch 1: (Plants and Ingredients) - The Groundbreaker"
+    2: "Branch 2: (Ores) - God of the Stove"
+    3: "Branch 3: (Dishes) - God of History"
+    4: "Branch 4: (Glaze Lily) - God of Wealth"
 zh:
   name: "帝君故事"
   description: "搜集到「岩游记」中所有有关岩王帝君的故事。"
@@ -38,7 +34,7 @@ zh:
     - 岩神传说：历史之神：松茸酿肉卷，翡玉什锦袋，万民堂水煮鱼，摩拉肉 
     - 岩神传说：财神：琉璃百合 
   checklist:
-    todo1: "岩神传说：开拓之神"
-    todo2: "岩神传说：炉灶之神"
-    todo3: "岩神传说：历史之神"
-    todo4: "岩神传说：财神"
+    1: "岩神传说：开拓之神"
+    2: "岩神传说：炉灶之神"
+    3: "岩神传说：历史之神"
+    4: "岩神传说：财神"

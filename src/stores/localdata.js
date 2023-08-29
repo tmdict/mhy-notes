@@ -10,7 +10,7 @@ function createLocalData() {
       // Defaults all achievement commissions to false
       return {
         ...acc,
-        [d.default.achievement]: d.default.checklist.reduce((list, c) => ({ ...list, [c]: false }), {})
+        [d.default.achievement]: new Array(d.default.checklist).fill(false)
       };
     }, {})
   };
@@ -25,7 +25,7 @@ function createLocalData() {
         if (!(d.default.achievement in local['achievements'])) {
           local['achievements'] = {
             ...local['achievements'],
-            [d.default.achievement]: d.default.checklist.reduce((list, c) => ({ ...list, [c]: false }), {})
+            [d.default.achievement]: new Array(d.default.checklist).fill(false)
           };
         }
       });

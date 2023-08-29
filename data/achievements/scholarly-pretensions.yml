@@ -3,9 +3,7 @@ achievement: scholarly-pretensions
 version: "1.0"
 achievementType: "wonders-of-the-world"
 region: liyue
-checklist:
-- todo1
-- todo2
+checklist: 2
 en:
   name: "Scholarly Pretensions"
   commission:
@@ -15,8 +13,8 @@ en:
   notes: |
     The Box of Gadgets version (random) of “The Lost Relic” is required to unlock the commission “A Little Raid”.
   checklist:
-    todo1: "The Lost Relic"
-    todo2: "A Little Raid"
+    1: "The Lost Relic"
+    2: "A Little Raid"
 zh:
   name: "学者与「学者」"
   commission:
@@ -26,5 +24,5 @@ zh:
   notes: |
     完成「『遗落』的文物」之后有几率刷新出「『夺宝』小行动」。
   checklist:
-    todo1: "『遗落』的文物"
-    todo2: "『夺宝』小行动"
+    1: "『遗落』的文物"
+    2: "『夺宝』小行动"
