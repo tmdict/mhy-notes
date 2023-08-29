@@ -39,7 +39,7 @@
         <div class="content-row icons">
           <LangSelect />
           <div id="svg-icons">
-            <a class="last" href="https://github.com/tmdict/genshin-notes"><GitIcon /></a>
+            <a class="last" href="https://github.com/tmdict/mhy-notes"><GitIcon /></a>
             <div
               class="theme-toggle"
               class:spin-left={spin}
