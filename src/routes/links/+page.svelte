@@ -38,7 +38,7 @@
     {
       name: 'Akasha System',
       lang: ['Multi-lingual · 多语言'],
-      url: 'https://mimee.ovh/akasha',
+      url: 'https://akasha.cv/',
       description: 'Compare your Genshin characters against others.'
     },
     {
@@ -165,7 +165,7 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['useful-links'][$lang]} | Genshin Notes</title>
+  <title>{$l10n['useful-links'][$lang]} | mHY-notes</title>
 </svelte:head>
 
 <h1>{$l10n['useful-links'][$lang]}</h1>

@@ -90,7 +90,7 @@
 <svelte:window bind:innerWidth={windowWidth} />
 
 <svelte:head>
-  <title>{$l10n['character-scaling'][$lang]} | Genshin Notes</title>
+  <title>{$l10n['character-scaling'][$lang]} | mHY-notes</title>
 </svelte:head>
 
 <h1>{$l10n['character-scaling'][$lang]}</h1>

@@ -36,7 +36,7 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['upgrade-material'][$lang]} | Genshin Notes</title>
+  <title>{$l10n['upgrade-material'][$lang]} | mHY-notes</title>
 </svelte:head>
 
 <h1>{$l10n['weekly-talent-mat'][$lang]}</h1>

@@ -5,8 +5,7 @@
 <Top>
   <span slot="intro"
     ><p>
-      Genshin Notes是一个提供跟<a href="https://genshin.mihoyo.com/">原神</a
-      >相关的小工具和信息的网站。其内容注重构造简单，以便用于快速使用以及参考。
+      mHY-notes是一个提供跟<a href="https://www.mihoyo.com/">miHoYo</a>的游戏相关的小工具和信息的网站。其内容注重构造简单，以便用于快速使用以及参考。
     </p></span
   >
 </Top>

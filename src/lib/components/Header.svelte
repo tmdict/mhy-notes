@@ -29,12 +29,12 @@
         on:mouseenter={() => (topImg = 'top_alt' + lightExt)}
         on:mouseleave={() => (topImg = 'top' + lightExt)}
       >
-        <Icon id="Genshin-Notes" src={topImg} size="100px" margin="0" />
+        <Icon id="mHY-notes" src={topImg} size="100px" margin="0" />
       </a>
 
       <div class="content-col nav">
         <div id="name">
-          GENSHIN<span class="highlight">notes</span>
+          mHY<span class="highlight">notes</span>
         </div>
         <div class="content-row icons">
           <LangSelect />

@@ -23,7 +23,7 @@
 
 <svelte:head>
   {#if validator.validateBuild(build, $lang)}
-    <title>{build.name[$lang]} | Genshin Notes</title>
+    <title>{build.name[$lang]} | mHY-notes</title>
   {/if}
 </svelte:head>
 

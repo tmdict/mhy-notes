@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['character-builds'][$lang]} | Genshin Notes</title>
+  <title>{$l10n['character-builds'][$lang]} | mHY-notes</title>
 </svelte:head>
 
 <h1>{$l10n['character-builds'][$lang]}</h1>

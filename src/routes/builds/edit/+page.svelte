@@ -80,7 +80,7 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['build-editor'][$lang]} | Genshin Notes</title>
+  <title>{$l10n['build-editor'][$lang]} | mHY-notes</title>
 </svelte:head>
 
 <h1>{$l10n['build-editor'][$lang]}</h1>

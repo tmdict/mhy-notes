@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-  <title>Genshin Notes</title>
+  <title>mHY-notes</title>
 </svelte:head>
 
 <svelte:component this={top[$lang]} />

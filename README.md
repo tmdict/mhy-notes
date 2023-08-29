@@ -1,6 +1,6 @@
-# Genshin Notes
+# mHY-notes
 
-A collection of simple tools and infographic contents related to the game Genshin Impact.
+A collection of simple tools and infographic contents related to games created by miHoYo.
 
 ## Setup
 
