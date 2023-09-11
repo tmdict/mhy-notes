@@ -10,7 +10,7 @@
     if (currentUrl.includes('genshin.tmdict')) {
       const encoded = lzstring.compressToEncodedURIComponent(JSON.stringify($localData));
       console.log(encoded);
-      window.location.replace(`http://mhy.tmdict.com/#${encoded}`);
+      window.location.replace(`http://mhy.tmdict.com/migrate#${encoded}`);
     }
     
     if (currentUrl.includes('mhy.tmdict')) {
