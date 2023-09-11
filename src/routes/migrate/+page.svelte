@@ -17,7 +17,7 @@
       console.log(window.location.hash.substring(1));
       const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1)));
       console.log(decoded);
-      browser && localStorage.setItem('tmdict.mhy.data', JSON.stringify(decoded));
+      browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
       console.log('migration complete')
     }
   }
