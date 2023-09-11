@@ -4,6 +4,7 @@
   import lzstring from 'lz-string';
 
   if (browser) {
+    console.log($localData)
     const currentUrl = window.location.href;
     console.log(currentUrl);
 
@@ -13,11 +14,16 @@
       window.location.replace(`http://mhy.tmdict.com/migrate#${encoded}`);
     }
     
-    if (currentUrl.includes('mhy.tmdict')) {
-      console.log(window.location.hash.substring(1));
-      const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1)));
-      console.log(decoded);
-      browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
+    if (currentUrl.includes('mhy.tmdict') && window.location.hash) {
+      if (window.location.hash.substring(1) !== 'loaded') {
+        const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1)));
+        console.log(decoded);
+        if (decoded.achievements) {
+          browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
+          window.location = window.location + '#loaded';
+          window.location.reload();
+        }
+      }
       console.log('migration complete')
     }
   }
