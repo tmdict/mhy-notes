@@ -5,15 +5,18 @@
 
   if (browser) {
     const currentUrl = window.location.href;
+    console.log(currentUrl);
 
     if (currentUrl.includes('genshin.tmdict')) {
       const encoded = lzstring.compressToEncodedURIComponent(JSON.stringify($localData));
+      console.log(encoded);
       window.location.replace(`http://mhy.tmdict.com/#${encoded}`);
     }
     
     if (currentUrl.includes('mhy.tmdict')) {
       console.log(window.location.hash.substring(1));
       const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1)));
+      console.log(decoded);
       browser && localStorage.setItem('tmdict.mhy.data', JSON.stringify(decoded));
       console.log('migration complete')
     }
