@@ -13,9 +13,14 @@
     console.log(currentUrl);
 
     if (currentUrl.includes('genshin.tmdict')) {
-      const encoded = lzstring.compressToEncodedURIComponent(JSON.stringify($localData));
-      console.log(encoded);
-      window.location.replace(`https://mhy.tmdict.com/#${encoded}_migrating`);
+      if (localStorage.getItem('tmdict.genshin.migrated')) {
+        window.location.replace(`https://mhy.tmdict.com/`);
+      } else {
+        const encoded = lzstring.compressToEncodedURIComponent(JSON.stringify($localData));
+        console.log(encoded);
+        localStorage.setItem('tmdict.genshin.migrated', true);
+        window.location.replace(`https://mhy.tmdict.com/#${encoded}_migrating`);
+      }
     }
     
     if (currentUrl.includes('mhy.tmdict') && window.location.hash) {
@@ -23,7 +28,7 @@
         const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1, window.location.hash.length - 10)));
         console.log(decoded);
         if (decoded.achievements) {
-          browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
+          localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
           window.location = window.location + '_migration-complete';
           window.location.reload();
         }
