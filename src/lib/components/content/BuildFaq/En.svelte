@@ -8,101 +8,48 @@
 
     <p>
       When trying to answer questions like <em>"which stat should I focus on?"</em> or
-      <em>"which artifact set is good on this character?"</em> One often finds themselves flipping through guide articles
-      or videos, which can be quite time consuming. When the intention is to get a quick answer that's just "good enough",
-      infographics are great, but can be hard to track down and keep up with the latest version, not to mention images are
-      not very searchable and hard to work with on smaller screens.
+      <em>"which artifact set is good on this character?"</em> One often finds themselves flipping through long articles or videos, which can be quite time consuming. The intention of the information here is to provide a quick answer that's just "good enough".
     </p>
 
     <p>
-      The reference build list is a cross between in-depth guides and infographics, providing summary-style information
-      while offering some of the interactivity and accessibility of a proper guide. Build data are primarily aggregated
-      and condensed from <a href="https://bbs.nga.cn/read.php?tid=25843014">NGA/原神冒险团</a>,
-      <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a>, and
+      The reference build list is similar to infographics, providing summary-style information while offering some of the interactivity and accessibility of a proper guide. Build data are primarily aggregated and condensed from <a href="https://bbs.nga.cn/read.php?tid=25843014">NGA/原神冒险团</a>, supplemented by <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a> and
       <a href="https://keqingmains.com/">KQM</a>.
     </p>
 
     <p>
-      Due to these being aggregated, information and context can be lost, not to mention all the caveats involved, we do
-      not guarantee what you find here to be 100% accurate! In case of conflicting information between guides, we either
-      use the one that's more widely recommended, or leave it out altogether. The intention is to provide a "good
-      enough" approximation of what's needed, all in one place. For accurate, in-depth guide, we recommend spending time
-      to reach the individual referenced guides, all of which are linked in each build.
+      Due to these being aggregated, information and context can be lost, not to mention all the caveats involved, <strong>we do not guarantee what you find here to be 100% accurate!</strong> The intention is to provide a "good enough" approximation of what's needed, all in one place. For accurate, in-depth guide, we recommend spending time to read the individual referenced guides, all of which are linked as resource.
     </p></span
   >
 
   <span slot="how-to">
     <h5>How to Use the Guide</h5>
-
-    <p>How are the build information compiled and how to digest the data.</p>
   </span>
 
   <span slot="character">
     <p>Build character, name, and type indicator. Some notes about build types:</p>
 
     <p>
-      <span class="highlight">Constellation:</span> Some characters have a recommendation constellation to aim for. This
+      <span class="highlight">Constellation:</span> Recommended constellation to aim for. This
       information is either gathered from the source guide, or taken from
       <a href="https://space.bilibili.com/24889090">Usagi Sensei's guide</a>.
     </p>
-
-    <p>
-      <span class="highlight">Meta build:</span> marked by a
-      <span style="color:var(--theme-primary-gold); padding:0 5px">★</span>, the best possible build for this character.
-      A meta build may not be something easily achievable, and can take months to build up the required weapon,
-      artifacts and stats. Think of it as a distant goal to aim for.
-    </p>
-
-    <p>
-      <span class="highlight">Whale build:</span> denoted by a
-      <img style="width:20px" src="/img/whale.png" alt="whale" />, for builds where the requirements are extremely
-      difficult to achieve by F2P or light spenders (for example, C6R5).
-    </p>
-
-    <p>
-      <span class="highlight">F2P build:</span> a build is categorized as F2P if the following requirements are met:
-    </p>
-
-    <ol>
-      <li>The character has reasonable constellation requirements</li>
-      <ol>
-        <li>C0 if 5* character</li>
-        <li>Any C if 4* character (since all 4* are available in general pool and are obtainable given enough time)</li>
-      </ol>
-      <li>Primary recommended weapon is a 4*</li>
-    </ol>
-
-    <p>Additional build type information is available as filters and can be found in the build page itself.</p>
   </span>
 
   <span slot="weapon">
     <p>
-      Top 3 recommended weapons, with the first being BIS for the build. If top 3 are all 5* weapons, the last spot is
-      replaced by the next best 4* weapon instead (this limitation does not apply to whale builds).
-    </p>
-
-    <p>
-      More up-to-date recommendations are always favored over guides that have not been updated to reflect data from new
-      game patches.
+      Top 2 recommended weapons, with the first being BIS for the build. One of the 2 is guaranteed to be a non-5-star weapon.
     </p>
   </span>
 
   <span slot="artifact">
     <p>
-      Top recommended artifact sets for the character. If there is a clear BIS, only 1 set will be listed. If there are
-      conflicting recommendations on the 2nd or 3rd sets from the guides, only the top recommendation is listed and and
-      the rest are omitted, read the source material for more information on those sets.
+      Top 2 recommended artifact sets for the character.
     </p>
 
     <p>
       In case of conflicting recommendations from different guides, the recommendation from <a
         href="https://bbs.nga.cn/read.php?tid=25843014">原神冒险团</a
       > is favored due to the optimal stat value recommendations also coming from their guide.
-    </p>
-
-    <p>
-      More up-to-date recommendations are always favored over guides that have not been updated to reflect data from new
-      game patches.
     </p>
   </span>
 
@@ -114,7 +61,7 @@
   </span>
 
   <span slot="stat">
-    <p>Stats to focus on as well as a reference total value to aim for. This is a combination of:</p>
+    <p>Stats to focus on as well as a reference value to aim for. This is a combination of:</p>
 
     <ol>
       <li>
@@ -124,10 +71,7 @@
     </ol>
 
     <p>
-      The stat reference values are rounded to the nearest 10th/100th place. Note many values are meant to be the
-      optimal value based on a character's damage curve and can be very difficult to reach, we recommend using them as a
-      reference for ratios between stats, or as a long term goal to aim for. Due to these being an aggregated summary,
-      accuracies may be lost, please use linked source materials for accurate, in-depth analysis.
+      The stat reference values are rounded to the nearest 10th/100th place. Note these values are meant to be the optimal value based on a character's damage curve and can be very difficult to reach, we recommend using them as a reference, or as a long term goal to aim for. Due to these being aggregated data, accuracies may be lost, please use linked source materials for accurate, in-depth analysis.
     </p>
   </span>
 
@@ -143,13 +87,11 @@
     </ul>
 
     <p>
-      In talent priority, "A > E > Q" means to focus on upgrading normal attack, then elemental skill, and finally
-      burst.
+      In talent priority, "A > E > Q" means to focus on upgrading normal attack, then elemental skill, and finally burst.
     </p>
 
     <p>
-      In notes, a "NAx4 > CA > Q" is for a rotation in which you would use that character with 4 normal attacks (normal
-      attack x 4), followed by a charge attack, followed by a burst.
+      In notes, a "NAx4 > CA > Q" is for a rotation in which you would use that character with 4 normal attacks (normal attack x 4), followed by a charge attack, followed by a burst.
     </p>
   </span>
 </BuildFaq>

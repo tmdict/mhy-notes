@@ -80,12 +80,7 @@
   let filteredScalings = allScalings;
 
   charScalingFilters.init(['stat', 'base']);
-  charScalingFilters.updateCommonFilter('base', 'a');
-  charScalingFilters.updateCommonFilter('base', 'e');
-  charScalingFilters.updateCommonFilter('base', 'q');
-  charScalingFilters.updateCommonFilter('base', 'sand');
-  charScalingFilters.updateCommonFilter('base', 'goblet');
-  charScalingFilters.updateCommonFilter('base', 'circlet');
+  charScalingFilters.updateCommonFilter('base', 'base-stat');
   statFilter.forEach((stat) => charScalingFilters.updateCommonFilter('stat', stat));
 
   $: filteredScalings = filterScalings(allScalings, $charScalingFilters);

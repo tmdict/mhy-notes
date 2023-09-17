@@ -291,6 +291,19 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
     },
+    "freminet": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [],
+      "sand": ["atk", "er"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "ganyu": {
       "base-stat": ["cdmg"],
       "a": ["atk"],
@@ -525,6 +538,34 @@
       "goblet": ["electro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
+    },
+    "lynette": {
+      "base-stat": ["anemo"],
+      "a": ["atk"],
+      "e": ["atk", "hp"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [],
+      "sand": ["atk", "er"],
+      "goblet": ["anemo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["q"]
+    },
+    "lyney": {
+      "base-stat": ["cr"],
+      "a": ["atk", "hp"],
+      "e": ["atk", "hp"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "constellation": [
+        { "C6": ["normal-attack"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["a"]
     },
     "mika": {
       "base-stat": ["hp"],
@@ -831,6 +872,22 @@
       "goblet": ["geo"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e", "q"]
+    },
+    "traveler-hydro": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk", "hp"],
+      "q": ["atk"],
+      "a1": ["hp"],
+      "a4": ["hp"],
+      "constellation": [
+        { "C4": ["hp"] },
+        { "C6": ["hp"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["hydro"],
+      "circlet": ["hp"],
+      "recommended-talent": ["e"]
     },
     "venti": {
       "base-stat": ["er"],

@@ -1,0 +1,40 @@
+---
+character: freminet
+c: 0
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: skyward-pride
+    r: 0
+  - name: serpent-spine
+    r: 0
+
+artifact:
+  - set: [pale-flame]
+    p: 4
+  - set: [blizzard-strayer]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - cryo
+    - physical
+  circlet:
+    - crit
+
+stats:
+  - er: ''
+  - crit: ''
+  - atk: ''
+
+talent: 'E > A'
+
+source:
+  - kqm: https://keqingmains.com/q/freminet-quickguide/

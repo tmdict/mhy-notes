@@ -14,8 +14,7 @@
     type: ['dps'],
     name: { en: 'DPS', zh: '主C' },
     weapon: [
-      { name: 'primordial-jade-cutter', r: 5 },
-      { name: 'mistsplitter-reforged', r: 0 },
+      { name: 'primordial-jade-cutter', r: 0 },
       { name: 'iron-sting', r: 5 }
     ],
     artifact: [

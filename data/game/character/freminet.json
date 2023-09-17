@@ -1,0 +1,16 @@
+{
+  "id": "freminet",
+  "type": "character",
+  "rarity": 4,
+  "vision": "cryo",
+  "weapon": "claymore",
+  "released": "4.0.1",
+  "data": {
+    "en": {
+      "name": "Freminet"
+    },
+    "zh": {
+      "name": "菲米尼"
+    }
+  }
+}

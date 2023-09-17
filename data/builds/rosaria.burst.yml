@@ -14,8 +14,6 @@ weapon:
     r: 0
   - name: staff-of-the-scarlet-sands
     r: 0
-  - name: deathmatch
-    r: 0
 
 artifact:
   - set: [noblesse-oblige]
