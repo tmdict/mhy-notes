@@ -64,8 +64,8 @@
 
 <style lang="scss">
 
-  @media only screen and (max-width: 960px) {
-    .build {
+  .build {
+    @media only screen and (max-width: 960px) {
       width: 440px;
     }
   }

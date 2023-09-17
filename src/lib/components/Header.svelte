@@ -43,6 +43,8 @@
             <div
               class="theme-toggle"
               class:spin-left={spin}
+              role="button"
+              tabindex="0"
               on:click={toggle}
               on:click={() => spinIcon(650)}
               on:keydown={toggle}
@@ -64,14 +66,14 @@
         <span class="separator">·</span>
         <a href="/character-scaling">{$l10n['character-scaling'][$lang]}</a>
         <span class="separator">·</span>
-        <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
+        <a href="/achievements">{$l10n['achievements'][$lang]}</a>
       </div>
       <div class="group">
         <a href="/talent-materials">{$l10n['talent-materials'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/weekly-boss-materials">{$l10n['boss-materials'][$lang]}</a>
         <span class="separator">·</span>
-        <a href="/achievements">{$l10n['achievements'][$lang]}</a>
+        <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
