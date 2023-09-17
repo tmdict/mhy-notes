@@ -15,12 +15,6 @@
       description: 'Comprehensive theorycrafting and guides.'
     },
     {
-      name: 'Kusanali Mains',
-      lang: ['English'],
-      url: 'https://kusanalimains.com/',
-      description: 'Theorycrafting, guides, infographics, and more.'
-    },
-    {
       name: 'NGA / 原神冒险团',
       lang: ['中文'],
       url: 'https://bbs.nga.cn/read.php?tid=25843014',
@@ -42,12 +36,6 @@
       description: 'Compare your Genshin characters against others.'
     },
     {
-      name: 'Energy Recharge Calculator',
-      lang: ['English'],
-      url: 'https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit#gid=818973096',
-      description: 'KQM Energy Recharge Calculator.'
-    },
-    {
       name: 'Enka.Network',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://enka.network/',
@@ -56,32 +44,26 @@
     {
       name: 'gcsim',
       lang: ['English', 'Español', '日本語', '中文'],
-      url: 'https://www.gcsim.app/',
+      url: 'https://gcsim.app/',
       description: 'Team DPS simulator.'
     },
     {
-      name: 'GI DMG Calculator',
+      name: 'Genshin Impact DMG Calculator',
       lang: ['English'],
       url: 'https://gidmgcalculator.github.io/csb-g7is6/',
       description: 'Genshin Impact damage calculator.'
-    },
-    {
-      name: 'gensh.in',
-      lang: ['English'],
-      url: 'https://www.gensh.in/',
-      description: 'Genshin Impact Database.'
-    },
-    {
-      name: 'Genshin Impact Calculator',
-      lang: ['English', 'Русский'],
-      url: 'https://genshin.aspirine.su/',
-      description: 'Damage calculation tool.'
     },
     {
       name: 'Genshin Optimizer',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://frzyc.github.io/genshin-optimizer/#/',
       description: 'Builds, artifacts and character recommendation and optmization tool.'
+    },
+    {
+      name: 'Haku.shin',
+      lang: ['English', '中文', '한국어'],
+      url: 'https://gi.hakush.in/',
+      description: 'Genshin Impact database and tools.'
     },
     {
       name: 'Honey Impact',
@@ -96,22 +78,10 @@
       description: 'Genshin database website with a information on builds, a wish history tracker, timelines, and more.'
     },
     {
-      name: 'Project Celestia Database',
-      lang: ['Multi-lingual · 多语言'],
-      url: 'https://www.projectcelestia.com/',
-      description: 'Genshin database.'
-    },
-    {
       name: 'Project Amber',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://ambr.top/',
       description: 'Genshin database and helper.'
-    },
-    {
-      name: 'SEELIE',
-      lang: ['English', 'Português', 'Español', '中文'],
-      url: 'https://seelie.me/',
-      description: 'Resource planner and database.'
     },
     {
       name: 'ShinShin.moe',
@@ -130,12 +100,6 @@
       lang: ['中文'],
       url: 'https://yuanshen.xin/',
       description: '角色练度评测。'
-    },
-    {
-      name: '可莉特调',
-      lang: ['中文'],
-      url: 'https://genshin.pub/',
-      description: '每日素材，养成计算器，圣遗物评分，玩家身份证。'
     },
     {
       name: '莫娜占卜铺',

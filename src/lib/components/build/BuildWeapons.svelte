@@ -8,12 +8,12 @@
   let isHover = '';
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="content-row align-center">
   {#each weapons as weapon}
     {@const details = data[weapon.name] ? data[weapon.name].data[$lang] : false}
     <div
       class="weapon"
+      role="presentation"
       on:click|stopPropagation
       on:mouseenter={() => (isHover = weapon.name)}
       on:mouseleave={() => (isHover = '')}

@@ -19,7 +19,14 @@
   }
 </script>
 
-<div class="content-row build" class:alt on:click={toggleDetails} on:keydown={toggleDetails}>
+<div
+  class="content-row build"
+  class:alt
+  role="button"
+  tabindex="0"
+  on:click={toggleDetails}
+  on:keydown={toggleDetails}
+>
   <div
     class="content-row build-info align-center"
     style={$lang === 'en' ? '--text-size: 0.8rem' : '--text-size: 0.9rem'}
@@ -52,7 +59,7 @@
         <BuildMainStats mainstat={build.mainstat} />
         <BuildStats stats={build.stats} />
       </div>
-      <div on:click|stopPropagation on:keydown|stopPropagation class="build-box notes">
+      <div class="build-box notes" role="button" tabindex="0" on:click|stopPropagation on:keydown|stopPropagation>
         <BuildNotes {build} />
       </div>
       <div class="build-box sources">

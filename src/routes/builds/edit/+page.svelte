@@ -114,6 +114,8 @@
         <span
           class="copy"
           title="Copy to clipboard"
+          role="button"
+          tabindex="0"
           on:click={() => copyToClipboard(`/builds/build#${encoded}`)}
           on:keydown={() => copyToClipboard(`/builds/build#${encoded}`)}><Copy /></span
         >
@@ -159,16 +161,11 @@
           />
         {/each}
         <div class="content-row add-remove">
-          {#if $buildEditor['num'].weapons < 3}
-            <span
-              class="add-input"
-              on:click={() => buildEditor.addInput('weapons', 3)}
-              on:keydown={() => buildEditor.addInput('weapons', 3)}>+</span
-            >
-          {/if}
           {#if $buildEditor['num'].weapons > 1}
             <span
               class="remove-input"
+              role="button"
+              tabindex="0"
               on:click={() =>
                 buildEditor.removeInput(
                   'weapons',
@@ -179,6 +176,15 @@
                   'weapons',
                   Object.values(buildEditor.getKeys.weapon($buildEditor['num']['weapons'] - 1))
                 )}>-</span
+            >
+          {/if}
+          {#if $buildEditor['num'].weapons < 2}
+            <span
+              class="add-input"
+              role="button"
+              tabindex="0"
+              on:click={() => buildEditor.addInput('weapons', 2)}
+              on:keydown={() => buildEditor.addInput('weapons', 2)}>+</span
             >
           {/if}
         </div>
@@ -189,16 +195,11 @@
           <EditorBuildArtifact artifactKey={i} />
         {/each}
         <div class="content-row add-remove">
-          {#if $buildEditor['num'].artifacts < 3}
-            <span
-              class="add-input"
-              on:click={() => buildEditor.addInput('artifacts', 3)}
-              on:keydown={() => buildEditor.addInput('artifacts', 3)}>+</span
-            >
-          {/if}
           {#if $buildEditor['num'].artifacts > 1}
             <span
               class="remove-input"
+              role="button"
+              tabindex="0"
               on:click={() =>
                 buildEditor.removeInput(
                   'artifacts',
@@ -209,6 +210,15 @@
                   'artifacts',
                   Object.values(buildEditor.getKeys.artifact($buildEditor['num']['artifacts'] - 1))
                 )}>-</span
+            >
+          {/if}
+          {#if $buildEditor['num'].artifacts < 2}
+            <span
+              class="add-input"
+              role="button"
+              tabindex="0"
+              on:click={() => buildEditor.addInput('artifacts', 2)}
+              on:keydown={() => buildEditor.addInput('artifacts', 2)}>+</span
             >
           {/if}
         </div>
@@ -234,16 +244,11 @@
               {/each}
             </div>
             <div class="content-row add-remove">
-              {#if $buildEditor['num']['mainstat'][piece] < 2}
-                <span
-                  class="add-input"
-                  on:click={() => buildEditor.addNestedInput('mainstat', piece, 2)}
-                  on:keydown={() => buildEditor.addNestedInput('mainstat', piece, 2)}>+</span
-                >
-              {/if}
               {#if $buildEditor['num']['mainstat'][piece] > 1}
                 <span
                   class="remove-input"
+                  role="button"
+                  tabindex="0"
                   on:click={() =>
                     buildEditor.removeNestedInput('mainstat', piece, [
                       buildEditor.getKeys.mainstat(piece, $buildEditor['num']['mainstat'][piece] - 1).mainstat
@@ -252,6 +257,15 @@
                     buildEditor.removeNestedInput('mainstat', piece, [
                       buildEditor.getKeys.mainstat(piece, $buildEditor['num']['mainstat'][piece] - 1).mainstat
                     ])}>-</span
+                >
+              {/if}
+              {#if $buildEditor['num']['mainstat'][piece] < 2}
+                <span
+                  class="add-input"
+                  role="button"
+                  tabindex="0"
+                  on:click={() => buildEditor.addNestedInput('mainstat', piece, 2)}
+                  on:keydown={() => buildEditor.addNestedInput('mainstat', piece, 2)}>+</span
                 >
               {/if}
             </div>
@@ -265,16 +279,11 @@
           <EditorBuildStat statKey={i} />
         {/each}
         <div class="content-row add-remove">
-          {#if $buildEditor['num'].stats < 4}
-            <span
-              class="add-input"
-              on:click={() => buildEditor.addInput('stats', 4)}
-              on:keydown={() => buildEditor.addInput('stats', 4)}>+</span
-            >
-          {/if}
           {#if $buildEditor['num'].stats > 1}
             <span
               class="remove-input"
+              role="button"
+              tabindex="0"
               on:click={() =>
                 buildEditor.removeInput(
                   'stats',
@@ -285,6 +294,15 @@
                   'stats',
                   Object.values(buildEditor.getKeys.stat($buildEditor['num']['stats'] - 1))
                 )}>-</span
+            >
+          {/if}
+          {#if $buildEditor['num'].stats < 4}
+            <span
+              class="add-input"
+              role="button"
+              tabindex="0"
+              on:click={() => buildEditor.addInput('stats', 4)}
+              on:keydown={() => buildEditor.addInput('stats', 4)}>+</span
             >
           {/if}
         </div>

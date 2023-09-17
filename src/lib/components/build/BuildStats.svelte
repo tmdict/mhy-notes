@@ -8,7 +8,7 @@
   <div class="build-heading">
     {$l10n['stats-priority'][$lang]} <span class="highlight">({$l10n['stats-reference'][$lang]})</span>
   </div>
-  <ol on:click|stopPropagation on:keydown|stopPropagation>
+  <ol role="presentation" on:click|stopPropagation on:keydown|stopPropagation>
     {#each stats as stat}
       {@const [id, value] = Object.entries(stat).flat()}
       <li style={$lang === 'en' ? '--line-ht: 1.1em' : '--line-ht: 1.1em'}>

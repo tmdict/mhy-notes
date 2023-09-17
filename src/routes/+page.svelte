@@ -41,12 +41,19 @@
     {
       name: 'character-builds',
       url: 'builds',
-      updated: '2023-06-04'
+      new: true,
+      updated: '2023-09-17'
     },
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      updated: '2023-06-04'
+      new: true,
+      updated: '2023-09-17'
+    },
+    {
+      name: 'commission-achievements',
+      url: 'achievements',
+      updated: '2023-02-05'
     },
     {
       name: 'leveling-cost',
@@ -56,21 +63,20 @@
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      new: true,
       updated: '2023-08-18'
+    },
+    {
+      name: 'links',
+      url: 'links',
+      new: true,
+      updated: '2023-09-17'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      new: true,
       updated: '2023-08-18'
-    },
-    {
-      name: 'commission-achievements',
-      url: 'achievements',
-      updated: '2023-02-05'
     }
-  ];
+  ].sort((a, b) => (a.updated < b.updated) ? 1 : -1);
 
   const top = { en: En, zh: Zh };
 </script>
@@ -108,6 +114,10 @@
       &:hover {
         background: var(--theme-main-bg-hover);
         cursor: pointer;
+
+        .name {
+          color: var(--theme-text-body-highlight);
+        }
       }
 
       .content-row {

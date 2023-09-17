@@ -14,7 +14,7 @@
   <div class="content-row" class:divider={i !== 0}>
     {#each artifact.set as set}
       {@const details = data[set] ? data[set].data[$lang] : false}
-      <div class="artifact" on:click|stopPropagation on:keydown|stopPropagation>
+      <div class="artifact" role="button" tabindex="0" on:click|stopPropagation on:keydown|stopPropagation>
         <Icon
           id={set}
           title={details ? details['name'] : set}
