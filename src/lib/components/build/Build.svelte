@@ -1,6 +1,7 @@
 <script>
   import { slide } from 'svelte/transition';
   import { lang } from '@store/site';
+  import { characters } from '@store/gamedata';
   import BuildArtifactSet from '$lib/components/build/BuildArtifactSet.svelte';
   import BuildCharacter from '$lib/components/build/BuildCharacter.svelte';
   import BuildMainStats from '$lib/components/build/BuildMainStats.svelte';
@@ -33,18 +34,12 @@
   >
     <div class="content-row build-box">
       <BuildCharacter character={build.character} constellation={build.c} />
-      <div class="content-row type">
-        {#if build.type.includes('meta')}
-          <span style="color:var(--theme-primary-gold)">★</span>
-        {:else if build.type.includes('whale')}
-          <img style="width:20px" src="/img/whale.png" alt="whale" />
-        {/if}
-      </div>
+      <div class="content-row character-name">{$characters[build.character].data[$lang].name}</div>
       <div class="content-row build-box name">
         {build.name[$lang] ? build.name[$lang] : build.name[lang.default()]}
       </div>
     </div>
-    <div class="content-row">
+    <div class="content-row build-equipments">
       <div class="content-row build-box weapons">
         <BuildWeapons weapons={build.weapon} />
       </div>
@@ -81,32 +76,28 @@
     align-items: center;
     font-size: var(--text-size, 0.8rem);
 
-    .type {
-      width: 40px;
+    .character-name {
+      width: 110px;
       align-items: center;
-      padding: 0 0 0 15px;
+      padding: 0 0 0 20px;
     }
 
     .name {
-      width: 90px;
+      width: 100px;
       align-items: center;
     }
 
     .weapons {
-      width: 205px;
+      width: 165px;
     }
 
     .artifacts {
-      min-width: 410px;
-
-      @media only screen and (max-width: 460px) {
-        min-width: 320px;
-      }
+      min-width: 270px;
     }
 
-    @media only screen and (max-width: 960px) {
-      .artifacts,
-      .weapons {
+    @media only screen and (max-width: 830px) {
+      .build-equipments {
+        flex-grow: 1;
         border-top: 1px dotted var(--theme-border-light);
       }
     }
@@ -116,28 +107,18 @@
     height: auto;
     font-size: 0.9rem;
     padding-bottom: 10px;
-
-    .mainstat-stats,
-    .notes,
-    .sources {
-      border-top: 1px dotted var(--theme-border-light);
-    }
+    border-top: 1px dotted var(--theme-border-light);
 
     .notes {
+      min-width: 300px;
+
       &:hover {
         cursor: default;
       }
     }
 
-    .mainstat-stats {
-      @media only screen and (max-width: 390px) {
-        gap: 10px;
-      }
-    }
-
-    .notes {
-      min-width: 320px;
-      max-width: 410px;
+    .sources {
+      min-width: 400px;
     }
   }
 </style>

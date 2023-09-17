@@ -21,10 +21,6 @@
 <style lang="scss">
   .stats {
     width: 210px;
-
-    @media only screen and (max-width: 390px) {
-      width: 160px;
-    }
   }
 
   ol {

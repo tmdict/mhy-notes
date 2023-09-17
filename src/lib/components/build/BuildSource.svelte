@@ -28,7 +28,7 @@
             {parseSource(source).name}: {parseSource(source).src}
           {:else}
             <a on:click|stopPropagation href={parseSource(source).src} alt={parseSource(source).id}
-              >{parseSource(source).name}</a
+              >{parseSource(source).id}</a
             >
           {/if}
         </li>

@@ -17,6 +17,8 @@
   <div
     class="quick list-{type === 'icon' ? 'icon' : 'text'}"
     class:active={$buildsFilters[name].quick === item}
+    role="button"
+    tabindex="0"
     on:click={() => buildsFilters.updateQuickFilter(name, item)}
     on:keydown={() => buildsFilters.updateQuickFilter(name, item)}
   >
@@ -35,6 +37,8 @@
   <div
     class="common list-{type}"
     class:active={$buildsFilters[name].common.includes(item)}
+    role="button"
+    tabindex="0"
     on:click={() => buildsFilters.updateCommonFilter(name, item)}
     on:keydown={() => buildsFilters.updateCommonFilter(name, item)}
   />

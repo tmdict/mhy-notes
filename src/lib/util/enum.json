@@ -294,7 +294,8 @@
     "sacrificial-jade",
     "scion-of-the-blazing-sun",
     "talking-stick",
-    "wolf-fang"
+    "wolf-fang",
+    "freminet"
   ],
   "name2id": {
     "geo": 0,
@@ -591,6 +592,7 @@
     "sacrificial-jade": 291,
     "scion-of-the-blazing-sun": 292,
     "talking-stick": 293,
-    "wolf-fang": 294
+    "wolf-fang": 294,
+    "freminet": 295
   }
 }

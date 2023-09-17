@@ -76,7 +76,7 @@
       url: 'weekly-boss-materials',
       updated: '2023-08-18'
     }
-  ].sort((a, b) => (a.updated < b.updated) ? 1 : -1);
+  ].sort((a, b) => b.updated.localeCompare(a.updated));
 
   const top = { en: En, zh: Zh };
 </script>

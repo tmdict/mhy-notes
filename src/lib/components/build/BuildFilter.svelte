@@ -13,7 +13,7 @@
 </script>
 
 <div class="filter">
-  <h4 class={isCollapse ? 'show' : 'collapse'} on:click={updateCollapse} on:keydown={updateCollapse}>
+  <h4 class={isCollapse ? 'show' : 'collapse'} role="presentation" on:click={updateCollapse} on:keydown={updateCollapse}>
     {$l10n[filter.name][$lang]}
   </h4>
   {#if !isCollapse}
@@ -21,6 +21,8 @@
       <li>
         <div
           class="list-text"
+          role="button"
+          tabindex="0"
           on:click={() => buildsFilters.resetByType(filter.name)}
           on:keydown={() => buildsFilters.resetByType(filter.name)}
         >
@@ -31,7 +33,7 @@
         <BuildFilterItem name={filter.name} type={filter.type} {item} />
       {/each}
       <li>
-        <div class="list-text" on:click={() => buildsFilters.reset()} on:keydown={() => buildsFilters.reset()}>
+        <div class="list-text" on:click={() => buildsFilters.reset()} role="button" tabindex="0" on:keydown={() => buildsFilters.reset()}>
           {$l10n['clear-all'][$lang]}
         </div>
       </li>

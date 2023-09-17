@@ -1,5 +1,6 @@
 <script>
   import { l10n, lang } from '@store/site';
+  import { characters } from '@store/gamedata';
   import BuildArtifactSet from '$lib/components/build/BuildArtifactSet.svelte';
   import BuildCharacter from '$lib/components/build/BuildCharacter.svelte';
   import BuildMainStats from './BuildMainStats.svelte';
@@ -20,7 +21,7 @@
 <div class="content-row header">
   <BuildCharacter character={build.character} constellation={build.constellation} size="80px" />
   <div class="content-row name">
-    <h1>{build.name[$lang] ? build.name[$lang] : build.name[lang.default()]} <a href="./build#{link}">#</a></h1>
+    <h1>{$characters[build.character].data[$lang].name} · {build.name[$lang] ? build.name[$lang] : build.name[lang.default()]} <a href="./build#{link}">#</a></h1>
   </div>
 </div>
 
@@ -62,6 +63,13 @@
 </div>
 
 <style lang="scss">
+
+  @media only screen and (max-width: 960px) {
+    .build {
+      width: 440px;
+    }
+  }
+
   .header {
     padding: 10px;
     align-items: center;
@@ -72,15 +80,6 @@
 
       a {
         text-decoration: none;
-      }
-
-      @media only screen and (max-width: 960px) {
-        margin-left: 10px;
-        font-size: 2em;
-      }
-
-      @media only screen and (max-width: 460px) {
-        font-size: 1.2em;
       }
     }
   }
@@ -100,15 +99,11 @@
     min-height: 95px;
 
     .weapons {
-      min-width: 200px;
+      width: 165px;
     }
 
     .artifacts {
-      min-width: 405px;
-
-      @media only screen and (max-width: 460px) {
-        min-width: 300px;
-      }
+      min-width: 270px;
     }
   }
 
@@ -117,28 +112,18 @@
     font-size: 0.9rem;
     line-height: 1.5em;
     padding: 5px;
+    border-top: 1px dotted var(--theme-border-light);
 
-    .mainstat-stats,
-    .notes,
+    .notes {
+      min-width: 300px;
+
+      &:hover {
+        cursor: default;
+      }
+    }
+
     .sources {
-      width: 900px;
-      border-top: 1px dotted var(--theme-border-light);
-    }
-
-    @media only screen and (max-width: 960px) {
-      .mainstat-stats,
-      .notes,
-      .sources {
-        width: 480px;
-      }
-    }
-
-    @media only screen and (max-width: 540px) {
-      .mainstat-stats,
-      .notes,
-      .sources {
-        width: auto;
-      }
+      min-width: 400px;
     }
   }
 </style>

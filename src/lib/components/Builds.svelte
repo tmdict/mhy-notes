@@ -72,7 +72,7 @@
     {/each}
   </div>
   <div id="filter-list">
-    <div class="expand-builds" on:click={() => (expandAll = !expandAll)} on:keydown={() => (expandAll = !expandAll)}>
+    <div class="expand-builds" role="button" tabindex="0" on:click={() => (expandAll = !expandAll)} on:keydown={() => (expandAll = !expandAll)}>
       {#if !expandAll}
         <h4>{$l10n['expand-all'][$lang]}</h4>
       {:else}
@@ -103,7 +103,7 @@
       padding: 0 0 5px 5px;
       border-bottom: 1px solid var(--theme-divider);
 
-      @media only screen and (max-width: 940px) {
+      @media only screen and (max-width: 830px) {
         display: none;
       }
 
@@ -121,7 +121,7 @@
     margin: 7px 0 0 5px;
     line-height: 1.4em;
 
-    @media only screen and (max-width: 540px) {
+    @media only screen and (max-width: 570px) {
       display: none;
     }
 
