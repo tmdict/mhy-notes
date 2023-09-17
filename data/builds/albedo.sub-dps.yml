@@ -2,8 +2,6 @@
 character: albedo
 c: 0
 type:
-  - f2p
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
@@ -14,15 +12,11 @@ weapon:
     r: 5
   - name: harbinger-of-dawn
     r: 0
-  - name: primordial-jade-cutter
-    r: 0
 
 artifact:
   - set: [husk-of-opulent-dreams]
     p: 4
-  - set: [husk-of-opulent-dreams, archaic-petra]
-    p: 2
-  - set: [tenacity-of-the-millelith]
+  - set: [archaic-petra]
     p: 4
 
 mainstat:

@@ -2,16 +2,14 @@
 character: ningguang
 c: 2
 type:
+  - burst
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
 
 weapon:
   - name: lost-prayer-to-the-sacred-winds
-    r: 0
-  - name: memory-of-dust
     r: 0
   - name: solar-pearl
     r: 0
@@ -20,8 +18,6 @@ artifact:
   - set: [archaic-petra, gladiators-finale]
     p: 2
   - set: [archaic-petra, noblesse-oblige]
-    p: 2
-  - set: [noblesse-oblige, gladiators-finale]
     p: 2
 
 mainstat:
@@ -33,7 +29,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '80% / 150%'
+  - crit: '80% / 160%'
   - atk: '2,300'
   - er: ''
 

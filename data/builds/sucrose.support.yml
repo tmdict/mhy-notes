@@ -2,18 +2,15 @@
 character: sucrose
 c: 6
 type:
-  - meta
   - support
 name:
   en: 'EM Support'
   zh: '精通辅助'
 
 weapon:
-  - name: a-thousand-floating-dreams
-    r: 0
   - name: sacrificial-fragments
     r: 0
-  - name: thrilling-tales-of-dragon-slayers
+  - name: a-thousand-floating-dreams
     r: 0
 
 artifact:
@@ -21,8 +18,6 @@ artifact:
     p: 4
   - set: [instructor]
     p: 4
-  - set: [wanderers-troupe, instructor]
-    p: 2
 
 mainstat:
   sand:
@@ -34,7 +29,7 @@ mainstat:
     - em
 
 stats:
-  - em: '750'
+  - em: '760'
   - er: ''
   - atk: '1,100'
   - crit: ''

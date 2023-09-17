@@ -1,0 +1,41 @@
+---
+character: mona
+c: 0
+type:
+  - burst
+  - support
+name:
+  en: 'Burst Support'
+  zh: '爆发辅助'
+
+weapon:
+  - name: thrilling-tales-of-dragon-slayers
+    r: 0
+  - name: favonius-codex
+    r: 0
+
+artifact:
+  - set: [noblesse-oblige]
+    p: 4
+  - set: [instructor]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - atk
+  circlet:
+    - crit
+
+stats:
+  - er: '210%'
+  - crit: '60% / 120%'
+  - atk: '1,700'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/mona/

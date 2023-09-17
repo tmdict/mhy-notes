@@ -1,0 +1,41 @@
+---
+character: ganyu
+c: 0
+type:
+  - burst
+  - dps
+name:
+  en: 'Freeze DPS'
+  zh: '永冻流'
+
+weapon:
+  - name: amos-bow
+    r: 0
+  - name: prototype-crescent
+    r: 5
+
+artifact:
+  - set: [blizzard-strayer]
+    p: 4
+  - set: [blizzard-strayer, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - cryo
+  circlet:
+    - crit
+
+stats:
+  - crit: '30% / 230%'
+  - atk: '2,400'
+  - er: ''
+
+talent: 'A > Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/ganyu/

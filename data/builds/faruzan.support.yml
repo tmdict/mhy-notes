@@ -2,7 +2,6 @@
 character: faruzan
 c: 6
 type:
-  - meta
   - support
 name:
   en: 'Support'
@@ -13,15 +12,11 @@ weapon:
     r: 0
   - name: favonius-warbow
     r: 0
-  - name: end-of-the-line
-    r: 5
 
 artifact:
   - set: [tenacity-of-the-millelith]
     p: 4
   - set: [viridescent-venerer]
-    p: 4
-  - set: [noblesse-oblige]
     p: 4
 
 mainstat:
@@ -46,3 +41,4 @@ notes:
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/faruzan/

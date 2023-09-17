@@ -3,15 +3,12 @@ character: eula
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'Physical DPS'
   zh: '物伤'
 
 weapon:
   - name: song-of-broken-pines
-    r: 0
-  - name: wolfs-gravestone
     r: 0
   - name: serpent-spine
     r: 0
@@ -33,7 +30,7 @@ mainstat:
 stats:
   - crit: '60% / 150%'
   - er: ''
-  - atk: '2,400'
+  - atk: '2,700'
 
 talent: 'Q = A > E'
 

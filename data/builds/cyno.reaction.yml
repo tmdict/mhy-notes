@@ -1,0 +1,41 @@
+---
+character: cyno
+c: 2
+type:
+  - dps
+  - reaction
+name:
+  en: 'Elemental Reaction'
+  zh: '元素反应'
+
+weapon:
+  - name: staff-of-the-scarlet-sands
+    r: 0
+  - name: ballad-of-the-fjords
+    r: 0
+
+artifact:
+  - set: [gilded-dreams]
+    p: 4
+  - set: [thundering-fury]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - er: '120%'
+  - crit: '80% / 210%'
+  - atk: '1,800'
+  - em: '350'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default

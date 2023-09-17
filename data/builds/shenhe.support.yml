@@ -2,7 +2,6 @@
 character: shenhe
 c: 0
 type:
-  - meta
   - support
 name:
   en: 'Support'
@@ -10,8 +9,6 @@ name:
 
 weapon:
   - name: calamity-queller
-    r: 0
-  - name: skyward-spine
     r: 0
   - name: favonius-lance
     r: 0
@@ -32,8 +29,8 @@ mainstat:
     - atk
 
 stats:
-  - atk: '4,000'
   - er: '220%'
+  - atk: '4,100'
   - crit: ''
 
 talent: 'E > Q'

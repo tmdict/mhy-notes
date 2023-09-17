@@ -3,27 +3,22 @@ character: xingqiu
 c: 6
 type:
   - burst
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
 
 weapon:
-  - name: primordial-jade-cutter
-    r: 0
   - name: sacrificial-sword
-    r: 3
-  - name: mistsplitter-reforged
+    r: 5
+  - name: primordial-jade-cutter
     r: 0
 
 artifact:
-  - set: [emblem-of-severed-fate]
-    p: 4
-  - set: [noblesse-oblige]
-    p: 4
   - set: [heart-of-depth, noblesse-oblige]
     p: 2
+  - set: [emblem-of-severed-fate]
+    p: 4
 
 mainstat:
   sand:
@@ -38,7 +33,7 @@ stats:
   - crit: '80% / 170%'
   - atk: '1,700'
   - er: '190%'
-  - em: ''
+  - hp: '19,000'
 
 talent: 'Q > E'
 

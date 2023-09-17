@@ -3,15 +3,12 @@ character: collei
 c: 4
 type:
   - support
-  - meta
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
   - name: elegy-for-the-end
-    r: 0
-  - name: polar-star
     r: 0
   - name: favonius-warbow
     r: 0
@@ -20,8 +17,6 @@ artifact:
   - set: [deepwood-memories]
     p: 4
   - set: [noblesse-oblige]
-    p: 4
-  - set: [tenacity-of-the-millelith]
     p: 4
 
 mainstat:

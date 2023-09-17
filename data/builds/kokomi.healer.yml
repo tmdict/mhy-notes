@@ -1,0 +1,46 @@
+---
+character: sangonomiya-kokomi
+c: 0
+type:
+  - healer
+  - support
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: thrilling-tales-of-dragon-slayers
+    r: 0
+  - name: prototype-amber
+    r: 0
+
+artifact:
+  - set: [tenacity-of-the-millelith]
+    p: 4
+  - set: [ocean-hued-clam]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - er
+  goblet:
+    - hp
+  circlet:
+    - heal
+
+stats:
+  - er: ''
+  - hp: '48,000'
+  - atk: '1,200'
+  - heal: '60%'
+
+talent: 'E > Q > A'
+
+notes:
+  en: 'E > (before E duration ends) Q to refresh E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/kokomi/

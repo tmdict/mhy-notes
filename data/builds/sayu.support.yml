@@ -3,7 +3,6 @@ character: sayu
 c: 1
 type:
   - healer
-  - meta
   - support
 name:
   en: 'Support'
@@ -14,16 +13,12 @@ weapon:
     r: 0
   - name: favonius-greatsword
     r: 0
-  - name: katsuragikiri-nagamasa
-    r: 0
 
 artifact:
   - set: [viridescent-venerer]
     p: 4
   - set: [noblesse-oblige]
     p: 4
-  - set: [emblem-of-severed-fate, maiden-beloved]
-    p: 2
 
 mainstat:
   sand:
@@ -37,8 +32,8 @@ mainstat:
     - em
 
 stats:
-  - em: '440'
   - er: ''
+  - em: '440'
   - atk: '2,400'
   - heal: '35%'
 

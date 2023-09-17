@@ -3,7 +3,6 @@ character: yelan
 c: 0
 type:
   - burst
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
@@ -11,8 +10,6 @@ name:
 
 weapon:
   - name: aqua-simulacra
-    r: 0
-  - name: elegy-for-the-end
     r: 0
   - name: favonius-warbow
     r: 0
@@ -33,9 +30,10 @@ mainstat:
     - crit
 
 stats:
-  - er: '190%'
-  - hp: '28,000'
+  - er: '200%'
+  - hp: '35,000'
   - crit: '80% / 210%'
+  - atk: '1,300'
 
 talent: 'Q > E > A'
 

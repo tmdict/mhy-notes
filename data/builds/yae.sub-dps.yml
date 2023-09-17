@@ -2,7 +2,6 @@
 character: yae-miko
 c: 0
 type:
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
@@ -11,18 +10,14 @@ name:
 weapon:
   - name: kaguras-verity
     r: 0
-  - name: skyward-atlas
-    r: 0
-  - name: solar-pearl
+  - name: the-widsith
     r: 0
 
 artifact:
-  - set: [thundering-fury, gladiators-finale]
-    p: 2
   - set: [gilded-dreams]
     p: 4
-  - set: [emblem-of-severed-fate]
-    p: 4
+  - set: [thundering-fury, gladiators-finale]
+    p: 2
 
 mainstat:
   sand:
@@ -35,7 +30,7 @@ mainstat:
 
 stats:
   - crit: '80% / 190%'
-  - atk: '2,200'
+  - atk: '2,600'
   - er: ''
   - em: '160'
 

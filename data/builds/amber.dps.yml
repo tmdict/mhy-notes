@@ -3,6 +3,7 @@ character: amber
 c: 4
 type:
   - dps
+  - reaction
 name:
   en: 'DPS'
   zh: '主C'
@@ -12,15 +13,11 @@ weapon:
     r: 0
   - name: thundering-pulse
     r: 0
-  - name: prototype-crescent
-    r: 2
 
 artifact:
   - set: [wanderers-troupe]
     p: 4
   - set: [shimenawas-reminiscence]
-    p: 4
-  - set: [crimson-witch-of-flames]
     p: 4
 
 mainstat:
@@ -34,9 +31,8 @@ mainstat:
 
 stats:
   - crit: '60% / 120%'
-  - atk: '2,300'
+  - atk: '2,400'
   - em: '120'
-  - er: ''
 
 talent: 'A > Q > E'
 

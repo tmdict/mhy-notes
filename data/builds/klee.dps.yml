@@ -3,7 +3,6 @@ character: klee
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -13,16 +12,12 @@ weapon:
     r: 0
   - name: the-widsith
     r: 5
-  - name: kaguras-verity
-    r: 0
 
 artifact:
-  - set: [crimson-witch-of-flames]
+  - set: [lavawalker]
     p: 4
   - set: [crimson-witch-of-flames, gladiators-finale]
     p: 2
-  - set: [lavawalker]
-    p: 4
 
 mainstat:
   sand:

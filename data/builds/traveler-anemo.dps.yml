@@ -1,0 +1,49 @@
+---
+character: traveler-anemo
+c: 6
+type:
+  - dps
+  - sub-dps
+name:
+  en: 'Anemo DPS'
+  zh: '风C'
+
+weapon:
+  - name: favonius-sword
+    r: 0
+  - name: freedom-sworn
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [viridescent-venerer, noblesse-oblige]
+    p: 2
+
+mainstat:
+  sand:
+    - em
+    - atk
+  goblet:
+    - em
+    - anemo
+  circlet:
+    - em
+    - crit
+
+stats:
+  - em: '720'
+  - er: ''
+  - atk: '1,300'
+  - crit: ''
+
+talent: 'E > Q'
+
+notes:
+  en: 'E/Q > Swap'
+  zh: 'E/Q > Swap'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/anemo-traveler/

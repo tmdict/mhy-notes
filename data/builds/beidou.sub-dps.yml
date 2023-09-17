@@ -2,7 +2,6 @@
 character: beidou
 c: 2
 type:
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
@@ -12,8 +11,6 @@ weapon:
   - name: wolfs-gravestone
     r: 0
   - name: serpent-spine
-    r: 0
-  - name: redhorn-stonethresher
     r: 0
 
 artifact:
@@ -33,7 +30,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '60% / 120%'
+  - crit: '70% / 150%'
   - atk: '2,000'
   - er: '190%'
   - em: ''

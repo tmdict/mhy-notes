@@ -3,7 +3,7 @@ character: rosaria
 c: 2
 type:
   - burst
-  - f2p
+  - reaction
   - support
 name:
   en: 'Burst Support'
@@ -20,7 +20,7 @@ weapon:
 artifact:
   - set: [noblesse-oblige]
     p: 4
-  - set: [instructor]
+  - set: [blizzard-strayer]
     p: 4
 
 mainstat:

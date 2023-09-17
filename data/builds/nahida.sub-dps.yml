@@ -2,17 +2,15 @@
 character: nahida
 c: 0
 type:
-  - meta
-  - sub-dps
-  - bloom
+  - dps
+  - reaction
+  - support
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
 
 weapon:
   - name: a-thousand-floating-dreams
-    r: 0
-  - name: kaguras-verity
     r: 0
   - name: wandering-evenstar
     r: 0
@@ -35,12 +33,13 @@ mainstat:
 
 stats:
   - er: '130%'
-  - em: '1,000'
-  - dendro: ''
-  - crit: '30% / 100%'
+  - em: '940'
+  - crit: '50% / 130%'
+  - atk: '1,500'
 
 talent: 'E > Q'
 
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/nahida/

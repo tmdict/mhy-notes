@@ -1,0 +1,42 @@
+---
+character: dehya
+c: 0
+type:
+  - sub-dps
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: beacon-of-the-reed-sea
+    r: 0
+  - name: the-bell
+    r: 0
+
+artifact:
+  - set: [vourukashas-glow]
+    p: 4
+  - set: [tenacity-of-the-millelith]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - er: ''
+  - crit: '80% / 150%'
+  - atk: '2,100'
+  - hp: '40,000'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/dehya/

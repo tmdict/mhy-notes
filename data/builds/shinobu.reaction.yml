@@ -1,0 +1,45 @@
+---
+character: kuki-shinobu
+c: 0
+type:
+  - reaction
+  - sub-dps
+  - support
+name:
+  en: 'Elemental Reaction'
+  zh: '元素反应'
+
+weapon:
+  - name: xiphos-moonlight
+    r: 0
+  - name: freedom-sworn
+    r: 0
+
+artifact:
+  - set: [gilded-dreams]
+    p: 4
+  - set: [flower-of-paradise-lost]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - em
+    - electro
+  circlet:
+    - em
+    - crit
+
+stats:
+  - em: '960'
+  - hp: '22,000'
+  - er: ''
+  - atk: '1,100'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default

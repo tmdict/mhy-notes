@@ -2,26 +2,22 @@
 character: kuki-shinobu
 c: 0
 type:
-  - f2p
+  - healer
   - support
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
+  - name: xiphos-moonlight
+    r: 0
   - name: favonius-sword
-    r: 0
-  - name: freedom-sworn
-    r: 0
-  - name: key-of-khaj-nisut
     r: 0
 
 artifact:
   - set: [gilded-dreams]
     p: 4
   - set: [tenacity-of-the-millelith]
-    p: 4
-  - set: [noblesse-oblige]
     p: 4
 
 mainstat:
@@ -38,7 +34,6 @@ mainstat:
 
 stats:
   - hp: '27,000'
-  - cr: ''
   - em: '780'
   - atk: '1,100'
 

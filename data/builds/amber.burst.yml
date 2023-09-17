@@ -3,18 +3,15 @@ character: amber
 c: 0
 type:
   - burst
-  - meta
-  - support
+  - sub-dps
 name:
-  en: 'Burst Support'
+  en: 'Burst'
   zh: '爆发'
 
 weapon:
   - name: elegy-for-the-end
     r: 0
   - name: favonius-warbow
-    r: 0
-  - name: sacrificial-bow
     r: 0
 
 artifact:

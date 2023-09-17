@@ -1,0 +1,42 @@
+---
+character: keqing
+c: 0
+type:
+  - dps
+  - reaction
+name:
+  en: 'Electro DPS'
+  zh: '雷伤'
+
+weapon:
+  - name: mistsplitter-reforged
+    r: 0
+  - name: wolf-fang
+    r: 0
+
+artifact:
+  - set: [thundering-fury]
+    p: 4
+  - set: [thundering-fury, gladiators-finale]
+    p: 2
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 220%'
+  - atk: '2,100'
+  - em: '80'
+  - er: ''
+
+talent: 'A > Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/keqing/

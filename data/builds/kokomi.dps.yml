@@ -3,6 +3,7 @@ character: sangonomiya-kokomi
 c: 0
 type:
   - dps
+  - reaction
 name:
   en: 'DPS'
   zh: '主C'
@@ -11,8 +12,6 @@ weapon:
   - name: everlasting-moonglow
     r: 0
   - name: prototype-amber
-    r: 0
-  - name: hakushin-ring
     r: 0
 
 artifact:
@@ -45,3 +44,4 @@ notes:
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/kokomi/

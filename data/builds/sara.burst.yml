@@ -3,7 +3,6 @@ character: kujou-sara
 c: 2
 type:
   - burst
-  - meta
   - support
 name:
   en: 'Burst Support'
@@ -11,8 +10,6 @@ name:
 
 weapon:
   - name: skyward-harp
-    r: 0
-  - name: elegy-for-the-end
     r: 0
   - name: sacrificial-bow
     r: 0
@@ -22,8 +19,6 @@ artifact:
     p: 4
   - set: [noblesse-oblige]
     p: 4
-  - set: [thundering-fury, noblesse-oblige]
-    p: 2
 
 mainstat:
   sand:

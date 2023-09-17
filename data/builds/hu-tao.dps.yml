@@ -3,7 +3,6 @@ character: hu-tao
 c: 1
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -11,17 +10,13 @@ name:
 weapon:
   - name: staff-of-homa
     r: 0
-  - name: staff-of-the-scarlet-sands
-    r: 0
-  - name: dragons-bane
+  - name: ballad-of-the-fjords
     r: 0
 
 artifact:
   - set: [crimson-witch-of-flames]
     p: 4
   - set: [shimenawas-reminiscence]
-    p: 4
-  - set: [gilded-dreams]
     p: 4
 
 mainstat:
@@ -34,10 +29,10 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 200%'
+  - crit: '80% / 200%'
   - em: '270'
   - hp: '35,000'
-  - atk: '3,500'
+  - atk: '4,000'
 
 talent: 'A > E > Q'
 

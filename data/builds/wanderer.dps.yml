@@ -1,17 +1,14 @@
 ---
 character: wanderer
-c: 2
+c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
 
 weapon:
   - name: tulaytullahs-remembrance
-    r: 0
-  - name: lost-prayer-to-the-sacred-winds
     r: 0
   - name: the-widsith
     r: 0
@@ -20,8 +17,6 @@ artifact:
   - set: [desert-pavilion-chronicle]
     p: 4
   - set: [shimenawas-reminiscence]
-    p: 4
-  - set: [echoes-of-an-offering]
     p: 4
 
 mainstat:

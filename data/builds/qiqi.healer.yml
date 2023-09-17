@@ -2,9 +2,7 @@
 character: qiqi
 c: 1
 type:
-  - f2p
   - healer
-  - meta
   - support
 name:
   en: 'Healer'
@@ -15,15 +13,11 @@ weapon:
     r: 0
   - name: aquila-favonia
     r: 0
-  - name: the-flute
-    r: 0
 
 artifact:
   - set: [ocean-hued-clam]
     p: 4
   - set: [tenacity-of-the-millelith]
-    p: 4
-  - set: [maiden-beloved]
     p: 4
 
 mainstat:

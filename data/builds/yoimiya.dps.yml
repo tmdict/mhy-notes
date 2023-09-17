@@ -3,7 +3,6 @@ character: yoimiya
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -13,15 +12,11 @@ weapon:
     r: 0
   - name: rust
     r: 5
-  - name: polar-star
-    r: 0
 
 artifact:
   - set: [shimenawas-reminiscence]
     p: 4
   - set: [crimson-witch-of-flames]
-    p: 4
-  - set: [echoes-of-an-offering]
     p: 4
 
 mainstat:

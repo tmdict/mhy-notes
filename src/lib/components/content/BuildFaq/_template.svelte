@@ -11,7 +11,7 @@
   const exampleBuild = {
     character: 'kaedehara-kazuha',
     c: 6,
-    type: ['dps', 'meta', 'whale'],
+    type: ['dps'],
     name: { en: 'DPS', zh: '主C' },
     weapon: [
       { name: 'primordial-jade-cutter', r: 5 },

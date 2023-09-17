@@ -2,7 +2,6 @@
 character: venti
 c: 0
 type:
-  - meta
   - sub-dps
   - support
 name:
@@ -14,8 +13,6 @@ weapon:
     r: 0
   - name: the-stringless
     r: 0
-  - name: windblume-ode
-    r: 5
 
 artifact:
   - set: [viridescent-venerer]

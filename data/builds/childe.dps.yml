@@ -3,7 +3,6 @@ character: tartaglia
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -11,16 +10,12 @@ name:
 weapon:
   - name: polar-star
     r: 0
-  - name: thundering-pulse
-    r: 0
-  - name: the-viridescent-hunt
+  - name: scion-of-the-blazing-sun
     r: 0
 
 artifact:
   - set: [nymphs-dream]
     p: 4
-  - set: [heart-of-depth, gladiators-finale]
-    p: 2
   - set: [heart-of-depth]
     p: 4
 

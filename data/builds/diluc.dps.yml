@@ -3,15 +3,12 @@ character: diluc
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
 
 weapon:
   - name: wolfs-gravestone
-    r: 0
-  - name: redhorn-stonethresher
     r: 0
   - name: serpent-spine
     r: 0
@@ -32,9 +29,9 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 140%'
+  - crit: '80% / 170%'
   - atk: '2,200'
-  - em: '260'
+  - em: '270'
   - er: ''
 
 talent: 'A > E > Q'

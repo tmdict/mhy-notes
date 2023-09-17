@@ -2,39 +2,38 @@
 character: fischl
 c: 6
 type:
-  - meta
+  - reaction
   - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
 
 weapon:
-  - name: polar-star
-    r: 0
-  - name: skyward-harp
-    r: 0
   - name: the-stringless
     r: 5
+  - name: polar-star
+    r: 0
 
 artifact:
+  - set: [golden-troupe]
+    p: 4
   - set: [thundering-fury, gladiators-finale]
     p: 2
-  - set: [thundersoother]
-    p: 4
 
 mainstat:
   sand:
     - atk
+    - em
   goblet:
     - electro
   circlet:
     - crit
 
 stats:
-  - crit: '70% / 150%'
-  - atk: '2,300'
+  - crit: '80% / 150%'
+  - atk: '2,200'
   - er: ''
-  - em: ''
+  - em: '250'
 
 talent: 'E > Q'
 

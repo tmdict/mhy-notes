@@ -3,26 +3,20 @@ character: xinyan
 c: 2
 type:
   - dps
-  - meta
-  - physical
 name:
   en: 'Physical DPS'
   zh: '物伤'
 
 weapon:
-  - name: redhorn-stonethresher
-    r: 0
-  - name: serpent-spine
-    r: 5
   - name: the-unforged
+    r: 0
+  - name: whiteblind
     r: 0
 
 artifact:
   - set: [pale-flame, bloodstained-chivalry]
     p: 2
   - set: [pale-flame]
-    p: 4
-  - set: [retracing-bolide]
     p: 4
 
 mainstat:

@@ -2,19 +2,16 @@
 character: xiangling
 c: 4
 type:
-  - meta
   - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
 
 weapon:
-  - name: staff-of-the-scarlet-sands
+  - name: engulfing-lightning
     r: 0
   - name: the-catch
     r: 5
-  - name: staff-of-homa
-    r: 0
 
 artifact:
   - set: [emblem-of-severed-fate]
@@ -33,7 +30,7 @@ mainstat:
     - crit
 
 stats:
-  - er: '170%'
+  - er: '240%'
   - crit: '60% / 130%'
   - atk: '1,900'
   - em: '340'

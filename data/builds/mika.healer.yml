@@ -2,9 +2,7 @@
 character: mika
 c: 0
 type:
-  - f2p
   - healer
-  - meta
   - support
 name:
   en: 'Healer'
@@ -15,11 +13,11 @@ weapon:
     r: 0
   - name: kitain-cross-spear
     r: 0
-  - name: prototype-starglitter
-    r: 0
 
 artifact:
   - set: [noblesse-oblige]
+    p: 4
+  - set: [ocean-hued-clam]
     p: 4
 
 mainstat:
@@ -33,10 +31,11 @@ mainstat:
 stats:
   - er: '200%'
   - hp: '31,000'
-  - heal: '60%'
-  - atk: '2,000'
+  - atk: '1,000'
 
 talent: 'E > Q'
 
 source:
+  - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/mika/

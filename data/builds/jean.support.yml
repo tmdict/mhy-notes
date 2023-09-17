@@ -4,15 +4,12 @@ c: 0
 type:
   - burst
   - healer
-  - meta
   - support
 name:
   en: 'Burst Support'
   zh: '爆发'
 
 weapon:
-  - name: primordial-jade-cutter
-    r: 0
   - name: amenoma-kageuchi
     r: 0
   - name: aquila-favonia
@@ -23,8 +20,6 @@ artifact:
     p: 4
   - set: [noblesse-oblige]
     p: 4
-  - set: [viridescent-venerer, gladiators-finale]
-    p: 2
 
 mainstat:
   sand:
@@ -40,7 +35,7 @@ mainstat:
 stats:
   - crit: ''
   - atk: '2,200'
-  - er: '170%'
+  - er: '180%'
   - heal: '60%'
 
 talent: 'Q = E > A'

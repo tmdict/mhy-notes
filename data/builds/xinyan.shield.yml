@@ -2,7 +2,6 @@
 character: xinyan
 c: 4
 type:
-  - f2p
   - shield
   - support
 name:
@@ -13,8 +12,6 @@ weapon:
   - name: sacrificial-greatsword
     r: 0
   - name: whiteblind
-    r: 0
-  - name: favonius-greatsword
     r: 0
 
 artifact:
@@ -33,9 +30,9 @@ mainstat:
     - def
 
 stats:
-  - def: '3,100'
   - er: ''
   - atk: '1,900'
+  - def: '3,100'
 
 talent: 'E > Q'
 

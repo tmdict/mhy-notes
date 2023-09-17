@@ -3,7 +3,6 @@ character: kamisato-ayaka
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -11,17 +10,13 @@ name:
 weapon:
   - name: mistsplitter-reforged
     r: 0
-  - name: haran-geppaku-futsu
-    r: 0
-  - name: amenoma-kageuchi
+  - name: wolf-fang
     r: 0
 
 artifact:
   - set: [blizzard-strayer]
     p: 4
   - set: [blizzard-strayer, gladiators-finale]
-    p: 2
-  - set: [gladiators-finale, shimenawas-reminiscence]
     p: 2
 
 mainstat:
@@ -35,7 +30,7 @@ mainstat:
 
 stats:
   - cdmg: '250%'
-  - atk: '2,200'
+  - atk: '2,100'
   - er: ''
   - cr: '40%'
 

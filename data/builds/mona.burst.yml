@@ -3,8 +3,8 @@ character: mona
 c: 0
 type:
   - burst
-  - f2p
-  - support
+  - reaction
+  - sub-dps
 name:
   en: 'Burst'
   zh: '爆发'
@@ -13,8 +13,6 @@ weapon:
   - name: the-widsith
     r: 0
   - name: skyward-atlas
-    r: 0
-  - name: memory-of-dust
     r: 0
 
 artifact:

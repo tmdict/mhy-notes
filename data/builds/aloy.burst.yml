@@ -3,8 +3,7 @@ character: aloy
 c: 0
 type:
   - burst
-  - meta
-  - support
+  - dps
 name:
   en: 'Burst Support'
   zh: '爆发'
@@ -12,18 +11,14 @@ name:
 weapon:
   - name: thundering-pulse
     r: 0
-  - name: polar-star
-    r: 0
   - name: favonius-warbow
     r: 0
 
 artifact:
-  - set: [blizzard-strayer]
-    p: 4
-  - set: [blizzard-strayer, noblesse-oblige]
-    p: 2
   - set: [blizzard-strayer, gladiators-finale]
     p: 2
+  - set: [blizzard-strayer]
+    p: 4
 
 mainstat:
   sand:

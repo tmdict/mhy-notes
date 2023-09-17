@@ -2,8 +2,8 @@
   "id": "lynette",
   "type": "character",
   "rarity": 4,
-  "vision": "sword",
-  "weapon": "anemo",
+  "vision": "anemo",
+  "weapon": "sword",
   "released": "4.0.0",
   "data": {
     "en": {

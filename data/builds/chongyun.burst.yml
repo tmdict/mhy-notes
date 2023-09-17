@@ -3,8 +3,7 @@ character: chongyun
 c: 2
 type:
   - burst
-  - support
-  - meta
+  - dps
 name:
   en: 'Burst Support'
   zh: '爆发'
@@ -13,8 +12,6 @@ weapon:
   - name: wolfs-gravestone
     r: 0
   - name: serpent-spine
-    r: 0
-  - name: redhorn-stonethresher
     r: 0
 
 artifact:
@@ -34,8 +31,8 @@ mainstat:
     - crit
 
 stats:
-  - crit: '50% / 130%'
-  - atk: '2,500'
+  - crit: '70% / 160%'
+  - atk: '2,600'
   - em: ''
   - er: ''
 

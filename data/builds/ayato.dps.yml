@@ -3,15 +3,12 @@ character: kamisato-ayato
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
 
 weapon:
   - name: haran-geppaku-futsu
-    r: 0
-  - name: primordial-jade-cutter
     r: 0
   - name: the-black-sword
     r: 0
@@ -20,8 +17,6 @@ artifact:
   - set: [echoes-of-an-offering]
     p: 4
   - set: [heart-of-depth]
-    p: 4
-  - set: [gladiators-finale]
     p: 4
 
 mainstat:

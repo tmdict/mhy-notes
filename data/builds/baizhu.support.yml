@@ -2,7 +2,6 @@
 character: baizhu
 c: 0
 type:
-  - meta
   - support
 name:
   en: 'Support'
@@ -13,8 +12,6 @@ weapon:
     r: 0
   - name: prototype-amber
     r: 5
-  - name: favonius-codex
-    r: 0
 
 artifact:
   - set: [deepwood-memories]

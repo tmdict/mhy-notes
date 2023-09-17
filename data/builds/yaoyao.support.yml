@@ -2,8 +2,7 @@
 character: yaoyao
 c: 0
 type:
-  - f2p
-  - meta
+  - healer
   - support
 name:
   en: 'Support'
@@ -14,11 +13,11 @@ weapon:
     r: 0
   - name: black-tassel
     r: 0
-  - name: moonpiercer
-    r: 0
 
 artifact:
   - set: [tenacity-of-the-millelith]
+    p: 4
+  - set: [deepwood-memories]
     p: 4
 
 mainstat:
@@ -31,6 +30,7 @@ mainstat:
 
 stats:
   - hp: '47,000'
+  - er: ''
   - cr: '30%'
   - atk: '1,100'
 

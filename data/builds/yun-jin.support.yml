@@ -2,19 +2,15 @@
 character: yun-jin
 c: 2
 type:
-  - f2p
-  - meta
   - support
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
-  - name: favonius-lance
-    r: 0
-  - name: engulfing-lightning
-    r: 0
   - name: kitain-cross-spear
+    r: 0
+  - name: favonius-lance
     r: 0
 
 artifact:
@@ -22,8 +18,6 @@ artifact:
     p: 4
   - set: [husk-of-opulent-dreams, emblem-of-severed-fate]
     p: 2
-  - set: [noblesse-oblige]
-    p: 4
 
 mainstat:
   sand:
@@ -38,6 +32,7 @@ stats:
   - def: '2,500'
   - er: '220%'
   - crit: '60%'
+  - atk: '1,200'
 
 talent: 'Q > E'
 

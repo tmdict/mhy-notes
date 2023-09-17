@@ -2,18 +2,16 @@
 character: layla
 c: 0
 type:
-  - meta
+  - shield
   - support
 name:
   en: 'EM Support'
   zh: '精通辅助'
 
 weapon:
-  - name: key-of-khaj-nisut
-    r: 0
-  - name: primordial-jade-cutter
-    r: 0
   - name: favonius-sword
+    r: 0
+  - name: key-of-khaj-nisut
     r: 0
 
 artifact:
@@ -37,10 +35,11 @@ stats:
   - hp: '41,000'
   - er: ''
   - crit: ''
-  - atk: '1,000'
+  - atk: '1,100'
 
 talent: 'E > Q'
 
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/layla/

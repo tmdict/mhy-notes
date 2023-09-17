@@ -2,8 +2,6 @@
 character: candace
 c: 0
 type:
-  - f2p
-  - meta
   - support
 name:
   en: 'Support'
@@ -13,8 +11,6 @@ weapon:
   - name: favonius-lance
     r: 0
   - name: kitain-cross-spear
-    r: 0
-  - name: black-tassel
     r: 0
 
 artifact:
@@ -44,3 +40,4 @@ talent: 'Q > E'
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/candace/

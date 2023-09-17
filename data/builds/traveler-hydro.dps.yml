@@ -1,0 +1,39 @@
+---
+character: traveler-hydro
+c: 6
+type:
+  - dps
+name:
+  en: 'Hydro DPS'
+  zh: '水C'
+
+weapon:
+  - name: primordial-jade-cutter
+    r: 0
+  - name: wolf-fang
+    r: 0
+
+artifact:
+  - set: [heart-of-depth, nymphs-dream]
+    p: 2
+  - set: [nymphs-dream]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - hydro
+  circlet:
+    - hp
+
+stats:
+  - er: '120%'
+  - crit: '80% / 170%'
+  - atk: '2,000'
+  - hp: '18,000'
+
+talent: 'E > Q'
+
+source:
+  - ysmxt: default

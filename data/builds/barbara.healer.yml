@@ -2,9 +2,7 @@
 character: barbara
 c: 2
 type:
-  - f2p
   - healer
-  - meta
   - support
 name:
   en: 'Healer'
@@ -15,14 +13,12 @@ weapon:
     r: 0
   - name: everlasting-moonglow
     r: 0
-  - name: prototype-amber
-    r: 0
 
 artifact:
   - set: [maiden-beloved]
     p: 4
-  - set: [ocean-hued-clam]
-    p: 4
+  - set: [maiden-beloved, ocean-hued-clam]
+    p: 2
 
 mainstat:
   sand:

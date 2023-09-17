@@ -2,26 +2,21 @@
 character: traveler-dendro
 c: 6
 type:
-  - meta
   - support
 name:
-  en: 'Support (Dendro)'
-  zh: '辅助（草）'
+  en: 'Support'
+  zh: '辅助'
 
 weapon:
-  - name: freedom-sworn
+  - name: skyward-blade
     r: 0
   - name: favonius-sword
-    r: 0
-  - name: sapwood-blade
     r: 0
 
 artifact:
   - set: [deepwood-memories]
     p: 4
   - set: [noblesse-oblige]
-    p: 4
-  - set: [instructor]
     p: 4
 
 mainstat:
@@ -39,7 +34,7 @@ stats:
   - er: '180%'
   - crit: '60% / 120%'
   - atk: '1,300'
-  - em: '260'
+  - em: '270'
 
 talent: 'Q > E'
 

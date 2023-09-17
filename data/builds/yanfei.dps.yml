@@ -3,7 +3,6 @@ character: yanfei
 c: 1
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -11,17 +10,13 @@ name:
 weapon:
   - name: lost-prayer-to-the-sacred-winds
     r: 0
-  - name: memory-of-dust
-    r: 0
   - name: the-widsith
     r: 5
 
 artifact:
-  - set: [gilded-dreams]
+  - set: [wanderers-troupe]
     p: 4
   - set: [crimson-witch-of-flames]
-    p: 4
-  - set: [wanderers-troupe]
     p: 4
 
 mainstat:

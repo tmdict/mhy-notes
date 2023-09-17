@@ -2,27 +2,21 @@
 character: traveler-electro
 c: 6
 type:
-  - f2p
-  - meta
   - support
 name:
-  en: 'Support (Electro)'
-  zh: '辅助（雷）'
+  en: 'Support'
+  zh: '辅助'
 
 weapon:
   - name: favonius-sword
     r: 0
   - name: freedom-sworn
     r: 0
-  - name: sacrificial-sword
-    r: 0
 
 artifact:
   - set: [emblem-of-severed-fate]
     p: 4
   - set: [noblesse-oblige]
-    p: 4
-  - set: [instructor]
     p: 4
 
 mainstat:

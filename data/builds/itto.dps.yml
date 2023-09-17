@@ -3,7 +3,6 @@ character: arataki-itto
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
@@ -13,15 +12,11 @@ weapon:
     r: 0
   - name: serpent-spine
     r: 0
-  - name: whiteblind
-    r: 0
 
 artifact:
   - set: [husk-of-opulent-dreams]
     p: 4
   - set: [desert-pavilion-chronicle]
-    p: 4
-  - set: [retracing-bolide]
     p: 4
 
 mainstat:
@@ -33,7 +28,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '80% / 200%'
+  - crit: '80% / 210%'
   - def: '2,400'
   - er: '120%'
   - atk: '1,200'

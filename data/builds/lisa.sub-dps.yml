@@ -2,25 +2,22 @@
 character: lisa
 c: 2
 type:
+  - burst
   - sub-dps
 name:
   en: 'Off-Field DPS'
   zh: '脱手副C'
 
 weapon:
-  - name: kaguras-verity
-    r: 0
-  - name: skyward-atlas
-    r: 0
   - name: the-widsith
+    r: 0
+  - name: kaguras-verity
     r: 0
 
 artifact:
-  - set: [thundering-fury, gladiators-finale]
-    p: 2
-  - set: [thundering-fury, noblesse-oblige]
-    p: 2
   - set: [noblesse-oblige]
+    p: 4
+  - set: [emblem-of-severed-fate]
     p: 4
 
 mainstat:
@@ -34,15 +31,11 @@ mainstat:
 
 stats:
   - er: ''
-  - crit: '80% / 150%'
-  - atk: '1,900'
+  - crit: '70% / 150%'
+  - atk: '1,600'
   - em: '180'
 
-talent: 'E > Q'
-
-notes:
-  en: 'E > NAx2 > E > Q > Hold E'
-  zh: 'E > NAx2 > E > Q > Hold E'
+talent: 'Q > E'
 
 source:
   - ccb: default

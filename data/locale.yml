@@ -23,9 +23,6 @@ achievements:
 admonition:
   en: 'Admonition'
   zh: '诤言'
-aggravate:
-  en: 'Aggravate'
-  zh: '超激化'
 all:
   en: 'All'
   zh: '全选'
@@ -71,9 +68,6 @@ build-type-placeholder:
 builds:
   en: 'Builds'
   zh: '角色配装'
-bloom:
-  en: 'Bloom'
-  zh: '绽放'
 burst:
   en: 'Burst'
   zh: '爆发'
@@ -191,9 +185,6 @@ expand-all:
 export-data:
   en: 'Export Data'
   zh: '下载数据库'
-f2p:
-  en: 'F2P'
-  zh: '零氪'
 faq:
   en: 'FAQ'
   zh: '介绍'
@@ -203,9 +194,6 @@ filters:
 freedom:
   en: 'Freedom'
   zh: '自由'
-freeze:
-  en: 'Freeze'
-  zh: '永冻'
 geo:
   en: 'Geo'
   zh: '岩'
@@ -266,12 +254,6 @@ mainstat:
 manage-data:
   en: 'Manage Data'
   zh: '数据管理'
-melt:
-  en: 'Melt'
-  zh: '融化'
-meta:
-  en: 'Meta'
-  zh: '毕业面板'
 misc:
   en: 'Misc'
   zh: '其它'
@@ -377,6 +359,9 @@ support:
 sumeru:
   en: 'Sumeru'
   zh: '须弥'
+reaction:
+  en: 'Reaction'
+  zh: '元素反应'
 recommended-talent:
   en: 'Recommended Talent'
   zh: '推荐天赋'
@@ -419,6 +404,3 @@ weekly-talent-mat:
 weekly-boss-mat:
   en: 'Weekly Boss Materials'
   zh: '周常BOSS素材'
-whale:
-  en: 'Whale'
-  zh: '氪佬'

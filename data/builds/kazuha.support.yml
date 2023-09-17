@@ -1,0 +1,43 @@
+---
+character: kaedehara-kazuha
+c: 0
+type:
+  - reaction
+  - support
+name:
+  en: 'EM Support'
+  zh: '精通辅助'
+
+weapon:
+  - name: freedom-sworn
+    r: 0
+  - name: xiphos-moonlight
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [instructor]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - em
+  circlet:
+    - em
+
+stats:
+  - er: '190%'
+  - em: '1,000'
+  - atk: '1,400'
+  - crit: ''
+
+talent: 'Q > A > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/kazuha/

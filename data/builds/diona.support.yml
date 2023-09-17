@@ -2,9 +2,8 @@
 character: diona
 c: 6
 type:
-  - f2p
   - healer
-  - meta
+  - shield
   - support
 name:
   en: 'Support'
@@ -15,16 +14,12 @@ weapon:
     r: 3
   - name: favonius-warbow
     r: 0
-  - name: elegy-for-the-end
-    r: 0
 
 artifact:
   - set: [maiden-beloved, tenacity-of-the-millelith]
     p: 2
   - set: [noblesse-oblige]
     p: 4
-  - set: [emblem-of-severed-fate, tenacity-of-the-millelith]
-    p: 2
 
 mainstat:
   sand:
@@ -37,8 +32,8 @@ mainstat:
     - heal
 
 stats:
-  - hp: '33,000'
   - er: ''
+  - hp: '33,000'
   - atk: '1,200'
 
 talent: 'E = Q'

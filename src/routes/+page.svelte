@@ -115,7 +115,7 @@
       }
 
       .name {
-        color: var(--theme-text-body-highlight);
+        color: var(--theme-text-normal);
         font: 2.2rem var(--theme-header-font);
         margin: 10px 5px;
 

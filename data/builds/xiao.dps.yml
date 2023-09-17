@@ -3,15 +3,12 @@ character: xiao
 c: 0
 type:
   - dps
-  - meta
 name:
   en: 'DPS'
   zh: '主C'
 
 weapon:
   - name: primordial-jade-winged-spear
-    r: 0
-  - name: staff-of-homa
     r: 0
   - name: deathmatch
     r: 0
@@ -21,8 +18,6 @@ artifact:
     p: 4
   - set: [desert-pavilion-chronicle]
     p: 4
-  - set: [viridescent-venerer, gladiators-finale]
-    p: 2
 
 mainstat:
   sand:
@@ -34,7 +29,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '80% / 180%'
+  - crit: '80% / 190%'
   - atk: '2,400'
   - er: ''
 

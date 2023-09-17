@@ -1,0 +1,47 @@
+---
+character: lisa
+c: 2
+type:
+  - dps
+  - reaction
+name:
+  en: 'Aggravate DPS'
+  zh: '雷伤'
+
+weapon:
+  - name: lost-prayer-to-the-sacred-winds
+    r: 0
+  - name: the-widsith
+    r: 5
+
+artifact:
+  - set: [thundering-fury, gladiators-finale]
+    p: 2
+  - set: [thundering-fury]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - em
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 150%'
+  - atk: '1,900'
+  - em: '180'
+  - er: ''
+
+talent: 'E > Q > A'
+
+notes:
+  en: 'E > E > NAx2 (2 stacks) > E > E hold'
+  zh: 'E > E > NAx2 (2 stacks) > E > E hold'
+
+source:
+  - ccb: default
+  - ysmxt: default
+  - kqm: https://keqingmains.com/lisa/
