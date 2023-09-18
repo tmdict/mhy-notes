@@ -11,7 +11,7 @@ name:
 
 weapon:
   - name: favonius-lance
-    r: 0
+    r: 5
   - name: staff-of-the-scarlet-sands
     r: 0
 

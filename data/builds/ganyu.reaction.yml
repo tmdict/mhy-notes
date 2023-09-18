@@ -12,7 +12,7 @@ weapon:
   - name: amos-bow
     r: 0
   - name: hamayumi
-    r: 5
+    r: 0
 
 artifact:
   - set: [wanderers-troupe]

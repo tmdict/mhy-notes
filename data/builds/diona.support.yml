@@ -11,7 +11,7 @@ name:
 
 weapon:
   - name: sacrificial-bow
-    r: 3
+    r: 0
   - name: favonius-warbow
     r: 0
 

@@ -39,7 +39,7 @@
         {build.name[$lang] ? build.name[$lang] : build.name[lang.default()]}
       </div>
     </div>
-    <div class="content-row build-equipments">
+    <div class="content-row build-equip">
       <div class="content-row build-box weapons">
         <BuildWeapons weapons={build.weapon} />
       </div>
@@ -80,23 +80,39 @@
       width: 110px;
       align-items: center;
       padding: 0 0 0 20px;
+
+      @media only screen and (max-width: 570px) {
+        width: 80px;
+      }
     }
 
     .name {
       width: 100px;
       align-items: center;
+
+      @media only screen and (max-width: 570px) {
+        width: auto;
+      }
     }
 
     .weapons {
       width: 165px;
+
+      @media only screen and (max-width: 570px) {
+        width: 135px;
+      }
     }
 
     .artifacts {
       min-width: 270px;
+
+      @media only screen and (max-width: 570px) {
+        min-width: 0;
+      }
     }
 
-    @media only screen and (max-width: 830px) {
-      .build-equipments {
+    .build-equip {
+      @media only screen and (max-width: 830px) {
         flex-grow: 1;
         border-top: 1px dotted var(--theme-border-light);
       }
@@ -118,7 +134,7 @@
     }
 
     .sources {
-      min-width: 400px;
+      min-width: 360px;
     }
   }
 </style>

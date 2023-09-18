@@ -1,6 +1,6 @@
 ---
 character: lisa
-c: 2
+c: 4
 type:
   - burst
   - sub-dps
@@ -10,7 +10,7 @@ name:
 
 weapon:
   - name: the-widsith
-    r: 0
+    r: 5
   - name: kaguras-verity
     r: 0
 

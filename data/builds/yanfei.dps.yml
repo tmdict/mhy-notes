@@ -11,7 +11,7 @@ weapon:
   - name: lost-prayer-to-the-sacred-winds
     r: 0
   - name: the-widsith
-    r: 5
+    r: 0
 
 artifact:
   - set: [wanderers-troupe]

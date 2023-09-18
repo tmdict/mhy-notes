@@ -1,6 +1,6 @@
 ---
 character: jean
-c: 0
+c: 4
 type:
   - burst
   - healer
@@ -11,7 +11,7 @@ name:
 
 weapon:
   - name: amenoma-kageuchi
-    r: 0
+    r: 5
   - name: aquila-favonia
     r: 0
 

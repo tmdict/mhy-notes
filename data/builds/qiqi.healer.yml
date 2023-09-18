@@ -10,7 +10,7 @@ name:
 
 weapon:
   - name: sacrificial-sword
-    r: 0
+    r: 5
   - name: aquila-favonia
     r: 0
 

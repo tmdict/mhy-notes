@@ -10,7 +10,7 @@ name:
 
 weapon:
   - name: favonius-sword
-    r: 0
+    r: 5
   - name: key-of-khaj-nisut
     r: 0
 

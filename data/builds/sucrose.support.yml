@@ -1,6 +1,6 @@
 ---
 character: sucrose
-c: 6
+c: 1
 type:
   - support
 name:
@@ -9,7 +9,7 @@ name:
 
 weapon:
   - name: sacrificial-fragments
-    r: 0
+    r: 5
   - name: a-thousand-floating-dreams
     r: 0
 

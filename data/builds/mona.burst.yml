@@ -11,7 +11,7 @@ name:
 
 weapon:
   - name: the-widsith
-    r: 0
+    r: 5
   - name: skyward-atlas
     r: 0
 

@@ -11,7 +11,7 @@ weapon:
   - name: thundering-pulse
     r: 0
   - name: rust
-    r: 5
+    r: 0
 
 artifact:
   - set: [shimenawas-reminiscence]

@@ -82,7 +82,6 @@
 
     @media only screen and (max-width: 960px) {
       width: 100%;
-      border-bottom: 1px dotted var(--theme-border-light);
     }
   }
 

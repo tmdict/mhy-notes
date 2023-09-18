@@ -9,7 +9,7 @@ name:
 
 weapon:
   - name: favonius-sword
-    r: 0
+    r: 5
   - name: freedom-sworn
     r: 0
 

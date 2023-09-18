@@ -1,6 +1,6 @@
 ---
 character: barbara
-c: 2
+c: 6
 type:
   - healer
   - support
@@ -10,7 +10,7 @@ name:
 
 weapon:
   - name: thrilling-tales-of-dragon-slayers
-    r: 0
+    r: 5
   - name: everlasting-moonglow
     r: 0
 

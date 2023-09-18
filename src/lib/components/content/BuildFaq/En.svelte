@@ -30,8 +30,7 @@
 
     <p>
       <span class="highlight">Constellation:</span> Recommended constellation to aim for. This
-      information is either gathered from the source guide, or taken from
-      <a href="https://space.bilibili.com/24889090">Usagi Sensei's guide</a>.
+      information is either gathered from the source guide.
     </p>
   </span>
 

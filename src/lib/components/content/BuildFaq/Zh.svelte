@@ -31,9 +31,7 @@
     <p>人物，配装名称和种类。</p>
 
     <p>
-      <span class="highlight">命座：</span> 一部分人物会有推荐的命之座。这些推荐来源于其他攻略，比如<a
-        href="https://space.bilibili.com/24889090">兎老师的角色推荐榜</a
-      >。
+      <span class="highlight">命座：</span> 推荐的命座。这些推荐来源于其他攻略。
     </p>
   </span>
 

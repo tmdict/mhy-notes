@@ -12,7 +12,7 @@ weapon:
   - name: amos-bow
     r: 0
   - name: prototype-crescent
-    r: 5
+    r: 0
 
 artifact:
   - set: [blizzard-strayer]

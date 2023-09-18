@@ -50,6 +50,11 @@
     border-left: 1px dashed var(--theme-primary-gold);
     margin-left: 15px;
     padding-left: 15px;
+
+    @media only screen and (max-width: 570px) {
+      margin-left: 5px;
+      padding-left: 5px;
+    }
   }
 
   .artifact {
