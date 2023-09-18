@@ -350,9 +350,6 @@ sub-dps:
 sub-stat:
   en: 'Sub Stat'
   zh: '副属性'
-submitted-by:
-  en: 'Submitted By'
-  zh: '来源'
 support:
   en: 'Support'
   zh: '辅助'

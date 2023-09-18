@@ -321,7 +321,7 @@
         />
         <EditorTextField
           id="source"
-          label={$l10n['submitted-by'][$lang]}
+          label={$l10n['sources'][$lang]}
           placeholder={$l10n['optional'][$lang]}
           width="300px"
           bind:value={$buildEditor['source']}

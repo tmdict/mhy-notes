@@ -108,8 +108,8 @@
       }
 
       .weapons {
-        margin-left: 205px;
-        width: 205px;
+        margin-left: 285px;
+        width: 165px;
       }
     }
   }

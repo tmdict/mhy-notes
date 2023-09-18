@@ -10,7 +10,7 @@ const typeReplacer = [
   'sub-dps',
   'support'
 ];
-const sourceReplacer = ['ccb', 'ysmxt', 'kqm', 'submitted'];
+const sourceReplacer = ['ccb', 'ysmxt', 'kqm', 'custom'];
 const statReplacer = [
   'atk',
   'crit',
@@ -126,14 +126,14 @@ export function compressBuild(build) {
     // 8 - sources, for now required
     const sources =
       delimiter +
-      build.source
+      JSON.stringify(build.source
         .map((s) => {
           const source = Object.entries(s).flat();
-          return `${parseEnum(source[0], sourceReplacer)}:${source[1]}`;
+          return `${parseEnum(source[0], sourceReplacer)}|${source[1]}`;
         })
         .join('_!')
         .replace(/default/g, '_d')
-        .replace('https://keqingmains.com/', '_km');
+        .replace('https://keqingmains.com/', '_km'));
 
     // Optional details
     const talent = delimiter + (build.talent ? build.talent : '');
@@ -183,7 +183,7 @@ export function extractBuild(raw) {
         return { [key]: stat[1] };
       }),
       source: arr[8].split('_!').map((s) => {
-        const source = s.split(':');
+        const source = JSON.parse(s).split('|');
         const key = parseEnum(parseInt(source[0]), sourceReplacer);
         return { [key]: source[1].replace(/_d/g, 'default').replace(/_km/g, 'https://keqingmains.com/') };
       }),

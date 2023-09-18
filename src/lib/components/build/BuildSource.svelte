@@ -24,11 +24,15 @@
     <ul>
       {#each references as source}
         <li>
-          {#if parseSource(source).id === 'Submitted by'}
-            {parseSource(source).name}: {parseSource(source).src}
+          {#if parseSource(source).id === 'custom'}
+            {#if parseSource(source).src.slice(0, 8) === 'https://'}
+              <a href={parseSource(source).src}>{parseSource(source).src}</a>
+            {:else}
+              {parseSource(source).src}
+            {/if}
           {:else}
             <a on:click|stopPropagation href={parseSource(source).src} alt={parseSource(source).id}
-              >{parseSource(source).id}</a
+              >{parseSource(source).name}</a
             >
           {/if}
         </li>

@@ -36,7 +36,7 @@ class Parser {
   }
 
   source(build) {
-    return build.source ? [{ 'Submitted by': build.source }] : [{ 'Submitted by': 'Anonymous' }];
+    return build.source ? [{ custom: build.source }] : [{ custom: 'Anonymous' }];
   }
 
   tags(build, characters) {
