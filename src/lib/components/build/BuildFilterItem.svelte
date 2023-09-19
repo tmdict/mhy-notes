@@ -49,18 +49,18 @@
     display: flex;
     font-size: 0.8em;
     align-items: center;
-    border-bottom: 1px dotted var(--theme-border-menu);
+    border-bottom: 1px dotted var(--theme-border-light);
 
     &.active {
       font-weight: bold;
-      color: var(--theme-text-body-highlight);
+      color: var(--theme-site-primary-main);
     }
   }
 
   .quick {
     width: 95px;
     padding: 5px;
-    border-right: 1px dotted var(--theme-border-menu);
+    border-right: 1px dotted var(--theme-border-light);
     overflow-wrap: anywhere;
 
     &:hover {

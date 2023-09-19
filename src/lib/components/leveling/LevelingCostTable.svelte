@@ -83,12 +83,12 @@
       justify-content: center;
 
       .from {
-        color: var(--theme-text-strong);
+        color: var(--theme-text-highlight);
         margin-right: 5px;
       }
 
       .to {
-        color: var(--theme-text-body-highlight);
+        color: var(--theme-site-primary-main);
         margin-left: 5px;
       }
     }

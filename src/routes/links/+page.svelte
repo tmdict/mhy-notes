@@ -181,6 +181,10 @@
     &:hover {
       background: var(--theme-bg-highlight);
       cursor: pointer;
+      
+      a h5 {
+        color: var(--theme-site-primary-alt);
+      }
     }
 
     a {
@@ -188,14 +192,10 @@
 
       &:hover {
         text-decoration: none;
-
-        h5 {
-          color: var(--theme-link-hover);
-        }
       }
 
       h5 {
-        color: var(--theme-text-body-highlight);
+        color: var(--theme-site-primary-main);
         padding-top: 2px;
         font-size: 1rem;
         text-transform: none;
@@ -204,7 +204,7 @@
       }
 
       .label {
-        color: var(--theme-text-body-highlight-alt);
+        color: var(--theme-site-secondary-main);
         background: var(--theme-bg-highlight);
         font-size: 0.85rem;
         margin: 0 5px 5px;

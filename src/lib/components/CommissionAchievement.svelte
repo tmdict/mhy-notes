@@ -46,6 +46,8 @@
 <div
   class="content-col achievement"
   class:alt
+  role="button"
+  tabindex="0"
   on:click={() => (expand = !expand)}
   on:keydown={() => (expand = !expand)}
 >
@@ -57,12 +59,12 @@
       <span class="label commission">{@html commission}</span>
     {/each}
   </div>
-  <div on:click|stopPropagation on:keydown|stopPropagation class="description">
+  <div class="description" role="presentation" on:click|stopPropagation on:keydown|stopPropagation>
     {@html content.description}
   </div>
   {#if expand}
     <div transition:slide class="notes-checklist">
-      <span class="notes" on:click|stopPropagation on:keydown|stopPropagation>{@html marked(content.notes)}</span>
+      <span class="notes" role="presentation" on:click|stopPropagation on:keydown|stopPropagation>{@html marked(content.notes)}</span>
       <h5>{$l10n['checklist'][$lang]}</h5>
       <ul>
         {#each [...Array(achievement.checklist).keys()] as todo}
@@ -76,7 +78,7 @@
               value={content.checklist[todo + 1]}
               checked={$localData['achievements'][achievement.achievement][todo]}
             />
-            <label on:click|stopPropagation on:keydown|stopPropagation for="{achievement.achievement}-{todo}">{content.checklist[todo + 1]}</label>
+            <label role="presentation" on:click|stopPropagation on:keydown|stopPropagation for="{achievement.achievement}-{todo}">{content.checklist[todo + 1]}</label>
           </li>
         {/each}
       </ul>
@@ -118,7 +120,7 @@
     }
 
     .commission {
-      color: var(--theme-text-body-highlight-alt);
+      color: var(--theme-site-secondary-main);
       background: var(--theme-bg-highlight);
     }
 
@@ -159,7 +161,7 @@
 
           &:hover {
             cursor: pointer;
-            color: var(--theme-text-strong);
+            color: var(--theme-text-highlight);
           }
 
           @media only screen and (max-width: 540px) {

@@ -127,7 +127,7 @@
 
     .expand-builds {
       margin: 0 0 30px;
-      border-bottom: 1px dotted var(--theme-border-menu);
+      border-bottom: 1px dotted var(--theme-border-light);
 
       h4 {
         font-size: 0.85em;

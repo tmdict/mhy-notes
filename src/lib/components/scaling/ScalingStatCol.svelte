@@ -86,12 +86,12 @@
   }
 
   .highlight {
-    color: var(--theme-text-body-highlight);
+    color: var(--theme-site-primary-main);
     font-weight: bold;
   }
 
   .recommended {
-    color: var(--theme-text-body-highlight-alt2);
+    color: var(--theme-site-primary-sub);
   }
 
   .icon {

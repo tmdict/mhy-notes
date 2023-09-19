@@ -208,7 +208,7 @@
     position: sticky;
     top: 0;
     align-self: flex-start;
-    background-color: var(--theme-bg-container-main);
+    background: var(--theme-bg-container-main);
   }
 
   .header {

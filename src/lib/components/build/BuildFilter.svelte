@@ -48,7 +48,7 @@
 
   h4 {
     font-size: 0.85em;
-    border-bottom: 1px dotted var(--theme-border-menu);
+    border-bottom: 1px dotted var(--theme-border-light);
 
     &:hover {
       cursor: pointer;
@@ -72,7 +72,7 @@
 
     li {
       font-size: 0.8em;
-      border-bottom: 1px dotted var(--theme-border-menu);
+      border-bottom: 1px dotted var(--theme-border-light);
 
       &:hover {
         background: var(--theme-bg-highlight);

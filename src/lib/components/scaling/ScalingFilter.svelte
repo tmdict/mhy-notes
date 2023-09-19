@@ -67,6 +67,7 @@
 
           &:hover {
             text-decoration: none;
+            color: var(--theme-site-secondary-alt);
           }
 
           &.active {
@@ -74,7 +75,7 @@
             border: 1px solid var(--theme-site-primary-main);
 
             &:hover {
-              background-color: var(--theme-bg-container-main);
+              background: var(--theme-bg-container-main);
             }
           }
         }

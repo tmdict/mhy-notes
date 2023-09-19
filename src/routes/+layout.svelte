@@ -37,7 +37,7 @@
   body,
   html {
     font-size: 16px;
-    background-color: var(--theme-site-bg);
+    background-color: var(--theme-bg-site);
     color: var(--theme-text-normal);
   }
 
@@ -68,9 +68,9 @@
     width: 960px;
     min-width: 320px;
     min-height: 200px;
-    background-color: var(--theme-bg-container-main);
+    background: var(--theme-bg-container-main);
     margin: -60px auto 0;
-    border: 2px solid var(--theme-main-border);
+    border: 2px solid var(--theme-bg-container-alt);
     border-radius: 5px;
     font: 1rem normal var(--theme-main-font);
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 90%), 0 6px 20px 0 rgb(0 0 0 / 20%);
@@ -117,14 +117,14 @@
   }
 
   h1 {
-    color: var(--theme-text-body-highlight);
+    color: var(--theme-site-primary-main);
     font: 2.4em var(--theme-header-font);
     text-align: center;
     margin-bottom: 10px;
   }
 
   h2 {
-    color: var(--theme-text-strong);
+    color: var(--theme-text-highlight);
     font: 2em var(--theme-header-font);
   }
 
@@ -134,7 +134,7 @@
   }
 
   h4 {
-    color: var(--theme-text-body-highlight);
+    color: var(--theme-site-primary-main);
     font: bold 1em var(--theme-main-font);
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -163,7 +163,7 @@
     flex-wrap: wrap;
 
     &.alt {
-      background-color: var(--theme-bg-container-alt);
+      background: var(--theme-bg-container-alt);
     }
   }
 
@@ -257,7 +257,7 @@
   }
 
   .physical {
-    color: var(--theme-text-strong);
+    color: var(--theme-text-highlight);
     font-weight: bold;
   }
 
@@ -270,12 +270,12 @@
     position: absolute;
     text-align: right;
     font-size: 12px;
-    color: var(--theme-text-overlay);
+    color: var(--theme-bg-highlight);
     font-weight: bold;
-    text-shadow: -1px -1px 0 var(--theme-text-overlay-shadow), 1px -1px 0 var(--theme-text-overlay-shadow),
-      -1px 1px 0 var(--theme-text-overlay-shadow), 1px 1px 0 var(--theme-text-overlay-shadow),
-      -2px -2px 4px var(--theme-text-overlay-shadow), 2px -2px 4px var(--theme-text-overlay-shadow),
-      -2px 2px 4px var(--theme-text-overlay-shadow), 2px 2px 4px var(--theme-text-overlay-shadow);
+    text-shadow: -1px -1px 0 var(--theme-text-highlight), 1px -1px 0 var(--theme-text-highlight),
+      -1px 1px 0 var(--theme-text-highlight), 1px 1px 0 var(--theme-text-highlight),
+      -2px -2px 4px var(--theme-text-highlight), 2px -2px 4px var(--theme-text-highlight),
+      -2px 2px 4px var(--theme-text-highlight), 2px 2px 4px var(--theme-text-highlight);
   }
 
   .input-field {
@@ -289,7 +289,7 @@
     height: 34px;
     margin: 5px 10px 10px;
     padding: 0px 12px;
-    color: var(--theme-text-strong);
+    color: var(--theme-text-highlight);
     background-color: var(--theme-bg-highlight-alt);
     font-size: 1em;
     line-height: 1.4;
@@ -305,7 +305,7 @@
 
   .search-highlight {
     color: var(--theme-site-primary-alt);
-    background-color: var(--theme-text-overlay);
+    background-color: var(--theme-bg-highlight-alt);
   }
 
   #faq {
@@ -339,7 +339,7 @@
     overflow-wrap: anywhere;
 
     .highlight {
-      color: var(--theme-text-body-highlight);
+      color: var(--theme-site-primary-main);
       font-weight: bold;
     }
   }

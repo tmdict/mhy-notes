@@ -88,7 +88,7 @@
 <svelte:component this={top[$lang]} />
 
 {#each links as link, i}
-  <a href="/{link.url}">
+  <a class:first={i === 0} href="/{link.url}">
     <div class="content-col link" class:alt={i % 2 === 0}>
       <div class="content-row">
         <div class="name">{$l10n[link.name][$lang]}</div>
@@ -101,14 +101,17 @@
 <style lang="scss">
   a {
     color: var(--theme-text-normal);
-
+      
     &:hover {
       text-decoration: none;
     }
 
+    &.first .link {
+      border-top: 2px solid var(--theme-site-primary-main);
+    }
+
     .link {
       padding: 10px 10px 10px 20px;
-      color: var(--theme-text-normal);
       line-height: 1.2em;
 
       &:hover {
@@ -116,7 +119,7 @@
         cursor: pointer;
 
         .name {
-          color: var(--theme-text-body-highlight);
+          color: var(--theme-site-primary-main);
         }
       }
 
@@ -136,8 +139,8 @@
       }
 
       .label {
-        color: var(--theme-text-body-highlight-alt3);
-        background: var(--theme-bg-highlight);
+        color: var(--theme-site-secondary-sub);
+        background: var(--theme-bg-site);
         font-size: 0.85rem;
         margin: 0 5px 5px;
         padding: 2px 10px;
@@ -150,7 +153,7 @@
       }
 
       .new {
-        color: var(--theme-text-body-highlight-alt4);
+        color: #f7d87c;
       }
     }
   }

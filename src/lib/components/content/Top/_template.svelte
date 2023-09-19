@@ -5,6 +5,6 @@
 <style lang="scss">
   #intro {
     font-size: 1.1em;
-    padding: 20px;
+    padding: 20px 40px;
   }
 </style>

@@ -105,7 +105,7 @@
     margin-bottom: 5px;
 
     .highlight {
-      color: var(--theme-text-header-title-sub);
+      color: var(--theme-site-primary-sub);
       font-size: 0.6em;
       vertical-align: top;
     }
@@ -167,7 +167,7 @@
     padding: 0 2px;
 
     &:hover {
-      color: var(--theme-link-hover);
+      color: var(--theme-site-primary-main);
     }
 
     &.last:after {
