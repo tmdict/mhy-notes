@@ -70,6 +70,6 @@
 
   .boss {
     padding: 10px 0;
-    border-top: 1px solid var(--theme-divider);
+    border-top: 1px solid var(--theme-site-primary-main);
   }
 </style>

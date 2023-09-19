@@ -137,8 +137,8 @@
   }
 
   .divider {
-    border-top: 1px solid var(--theme-divider);
-    border-bottom: 1px dotted var(--theme-divider);
+    border-top: 1px solid var(--theme-site-primary-main);
+    border-bottom: 1px dotted var(--theme-site-primary-main);
     margin-bottom: 10px;
   }
 </style>

@@ -168,7 +168,7 @@
 
 <style lang="scss">
   h4 {
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
     margin: 40px 0 5px;
     text-align: center;
   }
@@ -179,7 +179,7 @@
     line-height: 1.2em;
 
     &:hover {
-      background: var(--theme-main-bg-hover);
+      background: var(--theme-bg-highlight);
       cursor: pointer;
     }
 
@@ -205,7 +205,7 @@
 
       .label {
         color: var(--theme-text-body-highlight-alt);
-        background: var(--theme-label-bg-highlight);
+        background: var(--theme-bg-highlight);
         font-size: 0.85rem;
         margin: 0 5px 5px;
         padding: 2px 10px;

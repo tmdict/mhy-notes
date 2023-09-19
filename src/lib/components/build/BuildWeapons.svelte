@@ -37,9 +37,9 @@
                 details['passiveName'] +
                 ':</span> ' +
                 details['passiveDescription']
-                  .replace(/{{/g, '<span style="color:var(--theme-primary-blue)">')
+                  .replace(/{{/g, '<span style="color:var(--theme-site-secondary-main)">')
                   .replace(/}}/g, '</span>')
-                  .replace(/\/{2}/g, '</span>/<span style="color:var(--theme-primary-blue)">')
+                  .replace(/\/{2}/g, '</span>/<span style="color:var(--theme-site-secondary-main)">')
               : ''
           }
         `}

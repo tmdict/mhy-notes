@@ -47,7 +47,7 @@
 
 <style lang="scss">
   .divider {
-    border-left: 1px dashed var(--theme-primary-gold);
+    border-left: 1px dashed var(--theme-border-gold);
     margin-left: 15px;
     padding-left: 15px;
 

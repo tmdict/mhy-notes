@@ -92,7 +92,7 @@
     align-items: flex-start;
 
     &:hover {
-      background: var(--theme-main-bg-hover);
+      background: var(--theme-bg-highlight);
       cursor: pointer;
     }
 
@@ -111,7 +111,7 @@
     .label {
       color: var(--theme-text-normal);
       font-size: 0.85rem;
-      background: var(--theme-label-bg);
+      background: var(--theme-bg-highlight);
       margin: 0 5px 5px;
       padding: 5px 10px;
       border-radius: 10px;
@@ -119,7 +119,7 @@
 
     .commission {
       color: var(--theme-text-body-highlight-alt);
-      background: var(--theme-label-bg-highlight);
+      background: var(--theme-bg-highlight);
     }
 
     .description {

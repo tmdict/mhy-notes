@@ -38,7 +38,7 @@
   }
 
   .highlight {
-    color: var(--theme-primary-blue);
+    color: var(--theme-site-secondary-main);
   }
 
   @media only screen and (max-width: 390px) {

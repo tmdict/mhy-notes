@@ -27,7 +27,7 @@
         id={item}
         src="{name}/{item}"
         ext={name === 'vision' ? 'svg' : 'png'}
-        size={isHover === item ? '60px' : '35px'}
+        size="35px"
         margin="0"
       />
     {:else}
@@ -64,13 +64,12 @@
     overflow-wrap: anywhere;
 
     &:hover {
-      background: var(--theme-filter-hover-color);
-      transition: transform 0.2s, opacity 0.2s, background-color 0.2s;
+      background: var(--theme-bg-highlight);
       cursor: pointer;
     }
 
     &.active {
-      background: var(--theme-filter-active-color);
+      background: var(--theme-bg-highlight);
 
       &:hover {
         background: var(--theme-filter-active-alt-color);
@@ -86,24 +85,14 @@
     width: 35px;
     min-height: 30px;
 
-    &.list-icon:hover {
-      min-height: 70px;
-    }
-
     &:hover {
-      background: var(--theme-filter-hover-color);
-      transition: transform 0.2s, opacity 0.2s, background-color 0.2s;
+      background: var(--theme-bg-highlight);
       cursor: pointer;
     }
 
     &.active {
-      background: var(--theme-filter-active-color);
+      background: var(--theme-bg-highlight);
       min-height: 45px;
-
-      &:hover {
-        background: var(--theme-filter-active-alt-color);
-        min-height: 70px;
-      }
     }
   }
 
@@ -136,6 +125,6 @@
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    background: var(--theme-filter-hover-color);
+    background: var(--theme-bg-highlight);
   }
 </style>

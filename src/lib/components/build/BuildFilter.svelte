@@ -55,12 +55,12 @@
     }
 
     &.show:after {
-      color: var(--theme-primary-red);
+      color: var(--theme-site-primary-alt);
       content: ' + ';
     }
 
     &.collapse:after {
-      color: var(--theme-primary-red);
+      color: var(--theme-site-primary-alt);
       content: ' - ';
     }
   }
@@ -75,7 +75,7 @@
       border-bottom: 1px dotted var(--theme-border-menu);
 
       &:hover {
-        background: var(--theme-main-bg-hover);
+        background: var(--theme-bg-highlight);
         cursor: pointer;
       }
 

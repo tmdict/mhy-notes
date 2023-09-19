@@ -112,7 +112,7 @@
 
 <style lang="scss">
   h4 {
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
     margin: 40px 0 5px;
     text-align: center;
   }
@@ -125,7 +125,7 @@
   .header {
     font-size: 0.9em;
     font-weight: bold;
-    border-bottom: 1px solid var(--theme-divider);
+    border-bottom: 1px solid var(--theme-site-primary-main);
     padding: 3px 0;
 
     @media only screen and (max-width: 960px) {

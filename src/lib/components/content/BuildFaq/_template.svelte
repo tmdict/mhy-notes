@@ -37,11 +37,6 @@
     <div class="character-example example">
       <div class="box">
         <BuildCharacter character={exampleBuild.character} constellation={exampleBuild.c} />
-        <div class="content-row">
-          {#if exampleBuild.type.includes('meta')}
-            <span style="color:var(--theme-primary-gold); padding:0 5px">★</span>
-          {/if}
-        </div>
         <div class="build-box">
           {exampleBuild.name[$lang] ? exampleBuild.name[$lang] : exampleBuild.name[lang.default()]}
         </div>
@@ -84,7 +79,7 @@
 <style lang="scss">
   .example {
     min-width: 200px;
-    border-top: 1px dotted var(--theme-primary-gold);
+    border-top: 1px dotted var(--theme-border-gold);
 
     @media only screen and (max-width: 600px) {
       min-width: 200px;
@@ -97,18 +92,18 @@
     padding: 10px;
     display: inline-flex;
     align-items: center;
-    border-left: 1px dotted var(--theme-primary-gold);
-    border-bottom: 1px dotted var(--theme-primary-gold);
+    border-left: 1px dotted var(--theme-border-gold);
+    border-bottom: 1px dotted var(--theme-border-gold);
 
     @media only screen and (max-width: 600px) {
-      border: 1px dashed var(--theme-primary-gold);
+      border: 1px dashed var(--theme-border-gold);
     }
   }
 
   .content {
     padding: 0 20px;
-    border-top: 1px dotted var(--theme-primary-gold);
-    border-left: 1px dotted var(--theme-primary-gold);
+    border-top: 1px dotted var(--theme-border-gold);
+    border-left: 1px dotted var(--theme-border-gold);
     margin-left: -1px;
 
     @media only screen and (max-width: 600px) {

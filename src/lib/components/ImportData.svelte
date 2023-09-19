@@ -46,11 +46,11 @@
 <style lang="scss">
   .file-upload {
     .import {
-      color: var(--theme-primary-blue);
+      color: var(--theme-site-secondary-main);
 
       &:hover {
         cursor: pointer;
-        color: var(--theme-primary-red);
+        color: var(--theme-site-primary-alt);
         text-decoration: underline dotted;
       }
     }

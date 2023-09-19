@@ -101,7 +101,7 @@
       font-weight: bold;
       margin: 5px 4px 0;
       padding: 0 0 5px 5px;
-      border-bottom: 1px solid var(--theme-divider);
+      border-bottom: 1px solid var(--theme-site-primary-main);
 
       @media only screen and (max-width: 830px) {
         display: none;
@@ -133,7 +133,7 @@
         font-size: 0.85em;
 
         &:hover {
-          color: var(--theme-primary-red);
+          color: var(--theme-site-primary-alt);
           cursor: pointer;
         }
       }

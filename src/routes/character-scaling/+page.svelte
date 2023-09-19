@@ -208,20 +208,20 @@
     position: sticky;
     top: 0;
     align-self: flex-start;
-    background-color: var(--theme-main-bg-color);
+    background-color: var(--theme-bg-container-main);
   }
 
   .header {
     font-size: 0.9em;
     font-weight: bold;
-    border-bottom: 1px solid var(--theme-divider);
+    border-bottom: 1px solid var(--theme-site-primary-main);
 
     @media only screen and (max-width: 960px) {
       display: none;
     }
 
     .top {
-      border-top: 1px solid var(--theme-divider);
+      border-top: 1px solid var(--theme-site-primary-main);
       border-bottom: 1px dotted var(--theme-border-light);
       color: #777;
     }
@@ -264,7 +264,7 @@
     }
 
     &:hover {
-      background: var(--theme-main-bg-hover);
+      background: var(--theme-bg-highlight);
     }
   }
 

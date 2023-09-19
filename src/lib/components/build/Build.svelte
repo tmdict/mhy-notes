@@ -67,7 +67,7 @@
 
 <style lang="scss">
   .build:hover {
-    background: var(--theme-main-bg-hover);
+    background: var(--theme-bg-highlight);
     cursor: pointer;
   }
 

@@ -161,7 +161,7 @@
   }
 
   a {
-    color: var(--theme-text-header-highlight);
+    color: #ccc;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0 2px;

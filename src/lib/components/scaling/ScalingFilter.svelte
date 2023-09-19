@@ -70,11 +70,11 @@
           }
 
           &.active {
-            background-color: var(--theme-filter-active-alt-color);
-            border: 1px solid var(--theme-divider);
+            background-color: var(--theme-bg-highlight-alt);
+            border: 1px solid var(--theme-site-primary-main);
 
             &:hover {
-              background-color: var(--theme-filter-active-color);
+              background-color: var(--theme-bg-container-main);
             }
           }
         }

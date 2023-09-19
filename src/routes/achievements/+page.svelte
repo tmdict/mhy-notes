@@ -186,7 +186,7 @@
     }
 
     .active {
-      color: var(--theme-primary-red);
+      color: var(--theme-site-primary-alt);
     }
   }
 </style>

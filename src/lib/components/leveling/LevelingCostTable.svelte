@@ -56,14 +56,14 @@
 
   .row {
     font-size: 0.9em;
-    background: var(--theme-main-bg-hover);
+    background: var(--theme-bg-highlight);
     border-bottom: 1px dotted var(--theme-border-light);
 
     @media only screen and (max-width: 960px) {
     }
 
     &:hover {
-      background: var(--theme-main-bg-color);
+      background: var(--theme-bg-container-main);
     }
   }
 

@@ -48,7 +48,7 @@
   .label {
     color: var(--theme-text-normal);
     font-size: 0.85rem;
-    background: var(--theme-label-bg);
+    background: var(--theme-bg-highlight);
     border: 1px dotted var(--theme-border-light);
     margin: 0 5px 5px;
     padding: 5px;

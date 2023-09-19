@@ -37,7 +37,7 @@
   body,
   html {
     font-size: 16px;
-    background-color: var(--theme-body-bg-color);
+    background-color: var(--theme-site-bg);
     color: var(--theme-text-normal);
   }
 
@@ -52,11 +52,11 @@
     width: 100%;
     min-width: 320px;
     height: 245px;
-    background-color: var(--theme-header-bg-color);
+    background-color: #111;
     margin: 0 auto;
     padding: 20px 0;
     font-family: var(--theme-main-font);
-    border-bottom: 4px var(--theme-divider) solid;
+    border-bottom: 4px var(--theme-site-primary-main) solid;
 
     @media only screen and (max-width: 960px) {
       height: 100%;
@@ -68,7 +68,7 @@
     width: 960px;
     min-width: 320px;
     min-height: 200px;
-    background-color: var(--theme-main-bg-color);
+    background-color: var(--theme-bg-container-main);
     margin: -60px auto 0;
     border: 2px solid var(--theme-main-border);
     border-radius: 5px;
@@ -96,17 +96,17 @@
     line-height: 1.5em;
 
     .highlight {
-      color: var(--theme-primary-red);
+      color: var(--theme-site-primary-alt);
       font-weight: bold;
     }
   }
 
   a {
-    color: var(--theme-primary-blue);
+    color: var(--theme-site-secondary-main);
     text-decoration: none;
 
     &:hover {
-      color: var(--theme-primary-red);
+      color: var(--theme-site-primary-alt);
       text-decoration: underline dotted;
     }
   }
@@ -124,7 +124,7 @@
   }
 
   h2 {
-    color: var(--theme-text-main-title);
+    color: var(--theme-text-strong);
     font: 2em var(--theme-header-font);
   }
 
@@ -142,7 +142,7 @@
   }
 
   h5 {
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
     font: bold 1.1em var(--theme-main-font);
     margin: 15px 0;
   }
@@ -153,7 +153,7 @@
     flex-wrap: wrap;
 
     &.alt {
-      background: var(--theme-main-bg-alt-color);
+      background: var(--theme-bg-container-alt);
     }
   }
 
@@ -163,7 +163,7 @@
     flex-wrap: wrap;
 
     &.alt {
-      background-color: var(--theme-main-bg-alt-color);
+      background-color: var(--theme-bg-container-alt);
     }
   }
 
@@ -196,7 +196,7 @@
   }
 
   .build-heading {
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
     font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -289,22 +289,22 @@
     height: 34px;
     margin: 5px 10px 10px;
     padding: 0px 12px;
-    color: var(--theme-text-input);
-    background-color: var(--theme-input-bg);
+    color: var(--theme-text-strong);
+    background-color: var(--theme-bg-highlight-alt);
     font-size: 1em;
     line-height: 1.4;
-    border: 2px solid var(--theme-main-bg-color);
+    border: 2px solid var(--theme-bg-container-main);
     border-radius: 6px;
     box-shadow: none;
 
     &:focus {
       outline: none !important;
-      border: 2px solid var(--theme-primary-red);
+      border: 2px solid var(--theme-site-primary-alt);
     }
   }
 
   .search-highlight {
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
     background-color: var(--theme-text-overlay);
   }
 
@@ -325,7 +325,7 @@
   @import 'tippy.js/animations/scale-subtle.css';
 
   .tippy-box[data-theme~='custom'] {
-    background-color: var(--theme-filter-active-alt-color);
+    background-color: var(--theme-bg-highlight-alt);
     border: 1px solid #555;
     border-radius: 5px;
     font: 1rem normal var(--theme-main-font);

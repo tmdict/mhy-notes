@@ -43,7 +43,7 @@
 
   .input:hover {
     cursor: pointer;
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
   }
 
   select {

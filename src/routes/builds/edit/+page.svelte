@@ -342,10 +342,10 @@
 
   .warning {
     width: 100%;
-    color: var(--theme-primary-red);
+    color: var(--theme-site-primary-alt);
     margin: 20px;
     padding: 10px 20px;
-    border: 2px dashed var(--theme-primary-red);
+    border: 2px dashed var(--theme-site-primary-alt);
     border-radius: 10px;
   }
 
@@ -353,8 +353,8 @@
     margin: 10px auto 40px;
     padding: 10px 10px;
     text-align: center;
-    border-top: 1px solid var(--theme-divider);
-    border-bottom: 1px solid var(--theme-divider);
+    border-top: 1px solid var(--theme-site-primary-main);
+    border-bottom: 1px solid var(--theme-site-primary-main);
 
     a,
     .copy {
@@ -398,12 +398,12 @@
       align-items: center;
       justify-content: center;
       margin: 5px;
-      background-color: var(--theme-input-bg);
+      background-color: var(--theme-bg-highlight-alt);
 
       &:hover {
         cursor: pointer;
-        color: var(--theme-primary-red);
-        background-color: var(--theme-main-bg-hover);
+        color: var(--theme-site-primary-alt);
+        background-color: var(--theme-bg-highlight);
       }
     }
   }

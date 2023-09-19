@@ -24,7 +24,7 @@
     height: 30px;
     display: flex;
     margin: 5px 10px;
-    background-color: var(--theme-label-bg-light);
+    background-color: var(--theme-bg-highlight-alt);
     border-radius: 5px 5px 5px 5px;
     align-items: center;
 

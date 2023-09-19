@@ -18,14 +18,14 @@ export const lang = createLang();
 export const toastOption = readable({
   success: {
     theme: {
-      '--toastBackground': 'var(--theme-primary-blue)',
-      '--toastBarBackground': 'var(--theme-primary-blue)'
+      '--toastBackground': 'var(--theme-site-secondary-main)',
+      '--toastBarBackground': 'var(--theme-site-secondary-main)'
     }
   },
   error: {
     theme: {
-      '--toastBackground': 'var(--theme-primary-red)',
-      '--toastBarBackground': 'var(--theme-primary-red)'
+      '--toastBackground': 'var(--theme-site-primary-alt)',
+      '--toastBarBackground': 'var(--theme-site-primary-alt)'
     }
   }
 });
