@@ -14,7 +14,7 @@
   }
 </script>
 
-<div class="content-row row total" on:click={toggleDetails} on:keydown={toggleDetails}>
+<div class="content-row row total" role="button" tabindex="0" on:click={toggleDetails} on:keydown={toggleDetails}>
   <div class="content-row group separator">
     <div class="content-row level">{$l10n['total'][$lang]}</div>
   </div>
