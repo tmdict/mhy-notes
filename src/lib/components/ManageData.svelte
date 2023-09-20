@@ -23,7 +23,7 @@
 
 <style lang="scss">
   .important {
-    color: var(--theme-site-primary-alt);
+    color: var(--theme-site-secondary-alt);
   }
 
   .manage-data {

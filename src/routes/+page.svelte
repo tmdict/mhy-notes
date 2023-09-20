@@ -8,10 +8,7 @@
   import { localData } from '@store/localdata';
   import lzstring from 'lz-string';
   if (browser) {
-    console.log($localData)
     const currentUrl = window.location.href;
-    console.log(currentUrl);
-
     if (currentUrl.includes('genshin.tmdict')) {
       if (localStorage.getItem('tmdict.genshin.migrated')) {
         window.location.replace(`https://mhy.tmdict.com/`);
