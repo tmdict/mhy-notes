@@ -1,6 +1,5 @@
 <script>
   import { getContext } from 'svelte';
-  import { page } from '$app/stores';  
   import Icon from './Icon.svelte';
   import LangSelect from '$lib/components/LangSelect.svelte';
 
@@ -11,7 +10,6 @@
 
   const { theme, toggle } = getContext('theme');
   let spin = false;
-  console.log($page.url)
 
   $: isDark = $theme.name === 'dark';
   $: lightExt = !isDark ? '_l' : '';
