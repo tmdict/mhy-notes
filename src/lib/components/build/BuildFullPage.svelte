@@ -68,11 +68,19 @@
     @media only screen and (max-width: 960px) {
       width: 440px;
     }
+
+    @media only screen and (max-width: 460px) {
+      width: auto;
+    }
   }
 
   .header {
     padding: 10px;
     align-items: center;
+
+    @media only screen and (max-width: 460px) {
+      justify-content: center;
+    }
 
     h1 {
       margin-left: 20px;
@@ -100,10 +108,18 @@
 
     .weapons {
       width: 165px;
+
+      @media only screen and (max-width: 460px) {
+        width: auto;
+      }
     }
 
     .artifacts {
       min-width: 270px;
+
+      @media only screen and (max-width: 460px) {
+        min-width: auto;
+      }
     }
   }
 
@@ -124,6 +140,10 @@
 
     .sources {
       min-width: 400px;
+
+      @media only screen and (max-width: 460px) {
+        min-width: 300px;
+      }
     }
   }
 </style>

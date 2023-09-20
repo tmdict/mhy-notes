@@ -14,6 +14,10 @@
 
 <style lang="scss">
   .mainstat {
-    width: 165px;
+    width: 170px;
+
+    @media only screen and (max-width: 460px) {
+      width: 160px;
+    }
   }
 </style>
