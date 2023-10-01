@@ -12,35 +12,6 @@
   import AchievementFaqZh from '$lib/components/content/AchievementFaq/Zh.svelte';
   import { highlight } from '$lib/util/highlight';
 
-  // Migrate domain
-  import lzstring from 'lz-string';
-  if (browser) {
-    const currentUrl = window.location.href;
-    if (currentUrl.includes('genshin.tmdict')) {
-      if (localStorage.getItem('tmdict.genshin.migrated')) {
-        window.location.replace(`https://mhy.tmdict.com/achievements`);
-      } else {
-        const encoded = lzstring.compressToEncodedURIComponent(JSON.stringify($localData));
-        console.log(encoded);
-        localStorage.setItem('tmdict.genshin.migrated', true);
-        window.location.replace(`https://mhy.tmdict.com/achievements#${encoded}_migrating`);
-      }
-    }
-    
-    if (currentUrl.includes('mhy.tmdict') && window.location.hash) {
-      if (window.location.hash.slice(-10) === '_migrating') {
-        const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1, window.location.hash.length - 10)));
-        console.log(decoded);
-        if (decoded.achievements) {
-          localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
-          window.location = window.location + '_migration-complete';
-          window.location.reload();
-        }
-      }
-      console.log('migration complete')
-    }
-  }
-
   let searchTerm = '';
   let filters = ['mondstadt', 'liyue', 'inazuma', 'sumeru'];
 
@@ -50,25 +21,6 @@
   let showFaq = false;
 
   const faq = { en: AchievementFaqEn, zh: AchievementFaqZh };
-
-  function migrateAchievements() {
-    const local = $localData;
-    if (local['achievements'] && !Array.isArray(local['achievements']['a-lingering-fragrance'])) {
-      const local = $localData;
-      let migrated = {};
-      for (const [key, value] of Object.entries(local.achievements)) {
-        if (!Array.isArray(value)) {
-          const migratedAchievement = Object.values(value)
-          migrated[key] = migratedAchievement
-        }
-      }
-      local['achievements'] = migrated
-      $localData = local;
-      browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
-      console.log('migration complete')
-    }
-  }
-  migrateAchievements()
 
   $: {
     // 1. filter by search

@@ -8,37 +8,6 @@
   import ScalingFaqEn from '$lib/components/content/ScalingFaq/En.svelte';
   import ScalingFaqZh from '$lib/components/content/ScalingFaq/Zh.svelte';
 
-  // Migrate domain
-  import { browser } from '$app/environment';
-  import { localData } from '@store/localdata';
-  import lzstring from 'lz-string';
-  if (browser) {
-    const currentUrl = window.location.href;
-    if (currentUrl.includes('genshin.tmdict')) {
-      if (localStorage.getItem('tmdict.genshin.migrated')) {
-        window.location.replace(`https://mhy.tmdict.com/character-scaling`);
-      } else {
-        const encoded = lzstring.compressToEncodedURIComponent(JSON.stringify($localData));
-        console.log(encoded);
-        localStorage.setItem('tmdict.genshin.migrated', true);
-        window.location.replace(`https://mhy.tmdict.com/character-scaling#${encoded}_migrating`);
-      }
-    }
-    
-    if (currentUrl.includes('mhy.tmdict') && window.location.hash) {
-      if (window.location.hash.slice(-10) === '_migrating') {
-        const decoded = JSON.parse(lzstring.decompressFromEncodedURIComponent(window.location.hash.substring(1, window.location.hash.length - 10)));
-        console.log(decoded);
-        if (decoded.achievements) {
-          localStorage.setItem('tmdict.genshin.data', JSON.stringify(decoded));
-          window.location = window.location + '_migration-complete';
-          window.location.reload();
-        }
-      }
-      console.log('migration complete')
-    }
-  }
-
   const statFilter = [
     'hp',
     'atk',
