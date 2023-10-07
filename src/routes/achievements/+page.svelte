@@ -1,5 +1,4 @@
 <script>
-  import { browser } from '$app/environment';
   import Fuse from 'fuse.js';
   import cloneDeep from 'lodash.clonedeep';
   import { slide } from 'svelte/transition';

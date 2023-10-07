@@ -608,6 +608,21 @@
       "circlet": ["em", "crit-abbr"],
       "recommended-talent": ["e"]
     },
+    "neuvillette": {
+      "base-stat": ["cdmg"],
+      "a": ["atk", "hp"],
+      "e": ["hp"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C6": ["hp"] }
+      ],
+      "sand": ["atk", "hp"],
+      "goblet": ["hydro", "hp"],
+      "circlet": ["crit-abbr", "hp"],
+      "recommended-talent": ["a"]
+    },
     "nilou": {
       "base-stat": ["hp"],
       "a": ["atk"],

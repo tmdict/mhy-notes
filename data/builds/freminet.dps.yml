@@ -8,7 +8,7 @@ name:
   zh: '主C'
 
 weapon:
-  - name: skyward-pride
+  - name: wolfs-gravestone
     r: 0
   - name: serpent-spine
     r: 0
@@ -31,10 +31,11 @@ mainstat:
 
 stats:
   - er: ''
-  - crit: ''
-  - atk: ''
+  - crit: '70% / 150%'
+  - atk: '2,400'
 
-talent: 'E > A'
+talent: 'E > Q = A'
 
 source:
-  - kqm: https://keqingmains.com/q/freminet-quickguide/
+  - ccb: default
+  - ysmxt: default

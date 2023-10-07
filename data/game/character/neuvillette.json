@@ -1,0 +1,16 @@
+{
+  "id": "neuvillette",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "catalyst",
+  "released": "4.1.0",
+  "data": {
+    "en": {
+      "name": "Neuvillette"
+    },
+    "zh": {
+      "name": "那维莱特"
+    }
+  }
+}
