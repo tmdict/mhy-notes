@@ -8,7 +8,7 @@
   // Reference: https://dev.to/josef/theming-in-svelte-with-css-variables-53kd
   const availableThemes = { [dark.name]: dark, [light.name]: light };
   const defaultTheme = dark.name;
-  let currentTheme = browser ? localStorage.getItem('tmdict.genshin.theme') || defaultTheme : defaultTheme;
+  let currentTheme = browser ? localStorage.getItem('tmdict.mhy.theme') || defaultTheme : defaultTheme;
 
   // Set up theme store, holding current theme object
   const theme = writable(availableThemes[currentTheme]);
@@ -18,7 +18,7 @@
     toggle: () => {
       currentTheme = currentTheme === dark.name ? light.name : dark.name;
       theme.update((t) => ({ ...t, ...availableThemes[currentTheme] }));
-      browser && localStorage.setItem('tmdict.genshin.theme', currentTheme);
+      browser && localStorage.setItem('tmdict.mhy.theme', currentTheme);
       setRootColors(availableThemes[currentTheme]);
     }
   });

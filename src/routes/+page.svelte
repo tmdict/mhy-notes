@@ -8,13 +8,13 @@
       name: 'character-builds',
       url: 'builds',
       new: true,
-      updated: '2023-09-17'
+      updated: '2023-10-08'
     },
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
       new: true,
-      updated: '2023-09-17'
+      updated: '2023-10-08'
     },
     {
       name: 'commission-achievements',
@@ -29,18 +29,19 @@
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      updated: '2023-08-18'
+      new: true,
+      updated: '2023-10-08'
     },
     {
       name: 'links',
       url: 'links',
-      new: true,
       updated: '2023-09-17'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      updated: '2023-08-18'
+      new: true,
+      updated: '2023-10-08'
     }
   ].sort((a, b) => b.updated.localeCompare(a.updated));
 

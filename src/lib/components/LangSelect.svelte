@@ -4,7 +4,7 @@
 
   function setLang(l) {
     lang.set(l);
-    browser && localStorage.setItem('tmdict.genshin.lang', l);
+    browser && localStorage.setItem('tmdict.mhy.lang', l);
   }
 </script>
 

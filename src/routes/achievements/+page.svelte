@@ -5,7 +5,7 @@
   import { achievements } from '@store/gamedata';
   import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
-  import CommissionAchievement from '$lib/components/CommissionAchievement.svelte';
+  import Achievement from '$lib/components/Achievement.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
   import AchievementFaqEn from '$lib/components/content/AchievementFaq/En.svelte';
   import AchievementFaqZh from '$lib/components/content/AchievementFaq/Zh.svelte';
@@ -113,7 +113,7 @@
 {/if}
 
 {#each filteredList as achievement, i (achievement.achievement)}
-  <CommissionAchievement
+  <Achievement
     {achievement}
     content={achievement[$lang] ? achievement[$lang] : achievement[lang.default()]}
     alt={i % 2 != 0}

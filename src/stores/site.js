@@ -5,7 +5,7 @@ import localeData from '@data/locale.yml';
 export const l10n = readable(localeData);
 
 function createLang() {
-  const { subscribe, set } = writable(browser ? localStorage.getItem('tmdict.genshin.lang') || 'en' : 'en');
+  const { subscribe, set } = writable(browser ? localStorage.getItem('tmdict.mhy.lang') || 'en' : 'en');
 
   return {
     subscribe,
