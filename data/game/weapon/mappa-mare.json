@@ -8,12 +8,12 @@
     "en": {
       "name": "Mappa Mare",
       "passiveName": "Infusion Scroll",
-      "passiveDescription": "Triggering an Elemental reaction grants a {{8%//10%//12%//14%//16%}} Elemental DMG Bonus for 10s. Max 2 stacks."
+      "passiveDescription": "Triggering an Elemental reaction grants a {{8//10//12//14//16%}} Elemental DMG Bonus for 10s. Max 2 stacks."
     },
     "zh": {
       "name": "万国诸海图谱",
       "passiveName": "注能之卷",
-      "passiveDescription": "触发元素反应后的10秒内，获得{{8%//10%//12%//14%//16%}}元素伤害加成，该效果最多可以叠加2层。"
+      "passiveDescription": "触发元素反应后的10秒内，获得{{8//10//12//14//16%}}元素伤害加成，该效果最多可以叠加2层。"
     }
   }
 }

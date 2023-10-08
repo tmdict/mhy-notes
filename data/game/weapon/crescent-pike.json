@@ -8,7 +8,7 @@
     "en": {
       "name": "Crescent Pike",
       "passiveName": "Infusion Needle",
-      "passiveDescription": "After picking up an Elemental Orb//Particle, Normal and Charged Attacks deal additional DMG equal to {{20%//25%//30%//35%//40%}} of ATK for 5s."
+      "passiveDescription": "After picking up an Elemental Orb//Particle, Normal and Charged Attacks deal additional DMG equal to {{20//25//30//35//40%}} of ATK for 5s."
     },
     "zh": {
       "name": "流月针",

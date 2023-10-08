@@ -8,12 +8,12 @@
     "en": {
       "name": "Black Tassel",
       "passiveName": "Bane of the Soft",
-      "passiveDescription": "Increases DMG against slimes by {{40%//50%//60%//70%//80%}}."
+      "passiveDescription": "Increases DMG against slimes by {{40//50//60//70//80%}}."
     },
     "zh": {
       "name": "黑缨枪",
       "passiveName": "克柔",
-      "passiveDescription": "对史莱姆类敌人造成的伤害增加{{40%//50%//60%//70%//80%}}。"
+      "passiveDescription": "对史莱姆类敌人造成的伤害增加{{40//50//60//70//80%}}。"
     }
   }
 }
