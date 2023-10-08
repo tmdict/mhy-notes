@@ -1,0 +1,16 @@
+{
+  "id": "memories-of-the-past",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "harmony",
+  "data": {
+    "en": {
+      "name": "Memories of the Past",
+      "description": "Increases the wearer's Break Effect by {{28//35//42//49//56%}}. When the wearer attacks, additionally regenerates {{4//5//6//7//8}} Energy. This effect cannot be repeatedly triggered in a single turn."
+    },
+    "zh": {
+      "name": "记忆中的模样",
+      "description": "使装备者的击破特攻提高{{28//35//42//49//56%}}。装备者施放攻击后，额外恢复{{4//5//6//7//8}}点能量，该效果单个回合内不可重复触发。"
+    }
+  }
+}

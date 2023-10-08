@@ -1,0 +1,17 @@
+{
+  "id": "band-of-sizzling-thunder",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Band of Sizzling Thunder",
+      "2p": "Increases Lightning DMG by 10%.",
+      "4p": "When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s)."
+    },
+    "zh": {
+      "name": "激奏雷电的乐队",
+      "2p": "雷属性伤害提高10%。",
+      "4p": "当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。"
+    }
+  }
+}

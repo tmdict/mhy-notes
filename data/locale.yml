@@ -65,9 +65,12 @@ build-type:
 build-type-placeholder:
   en: 'Press enter to submit'
   zh: '按回车键提交'
+build:
+  en: 'Build'
+  zh: '配装参考'
 builds:
   en: 'Builds'
-  zh: '角色配装'
+  zh: '参考面板'
 burst:
   en: 'Burst'
   zh: '爆发'
@@ -112,7 +115,7 @@ constellation:
   zh: '命座'
 cr:
   en: 'Crit%'
-  zh: '暴率'
+  zh: '暴击'
 create-builds:
   en: 'Create Builds'
   zh: '创建套装'
@@ -155,6 +158,9 @@ e:
 edit:
   en: 'Edit'
   zh: '编辑'
+ehr:
+  en: 'EHR%'
+  zh: '命中'
 electro:
   en: 'Electro'
   zh: '雷'
@@ -239,6 +245,12 @@ leveling-cost:
 light:
   en: 'Light'
   zh: '天光'
+light-cone:
+  en: 'Light Cone'
+  zh: '光锥'
+lightning:
+  en: 'Lightning'
+  zh: '雷伤'
 link:
   en: 'Link'
   zh: '链接'
@@ -296,6 +308,9 @@ pyro:
 q:
   en: 'Q'
   zh: 'Q'
+quantum:
+  en: 'Quantum'
+  zh: '量伤'
 quickswap:
   en: 'Quickswap'
   zh: '速切'
@@ -305,6 +320,15 @@ rarity:
 recommended-artifact-mainstats:
   en: 'Recommended Main Stats'
   zh: '推荐主词条'
+reference-stats:
+  en: 'Reference Stats'
+  zh: '参考面板'
+relic:
+  en: 'Relic'
+  zh: '遗器'
+res:
+  en: 'Res%'
+  zh: '抵抗'
 resistance:
   en: 'Resistance'
   zh: '抗争'
@@ -335,6 +359,9 @@ shield:
 sources:
   en: 'Sources'
   zh: '参考来源'
+spd:
+  en: 'SPD'
+  zh: '速度'
 stats:
   en: 'Stats'
   zh: '属性数据'
@@ -356,6 +383,9 @@ support:
 sumeru:
   en: 'Sumeru'
   zh: '须弥'
+sustain:
+  en: 'Sustain'
+  zh: '生存'
 reaction:
   en: 'Reaction'
   zh: '元素反应'

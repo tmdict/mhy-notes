@@ -1,0 +1,32 @@
+---
+character: seele
+type:
+  - dps
+
+light-cone:
+  - in-the-night
+  - cruising-in-the-stellar-sea
+
+relic:
+  - set: [genius-of-brilliant-stars]
+    p: 4
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - crit
+  feet:
+    - atk
+  sphere:
+    - quantum
+  rope:
+    - atk
+
+stats:
+  - atk: '3,100'
+  - cr: '80%'
+  - cdmg: '160%'
+  - spd: '131'

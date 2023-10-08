@@ -1,0 +1,16 @@
+{
+  "id": "kafka",
+  "type": "character",
+  "rarity": 5,
+  "path": "nihility",
+  "combat-type": "lightning",
+  "released": "1.2.1",
+  "data": {
+    "en": {
+      "name": "Kafka"
+    },
+    "zh": {
+      "name": "卡芙卡"
+    }
+  }
+}

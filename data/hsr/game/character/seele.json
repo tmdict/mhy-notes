@@ -1,0 +1,16 @@
+{
+  "id": "seele",
+  "type": "character",
+  "rarity": 5,
+  "path": "hunt",
+  "combat-type": "quantum",
+  "released": "1.0.0",
+  "data": {
+    "en": {
+      "name": "Seele"
+    },
+    "zh": {
+      "name": "希儿"
+    }
+  }
+}

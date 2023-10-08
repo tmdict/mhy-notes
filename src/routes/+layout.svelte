@@ -226,6 +226,10 @@
     background: url('/img/rarity/sp.png');
   }
 
+  .rarity-na img {
+    background: none;
+  }
+
   .anemo {
     color: #33ccb3;
     font-weight: bold;

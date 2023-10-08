@@ -1,0 +1,17 @@
+{
+  "id": "guard-of-wuthering-snow",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Guard of Wuthering Snow",
+      "2p": "Reduces DMG taken by 8%.",
+      "4p": "At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
+    },
+    "zh": {
+      "name": "戍卫风雪的铁卫",
+      "2p": "受到伤害降低8%。",
+      "4p": "回合开始时，如果装备者当前生命值百分比小于等于50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。"
+    }
+  }
+}

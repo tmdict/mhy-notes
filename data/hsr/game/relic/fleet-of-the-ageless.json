@@ -1,0 +1,15 @@
+{
+  "id": "fleet-of-the-ageless",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Fleet of the Ageless",
+      "2p": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+    },
+    "zh": {
+      "name": "不老者的仙舟",
+      "2p": "使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。"
+    }
+  }
+}

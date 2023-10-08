@@ -1,0 +1,17 @@
+{
+  "id": "longevous-disciple",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Longevous Disciple",
+      "2p": "Increases Max HP by 12%.",
+      "4p": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
+    },
+    "zh": {
+      "name": "宝命长存的莳者",
+      "2p": "生命上限提高12%。",
+      "4p": "当装备者受到攻击或被我方目标消耗生命值后，暴击率提高8%，持续2回合，该效果最多叠加2层。"
+    }
+  }
+}

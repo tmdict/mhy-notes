@@ -1,0 +1,16 @@
+{
+  "id": "fu-xuan",
+  "type": "character",
+  "rarity": 5,
+  "path": "preservation",
+  "combat-type": "quantum",
+  "released": "1.3.1",
+  "data": {
+    "en": {
+      "name": "Fu Xuan"
+    },
+    "zh": {
+      "name": "符玄"
+    }
+  }
+}

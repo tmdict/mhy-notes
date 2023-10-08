@@ -1,0 +1,31 @@
+---
+character: kafka
+type:
+  - dps
+
+light-cone:
+  - patience-is-all-you-need
+  - good-night-and-sleep-well
+
+relic:
+  - set: [band-of-sizzling-thunder]
+    p: 4
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+
+mainstat:
+  body:
+    - atk
+  feet:
+    - spd
+  sphere:
+    - lightning
+  rope:
+    - atk
+
+stats:
+  - atk: '3,600'
+  - spd: '153'
+  - ehr: '26%'

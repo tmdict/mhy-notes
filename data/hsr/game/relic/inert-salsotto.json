@@ -1,0 +1,15 @@
+{
+  "id": "inert-salsotto",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Inert Salsotto",
+      "2p": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
+    },
+    "zh": {
+      "name": "停转的萨尔索图",
+      "2p": "使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，终结技和追加攻击造成的伤害提高15%。"
+    }
+  }
+}

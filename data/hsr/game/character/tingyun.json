@@ -1,0 +1,16 @@
+{
+  "id": "tingyun",
+  "type": "character",
+  "rarity": 4,
+  "path": "harmony",
+  "combat-type": "lightning",
+  "released": "1.0.0",
+  "data": {
+    "en": {
+      "name": "Tingyun"
+    },
+    "zh": {
+      "name": "停云"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "she-already-shut-her-eyes",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "preservation",
+  "data": {
+    "en": {
+      "name": "She Already Shut Her Eyes",
+      "description": "Increases the wearer's Max HP by {{24//28//32//36//40%}} and Energy Regeneration Rate by {{12//14//16//18//20%}}. When the wearer's HP is reduced, all allies' DMG dealt increases by {{9//10.5//12//13.5//15%}}, lasting for 2 turn(s).<br />At the start of every wave, restores HP to all allies by an amount equal to {{80//85//90//95//100%}} of their respective lost HP."
+    },
+    "zh": {
+      "name": "她已闭上双眼",
+      "description": "使装备者的生命上限提高{{24//28//32//36//40%}}，能量恢复效率提高{{12//14//16//18//20%}}。当装备者的生命值降低时，使我方全体造成的伤害提高{{9//10.5//12//13.5//15%}}，持续2回合。<br />每个波次开始时，为我方全体回复等同于各自已损失生命值{{80//85//90//95//100%}}的生命值。"
+    }
+  }
+}

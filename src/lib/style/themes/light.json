@@ -21,6 +21,12 @@
     "border-gold": "#baaf81",
     "border-light": "#777",
 
+    "rarity-1": "#a4a4a4",
+    "rarity-2": "#5d8c81",
+    "rarity-3": "#6faaca",
+    "rarity-4": "#917ab1",
+    "rarity-5": "#de9552",
+
     "main-font": "Verdana, Arial, 'Microsoft YaHei', sans-serif",
     "header-font": "Georgia, serif"
   }

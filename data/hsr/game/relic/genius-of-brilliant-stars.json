@@ -1,0 +1,17 @@
+{
+  "id": "genius-of-brilliant-stars",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Genius of Brilliant Stars",
+      "2p": "Increases Quantum DMG by 10%.",
+      "4p": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF."
+    },
+    "zh": {
+      "name": "繁星璀璨的天才",
+      "2p": "量子属性伤害提高10%。",
+      "4p": "当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。"
+    }
+  }
+}

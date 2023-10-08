@@ -12,7 +12,6 @@
 
   // Update local storage
   function updateChecklist(achievementName, todo) {
-    //const local = $localData;
     $localData['achievements'][achievementName][todo] = !$localData['achievements'][achievementName][todo];
     browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
     // Update achievement completion status
@@ -20,8 +19,6 @@
   }
 
   function trueUpChecklist(achievement) {
-    // Update local storage
-    //const local = $localData;
     // Compare number of todo's between local storage and achievement data
     if (Object.keys($localData['achievements'][achievement.achievement]).length !== achievement.checklist) {
       let updated = new Array(achievement.checklist).fill(false);

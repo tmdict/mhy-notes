@@ -1,0 +1,34 @@
+---
+character: fu-xuan
+type:
+  - sustain
+  - shield
+
+light-cone:
+  - she-already-shut-her-eyes
+  - landaus-choice
+
+relic:
+  - set: [longevous-disciple, guard-of-wuthering-snow]
+    p: 2
+
+ornament:
+  - set: [fleet-of-the-ageless]
+    p: 2
+
+mainstat:
+  body:
+    - hp
+  feet:
+    - spd
+  sphere:
+    - hp
+  rope:
+    - er
+
+stats:
+  - hp: '8,900'
+  - def: "1,100"
+  - spd: '139'
+  - er: '130%'
+  - res: '35%'

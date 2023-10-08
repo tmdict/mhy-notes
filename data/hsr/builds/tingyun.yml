@@ -1,0 +1,33 @@
+---
+character: tingyun
+type:
+  - support
+
+light-cone:
+  - carve-the-moon-weave-the-clouds
+  - memories-of-the-past
+
+relic:
+  - set: [musketeer-of-wild-wheat]
+    p: 4
+
+ornament:
+  - set: [fleet-of-the-ageless]
+    p: 2
+
+mainstat:
+  body:
+    - atk
+  feet:
+    - spd
+  sphere:
+    - def
+  rope:
+    - er
+
+stats:
+  - atk: '2,700'
+  - hp: '2,700'
+  - def: "1,300"
+  - spd: '153'
+  - er: '120%'
