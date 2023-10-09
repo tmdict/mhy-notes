@@ -1,0 +1,15 @@
+{
+  "id": "rutilant-arena",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Rutilant Arena",
+      "2p": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
+    },
+    "zh": {
+      "name": "繁星竞技场",
+      "2p": "使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。"
+    }
+  }
+}

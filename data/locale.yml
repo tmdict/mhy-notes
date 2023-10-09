@@ -17,6 +17,9 @@ a1:
 a4:
   en: 'Ascend 4'
   zh: '升级4'
+abundance:
+  en: 'Abundance'
+  zh: '丰饶'
 achievements:
   en: 'Achievements'
   zh: '成就'
@@ -146,6 +149,9 @@ delete:
 dendro:
   en: 'Dendro'
   zh: '草'
+destruction:
+  en: 'Destruction'
+  zh: '毁灭'
 diligence:
   en: 'Diligence'
   zh: '勤劳'
@@ -185,6 +191,9 @@ equity:
 er:
   en: 'ER%'
   zh: '充'
+erudition:
+  en: 'Erudition'
+  zh: '智识'
 expand-all:
   en: 'Expand All'
   zh: '展开全部'
@@ -197,6 +206,9 @@ faq:
 filters:
   en: 'Filters'
   zh: '搜索'
+fire:
+  en: 'Fire'
+  zh: '火'
 freedom:
   en: 'Freedom'
   zh: '自由'
@@ -230,6 +242,12 @@ hunt:
 hydro:
   en: 'Hydro'
   zh: '水'
+ice:
+  en: 'Ice'
+  zh: '冰'
+imaginary:
+  en: 'Imaginary'
+  zh: '虚数'
 import-data:
   en: 'Import Data'
   zh: '上传数据库'
@@ -256,7 +274,7 @@ light-cone:
   zh: '光锥'
 lightning:
   en: 'Lightning'
-  zh: '雷伤'
+  zh: '雷'
 link:
   en: 'Link'
   zh: '链接'
@@ -443,3 +461,6 @@ weekly-talent-mat:
 weekly-boss-mat:
   en: 'Weekly Boss Materials'
   zh: '周常BOSS素材'
+wind:
+  en: 'Wind'
+  zh: '风'

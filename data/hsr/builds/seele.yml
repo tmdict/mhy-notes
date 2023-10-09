@@ -17,7 +17,8 @@ ornament:
 
 mainstat:
   body:
-    - crit
+    - cr
+    - cdmg
   feet:
     - atk
   sphere:
@@ -27,5 +28,6 @@ mainstat:
 
 stats:
   - atk: '3,100'
-  - crit: '80% / 160%'
+  - cr: '80%'
+  - cdmg: '160%'
   - spd: '131'

@@ -1,0 +1,16 @@
+{
+  "id": "dan-heng-imbibitor-lunae",
+  "type": "character",
+  "rarity": 5,
+  "path": "destruction",
+  "element": "imaginary",
+  "released": "1.3.0",
+  "data": {
+    "en": {
+      "name": "Dan Heng • Imbibitor Lunae"
+    },
+    "zh": {
+      "name": "丹恒•饮月"
+    }
+  }
+}

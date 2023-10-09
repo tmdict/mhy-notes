@@ -1,0 +1,17 @@
+{
+  "id": "passerby-of-wandering-cloud",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Passerby of Wandering Cloud",
+      "2p": "Increases Outgoing Healing by 10%.",
+      "4p": "At the start of the battle, immediately regenerates 1 Skill Point."
+    },
+    "zh": {
+      "name": "云无留迹的过客",
+      "2p": "治疗量提高10%。",
+      "4p": "在战斗开始时，立即为我方恢复1个战技点。"
+    }
+  }
+}

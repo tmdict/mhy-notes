@@ -10,19 +10,22 @@
 
   const faq = { en: HsrBuildFaqEn, zh: HsrBuildFaqFaqZh };
   const filters = {
-    path: ['harmony', 'hunt', 'nihility', 'preservation'],
-    element: ['lightning', 'quantum'],
-    stat: ['atk', 'crit', 'def', 'ehr', 'er', 'hp', 'lightning', 'quantum', 'res', 'spd'],
+    element: ['fire', 'ice', 'imaginary', 'lightning', 'physical', 'quantum', 'wind'],
+    path: ['abundance', 'destruction', 'erudition', 'harmony', 'hunt', 'nihility', 'preservation'],
+    stat: ['atk', 'cdmg', 'cr', 'def', 'ehr', 'er', 'fire', 'heal', 'hp', 'ice', 'lightning', 'physical', 'quantum', 'res', 'spd', 'wind'],
     relic: [
       'band-of-sizzling-thunder',
       'genius-of-brilliant-stars',
       'guard-of-wuthering-snow',
       'longevous-disciple',
-      'musketeer-of-wild-wheat'
+      'musketeer-of-wild-wheat',
+      'passerby-of-wandering-cloud'
     ],
     ornament: [
+      'broken-keel',
       'fleet-of-the-ageless',
       'inert-salsotto',
+      'rutilant-arena',
       'space-sealing-station'
     ]
   }
@@ -141,7 +144,7 @@
   }
 
   .main-stat {
-    width: 130px;
+    width: 150px;
   }
 
   .relic {

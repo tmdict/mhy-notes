@@ -1,0 +1,16 @@
+{
+  "id": "perfect-timing",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "abundance",
+  "data": {
+    "en": {
+      "name": "Perfect Timing",
+      "description": "Increases the wearer's Effect RES by {{16//20//24//28//32%}} and increases Outgoing Healing by an amount that is equal to {{33//36//39//42//45%}} of Effect RES. Outgoing Healing can be increased this way by up to {{15//18//21//24//27%}}."
+    },
+    "zh": {
+      "name": "此时恰好",
+      "description": "使装备者的效果抵抗提高{{16//20//24//28//32%}}，并使装备者的治疗量提高，提高数值等同于效果抵抗的{{33//36//39//42//45%}}，最多使治疗量提高{{15//18//21//24//27%}}。"
+    }
+  }
+}

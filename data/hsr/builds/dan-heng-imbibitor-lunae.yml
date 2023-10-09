@@ -1,0 +1,32 @@
+---
+character: dan-heng-imbibitor-lunae
+type:
+  - dps
+
+light-cone:
+  - brighter-than-the-sun
+  - on-the-fall-of-an-aeon
+
+relic:
+  - set: [musketeer-of-wild-wheat]
+    p: 4
+
+ornament:
+  - set: [rutilant-arena]
+    p: 2
+
+mainstat:
+  body:
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - imaginary
+  rope:
+    - atk
+
+stats:
+  - atk: '3,300'
+  - cr: '70%'
+  - cdmg: '150%'
+  - spd: '110'

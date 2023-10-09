@@ -84,7 +84,7 @@
 
           &.relic,
           &.ornament {
-            height: 30px;
+            height: 40px;
           }
         }
       }

@@ -1,0 +1,16 @@
+{
+  "id": "on-the-fall-of-an-aeon",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "destruction",
+  "data": {
+    "en": {
+      "name": "On the Fall of an Aeon",
+      "description": "Whenever the wearer attacks, their ATK is increased by {{8//10//12//14//16%}} in this battle. This effect can stack up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by {{12//15//18//21//24%}} for 2 turn(s)."
+    },
+    "zh": {
+      "name": "记一位星神的陨落",
+      "description": "当装备者施放攻击时，使装备者本场战斗中的攻击力提高{{8//10//12//14//16%}}，该效果最多叠加4层。当装备者击破敌方目标弱点后，造成的伤害提高{{12//15//18//21//24%}}，持续2回合。"
+    }
+  }
+}

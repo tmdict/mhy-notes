@@ -1,8 +1,10 @@
 <script>
   import { tooltip } from '$lib/util/tooltip';
+  import { hsrBuildsFilters } from '@store/filterlist';
   import { hsr } from '@store/hsr';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
+  import { rarity } from '@store/gamedata';
 
   export let build;
   export let alt = false;
@@ -45,22 +47,23 @@
     <div class="content-row">
       {#each build['light-cone'] as lc, i}
         <img src="/img/hsr/light-cone/{lc}.png" title={lc} alt={lc} 
-        use:tooltip={{
-          enabled: true,
-          tippy: {
-            content: `
-              <span class="highlight">${$hsr['light-cone'][lc].data[$lang].name}</span><br />
-              ${$hsr['light-cone'][lc].data[$lang].description
-                .replace(/{{/g, '<span style="color:var(--theme-site-secondary-main)">')
-                .replace(/}}/g, '</span>')
-                .replace(/\/{2}/g, '</span>/<span style="color:var(--theme-site-secondary-main)">')}
-            `,
-            trigger: 'click',
-            theme: 'custom',
-            animation: 'scale-subtle',
-            allowHTML: true
-          }
-        }}/>
+          use:tooltip={{
+            enabled: true,
+            tippy: {
+              content: `
+                <span class="highlight">${$hsr['light-cone'][lc].data[$lang].name}</span><br />
+                <span style="color:var(--theme-rarity-${$hsr['light-cone'][lc].rarity})">${"◆".repeat($hsr['light-cone'][lc].rarity)}</span><br />
+                ${$hsr['light-cone'][lc].data[$lang].description
+                  .replace(/{{/g, '<span style="color:var(--theme-site-secondary-main)">')
+                  .replace(/}}/g, '</span>')
+                  .replace(/\/{2}/g, '</span>/<span style="color:var(--theme-site-secondary-main)">')}
+              `,
+              trigger: 'click',
+              theme: 'custom',
+              animation: 'scale-subtle',
+              allowHTML: true
+            }
+          }}/>
       {/each}
     </div>
   </div>
@@ -73,7 +76,10 @@
         </div>
         <div>
           {#each values as val, i}
-            {$l10n[val][$lang]}{i > 0 ? ' · ' : ''}
+            {i > 0 ? ' · ' : ''}
+            <span class:highlight={$hsrBuildsFilters.stat.common.includes(val)}>
+              {$l10n[val][$lang]}
+            </span>
           {/each}
         </div>
       </div>
@@ -129,7 +135,12 @@
     <ul>
       {#each build.stats as stat}
         {@const [id, value] = Object.entries(stat).flat()}
-        <li style='--line-ht: 1.1em'>{$l10n[id][$lang]}: <span class="highlight">{value}</span></li>
+        <li style='--line-ht: 1.1em'>
+          <span class:highlight={$hsrBuildsFilters.stat.common.includes(id)}>
+            {$l10n[id][$lang]}:
+          </span>
+          <span class="stat-value">{value}</span>
+        </li>
       {/each}
     </ul>
   </div>
@@ -200,6 +211,7 @@
 
     .lightcone {
       width: 220px;
+      position: relative;
 
       img {
         height: 120px;
@@ -231,7 +243,7 @@
     }
 
     .main-stat {
-      width: 130px;
+      width: 150px;
       align-items: center;
       padding: 5px 0 5px 10px;
       font-size: 0.9em;
@@ -243,11 +255,16 @@
           width: 20px;
         }
       }
+
+      .highlight {
+        color: var(--theme-site-primary-main);
+        font-weight: bold;
+      }
     }
 
     .stats {
       width: 200px;
-      padding-top: 10px;
+      padding-top: 7px;
 
       ul {
         margin: 0;
@@ -265,6 +282,11 @@
           border-bottom: 1px dotted var(--theme-border-light);
 
           .highlight {
+            color: var(--theme-site-primary-main);
+            font-weight: bold;
+          }
+
+          .stat-value {
             color: var(--theme-site-secondary-main);
           }
         }
