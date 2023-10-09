@@ -27,6 +27,5 @@ mainstat:
 
 stats:
   - atk: '3,100'
-  - cr: '80%'
-  - cdmg: '160%'
+  - crit: '80% / 160%'
   - spd: '131'

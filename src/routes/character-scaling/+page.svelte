@@ -42,7 +42,6 @@
 
   let showFilter = true;
   let showFaq = false;
-  let windowWidth;
   let filteredScalings = allScalings;
 
   charScalingFilters.init(['stat', 'base']);
@@ -81,8 +80,6 @@
     });
   }
 </script>
-
-<svelte:window bind:innerWidth={windowWidth} />
 
 <svelte:head>
   <title>{$l10n['character-scaling'][$lang]} | mHY-notes</title>

@@ -1,7 +1,40 @@
 <script>
+  import { slide } from 'svelte/transition';
+  import { hsrBuildsFilters } from '@store/filterlist';
   import { hsr } from '@store/hsr';
   import { l10n, lang } from '@store/site';
   import Build from '$lib/components/hsr/Build.svelte';
+  import BuildFilter from '$lib/components/hsr/BuildFilter.svelte';
+  import HsrBuildFaqEn from '$lib/components/content/HsrBuildFaq/En.svelte';
+  import HsrBuildFaqFaqZh from '$lib/components/content/HsrBuildFaq/Zh.svelte';
+
+  const faq = { en: HsrBuildFaqEn, zh: HsrBuildFaqFaqZh };
+  const filters = {
+    path: ['harmony', 'hunt', 'nihility', 'preservation'],
+    element: ['lightning', 'quantum'],
+    stat: ['atk', 'crit', 'def', 'ehr', 'er', 'hp', 'lightning', 'quantum', 'res', 'spd'],
+    relic: [
+      'band-of-sizzling-thunder',
+      'genius-of-brilliant-stars',
+      'guard-of-wuthering-snow',
+      'longevous-disciple',
+      'musketeer-of-wild-wheat'
+    ],
+    ornament: [
+      'fleet-of-the-ageless',
+      'inert-salsotto',
+      'space-sealing-station'
+    ]
+  }
+
+  let showFilter = true;
+  let showFaq = false;
+
+  hsrBuildsFilters.init(['path', 'element', 'stat', 'relic', 'ornament']);
+  Object.keys(filters).forEach(filterKey => {
+    filters[filterKey].forEach((filterValue) => 
+    hsrBuildsFilters.updateCommonFilter(filterKey, filterValue));
+  });
 </script>
 
 <svelte:head>
@@ -10,13 +43,36 @@
 
 <h1>HSR · {$l10n['character-builds'][$lang]}</h1>
 
+<div class="menu">
+  <a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}
+    >{$l10n['filters'][$lang]}
+    {#if showFilter}-{:else}+{/if}</a
+  >
+  <span class="menu-separator" />
+  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+</div>
+
+{#if showFaq}
+  <div id="faq" transition:slide>
+    <svelte:component this={faq[$lang]} />
+  </div>
+{/if}
+
+{#if showFilter}
+  <div class="filters" transition:slide>
+    {#each Object.keys(filters) as filterKey}
+      <BuildFilter filterHeader={filterKey} filterKey={filterKey} filter={filters[filterKey]} />
+    {/each}
+  </div>
+{/if}
+
 <div class="header sticky">
   <div class="content-row">
     <div class="col character">{$l10n['character'][$lang]}</div>
     <div class="col light-cone separator">{$l10n['light-cone'][$lang]}</div>
     <div class="col main-stat">{$l10n['mainstat'][$lang]}</div>
     <div class="col relic separator">{$l10n['relic'][$lang]}</div>
-    <div class="col reference-stats">{$l10n['reference-stats'][$lang]}</div>
+    <div class="col stats">{$l10n['stats-reference'][$lang]}</div>
   </div>
 </div>
 
@@ -76,8 +132,8 @@
     width: 121px;
   }
 
-  .reference-stats {
-    margin-left: 10px;
+  .stats {
+    margin-left: 9px;
     width: 140px;
   }
 }

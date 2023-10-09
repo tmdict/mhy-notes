@@ -71,7 +71,7 @@
           }
 
           &.active {
-            background-color: var(--theme-bg-highlight-alt);
+            background-color: var(--theme-bg-container-alt);
             border: 1px solid var(--theme-site-primary-main);
 
             &:hover {

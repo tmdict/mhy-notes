@@ -109,7 +109,7 @@
           <div class="piece">
             <Icon
               id={set}
-              src="hsr/relic/{set}"
+              src="hsr/ornament/{set}"
               size="50px"
               margin="0 2px"
               rarity="na"
@@ -246,7 +246,7 @@
     }
 
     .stats {
-      width: 140px;
+      width: 200px;
       padding-top: 10px;
 
       ul {
