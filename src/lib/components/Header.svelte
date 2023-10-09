@@ -76,8 +76,6 @@
         <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/links">{$l10n['links'][$lang]}</a>
-        <span class="separator">·</span>
-        <a href="/hsr/builds">HSR Builds</a>
       </div>
     </div>
   </div>

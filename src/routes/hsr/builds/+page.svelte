@@ -1,5 +1,5 @@
 <script>
-  import { slide } from 'svelte/transition';
+  import { slide, fade } from 'svelte/transition';
   import { hsrBuildsFilters } from '@store/filterlist';
   import { hsr } from '@store/hsr';
   import { l10n, lang } from '@store/site';
@@ -29,11 +29,25 @@
 
   let showFilter = true;
   let showFaq = false;
+  let filteredBuilds = $hsr.builds;
 
   hsrBuildsFilters.init(['path', 'element', 'stat', 'relic', 'ornament']);
-  Object.keys(filters).forEach(filterKey => {
-    filters[filterKey].forEach((filterValue) => 
-    hsrBuildsFilters.updateCommonFilter(filterKey, filterValue));
+
+  $: filteredBuilds = $hsr.builds.filter((b) => {
+    // Check each filter type
+    for (const f of Object.values($hsrBuildsFilters)) {
+      // If at least one filter is set
+      if (f.common.length !== 0) {
+        // If current entry has a tag that matches the filter
+        if (f.common.some((t) => b.tags.has(t))) {
+          continue; // Has a match for current filter, move on to next filter type
+        } else {
+          return false; // No match, short-circuit to next filter type
+        }
+      }
+    }
+    // Either there is a matching tag for ALL selected filters, or no filter selected
+    return true;
   });
 </script>
 
@@ -76,8 +90,10 @@
   </div>
 </div>
 
-{#each $hsr.builds as build, i}
-  <Build {build} alt={i % 2 === 1} />
+{#each filteredBuilds as build, i}
+  <div transition:fade>
+    <Build {build} alt={i % 2 === 1} />
+  </div>
 {/each}
 
 <style lang="scss">
