@@ -17,15 +17,27 @@
 
   <div class="content-col info">
     <b>{$hsr.character[build.character].data[$lang].name}</b>
+    <div class="sub">
+      {#each build.type as type, i}
+        {i > 0 ? ' · ' : ''}{$l10n[type][$lang]}
+      {/each}
+    </div>
     <div class="rarity{$hsr.character[build.character].rarity}">
       {#each Array($hsr.character[build.character].rarity) as _}
         ◆
       {/each}
     </div>
-    <div class="sub">
-      {#each build.type as type, i}
-        {i > 0 ? ' · ' : ''}{$l10n[type][$lang]}
-      {/each}
+    <div class="content-row attribute">
+      <div class="icon">
+        <img src="/img/hsr/path/{$hsr.character[build.character].path}.png" title="icon" alt="icon" />
+      </div>
+      {$l10n[$hsr.character[build.character].path][$lang]}
+    </div>
+    <div class="content-row attribute">
+      <div class="icon">
+        <img src="/img/hsr/element/{$hsr.character[build.character].element}.png" title="icon" alt="icon" />
+      </div>
+      {$l10n[$hsr.character[build.character].element][$lang]}
     </div>
   </div>
 
@@ -125,7 +137,9 @@
 
 <style lang="scss">
   .build {
-    border-bottom: 1px dotted var(--theme-border-light);
+    &:hover {
+      background: var(--theme-bg-highlight);
+    }
 
     .content-col {
       justify-content: center;
@@ -158,8 +172,21 @@
       width: 100px;
       margin: 10px;
 
-      img {
-        height: 15px;
+      .sub {
+        color: var(--theme-site-secondary-main);
+        font-size: 0.8em;
+        line-height: 1.5em;
+      }
+
+      .attribute {
+        margin-top: 4px;
+        font-size: 0.8em;
+        align-items: center;
+
+        img {
+          height: 20px;
+          margin-right: 4px;
+        }
       }
 
       .rarity5 {
@@ -168,11 +195,6 @@
 
       .rarity4 {
         color: var(--theme-rarity-4);
-      }
-
-      .sub {
-        font-size: 0.8em;
-        line-height: 2em;
       }
     }
 
@@ -212,6 +234,7 @@
       width: 130px;
       align-items: center;
       padding: 5px 0 5px 10px;
+      font-size: 0.9em;
 
       .icon {
         margin: 0 5px 0 2px;

@@ -72,7 +72,7 @@
   }
 
   .build-info {
-    min-height: 80px;
+    min-height: 70px;
     align-items: center;
     font-size: var(--text-size, 0.8rem);
 

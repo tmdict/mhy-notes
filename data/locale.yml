@@ -212,6 +212,9 @@ gold:
 guides:
   en: 'Guides'
   zh: '攻略'
+harmony:
+  en: 'Harmony'
+  zh: '同谐'
 heal:
   en: 'Heal'
   zh: '治'
@@ -221,6 +224,9 @@ healer:
 hp:
   en: 'HP'
   zh: '生'
+hunt:
+  en: 'Hunt'
+  zh: '巡猎'
 hydro:
   en: 'Hydro'
   zh: '水'
@@ -278,6 +284,9 @@ mondstadt:
 name:
   en: 'Name'
   zh: '名称'
+nihility:
+  en: 'Nihility'
+  zh: '虚无'
 normal-attack:
   en: 'Normal Attack'
   zh: '普通攻击'
@@ -296,6 +305,9 @@ physical:
 praxis:
   en: 'Praxis'
   zh: '笃行'
+preservation:
+  en: 'Preservation'
+  zh: '存护'
 preview:
   en: 'Preview'
   zh: '预览'

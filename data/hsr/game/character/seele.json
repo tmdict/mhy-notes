@@ -3,7 +3,7 @@
   "type": "character",
   "rarity": 5,
   "path": "hunt",
-  "combat-type": "quantum",
+  "element": "quantum",
   "released": "1.0.0",
   "data": {
     "en": {
