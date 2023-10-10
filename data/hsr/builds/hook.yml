@@ -1,0 +1,34 @@
+---
+character: hook
+type:
+  - dps
+  - st
+
+light-cone:
+  - the-moles-welcome-you
+  - on-the-fall-of-an-aeon
+
+relic:
+  - set: [firesmith-of-lava-forging]
+    p: 4
+
+ornament:
+  - set: [rutilant-arena]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - spd
+  sphere:
+    - fire
+  rope:
+    - atk
+
+stats:
+  - atk: '2,500'
+  - cr: '70%'
+  - cdmg: '130%'
+  - spd: '128'

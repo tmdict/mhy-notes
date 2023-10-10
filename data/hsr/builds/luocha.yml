@@ -1,0 +1,35 @@
+---
+character: luocha
+type:
+  - sustain
+  - healer
+
+light-cone:
+  - echoes-of-the-coffin
+  - perfect-timing
+
+relic:
+  - set: [passerby-of-wandering-cloud, messenger-traversing-hackerspace]
+    p: 2
+
+ornament:
+  - set: [broken-keel]
+    p: 2
+
+mainstat:
+  body:
+    - heal
+  feet:
+    - spd
+  sphere:
+    - atk
+  rope:
+    - er
+
+stats:
+  - atk: '2,900-3,600'
+  - hp: '3,900'
+  - spd: '141'
+  - heal: '45-63%'
+  - res: '42%'
+  - er: '120%'

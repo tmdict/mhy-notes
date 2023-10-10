@@ -1,0 +1,16 @@
+{
+  "id": "luocha",
+  "type": "character",
+  "rarity": 5,
+  "path": "abundance",
+  "element": "imaginary",
+  "released": "1.1.1",
+  "data": {
+    "en": {
+      "name": "Luocha"
+    },
+    "zh": {
+      "name": "罗刹"
+    }
+  }
+}

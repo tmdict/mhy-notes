@@ -110,7 +110,10 @@
     </div>
 
     <div class="content-row ornament">
-      {#each build.ornament as ornament}
+      {#each build.ornament as ornament, i}
+        {#if i > 0}
+          <span class="ornament-separator">/</span>
+        {/if}
         {#each ornament.set as set}
           <div class="piece">
             <Icon
@@ -224,20 +227,32 @@
     }
 
     .relics {
-      width: 130px;
+      width: 140px;
       padding-left: 10px;
 
-      .piece {
-        margin: 5px 0;
-        position: relative;
+      .relic,
+      .ornament {   
+        align-items: center;
 
-        &:hover {
-          cursor: pointer;
+        .piece {
+          margin: 5px 0;
+          position: relative;
+
+          &:hover {
+            cursor: pointer;
+          }
+
+          .overlay {
+            top: 35px;
+            left: 40px;
+          }
         }
+      }
 
-        .overlay {
-          top: 35px;
-          left: 40px;
+      .ornament {        
+        .ornament-separator {
+          font-size: 1.5em;
+          margin: 0 3px;
         }
       }
     }

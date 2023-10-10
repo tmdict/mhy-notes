@@ -1,0 +1,17 @@
+{
+  "id": "messenger-traversing-hackerspace",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Messenger Traversing Hackerspace",
+      "2p": "Increases SPD by 6%.",
+      "4p": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+    },
+    "zh": {
+      "name": "云无留骇域漫游的信使迹的过客",
+      "2p": "速度提高6%。",
+      "4p": "当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。"
+    }
+  }
+}

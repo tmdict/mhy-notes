@@ -1,0 +1,35 @@
+---
+character: jing-yuan
+type:
+  - dps
+  - aoe
+
+light-cone:
+  - before-dawn
+  - today-is-another-peaceful-day
+
+relic:
+  - set: [band-of-sizzling-thunder]
+    p: 4
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+    - spd
+  sphere:
+    - lightning
+  rope:
+    - atk
+
+stats:
+  - atk: '2,800-3,300'
+  - cr: '70%'
+  - cdmg: '140-180%'
+  - spd: '108-133'

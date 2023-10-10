@@ -1,0 +1,36 @@
+---
+character: clara
+type:
+  - dps
+  - st
+
+light-cone:
+  - something-irreplaceable
+  - on-the-fall-of-an-aeon
+
+relic:
+  - set: [champion-of-streetwise-boxing]
+    p: 4
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - physical
+  rope:
+    - er
+
+stats:
+  - atk: '2,700-3,200'
+  - hp: '6,500-7,600'
+  - cr: '65%'
+  - cdmg: '130%'
+  - spd: '99'
+  - er: '120%'

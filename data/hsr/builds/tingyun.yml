@@ -2,6 +2,7 @@
 character: tingyun
 type:
   - support
+  - buff
 
 light-cone:
   - carve-the-moon-weave-the-clouds
@@ -28,6 +29,6 @@ mainstat:
 stats:
   - atk: '2,700'
   - hp: '2,700'
-  - def: "1,300"
+  - def: "1,400"
   - spd: '153'
   - er: '120%'

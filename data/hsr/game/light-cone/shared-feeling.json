@@ -1,0 +1,16 @@
+{
+  "id": "shared-feeling",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "abundance",
+  "data": {
+    "en": {
+      "name": "Shared Feeling",
+      "description": "Increases the wearer's Outgoing Healing by {{10//12.5//15//17.5//20%}}. When using Skill, regenerates {{2//2//3//3//4}} Energy for all allies."
+    },
+    "zh": {
+      "name": "同一种心情",
+      "description": "使装备者的治疗量提高{{10//12.5//15//17.5//20%}}，并在施放战技时为我方全体恢复{{2//2//3//3//4}}点能量。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "before-the-tutorial-mission-starts",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "nihility",
+  "data": {
+    "en": {
+      "name": "Before the Tutorial Mission Starts",
+      "description": "Increases the wearer's Effect Hit Rate by {{20//25//30//35//40%}}. When the wearer attacks DEF-reduced enemies, regenerates {{4//5//6//7//8}} Energy."
+    },
+    "zh": {
+      "name": "新手任务开始前",
+      "description": "使装备者的效果命中提高{{20//25//30//35//40%}}。当装备者攻击防御力被降低的敌方目标后，恢复{{4//5//6//7//8}}点能量。"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+---
+character: asta
+type:
+  - support
+  - buff
+
+light-cone:
+  - planetary-rendezvous
+  - memories-of-the-past
+
+relic:
+  - set: [messenger-traversing-hackerspace]
+    p: 4
+
+ornament:
+  - set: [fleet-of-the-ageless]
+    p: 2
+
+mainstat:
+  body:
+    - def
+  feet:
+    - spd
+  sphere:
+    - hp
+  rope:
+    - er
+
+stats:
+  - atk: '1,500'
+  - hp: '3,900'
+  - def: "1,400-1,500"
+  - spd: '147'
+  - er: '120%'
+  - breakeff: '30-55%'

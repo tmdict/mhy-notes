@@ -1,0 +1,35 @@
+---
+character: blade
+type:
+  - dps
+  - aoe
+
+light-cone:
+  - the-unreachable-side
+  - a-secret-vow
+
+relic:
+  - set: [longevous-disciple]
+    p: 4
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cdmg
+  feet:
+    - spd
+    - hp
+  sphere:
+    - wind
+  rope:
+    - hp
+
+stats:
+  - atk: '1,500'
+  - hp: '6,500-7,600'
+  - cr: '65%'
+  - cdmg: '190%'
+  - spd: '106-141'

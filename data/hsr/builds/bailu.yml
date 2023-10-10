@@ -1,0 +1,34 @@
+---
+character: bailu
+type:
+  - sustain
+  - healer
+
+light-cone:
+  - time-waits-for-no-one
+  - quid-pro-quo
+
+relic:
+  - set: [passerby-of-wandering-cloud, messenger-traversing-hackerspace]
+    p: 2
+
+ornament:
+  - set: [broken-keel]
+    p: 2
+
+mainstat:
+  body:
+    - heal
+  feet:
+    - spd
+  sphere:
+    - hp
+  rope:
+    - er
+
+stats:
+  - hp: '6,800'
+  - spd: '138'
+  - heal: '45-57%'
+  - res: '40%'
+  - er: '120%'

@@ -1,0 +1,16 @@
+{
+  "id": "before-dawn",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "erudition",
+  "data": {
+    "en": {
+      "name": "Before Dawn",
+      "description": "Increases the wearer's CRIT DMG by {{36//42//48//54//60%}}. Increases the wearer's Skill and Ultimate DMG by {{18//21//24//27//30%}}. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by {{48//56//64//72//80%}}."
+    },
+    "zh": {
+      "name": "拂晓之前",
+      "description": "使装备者暴击伤害提高{{36//42//48//54//60%}}。使装备者战技和终结技造成的伤害提高{{18//21//24//27//30%}}。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高{{48//56//64//72//80%}}。"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+---
+character: sushang
+type:
+  - dps
+  - st
+
+light-cone:
+  - swordplay
+  - cruising-in-the-stellar-sea
+
+relic:
+  - set: [champion-of-streetwise-boxing]
+    p: 4
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+  - set: [talia-kingdom-of-banditry]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - physical
+  rope:
+    - breakeff
+
+stats:
+  - atk: '2,600'
+  - cr: '70%'
+  - cdmg: '135%'
+  - spd: '116'
+  - breakeff: '85% / 200%'

@@ -32,6 +32,9 @@ all:
 anemo:
   en: 'Anemo'
   zh: '风'
+aoe:
+  en: 'AOE'
+  zh: '对群'
 artifact-mainstats:
   en: 'Artifact Main Stats'
   zh: '圣遗物主词条'
@@ -59,6 +62,12 @@ base-stat:
 boss-materials:
   en: 'Boss Materials'
   zh: 'BOSS素材'
+breakeff:
+  en: 'Break Eff'
+  zh: '击破'
+buff:
+  en: 'Buff'
+  zh: '增益'
 build-editor:
   en: 'Build Editor'
   zh: '配装编辑器'
@@ -117,7 +126,7 @@ constellation:
   en: 'Const'
   zh: '命座'
 cr:
-  en: 'Crit%'
+  en: 'CR%'
   zh: '暴击'
 create-builds:
   en: 'Create Builds'
@@ -140,6 +149,9 @@ day2:
 day3:
   en: 'Wed · Sat'
   zh: '周三 · 周六'
+debuff:
+  en: 'Debuff'
+  zh: '减益'
 def:
   en: 'DEF'
   zh: '防'
@@ -155,6 +167,9 @@ destruction:
 diligence:
   en: 'Diligence'
   zh: '勤劳'
+dot:
+  en: 'DOT'
+  zh: '持续伤害'
 dps:
   en: 'DPS'
   zh: '主C'
@@ -205,7 +220,7 @@ faq:
   zh: '介绍'
 filters:
   en: 'Filters'
-  zh: '搜索'
+  zh: '筛选'
 fire:
   en: 'Fire'
   zh: '火'
@@ -386,6 +401,9 @@ share:
 shield:
   en: 'Shield'
   zh: '盾'
+st:
+  en: 'ST'
+  zh: '对单'
 sources:
   en: 'Sources'
   zh: '参考来源'

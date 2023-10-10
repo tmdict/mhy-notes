@@ -1,0 +1,32 @@
+---
+character: luka
+type:
+  - dps
+  - dot
+
+light-cone:
+  - resolution-shines-as-pearls-of-sweat
+  - eyes-of-the-prey
+
+relic:
+  - set: [champion-of-streetwise-boxing]
+    p: 4
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+
+mainstat:
+  body:
+    - atk
+  feet:
+    - spd
+  sphere:
+    - physical
+  rope:
+    - atk
+
+stats:
+  - atk: '3,400'
+  - spd: '137'
+  - ehr: '37-58%'

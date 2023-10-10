@@ -1,0 +1,16 @@
+{
+  "id": "dan-heng",
+  "type": "character",
+  "rarity": 4,
+  "path": "hunt",
+  "element": "wind",
+  "released": "1.0.0",
+  "data": {
+    "en": {
+      "name": "Dan Heng"
+    },
+    "zh": {
+      "name": "丹恒"
+    }
+  }
+}

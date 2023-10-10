@@ -1,0 +1,16 @@
+{
+  "id": "gepard",
+  "type": "character",
+  "rarity": 5,
+  "path": "preservation",
+  "element": "ice",
+  "released": "1.0.0",
+  "data": {
+    "en": {
+      "name": "Gepard"
+    },
+    "zh": {
+      "name": "杰帕德"
+    }
+  }
+}

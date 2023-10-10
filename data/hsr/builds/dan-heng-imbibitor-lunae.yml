@@ -2,6 +2,7 @@
 character: dan-heng-imbibitor-lunae
 type:
   - dps
+  - aoe
 
 light-cone:
   - brighter-than-the-sun
@@ -28,5 +29,5 @@ mainstat:
 stats:
   - atk: '3,300'
   - cr: '70%'
-  - cdmg: '150%'
+  - cdmg: '120-155%'
   - spd: '110'

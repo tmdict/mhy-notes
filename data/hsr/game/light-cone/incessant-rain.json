@@ -1,0 +1,16 @@
+{
+  "id": "incessant-rain",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "nihility",
+  "data": {
+    "en": {
+      "name": "Incessant Rain",
+      "description": "Increases the wearer's Effect Hit Rate by {{24//28//32//36//40%}}. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by {{12//14//16//18//20%}}. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive {{12//14//16//18//20%}} increased DMG for 1 turn."
+    },
+    "zh": {
+      "name": "雨一直下",
+      "description": "使装备者的效果命中提高{{24//28//32//36//40%}}。当装备者对同时处于大于等于3个负面效果的敌方目标造成伤害时，暴击率提高{{12//14//16//18//20%}}。装备者施放普攻、战技、终结技后，有100%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高{{12//14//16//18//20%}}，持续1回合。"
+    }
+  }
+}

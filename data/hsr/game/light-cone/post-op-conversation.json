@@ -1,0 +1,16 @@
+{
+  "id": "post-op-conversation",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "abundance",
+  "data": {
+    "en": {
+      "name": "Post-Op Conversation",
+      "description": "Increases the wearer's Energy Regeneration Rate by {{8//10//12//14//16%}} and increases Outgoing Healing when they use their Ultimate by {{12//15//18//21//24%}}."
+    },
+    "zh": {
+      "name": "一场术后对话",
+      "description": "使装备者的能量恢复效率提高{{8//10//12//14//16%}}，并在施放终结技时治疗量提高{{12//15//18//21//24%}}。"
+    }
+  }
+}

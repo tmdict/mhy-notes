@@ -1,10 +1,12 @@
 <script>
+  import { slide } from 'svelte/transition';
   import { hsrBuildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
 
   export let filterHeader;
   export let filterKey;
   export let filter;
+  export let showFilter;
 
   function addAll(filters, type) {
     hsrBuildsFilters.resetByType(type);
@@ -16,34 +18,48 @@
   }
 </script>
 
-<h4>{filterHeader}</h4>
-<div class="content-row filter">
-  {#each filter as key}
-    <a class:active={$hsrBuildsFilters[filterKey].common.includes(key)} href="/#" on:click|preventDefault={() => hsrBuildsFilters.updateCommonFilter(filterKey, key)}>
+<h4><a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}
+  >{filterHeader}
+  {#if showFilter}-{:else}+{/if}</a
+></h4>
+{#if showFilter}
+  <div class="content-row filter" transition:slide>
+    {#each filter as key}
+      <a class:active={$hsrBuildsFilters[filterKey].common.includes(key)} href="/#" on:click|preventDefault={() => hsrBuildsFilters.updateCommonFilter(filterKey, key)}>
+        <div class="item">
+          {#if !['stat', 'type'].includes(filterKey)}
+            <img class={filterKey} src="/img/hsr/{filterKey}/{key}.png" title={key} alt={key} />
+          {/if}
+          {isRelic(filterKey) ? '' : $l10n[key][$lang]}
+        </div>
+      </a>
+    {/each}
+    <a href="/#" on:click|preventDefault={() => addAll(filter, filterKey)}>
       <div class="item">
-        {#if filterKey !== 'stat'}
-          <img class={filterKey} src="/img/hsr/{filterKey}/{key}.png" title={key} alt={key} />
-        {/if}
-        {isRelic(filterKey) ? '' : $l10n[key][$lang]}
+        {$l10n['all'][$lang]}
       </div>
     </a>
-  {/each}
-  <a href="/#" on:click|preventDefault={() => addAll(filter, filterKey)}>
-    <div class="item">
-      {$l10n['all'][$lang]}
-    </div>
-  </a>
-  <a href="/#" on:click|preventDefault={() => hsrBuildsFilters.resetByType(filterKey)}>
-    <div class="item">
-      {$l10n['clear-all'][$lang]}
-    </div>
-  </a>
-</div>
+    <a href="/#" on:click|preventDefault={() => hsrBuildsFilters.resetByType(filterKey)}>
+      <div class="item">
+        {$l10n['clear-all'][$lang]}
+      </div>
+    </a>
+  </div>
+{/if}
 
 <style lang="scss">
   h4 {
-    font-size: 0.8em;
-    margin-left: 15px;
+      margin-top: 15px;
+      margin-left: 15px;
+      font-size: 0.8em;
+    a {
+      color: var(--theme-site-primary-main);
+
+      &:hover {
+        color: var(--theme-site-primary-alt);
+        text-decoration: none;
+      }
+    }
   }
 
   .filter {

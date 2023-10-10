@@ -1,0 +1,16 @@
+{
+  "id": "herta",
+  "type": "character",
+  "rarity": 4,
+  "path": "erudition",
+  "element": "ice",
+  "released": "1.0.0",
+  "data": {
+    "en": {
+      "name": "Herta"
+    },
+    "zh": {
+      "name": "黑塔"
+    }
+  }
+}

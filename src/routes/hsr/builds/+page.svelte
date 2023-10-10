@@ -10,31 +10,55 @@
 
   const faq = { en: HsrBuildFaqEn, zh: HsrBuildFaqFaqZh };
   const filters = {
-    element: ['fire', 'ice', 'imaginary', 'lightning', 'physical', 'quantum', 'wind'],
-    path: ['abundance', 'destruction', 'erudition', 'harmony', 'hunt', 'nihility', 'preservation'],
-    stat: ['atk', 'cdmg', 'cr', 'def', 'ehr', 'er', 'fire', 'heal', 'hp', 'ice', 'lightning', 'physical', 'quantum', 'res', 'spd', 'wind'],
-    relic: [
-      'band-of-sizzling-thunder',
-      'genius-of-brilliant-stars',
-      'guard-of-wuthering-snow',
-      'longevous-disciple',
-      'musketeer-of-wild-wheat',
-      'passerby-of-wandering-cloud'
-    ],
-    ornament: [
-      'broken-keel',
-      'fleet-of-the-ageless',
-      'inert-salsotto',
-      'rutilant-arena',
-      'space-sealing-station'
-    ]
+    element: {
+      values: ['fire', 'ice', 'imaginary', 'lightning', 'physical', 'quantum', 'wind'],
+      show: false,
+    },
+    path: {
+      values: ['abundance', 'destruction', 'erudition', 'harmony', 'hunt', 'nihility', 'preservation'],
+      show: false,
+    },
+    type: {
+      values: ['dps',  'st', 'aoe', 'support', 'buff', 'debuff', 'sustain', 'shield', 'healer'],
+      show: false,
+    },
+    relic: {
+      values: [
+        'band-of-sizzling-thunder',
+        'champion-of-streetwise-boxing',
+        'firesmith-of-lava-forging',
+        'genius-of-brilliant-stars',
+        'guard-of-wuthering-snow',
+        'longevous-disciple',
+        'messenger-traversing-hackerspace',
+        'musketeer-of-wild-wheat',
+        'passerby-of-wandering-cloud'
+      ],
+      show: true,
+    },
+    ornament: {
+      values: [
+        'broken-keel',
+        'fleet-of-the-ageless',
+        'inert-salsotto',
+        'rutilant-arena',
+        'space-sealing-station',
+        'talia-kingdom-of-banditry'
+      ],
+      show: true,
+    },
+    stat: {
+      values: ['atk', 'breakeff', 'cdmg', 'cr', 'def', 'ehr', 'er', 'fire', 'heal', 'hp', 'ice', 'lightning', 'physical', 'quantum', 'res', 'spd', 'wind'],
+      show: true,
+    }
   }
 
-  let showFilter = true;
+  let expandAll = false;
   let showFaq = false;
   let filteredBuilds = $hsr.builds;
 
-  hsrBuildsFilters.init(['path', 'element', 'stat', 'relic', 'ornament']);
+  // Init filterlist with filter keys
+  hsrBuildsFilters.init(Object.keys(filters));
 
   $: filteredBuilds = $hsr.builds.filter((b) => {
     // Check each filter type
@@ -52,6 +76,13 @@
     // Either there is a matching tag for ALL selected filters, or no filter selected
     return true;
   });
+
+  function updateAllFilters() {
+    expandAll = !expandAll;
+    Object.keys(filters).forEach((key) => {
+      filters[key].show = expandAll;
+    })
+  }
 </script>
 
 <svelte:head>
@@ -61,10 +92,9 @@
 <h1>HSR · {$l10n['character-builds'][$lang]}</h1>
 
 <div class="menu">
-  <a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}
-    >{$l10n['filters'][$lang]}
-    {#if showFilter}-{:else}+{/if}</a
-  >
+  <a href="/#" on:click|preventDefault={() => updateAllFilters()}>
+    {#if !expandAll}{$l10n['expand-all'][$lang]}{:else}{$l10n['close-all'][$lang]}{/if} {$l10n['filters'][$lang]}
+  </a>
   <span class="menu-separator" />
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
 </div>
@@ -75,13 +105,9 @@
   </div>
 {/if}
 
-{#if showFilter}
-  <div class="filters" transition:slide>
-    {#each Object.keys(filters) as filterKey}
-      <BuildFilter filterHeader={filterKey} filterKey={filterKey} filter={filters[filterKey]} />
-    {/each}
-  </div>
-{/if}
+{#each Object.keys(filters) as filterKey}
+  <BuildFilter filterHeader={filterKey} filterKey={filterKey} filter={filters[filterKey].values} showFilter={filters[filterKey].show} />
+{/each}
 
 <div class="header sticky">
   <div class="content-row">
@@ -100,60 +126,60 @@
 {/each}
 
 <style lang="scss">
-
-.sticky {
-  position: -webkit-sticky; /* for Safari */
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
-  background: var(--theme-bg-container-main);
-}
-
-.header {
-  font-size: 0.9em;
-  font-weight: bold;
-  border-top: 1px solid var(--theme-site-primary-main);
-  border-bottom: 1px solid var(--theme-site-primary-main);
-
-  @media only screen and (max-width: 960px) {
-    display: none;
+  .sticky {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    background: var(--theme-bg-container-main);
   }
 
-  .col {
-    width: 75px;
-    padding: 3px 5px;
-  }
-
-  .separator {
-    border-right: 1px dotted var(--theme-border-light);
-    margin-right: 10px;
+  .header {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 20px;
+    border-top: 1px solid var(--theme-site-primary-main);
+    border-bottom: 1px solid var(--theme-site-primary-main);
 
     @media only screen and (max-width: 960px) {
-      border-right: 0;
-      margin-right: 0;
+      display: none;
+    }
+
+    .col {
+      width: 75px;
+      padding: 3px 5px;
+    }
+
+    .separator {
+      border-right: 1px dotted var(--theme-border-light);
+      margin-right: 10px;
+
+      @media only screen and (max-width: 960px) {
+        border-right: 0;
+        margin-right: 0;
+      }
+    }
+
+    .character {
+      margin-left: 115px;
+      width: 120px;
+    }
+
+    .light-cone {
+      width: 216px;
+    }
+
+    .main-stat {
+      width: 150px;
+    }
+
+    .relic {
+      width: 121px;
+    }
+
+    .stats {
+      margin-left: 9px;
+      width: 140px;
     }
   }
-
-  .character {
-    margin-left: 115px;
-    width: 120px;
-  }
-
-  .light-cone {
-    width: 216px;
-  }
-
-  .main-stat {
-    width: 150px;
-  }
-
-  .relic {
-    width: 121px;
-  }
-
-  .stats {
-    margin-left: 9px;
-    width: 140px;
-  }
-}
 </style>

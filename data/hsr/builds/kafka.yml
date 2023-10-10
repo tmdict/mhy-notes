@@ -2,6 +2,7 @@
 character: kafka
 type:
   - dps
+  - dot
 
 light-cone:
   - patience-is-all-you-need
@@ -26,6 +27,6 @@ mainstat:
     - atk
 
 stats:
-  - atk: '3,600'
+  - atk: '3,300-3,600'
   - spd: '153'
   - ehr: '26%'

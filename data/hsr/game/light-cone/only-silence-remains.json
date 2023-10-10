@@ -1,0 +1,16 @@
+{
+  "id": "only-silence-remains",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "hunt",
+  "data": {
+    "en": {
+      "name": "Only Silence Remains",
+      "description": "Increases the wearer's ATK by {{16//20//24//28//32%}}. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by {{12//15//18//21//24%}}."
+    },
+    "zh": {
+      "name": "唯有沉默",
+      "description": "使装备者的攻击力提高{{16//20//24//28//32%}}。当场上的敌方目标数量小于等于2时，装备者的暴击率提高{{12//15//18//21//24%}}。"
+    }
+  }
+}

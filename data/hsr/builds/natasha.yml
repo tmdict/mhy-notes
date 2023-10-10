@@ -1,0 +1,34 @@
+---
+character: natasha
+type:
+  - sustain
+  - healer
+
+light-cone:
+  - post-op-conversation
+  - shared-feeling
+
+relic:
+  - set: [passerby-of-wandering-cloud, messenger-traversing-hackerspace]
+    p: 2
+
+ornament:
+  - set: [broken-keel]
+    p: 2
+
+mainstat:
+  body:
+    - heal
+  feet:
+    - spd
+  sphere:
+    - hp
+  rope:
+    - er
+
+stats:
+  - hp: '5,500'
+  - spd: '138'
+  - heal: '79%'
+  - res: '45%'
+  - er: '135%'

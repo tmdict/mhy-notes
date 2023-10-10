@@ -1,0 +1,34 @@
+---
+character: yukong
+type:
+  - support
+  - buff
+
+light-cone:
+  - but-the-battle-isnt-over
+  - past-and-future
+
+relic:
+  - set: [guard-of-wuthering-snow]
+    p: 4
+
+ornament:
+  - set: [fleet-of-the-ageless]
+    p: 2
+
+mainstat:
+  body:
+    - def
+  feet:
+    - spd
+  sphere:
+    - hp
+  rope:
+    - er
+
+stats:
+  - atk: '1,800'
+  - hp: '4,300'
+  - def: "1,300"
+  - spd: '148'
+  - er: '130%'

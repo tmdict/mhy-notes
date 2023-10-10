@@ -1,0 +1,16 @@
+{
+  "id": "swordplay",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "hunt",
+  "data": {
+    "en": {
+      "name": "Swordplay",
+      "description": "For each time the wearer hits the same target, DMG dealt increases by {{8//10//12//14//16%}}, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."
+    },
+    "zh": {
+      "name": "论剑",
+      "description": "当装备者多次击中同一敌方目标时，每次造成的伤害提高{{8//10//12//14//16%}}，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。"
+    }
+  }
+}

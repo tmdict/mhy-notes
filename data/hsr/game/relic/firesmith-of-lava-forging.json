@@ -1,0 +1,17 @@
+{
+  "id": "firesmith-of-lava-forging",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Firesmith of Lava-Forging",
+      "2p": "Increases Fire DMG by 10%.",
+      "4p": "Increases the wearer's Skill DMG by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack."
+    },
+    "zh": {
+      "name": "熔岩锻铸的火匠",
+      "2p": "火属性伤害提高10%。",
+      "4p": "使装备者战技造成的伤害提高12%，并使施放终结技后的下一次攻击造成的火属性伤害提高12%。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "but-the-battle-isnt-over",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "harmony",
+  "data": {
+    "en": {
+      "name": "But the Battle Isn't Over",
+      "description": "Increases the wearer's Energy Regeneration Rate by {{10//12//14//16//18%}} and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals {{30//35//40//45//50%}} more DMG for 1 turn(s)."
+    },
+    "zh": {
+      "name": "但战斗还未结束",
+      "description": "使装备者的能量恢复效率提高{{10//12//14//16//18%}}，并在对我方目标施放终结技时恢复1个战技点。该效果每施放2次终结技可触发1次。当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高{{30//35//40//45//50%}}，持续1回合。"
+    }
+  }
+}

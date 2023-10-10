@@ -1,0 +1,15 @@
+{
+  "id": "talia-kingdom-of-banditry",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Talia: Kingdom of Banditry",
+      "2p": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%."
+    },
+    "zh": {
+      "name": "折断盗贼公国塔利亚的龙骨",
+      "2p": "使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "luka",
+  "type": "character",
+  "rarity": 4,
+  "path": "nihility",
+  "element": "physical",
+  "released": "1.2.1",
+  "data": {
+    "en": {
+      "name": "Luka"
+    },
+    "zh": {
+      "name": "卢卡"
+    }
+  }
+}

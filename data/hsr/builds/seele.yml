@@ -2,6 +2,7 @@
 character: seele
 type:
   - dps
+  - st
 
 light-cone:
   - in-the-night
@@ -30,4 +31,4 @@ stats:
   - atk: '3,100'
   - cr: '80%'
   - cdmg: '160%'
-  - spd: '131'
+  - spd: '124-131'

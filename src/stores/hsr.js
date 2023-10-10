@@ -28,7 +28,8 @@ const parsed = Object.values(buildData).map((d) => {
 });
 grouped.builds = parsed.sort(
   // Sort by character release date and then name
-  (a, b) => grouped.character[b.character].released.localeCompare(grouped.character[a.character].released) || a.character.localeCompare(b.character)
+  (a, b) => 
+    grouped.character[b.character].released.localeCompare(grouped.character[a.character].released) || grouped.character[b.character].rarity - grouped.character[a.character].rarity || a.character.localeCompare(b.character)
 );
 
 export const hsr = readable(grouped);

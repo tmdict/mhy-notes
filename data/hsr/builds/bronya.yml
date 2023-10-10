@@ -1,0 +1,35 @@
+---
+character: bronya
+type:
+  - support
+  - buff
+
+light-cone:
+  - but-the-battle-isnt-over
+  - past-and-future
+
+relic:
+  - set: [messenger-traversing-hackerspace]
+    p: 4
+
+ornament:
+  - set: [broken-keel]
+    p: 2
+
+mainstat:
+  body:
+    - cdmg
+  feet:
+    - spd
+  sphere:
+    - def
+  rope:
+    - er
+
+stats:
+  - atk: '1,500'
+  - def: "1,500"
+  - cdmg: "210%"
+  - spd: '140'
+  - er: '130%'
+  - er: '30%'

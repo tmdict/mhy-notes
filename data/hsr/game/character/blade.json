@@ -1,0 +1,16 @@
+{
+  "id": "blade",
+  "type": "character",
+  "rarity": 5,
+  "path": "destruction",
+  "element": "wind",
+  "released": "1.2.0",
+  "data": {
+    "en": {
+      "name": "Blade"
+    },
+    "zh": {
+      "name": "刃"
+    }
+  }
+}

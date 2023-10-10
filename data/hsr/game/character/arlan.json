@@ -1,0 +1,16 @@
+{
+  "id": "arlan",
+  "type": "character",
+  "rarity": 4,
+  "path": "destruction",
+  "element": "lightning",
+  "released": "1.0.0",
+  "data": {
+    "en": {
+      "name": "Arlan"
+    },
+    "zh": {
+      "name": "阿兰"
+    }
+  }
+}

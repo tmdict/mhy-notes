@@ -1,0 +1,40 @@
+---
+character: silver-wolf
+type:
+  - support
+  - debuff
+
+light-cone:
+  - before-the-tutorial-mission-starts
+  - incessant-rain
+
+relic:
+  - set: [genius-of-brilliant-stars]
+    p: 4
+
+ornament:
+  - set: [fleet-of-the-ageless]
+    p: 2
+  - set: [talia-kingdom-of-banditry]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - spd
+  sphere:
+    - quantum
+  rope:
+    - er
+    - breakeff
+
+stats:
+  - atk: '1,900'
+  - cr: '5% / 55%'
+  - cdmg: '50% / 132%'
+  - spd: '150'
+  - er: '120%'
+  - ehr: '62% / 100%'
+  - breakeff: '0% / 170%'

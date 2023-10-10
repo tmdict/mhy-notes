@@ -1,0 +1,16 @@
+{
+  "id": "the-moles-welcome-you",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "destruction",
+  "data": {
+    "en": {
+      "name": "The Moles Welcome You",
+      "description": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by {{12//15//18//21//24%}}."
+    },
+    "zh": {
+      "name": "鼹鼠党欢迎你",
+      "description": "装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高{{12//15//18//21//24%}}。"
+    }
+  }
+}

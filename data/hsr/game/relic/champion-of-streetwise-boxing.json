@@ -1,0 +1,17 @@
+{
+  "id": "champion-of-streetwise-boxing",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Champion of Streetwise Boxing",
+      "2p": "Increases Physical DMG by 10%.",
+      "4p": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+    },
+    "zh": {
+      "name": "街头出身的拳王",
+      "2p": "物理属性伤害提高10%。",
+      "4p": "当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5层。"
+    }
+  }
+}

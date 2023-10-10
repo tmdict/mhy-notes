@@ -1,0 +1,34 @@
+---
+character: yanqing
+type:
+  - dps
+  - st
+
+light-cone:
+  - sleep-like-the-dead
+  - river-flows-in-spring
+
+relic:
+  - set: [hunter-of-glacial-forest]
+    p: 4
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - spd
+  sphere:
+    - ice
+  rope:
+    - atk
+
+stats:
+  - atk: '3,100'
+  - cr: '30%'
+  - cdmg: '180-210%'
+  - spd: '143'
