@@ -1,0 +1,34 @@
+---
+character: sampo
+type:
+  - support
+  - debuff
+
+light-cone:
+  - eyes-of-the-prey
+  - good-night-and-sleep-well
+
+relic:
+  - set: [eagle-of-twilight-line, musketeer-of-wild-wheat]
+    p: 2
+
+ornament:
+  - set: [pan-cosmic-commercial-enterprise]
+    p: 2
+
+mainstat:
+  body:
+    - atk
+  feet:
+    - spd
+  sphere:
+    - wind
+  rope:
+    - atk
+
+stats:
+  - atk: '3,700'
+  - cr: '5%'
+  - cdmg: '50%'
+  - spd: '136'
+  - ehr: '68%'

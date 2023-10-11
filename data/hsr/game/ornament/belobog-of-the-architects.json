@@ -1,0 +1,15 @@
+{
+  "id": "belobog-of-the-architects",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Belobog of the Architects",
+      "2p": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
+    },
+    "zh": {
+      "name": "筑城者的贝洛伯格",
+      "2p": "使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。"
+    }
+  }
+}

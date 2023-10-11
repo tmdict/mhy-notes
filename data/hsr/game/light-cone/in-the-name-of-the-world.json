@@ -1,0 +1,16 @@
+{
+  "id": "in-the-name-of-the-world",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "nihility",
+  "data": {
+    "en": {
+      "name": "In the Name of the World",
+      "description": "Increases the wearer's DMG to debuffed enemies by {{24//28//32//36//40%}}. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by {{18//21//24//27//30%}}, and ATK increases by {{24//28//32//36//40%}}."
+    },
+    "zh": {
+      "name": "以世界之名",
+      "description": "使装备者对陷入负面效果的敌方目标造成的伤害提高{{24//28//32//36//40%}}。当装备者施放战技时，装备者此次攻击的效果命中提高{{18//21//24//27//30%}}，攻击力提高{{24//28//32//36//40%}}。"
+    }
+  }
+}

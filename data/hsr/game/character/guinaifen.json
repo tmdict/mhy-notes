@@ -1,0 +1,16 @@
+{
+  "id": "guinaifen",
+  "type": "character",
+  "rarity": 4,
+  "path": "nihility",
+  "element": "fire",
+  "released": "1.4.1",
+  "data": {
+    "en": {
+      "name": "Guinaifen"
+    },
+    "zh": {
+      "name": "桂乃芬"
+    }
+  }
+}

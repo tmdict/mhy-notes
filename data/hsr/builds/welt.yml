@@ -1,0 +1,39 @@
+---
+character: welt
+type:
+  - support
+  - debuff
+
+light-cone:
+  - in-the-name-of-the-world
+  - good-night-and-sleep-well
+
+relic:
+  - set: [wastelander-of-banditry-desert]
+    p: 4
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+  - set: [pan-cosmic-commercial-enterprise]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - ehr
+  feet:
+    - spd
+  sphere:
+    - imaginary
+  rope:
+    - atk
+    - er
+
+stats:
+  - atk: '2,100 / 2,900'
+  - cr: '45% / 60%'
+  - cdmg: '90% / 120%'
+  - spd: '136'
+  - er: '100% / 120%'
+  - ehr: '0% / 73%'

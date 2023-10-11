@@ -1,0 +1,34 @@
+---
+character: serval
+type:
+  - dps
+  - aoe
+
+light-cone:
+  - make-the-world-clamor
+  - before-dawn
+
+relic:
+  - set: [band-of-sizzling-thunder, musketeer-of-wild-wheat]
+    p: 2
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - lightning
+  rope:
+    - atk
+
+stats:
+  - atk: '3,300'
+  - cr: '75%'
+  - cdmg: '165%'
+  - spd: '113'

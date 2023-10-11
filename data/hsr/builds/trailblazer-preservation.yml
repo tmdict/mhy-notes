@@ -1,0 +1,33 @@
+---
+character: trailblazer-preservation
+type:
+  - sustain
+  - shield
+
+light-cone:
+  - moment-of-victory
+  - landaus-choice
+
+relic:
+  - set: [knight-of-purity-palace]
+    p: 4
+
+ornament:
+  - set: [belobog-of-the-architects]
+    p: 2
+
+mainstat:
+  body:
+    - ehr
+  feet:
+    - spd
+  sphere:
+    - def
+  rope:
+    - def
+
+stats:
+  - atk: '1,600'
+  - def: '3,500-4,400'
+  - spd: '129'
+  - ehr: '63%'

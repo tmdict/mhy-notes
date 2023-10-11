@@ -342,8 +342,13 @@
     line-height: 1.5em;
     overflow-wrap: anywhere;
 
-    .highlight {
+    .heading {
       color: var(--theme-site-primary-main);
+      font-weight: bold;
+    }
+
+    .highlight {
+      color: var(--theme-site-primary-alt);
       font-weight: bold;
     }
   }

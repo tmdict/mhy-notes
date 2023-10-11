@@ -1,0 +1,16 @@
+{
+  "id": "nowhere-to-run",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "destruction",
+  "data": {
+    "en": {
+      "name": "Nowhere to Run",
+      "description": "Increases the wearer's ATK by {{24//30//36//42//48%}}. Whenever the wearer defeats an enemy, they restore HP equal to {{12//15//18//21//24%}} of their ATK."
+    },
+    "zh": {
+      "name": "无处可逃",
+      "description": "使装备者的攻击力提高{{24//30//36//42//48%}}。当装备者消灭敌方目标时，回复等同于自身{{12//15//18//21//24%}}攻击力的生命值。"
+    }
+  }
+}

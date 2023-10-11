@@ -1,0 +1,34 @@
+---
+character: qingque
+type:
+  - dps
+  - st
+
+light-cone:
+  - today-is-another-peaceful-day
+  - before-dawn
+
+relic:
+  - set: [genius-of-brilliant-stars]
+    p: 4
+
+ornament:
+  - set: [rutilant-arena]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - spd
+  sphere:
+    - quantum
+  rope:
+    - atk
+
+stats:
+  - atk: '2,700'
+  - cr: '75%'
+  - cdmg: '145%'
+  - spd: '132'

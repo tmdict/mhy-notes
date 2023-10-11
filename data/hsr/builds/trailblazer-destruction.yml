@@ -1,12 +1,12 @@
 ---
-character: luka
+character: trailblazer-destruction
 type:
-  - support
-  - debuff
+  - dps
+  - st
 
 light-cone:
-  - resolution-shines-as-pearls-of-sweat
-  - eyes-of-the-prey
+  - on-the-fall-of-an-aeon
+  - nowhere-to-run
 
 relic:
   - set: [champion-of-streetwise-boxing]
@@ -18,7 +18,8 @@ ornament:
 
 mainstat:
   body:
-    - atk
+    - cr
+    - cdmg
   feet:
     - spd
   sphere:
@@ -27,6 +28,7 @@ mainstat:
     - atk
 
 stats:
-  - atk: '3,400'
-  - spd: '137'
-  - ehr: '37-58%'
+  - atk: '2,800'
+  - cr: '60%'
+  - cdmg: '120%'
+  - spd: '134'

@@ -1,0 +1,33 @@
+---
+character: march-7th
+type:
+  - sustain
+  - shield
+
+light-cone:
+  - day-one-of-my-new-life
+  - this-is-me
+
+relic:
+  - set: [knight-of-purity-palace]
+    p: 4
+
+ornament:
+  - set: [belobog-of-the-architects]
+    p: 2
+
+mainstat:
+  body:
+    - ehr
+  feet:
+    - spd
+  sphere:
+    - def
+  rope:
+    - def
+
+stats:
+  - atk: '1,200'
+  - def: '3,700-4,300'
+  - spd: '139'
+  - ehr: '63%'

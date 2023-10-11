@@ -27,13 +27,13 @@
         margin="0 2px"
         hasTooltip={true}
         tooltipContent={`
-          <span class="highlight">${details ? details['name'] : weapon.name}</span><br />
+          <span class="heading">${details ? details['name'] : weapon.name}</span><br />
           <span class="highlight">${$l10n['sub-stat'][$lang]}:</span> ${
           data[weapon.name] ? $l10n[data[weapon.name].subStat][$lang] : ''
         }<br />
           ${
             details && details['passiveName']
-              ? '<br /><span class="highlight">' +
+              ? '<span class="highlight">' +
                 details['passiveName'] +
                 ':</span> ' +
                 details['passiveDescription']

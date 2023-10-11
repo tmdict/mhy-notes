@@ -1,0 +1,34 @@
+---
+character: herta
+type:
+  - dps
+  - aoe
+
+light-cone:
+  - the-birth-of-the-self
+  - before-dawn
+
+relic:
+  - set: [hunter-of-glacial-forest]
+    p: 4
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - ice
+  rope:
+    - atk
+
+stats:
+  - atk: '2,700'
+  - cr: '75%'
+  - cdmg: '155%'
+  - spd: '109'

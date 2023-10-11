@@ -26,21 +26,27 @@
       values: [
         'band-of-sizzling-thunder',
         'champion-of-streetwise-boxing',
+        'eagle-of-twilight-line',
         'firesmith-of-lava-forging',
         'genius-of-brilliant-stars',
         'guard-of-wuthering-snow',
+        'hunter-of-glacial-forest',
+        'knight-of-purity-palace',
         'longevous-disciple',
         'messenger-traversing-hackerspace',
         'musketeer-of-wild-wheat',
-        'passerby-of-wandering-cloud'
+        'passerby-of-wandering-cloud',
+        'wastelander-of-banditry-desert'
       ],
       show: true,
     },
     ornament: {
       values: [
+        'belobog-of-the-architects',
         'broken-keel',
         'fleet-of-the-ageless',
         'inert-salsotto',
+        'pan-cosmic-commercial-enterprise',
         'rutilant-arena',
         'space-sealing-station',
         'talia-kingdom-of-banditry'

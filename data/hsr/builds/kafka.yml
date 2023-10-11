@@ -2,7 +2,7 @@
 character: kafka
 type:
   - dps
-  - dot
+  - aoe
 
 light-cone:
   - patience-is-all-you-need

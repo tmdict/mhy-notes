@@ -51,7 +51,7 @@
             enabled: true,
             tippy: {
               content: `
-                <span class="highlight">${$hsr['light-cone'][lc].data[$lang].name}</span><br />
+                <span class="heading">${$hsr['light-cone'][lc].data[$lang].name}</span><br />
                 <span style="color:var(--theme-rarity-${$hsr['light-cone'][lc].rarity})">${"◆".repeat($hsr['light-cone'][lc].rarity)}</span><br />
                 ${$hsr['light-cone'][lc].data[$lang].description
                   .replace(/{{/g, '<span style="color:var(--theme-site-secondary-main)">')
@@ -99,7 +99,7 @@
                 rarity="na"
                 hasTooltip={true}
                 tooltipContent={`
-                <span class="highlight">${$hsr.relic[set].data[$lang].name}</span><br /><br />
+                <span class="heading">${$hsr.relic[set].data[$lang].name}</span><br />
                 <span class="highlight">${$l10n['set-2p-bonus'][$lang]}:</span> ${$hsr.relic[set].data[$lang]['2p']}<br />
                 <span class="highlight">${$l10n['set-4p-bonus'][$lang]}:</span> ${$hsr.relic[set].data[$lang]['4p']}`}
               />
@@ -124,7 +124,7 @@
               rarity="na"
               hasTooltip={true}
               tooltipContent={`
-              <span class="highlight">${$hsr.ornament[set].data[$lang].name}</span><br /><br />
+              <span class="heading">${$hsr.ornament[set].data[$lang].name}</span><br />
               <span class="highlight">${$l10n['set-2p-bonus'][$lang]}:</span> ${$hsr.ornament[set].data[$lang]['2p']}`}
             />
             <div class="overlay">{ornament.p}</div>

@@ -1,0 +1,34 @@
+---
+character: gepard
+type:
+  - sustain
+  - shield
+
+light-cone:
+  - moment-of-victory
+  - day-one-of-my-new-life
+
+relic:
+  - set: [knight-of-purity-palace]
+    p: 4
+
+ornament:
+  - set: [belobog-of-the-architects]
+    p: 2
+
+mainstat:
+  body:
+    - ehr
+  feet:
+    - spd
+  sphere:
+    - def
+  rope:
+    - er
+
+stats:
+  - atk: '1,400'
+  - def: '3,300-3,700'
+  - spd: '126'
+  - ehr: '63-87%'
+  - er: '120%'

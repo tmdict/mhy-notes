@@ -1,0 +1,16 @@
+{
+  "id": "day-one-of-my-new-life",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "preservation",
+  "data": {
+    "en": {
+      "name": "Day One of My New Life",
+      "description": "Increases the wearer's DEF by {{16//18//20//22//24%}}. After entering battle, increases All-Type RES of all allies by {{8//9//10//11//12%}}. Effects of the same type cannot stack."
+    },
+    "zh": {
+      "name": "余生的第一天",
+      "description": "使装备者的防御力提高{{16//18//20//22//24%}}。进入战斗后，使我方全体的全属性抗性提高{{8//9//10//11//12%}}。同类技能无法重复生效。"
+    }
+  }
+}

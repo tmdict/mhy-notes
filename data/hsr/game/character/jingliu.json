@@ -1,0 +1,16 @@
+{
+  "id": "jingliu",
+  "type": "character",
+  "rarity": 5,
+  "path": "destruction",
+  "element": "ice",
+  "released": "1.4.0",
+  "data": {
+    "en": {
+      "name": "Jingliu"
+    },
+    "zh": {
+      "name": "镜流"
+    }
+  }
+}

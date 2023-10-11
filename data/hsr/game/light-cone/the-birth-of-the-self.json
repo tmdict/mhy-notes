@@ -1,0 +1,16 @@
+{
+  "id": "the-birth-of-the-self",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "erudition",
+  "data": {
+    "en": {
+      "name": "The Birth of the Self",
+      "description": "Increases DMG dealt by the wearer's follow-up attacks by {{24//30//36//42//48%}}. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra {{24//30//36//42//48%}}."
+    },
+    "zh": {
+      "name": "「我」的诞生",
+      "description": "使装备者追加攻击造成的伤害提高{{24//30//36//42//48%}}。若该敌方目标当前生命值百分比小于等于50%，则追加攻击造成的伤害额外提高{{24//30//36//42//48%}}。"
+    }
+  }
+}

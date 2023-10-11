@@ -1,0 +1,16 @@
+{
+  "id": "make-the-world-clamor",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "erudition",
+  "data": {
+    "en": {
+      "name": "Make the World Clamor",
+      "description": "The wearer regenerates {{20//23//26//29//32}} Energy immediately upon entering battle, and increases Ultimate DMG by {{32/40/48/56/64%}}."
+    },
+    "zh": {
+      "name": "别让世界静下来",
+      "description": "使装备者进入战斗时立即恢复{{20//23//26//29//32}}点能量，同时使其终结技造成的伤害提高{{32/40/48/56/64%}}。"
+    }
+  }
+}

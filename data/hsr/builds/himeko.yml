@@ -1,0 +1,34 @@
+---
+character: himeko
+type:
+  - dps
+  - aoe
+
+light-cone:
+  - night-on-the-milky-way
+  - today-is-another-peaceful-day
+
+relic:
+  - set: [firesmith-of-lava-forging, musketeer-of-wild-wheat]
+    p: 2
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - fire
+  rope:
+    - atk
+
+stats:
+  - atk: '3,500'
+  - cr: '65%'
+  - cdmg: '130%'
+  - spd: '105'

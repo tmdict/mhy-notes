@@ -1,0 +1,15 @@
+{
+  "id": "pan-cosmic-commercial-enterprise",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Pan-Cosmic Commercial Enterprise",
+      "2p": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25%."
+    },
+    "zh": {
+      "name": "泛银河商业公司",
+      "2p": "使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。"
+    }
+  }
+}
