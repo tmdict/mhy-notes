@@ -7,40 +7,57 @@
     {
       name: 'character-builds',
       url: 'builds',
-      new: true,
+      type: 'genshin-impact',
       updated: '2023-10-08'
     },
     {
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      new: true,
+      type: 'genshin-impact',
       updated: '2023-10-08'
     },
     {
       name: 'commission-achievements',
       url: 'achievements',
+      type: 'genshin-impact',
       updated: '2023-02-05'
+    },
+    {
+      name: 'hsr-builds',
+      url: 'hsr/builds',
+      new: true,
+      type: 'honkai-star-rail',
+      updated: '2023-10-11'
+    },
+    {
+      name: 'links',
+      url: 'hsr/links',
+      new: true,
+      type: 'honkai-star-rail',
+      updated: '2023-10-11'
     },
     {
       name: 'leveling-cost',
       url: 'leveling-cost',
+      type: 'genshin-impact',
       updated: '2022-12-02'
     },
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      new: true,
+      type: 'genshin-impact',
       updated: '2023-10-08'
     },
     {
       name: 'links',
       url: 'links',
+      type: 'genshin-impact',
       updated: '2023-09-17'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      new: true,
+      type: 'genshin-impact',
       updated: '2023-10-08'
     }
   ].sort((a, b) => b.updated.localeCompare(a.updated));
@@ -59,7 +76,9 @@
     <div class="content-col link" class:alt={i % 2 === 0}>
       <div class="content-row">
         <div class="name">{$l10n[link.name][$lang]}</div>
-        <div class="label" class:new={link.new}>{link.updated}</div>
+        <div class="type {link.type}">{$l10n[link.type][$lang]}</div>
+        <div class="label">{link.updated}</div>
+        {#if link.new}<div class="new">Updated</div>{/if}
       </div>
     </div>
   </a>
@@ -105,8 +124,9 @@
         }
       }
 
-      .label {
-        color: var(--theme-site-secondary-sub);
+      .type,
+      .label,
+      .new {
         background: var(--theme-bg-site);
         font-size: 0.85rem;
         margin: 0 5px 5px;
@@ -117,6 +137,22 @@
           font-size: 0.7rem;
           padding: 2px 10px;
         }
+      }
+
+      .type {
+        font-weight: bold;
+      }
+
+      .type.genshin-impact {
+        color: #72a6c0;
+      }
+
+      .type.honkai-star-rail {
+        color: #6c6192;
+      }
+
+      .label {
+        color: #bfbfbf;
       }
 
       .new {

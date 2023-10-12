@@ -92,7 +92,7 @@
 </script>
 
 <svelte:head>
-  <title>HSR · {$l10n['character-builds'][$lang]} | mHY-notes</title>
+  <title>{$l10n['hsr-builds'][$lang]} | mHY-notes</title>
 </svelte:head>
 
 <h1>HSR · {$l10n['character-builds'][$lang]}</h1>
@@ -180,7 +180,7 @@
     }
 
     .relic {
-      width: 121px;
+      width: 131px;
     }
 
     .stats {
