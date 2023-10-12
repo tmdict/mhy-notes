@@ -36,6 +36,12 @@
       description: 'HSR database and tools.'
     },
     {
+      name: 'Project Yatta',
+      lang: ['Multi-lingual · 多语言'],
+      url: 'https://hsr.yatta.top/',
+      description: 'HSR database.'
+    },
+    {
       name: 'Star Rail Station',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://starrailstation.com/',
@@ -57,10 +63,10 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['useful-links'][$lang]} | mHY-notes</title>
+  <title>{$l10n['hsr'][$lang]} · {$l10n['useful-links'][$lang]} | mHY-notes</title>
 </svelte:head>
 
-<h1>{$l10n['useful-links'][$lang]}</h1>
+<h1>{$l10n['hsr'][$lang]} · {$l10n['useful-links'][$lang]}</h1>
 
 <div id="content">
   <h4>{$l10n['guides'][$lang]}</h4>
