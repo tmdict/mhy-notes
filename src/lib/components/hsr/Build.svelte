@@ -88,7 +88,10 @@
 
   <div class="content-col relics">
     <div class="content-row relic">
-        {#each build.relic as relic}
+        {#each build.relic as relic, i}
+          {#if i > 0}
+            <span class="set-separator">/</span>
+          {/if}
           {#each relic.set as set}
             <div class="piece">
               <Icon
@@ -112,7 +115,7 @@
     <div class="content-row ornament">
       {#each build.ornament as ornament, i}
         {#if i > 0}
-          <span class="ornament-separator">/</span>
+          <span class="set-separator">/</span>
         {/if}
         {#each ornament.set as set}
           <div class="piece">
@@ -248,12 +251,10 @@
           }
         }
       }
-
-      .ornament {        
-        .ornament-separator {
-          font-size: 1.5em;
-          margin: 0 3px;
-        }
+      
+      .set-separator {
+        font-size: 1.5em;
+        margin: 0 3px;
       }
     }
 

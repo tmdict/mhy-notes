@@ -68,8 +68,6 @@
         <a href="/character-scaling">{$l10n['character-scaling'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/achievements">{$l10n['achievements'][$lang]}</a>
-        <span class="separator">·</span>
-        <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
       <div class="group">
         <a href="/talent-materials">{$l10n['talent-materials'][$lang]}</a>
@@ -77,6 +75,8 @@
         <a href="/weekly-boss-materials">{$l10n['boss-materials'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
+        <span class="separator">·</span>
+        <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
       <div class="group">
         <span class="type">{$l10n.hsr[$lang]}:</span>
