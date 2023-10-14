@@ -27,7 +27,7 @@
       url: 'hsr/builds',
       new: true,
       type: 'honkai-star-rail',
-      updated: '2023-10-11'
+      updated: '2023-10-13'
     },
     {
       name: 'links',
