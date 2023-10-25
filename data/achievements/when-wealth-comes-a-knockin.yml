@@ -3,7 +3,7 @@ achievement: when-wealth-comes-a-knockin
 version: "3.0"
 achievementType: "wonders-of-the-world"
 region: sumeru
-checklist: 2
+checklist: 1
 en:
   name: "When Wealth Comes A-Knockin’"
   description: "Give Hatim some Apple Cider."
@@ -14,10 +14,9 @@ en:
     
     Getting the “Fortune” version will lead to the “Kalimi’s Fungus” achievement. Other follow-ups yield no achievements.
 
-    (This has not bene proven, and the commission is for the most part, random) Follow-up commission may be related to quality of food used, a "delicious" version may increase your chance of getting “fortune” follow-ups, while a “suspcious” version increases the chance of getting “loss” follow-ups. The food chosen does not affect the follow-up.
+    Follow-up commission seems to be completely random and not affected by the type and quality of food used.
   checklist:
     1: "Bargain-Hunting Version"
-    2: "Fortune Version"
 zh:
   name: "当财运来敲门"
   description: "将苹果酿带给哈特姆。"
@@ -28,7 +27,6 @@ zh:
 
     若后续为大赚，可以获得成就「卡里米之蕈兽」。其它后续无成就。
 
-    后续与交付料理品质有关，给美味的料理赚钱的可能性越大，给奇怪的料理赔钱的可能性更大。三种食物于后续无关。
+    后续的概率完全随机，与交付料理种类和品质没有关系。
   checklist:
     1: "究极亏本状态"
-    2: "大赚一笔"
