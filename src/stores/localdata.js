@@ -12,7 +12,8 @@ function createLocalData() {
         ...acc,
         [d.default.achievement]: new Array(d.default.checklist).fill(false)
       };
-    }, {})
+    }, {}),
+    billets: {}
   };
 
   let local = defaultData;
@@ -29,6 +30,10 @@ function createLocalData() {
           };
         }
       });
+      // Add craftable weapon tracker
+      if (!('billets' in local)) {
+        local['billets'] = {};
+      }
     } catch (err) {
       console.log(`[createLocalData] Err parsing localStorage data: ${err}`);
       local = defaultData;

@@ -1,78 +1,75 @@
 <script>
+  import { browser } from '$app/environment';
   import { rarity, weapons as weaponsData } from '@store/gamedata';
+  import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
-  let data = {
+  const data = {
     northlander: {
       bow: {
-        'compound-bow': 0,
+        'prototype-crescent': 0,
         'hamayumi': 0,
-        'prototype-crescent': 0
+        'compound-bow': 0,
       },
       catalyst: {
-        'frostbearer': 0,
+        'prototype-amber': 0,
         'hakushin-ring': 0,
+        'frostbearer': 0,
         'mappa-mare': 0,
-        'prototype-amber': 0
       },
       claymore: {
+        'prototype-archaic': 0,
         'katsuragikiri-nagamasa': 0,
         'snow-tombed-starsilver': 0,
-        'prototype-archaic': 0,
-        'whiteblind': 0
+        'whiteblind': 0,
       },
       polearm: {
-        'crescent-pike': 0,
-        'dragonspine-spear': 0,
+        'prototype-starglitter': 0,
         'kitain-cross-spear': 0,
-        'prototype-starglitter': 0
+        'dragonspine-spear': 0,
+        'crescent-pike': 0,
       },
       sword: {
+        'prototype-rancour': 0,
         'amenoma-kageuchi': 0,
         'iron-sting': 0,
-        'prototype-rancour': 0
       }
     },
     midlander: {
       bow: {
-        'compound-bow': 0,
-        'hamayumi': 0,
-        'prototype-crescent': 0
+        'kings-squire': 0,
+        'song-of-stillness': 0,
       },
       catalyst: {
-        'frostbearer': 0,
-        'hakushin-ring': 0,
-        'mappa-mare': 0,
-        'prototype-amber': 0
+        'fruit-of-fulfillment': 0,
+        'flowing-purity': 0,
       },
       claymore: {
-        'katsuragikiri-nagamasa': 0,
-        'snow-tombed-starsilver': 0,
-        'prototype-archaic': 0,
-        'whiteblind': 0
+        'forest-regalia': 0,
+        'tidal-shadow': 0,
       },
       polearm: {
-        'crescent-pike': 0,
-        'dragonspine-spear': 0,
-        'kitain-cross-spear': 0,
-        'prototype-starglitter': 0
+        'moonpiercer': 0,
+        'rightful-reward': 0,
       },
       sword: {
-        'amenoma-kageuchi': 0,
-        'iron-sting': 0,
-        'prototype-rancour': 0
+        'sapwood-blade': 0,
+        'finale-of-the-deep': 0,
       }
     }
   };
+  
+  // Initialize craftable weapon data
+  if ($localData['billets'] && Object.keys($localData['billets']).length === 0) {
+    $localData = { ...$localData, billets: data };
+    browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
+  }
 
   function updateCount(billet, type, name, count) {
-    console.log(billet)
-    console.log(type)
-    console.log(name)
-    console.log(count)
-    const updated = data[billet][type][name] + count;
-    data[billet][type][name] = (updated < 0) ? 0 : ((updated > 5) ? 5 : updated);
+    const updated = $localData['billets'][billet][type][name] + count;
+    $localData['billets'][billet][type][name] = (updated < 0) ? 0 : ((updated > 5) ? 5 : updated);
+    browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
   }
 </script>
 
@@ -83,12 +80,12 @@
 <h1>{$l10n['craftable-weapons'][$lang]}</h1>
 
 <div id="content">
-  {#each Object.entries(data) as [billet, craftables]}
+  {#each Object.entries($localData['billets']) as [billet, craftables]}
     <div class="content-row billet">
       {#each Object.entries(craftables) as [type, weapons]}
         <div class="content-col type">
           <div class="header">
-            <Icon id="{billet}-{type}" src="billet/{billet}-{type}" rarity=4 />
+            <Icon id="{billet}-{type}" src="billet/{billet}-{type}" />
           </div>
           {#each Object.entries(weapons) as [weapon, count]}
             {@const details = $weaponsData[weapon] ? $weaponsData[weapon].data[$lang] : false}
@@ -154,23 +151,23 @@
   }
 
   .billet {
-    padding: 10px 0;
     border-top: 1px solid var(--theme-site-primary-main);
     justify-content: center;
 
     .type {
       flex: 1 1 0;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
 
       .header {
         border-bottom: 1px dashed var(--theme-border-gold);
+        background: var(--theme-bg-highlight);
         margin-bottom: 15px;
         padding-bottom: 15px;
       }
 
       .weapon {
         flex-wrap: nowrap;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
 
         .weapon-icon:hover {
           cursor: pointer;
@@ -178,6 +175,7 @@
 
         .info {
           margin-top: 10px;
+          min-width: 65px;
 
           .name {
             font-size: 0.8em;
