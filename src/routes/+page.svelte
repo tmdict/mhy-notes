@@ -25,7 +25,6 @@
     {
       name: 'hsr-builds',
       url: 'hsr/builds',
-      new: true,
       type: 'honkai-star-rail',
       updated: '2023-10-13'
     },
@@ -34,7 +33,7 @@
       url: 'hsr/links',
       new: true,
       type: 'honkai-star-rail',
-      updated: '2023-10-11'
+      updated: '2023-10-25'
     },
     {
       name: 'leveling-cost',
@@ -51,8 +50,9 @@
     {
       name: 'links',
       url: 'links',
+      new: true,
       type: 'genshin-impact',
-      updated: '2023-09-17'
+      updated: '2023-10-25'
     },
     {
       name: 'weekly-boss-mat',

@@ -15,6 +15,12 @@
       description: '全角色收益曲线、圣遗物思路推荐、参考面板属性。'
     },
     {
+      name: 'Character Energy Requirements',
+      lang: ['English'],
+      url: 'https://docs.google.com/spreadsheets/d/1Oz_d9cDAFe0Jz0XZmFHKgCdIRsWpfrsP69cjpBshQGM/edit',
+      description: 'ER guide for HSR characters.'
+    },
+    {
       name: 'Keqing Mains',
       lang: ['English'],
       url: 'https://hsr.keqingmains.com/',

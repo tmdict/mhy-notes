@@ -28,6 +28,21 @@
     }
   ];
 
+  const achievements = [
+    {
+      name: 'Genshin Commissions Cycle Tracking',
+      lang: ['English'],
+      url: 'https://docs.google.com/spreadsheets/d/1ol6SQfj58ZNPfgGaNAwjv8eBLxAKbbv_Q3t1gh6OFrU/edit',
+      description: 'Daily commission and achievement tracker.'
+    },
+    {
+      name: '原神全NPC委托、轮次统计表',
+      lang: ['中文'],
+      url: 'https://docs.qq.com/sheet/DWG5hT1BlSm90bkF0',
+      description: '每日委托任务和成就统计表。'
+    }
+  ];
+
   const resource = [
     {
       name: 'Akasha System',
@@ -137,6 +152,21 @@
 <div id="content">
   <h4>{$l10n['guides'][$lang]}</h4>
   {#each guides as link, i}
+    <div class="content-col link" class:alt={i % 2 === 0}>
+      <a href={link.url}>
+        <div class="content-row">
+          <h5>{link.name}</h5>
+          {#each link.lang as lang}
+            <div class="label">{lang}</div>
+          {/each}
+        </div>
+        <div class="description">{link.description}</div>
+      </a>
+    </div>
+  {/each}
+
+  <h4>{$l10n['achievements'][$lang]}</h4>
+  {#each achievements as link, i}
     <div class="content-col link" class:alt={i % 2 === 0}>
       <a href={link.url}>
         <div class="content-row">
