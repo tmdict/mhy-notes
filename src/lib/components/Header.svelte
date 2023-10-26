@@ -155,9 +155,15 @@
       margin-top: 10px;
 
       .group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
-        margin: 4px;
-        text-align: center;
+        flex-wrap: wrap;
+
+        a {
+          margin: 4px;
+        }
 
         .separator {
           color: #ccc;
@@ -171,6 +177,7 @@
     text-decoration: none;
     color: var(--theme-site-primary-sub);
     text-transform: uppercase;
+    margin: 0 4px;
     padding: 0 2px;
   }
 

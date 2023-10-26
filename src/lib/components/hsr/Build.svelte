@@ -172,7 +172,6 @@
 
       @media only screen and (max-width: 960px) {
         border-left: 0;
-        margin: 0;
       }
     }
 
@@ -188,6 +187,10 @@
     .info {
       width: 100px;
       margin: 10px;
+
+      @media only screen and (max-width: 460px) {
+        width: 200px;
+      }
 
       .sub {
         color: var(--theme-site-secondary-main);
@@ -219,6 +222,12 @@
       width: 220px;
       position: relative;
 
+      @media only screen and (max-width: 460px) {
+        width: 80px;
+        margin-right: 1px;
+        border-top: 1px dotted var(--theme-border-light);
+      }
+
       img {
         height: 120px;
         transform: rotate(-12.5deg);
@@ -226,12 +235,50 @@
         &:hover {
           cursor: pointer;
         }
+
+        @media only screen and (max-width: 460px) {
+          height: 90px;
+        }
+      }
+    }
+
+    .main-stats {
+        width: 150px;
+        font-size: 0.9em;
+        
+        @media only screen and (max-width: 460px) {
+          width: 130px;
+          font-size: 0.8em;
+          margin-right: 1px;
+          border-top: 1px dotted var(--theme-border-light);
+        }
+
+      .main-stat {
+        align-items: center;
+        padding: 5px 0 5px 10px;
+
+        .icon {
+          margin: 0 5px 0 2px;
+
+          img {
+            width: 20px;
+          }
+        }
+
+        .highlight {
+          color: var(--theme-site-primary-main);
+          font-weight: bold;
+        }
       }
     }
 
     .relics {
       width: 140px;
       padding-left: 10px;
+
+      @media only screen and (max-width: 460px) {
+        border-top: 1px dotted var(--theme-border-light);
+      }
 
       .relic,
       .ornament {   
@@ -258,34 +305,24 @@
       }
     }
 
-    .main-stat {
-      width: 150px;
-      align-items: center;
-      padding: 5px 0 5px 10px;
-      font-size: 0.9em;
-
-      .icon {
-        margin: 0 5px 0 2px;
-
-        img {
-          width: 20px;
-        }
-      }
-
-      .highlight {
-        color: var(--theme-site-primary-main);
-        font-weight: bold;
-      }
-    }
-
     .stats {
       width: 200px;
       padding-top: 7px;
 
+      @media only screen and (max-width: 460px) {
+        border-top: 1px dotted var(--theme-border-light);
+        width: 100%;
+        margin: 0 5px;
+      }
+
       ul {
         margin: 0;
         padding: 0 0 0 25px;
-          list-style: none;
+        list-style: none;
+
+        @media only screen and (max-width: 460px) {
+          padding-left: 5px;
+        }
 
         &:hover {
           cursor: default;

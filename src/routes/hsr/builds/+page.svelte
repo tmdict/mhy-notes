@@ -135,6 +135,7 @@
   .sticky {
     position: -webkit-sticky; /* for Safari */
     position: sticky;
+    z-index: 1;
     top: 0;
     align-self: flex-start;
     background: var(--theme-bg-container-main);

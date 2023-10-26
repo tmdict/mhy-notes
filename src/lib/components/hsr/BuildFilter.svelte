@@ -20,7 +20,7 @@
 
 <h4><a href="/#" on:click|preventDefault={() => (showFilter = !showFilter)}
   >{filterHeader}
-  {#if showFilter}-{:else}+{/if}</a
+  <span class="show">{#if showFilter}-{:else}+{/if}</span></a
 ></h4>
 {#if showFilter}
   <div class="content-row filter" transition:slide>
@@ -58,6 +58,10 @@
       &:hover {
         color: var(--theme-site-primary-alt);
         text-decoration: none;
+      }
+
+      .show {
+        color: var(--theme-site-primary-alt);
       }
     }
   }

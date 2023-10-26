@@ -36,6 +36,12 @@
       description: 'HSR database and tools.'
     },
     {
+      name: 'HSR Damage Calculation Simulator',
+      lang: ['English', '日本語'],
+      url: 'https://honkai.asagi-game.com/',
+      description: 'Team damage simulator.'
+    },
+    {
       name: 'Project Yatta',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://hsr.yatta.top/',
