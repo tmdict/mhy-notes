@@ -76,6 +76,8 @@
         <span class="separator">·</span>
         <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
         <span class="separator">·</span>
+        <a href="/craftable-weapons">{$l10n['craftable-weapons'][$lang]}</a>
+        <span class="separator">·</span>
         <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
       <div class="group">

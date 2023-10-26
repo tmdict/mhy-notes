@@ -128,6 +128,9 @@ constellation:
 cr:
   en: 'CR%'
   zh: '暴击'
+craftable-weapons:
+  en: 'Craftable Weapons'
+  zh: '锻造武器'
 create-builds:
   en: 'Create Builds'
   zh: '创建套装'
