@@ -1,9 +1,17 @@
 <script>
   import { browser } from '$app/environment';
+  import { slide } from 'svelte/transition';
   import { rarity, weapons as weaponsData } from '@store/gamedata';
   import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
+  import CraftableWeaponsEn from '$lib/components/content/CraftableWeaponsFaq/En.svelte';
+  import CraftableWeaponsZh from '$lib/components/content/CraftableWeaponsFaq/Zh.svelte';
+  import ManageData from '$lib/components/ManageData.svelte';
+
+  let showFaq = false;
+
+  const faq = { en: CraftableWeaponsEn, zh: CraftableWeaponsZh };
 
   const data = {
     northlander: {
@@ -78,6 +86,18 @@
 </svelte:head>
 
 <h1>{$l10n['craftable-weapons'][$lang]}</h1>
+
+<div class="menu">
+  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+  <span class="menu-separator" />
+  <ManageData />
+</div>
+
+{#if showFaq}
+  <div id="faq" transition:slide>
+    <svelte:component this={faq[$lang]} />
+  </div>
+{/if}
 
 <div id="content">
   {#each Object.entries($localData['billets']) as [billet, craftables]}

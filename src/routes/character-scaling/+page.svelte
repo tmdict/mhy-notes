@@ -234,6 +234,7 @@
   .group {
     display: inline-flex;
     align-items: center;
+    font-size: 0.96em;
 
     @media only screen and (max-width: 960px) {
       width: 100%;
