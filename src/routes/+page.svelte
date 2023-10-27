@@ -23,6 +23,13 @@
       updated: '2023-02-05'
     },
     {
+      new: true,
+      name: 'craftable-weapons',
+      url: 'craftable-weapons',
+      type: 'genshin-impact',
+      updated: '2023-10-26'
+    },
+    {
       name: 'hsr-builds',
       url: 'hsr/builds',
       type: 'honkai-star-rail',
@@ -31,7 +38,6 @@
     {
       name: 'links',
       url: 'hsr/links',
-      new: true,
       type: 'honkai-star-rail',
       updated: '2023-10-25'
     },
@@ -50,7 +56,6 @@
     {
       name: 'links',
       url: 'links',
-      new: true,
       type: 'genshin-impact',
       updated: '2023-10-25'
     },
