@@ -295,7 +295,16 @@
     "scion-of-the-blazing-sun",
     "talking-stick",
     "wolf-fang",
-    "freminet"
+    "freminet",
+    "neuvillette",
+    "wriothesley",
+    "ballad-of-the-boundless-blue",
+    "cashflow-supervision",
+    "portable-power-saw",
+    "prospectors-drill",
+    "range-gauge",
+    "the-dockhands-assistant",
+    "tome-of-the-eternal-flow"
   ],
   "name2id": {
     "geo": 0,
@@ -593,6 +602,15 @@
     "scion-of-the-blazing-sun": 292,
     "talking-stick": 293,
     "wolf-fang": 294,
-    "freminet": 295
+    "freminet": 295,
+    "neuvillette": 296,
+    "wriothesley": 297,
+    "ballad-of-the-boundless-blue": 298,
+    "cashflow-supervision": 299,
+    "portable-power-saw": 300,
+    "prospectors-drill": 301,
+    "range-gauge": 302,
+    "the-dockhands-assistant": 303,
+    "tome-of-the-eternal-flow": 304
   }
 }
