@@ -83,7 +83,7 @@
     return true;
   });
 
-  function updateAllFilters() {
+  function expandAllFilters() {
     expandAll = !expandAll;
     Object.keys(filters).forEach((key) => {
       filters[key].show = expandAll;
@@ -98,7 +98,7 @@
 <h1>{$l10n['hsr'][$lang]} · {$l10n['builds'][$lang]}</h1>
 
 <div class="menu">
-  <a href="/#" on:click|preventDefault={() => updateAllFilters()}>
+  <a href="/#" on:click|preventDefault={() => expandAllFilters()}>
     {#if !expandAll}{$l10n['expand-all'][$lang]}{:else}{$l10n['close-all'][$lang]}{/if} {$l10n['filters'][$lang]}
   </a>
   <span class="menu-separator" />

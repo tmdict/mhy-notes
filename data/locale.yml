@@ -110,6 +110,9 @@ checklist:
 circlet:
   en: 'Circlet'
   zh: '冠'
+clear:
+  en: 'Clear'
+  zh: '清空'
 clear-all:
   en: 'Clear All'
   zh: '清空全部'

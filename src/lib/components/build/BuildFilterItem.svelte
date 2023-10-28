@@ -6,14 +6,11 @@
   export let name;
   export let type;
   export let item;
-  let isHover = '';
 </script>
 
 <div class="filter-item"
   class:active={$buildsFilters[name].quick === item || $buildsFilters[name].common.includes(item)}
   role="presentation"
-  on:mouseenter={() => (isHover = item)}
-  on:mouseleave={() => (isHover = '')}
 >
   <div
     class="quick list-{type === 'icon' ? 'icon' : 'text'}"
@@ -42,7 +39,7 @@
     tabindex="0"
     on:click={() => buildsFilters.updateCommonFilter(name, item)}
     on:keydown={() => buildsFilters.updateCommonFilter(name, item)}
-  />
+  ></div>
 </div>
 
 <style lang="scss">
@@ -50,7 +47,7 @@
     display: flex;
     font-size: 0.8em;
     margin: 5px;
-    align-items: center;
+    align-items: stretch;
     border: 1px solid var(--theme-border-light);
 
     &.active {
@@ -60,7 +57,7 @@
     }
 
     .quick {
-      padding: 5px;
+      padding: 2px 5px;
       min-width: 60px;
       border-right: 1px dotted var(--theme-border-light);
       overflow-wrap: anywhere;
@@ -74,14 +71,13 @@
         background: var(--theme-bg-highlight);
 
         &:hover {
-          background: var(--theme-filter-active-alt-color);
+          background: var(--theme-bg-highlight);
         }
       }
     }
 
     .common {
       width: 35px;
-      min-height: 30px;
 
       &:hover {
         background: var(--theme-bg-highlight);

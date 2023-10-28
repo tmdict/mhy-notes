@@ -1,4 +1,5 @@
 <script>
+  import { slide } from 'svelte/transition';
   import { builds, buildfilters } from '@store/builds';
   import { buildsFilters } from '@store/filterlist';
   import { localData } from '@store/localdata';
@@ -9,6 +10,7 @@
   import BuildFilter from '$lib/components/build/BuildFilter.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
 
+  let expandAllFilters = false;
   let showFaq = false;
   let filteredBuilds = $builds;
   let filteredSavedBuilds = $localData['builds'];
@@ -47,6 +49,10 @@
 <h1>{$l10n['character-builds'][$lang]}</h1>
 
 <div class="menu">
+  <a href="/#" class={expandAllFilters ? 'show' : 'collapse'} on:click|preventDefault={() => expandAllFilters = !expandAllFilters}>
+    {#if !expandAllFilters}{$l10n['expand-all'][$lang]}{:else}{$l10n['close-all'][$lang]}{/if} {$l10n['filters'][$lang]}
+  </a>
+  <span class="menu-separator" />
   <a href="/builds/edit">{$l10n['create-builds'][$lang]}</a>
   <span class="menu-separator" />
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
@@ -59,11 +65,13 @@
   </div>
 {/if}
 <div id="content">
-  <div id="filter-list">
-    {#each Object.entries($buildfilters) as [n, f]}
-      <BuildFilter filter={{ name: n, type: f.type, filter: [...f.filter].sort() }} />
-    {/each}
-  </div>
+  {#if expandAllFilters}
+    <div id="filter-list" transition:slide={{ duration: 200 }}>
+      {#each Object.entries($buildfilters) as [n, f]}
+        <BuildFilter filter={{ name: n, type: f.type, filter: [...f.filter].sort() }} />
+      {/each}
+    </div>
+  {/if}
   <div id="build-list">
     <div class="content-row header">
       <div class="content-row weapons">{$l10n['weapon'][$lang]}</div>
@@ -86,6 +94,18 @@
 </div>
 
 <style lang="scss">
+  .menu a {
+    &.show:after {
+      color: var(--theme-site-primary-alt);
+      content: ' + ';
+    }
+
+    &.collapse:after {
+      color: var(--theme-site-primary-alt);
+      content: ' - ';
+    }
+  }
+
   #content {
     display: flex;
     flex-flow: column nowrap;
@@ -100,20 +120,6 @@
 
     @media only screen and (max-width: 570px) {
       display: none;
-    }
-
-    .expand-builds {
-      margin: 0 0 30px;
-      border-bottom: 1px dotted var(--theme-border-light);
-
-      h4 {
-        font-size: 0.85em;
-
-        &:hover {
-          color: var(--theme-site-primary-alt);
-          cursor: pointer;
-        }
-      }
     }
   }
 

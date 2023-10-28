@@ -95,6 +95,7 @@
         justify-content: center;
         
         .character-name {
+          font-weight: bold;
           margin-bottom: 5px;
         }
 
