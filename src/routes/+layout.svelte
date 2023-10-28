@@ -190,11 +190,6 @@
     border-left: 1px dotted var(--theme-border-light);
   }
 
-  .build-box {
-    padding: 10px;
-    flex-wrap: nowrap;
-  }
-
   .build-heading {
     color: var(--theme-site-primary-alt);
     font-size: 0.9rem;

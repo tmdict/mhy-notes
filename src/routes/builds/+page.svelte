@@ -9,7 +9,6 @@
   import BuildFilter from '$lib/components/build/BuildFilter.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
 
-  let expandAll = false;
   let showFaq = false;
   let filteredBuilds = $builds;
   let filteredSavedBuilds = $localData['builds'];
@@ -60,33 +59,28 @@
   </div>
 {/if}
 <div id="content">
+  <div id="filter-list">
+    {#each Object.entries($buildfilters) as [n, f]}
+      <BuildFilter filter={{ name: n, type: f.type, filter: [...f.filter].sort() }} />
+    {/each}
+  </div>
   <div id="build-list">
     <div class="content-row header">
       <div class="content-row weapons">{$l10n['weapon'][$lang]}</div>
       <div class="content-row artifacts">{$l10n['artifact'][$lang]}</div>
+      <div class="content-row mainstats">{$l10n['mainstat'][$lang]}</div>
+      <div class="content-row stats">{$l10n['stats-priority'][$lang]}</div>
     </div>
     {#if filteredSavedBuilds.length > 0}
       <div class="header"><h4>{$l10n['saved-builds'][$lang]}</h4></div>
       {#each filteredSavedBuilds as build, i}
-        <Build {build} alt={i % 2 === 1} showDetail={expandAll} />
+        <Build {build} alt={i % 2 === 1} />
       {/each}
       <div class="header" />
       <div class="header" />
     {/if}
     {#each filteredBuilds as build, i (build.character + build.name.en)}
-      <Build {build} alt={i % 2 === 1} showDetail={expandAll} />
-    {/each}
-  </div>
-  <div id="filter-list">
-    <div class="expand-builds" role="button" tabindex="0" on:click={() => (expandAll = !expandAll)} on:keydown={() => (expandAll = !expandAll)}>
-      {#if !expandAll}
-        <h4>{$l10n['expand-all'][$lang]}</h4>
-      {:else}
-        <h4>{$l10n['close-all'][$lang]}</h4>
-      {/if}
-    </div>
-    {#each Object.entries($buildfilters) as [n, f]}
-      <BuildFilter filter={{ name: n, type: f.type, filter: [...f.filter].sort() }} />
+      <Build {build} alt={i % 2 === 1} />
     {/each}
   </div>
 </div>
@@ -94,30 +88,7 @@
 <style lang="scss">
   #content {
     display: flex;
-    flex-flow: row nowrap;
-  }
-
-  #build-list {
-    flex: 0 1 820px;
-    display: flex;
-    flex-direction: column;
-
-    .header {
-      font-size: 0.8rem;
-      font-weight: bold;
-      margin: 5px 4px 0;
-      padding: 0 0 5px 5px;
-      border-bottom: 1px solid var(--theme-site-primary-main);
-
-      @media only screen and (max-width: 830px) {
-        display: none;
-      }
-
-      .weapons {
-        margin-left: 285px;
-        width: 165px;
-      }
-    }
+    flex-flow: column nowrap;
   }
 
   #filter-list {
@@ -142,6 +113,40 @@
           color: var(--theme-site-primary-alt);
           cursor: pointer;
         }
+      }
+    }
+  }
+
+  #build-list {
+    flex: 0 1 100%;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      font-size: 0.8rem;
+      font-weight: bold;
+      margin: 5px 4px 0;
+      padding: 0 0 5px 5px;
+      border-bottom: 1px solid var(--theme-site-primary-main);
+
+      @media only screen and (max-width: 830px) {
+        display: none;
+      }
+
+      .weapons {
+        margin-left: 155px;
+      }
+
+      .artifacts {
+        margin-left: 85px;
+      }
+
+      .mainstats {
+        margin-left: 235px;
+      }
+
+      .stats {
+        margin-left: 105px;
       }
     }
   }

@@ -5,7 +5,7 @@
   export let stats;
 </script>
 
-<div class="content-row main-stat">
+<div class="content-row mainstat">
   <div class="icon">
     <img src="/img/artifact-piece/{type}.png" alt={type} />
   </div>
@@ -17,7 +17,7 @@
 </div>
 
 <style lang="scss">
-  .main-stat {
+  .mainstat {
     align-items: center;
     padding: 4px 0;
 

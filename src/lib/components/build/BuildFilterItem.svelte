@@ -9,8 +9,9 @@
   let isHover = '';
 </script>
 
-<li
+<div class="filter-item"
   class:active={$buildsFilters[name].quick === item || $buildsFilters[name].common.includes(item)}
+  role="presentation"
   on:mouseenter={() => (isHover = item)}
   on:mouseleave={() => (isHover = '')}
 >
@@ -42,89 +43,54 @@
     on:click={() => buildsFilters.updateCommonFilter(name, item)}
     on:keydown={() => buildsFilters.updateCommonFilter(name, item)}
   />
-</li>
+</div>
 
 <style lang="scss">
-  li {
+  .filter-item {
     display: flex;
     font-size: 0.8em;
+    margin: 5px;
     align-items: center;
-    border-bottom: 1px dotted var(--theme-border-light);
+    border: 1px solid var(--theme-border-light);
 
     &.active {
       font-weight: bold;
       color: var(--theme-site-primary-main);
-    }
-  }
-
-  .quick {
-    width: 95px;
-    padding: 5px;
-    border-right: 1px dotted var(--theme-border-light);
-    overflow-wrap: anywhere;
-
-    &:hover {
-      background: var(--theme-bg-highlight);
-      cursor: pointer;
+      border: 1px solid var(--theme-site-primary-main);
     }
 
-    &.active {
-      background: var(--theme-bg-highlight);
+    .quick {
+      padding: 5px;
+      min-width: 60px;
+      border-right: 1px dotted var(--theme-border-light);
+      overflow-wrap: anywhere;
 
       &:hover {
-        background: var(--theme-filter-active-alt-color);
+        background: var(--theme-bg-highlight);
+        cursor: pointer;
+      }
+
+      &.active {
+        background: var(--theme-bg-highlight);
+
+        &:hover {
+          background: var(--theme-filter-active-alt-color);
+        }
       }
     }
 
-    &.list-icon {
-      padding-left: 5px;
+    .common {
+      width: 35px;
+      min-height: 30px;
+
+      &:hover {
+        background: var(--theme-bg-highlight);
+        cursor: pointer;
+      }
+
+      &.active {
+        background: var(--theme-bg-highlight);
+      }
     }
-  }
-
-  .common {
-    width: 35px;
-    min-height: 30px;
-
-    &:hover {
-      background: var(--theme-bg-highlight);
-      cursor: pointer;
-    }
-
-    &.active {
-      background: var(--theme-bg-highlight);
-      min-height: 45px;
-    }
-  }
-
-  // Hover effect
-  // Reference: https://codepen.io/techshiva/pen/VNmvWx
-
-  @-webkit-keyframes pop-on-hover {
-    50% {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-      border-right: none;
-    }
-  }
-  @keyframes pop-on-hover {
-    50% {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-      border-right: none;
-    }
-  }
-
-  li:hover .quick,
-  li:focus .quick,
-  li:active .quick {
-    -webkit-animation-name: pop-on-hover;
-    animation-name: pop-on-hover;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    background: var(--theme-bg-highlight);
   }
 </style>

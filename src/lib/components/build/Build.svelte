@@ -29,35 +29,43 @@
   on:keydown={toggleDetails}
 >
   <div
-    class="content-row build-info align-center"
+    class="content-row build-info"
     style={$lang === 'en' ? '--text-size: 0.8rem' : '--text-size: 0.9rem'}
   >
     <div class="content-row build-box">
       <BuildCharacter character={build.character} constellation={build.c} />
-      <div class="content-row character-name">{$characters[build.character].data[$lang].name}</div>
-      <div class="content-row build-box name">
-        {build.name[$lang] ? build.name[$lang] : build.name[lang.default()]}
+      <div class="content-col names">
+        <div class="character-name">
+          {$characters[build.character].data[$lang].name}
+        </div>
+        <div class="build-name">
+          {build.name[$lang] ? build.name[$lang] : build.name[lang.default()]}
+        </div>
       </div>
     </div>
     <div class="content-row build-equip">
-      <div class="content-row build-box weapons">
+      <div class="weapons">
         <BuildWeapons weapons={build.weapon} />
       </div>
-      <div class="content-row build-box artifacts">
+      <div class="artifacts content-row">
         <BuildArtifactSet artifacts={build.artifact} />
+      </div>
+    </div>
+    <div class="content-row build-stat">
+      <div class="mainstats">
+        <BuildMainStats mainstat={build.mainstat} showHeader={false} />
+      </div>
+      <div class="stats">
+        <BuildStats stats={build.stats} showHeader={false} />
       </div>
     </div>
   </div>
   {#if showDetail}
     <div transition:slide={{ duration: 200 }} class="content-row build-details">
-      <div class="content-row build-box mainstat-stats">
-        <BuildMainStats mainstat={build.mainstat} />
-        <BuildStats stats={build.stats} />
-      </div>
-      <div class="build-box notes" role="button" tabindex="0" on:click|stopPropagation on:keydown|stopPropagation>
+      <div class="notes" role="button" tabindex="0" on:click|stopPropagation on:keydown|stopPropagation>
         <BuildNotes {build} />
       </div>
-      <div class="build-box sources">
+      <div class="sources">
         <BuildSource references={build.source} />
       </div>
       <BuildManage {build} />
@@ -75,58 +83,92 @@
     min-height: 70px;
     align-items: center;
     font-size: var(--text-size, 0.8rem);
+    flex-wrap: wrap;
 
-    .character-name {
-      width: 110px;
-      align-items: center;
-      padding: 0 0 0 20px;
+    .build-box {
+      padding: 10px;
+      flex-wrap: wrap;
 
-      @media only screen and (max-width: 570px) {
+      .names {
         width: 80px;
-      }
-    }
+        padding-left: 10px;
+        justify-content: center;
+        
+        .character-name {
+          margin-bottom: 5px;
+        }
 
-    .name {
-      width: 100px;
-      align-items: center;
-
-      @media only screen and (max-width: 570px) {
-        width: auto;
-      }
-    }
-
-    .weapons {
-      width: 165px;
-
-      @media only screen and (max-width: 570px) {
-        width: 135px;
-      }
-    }
-
-    .artifacts {
-      min-width: 270px;
-
-      @media only screen and (max-width: 570px) {
-        min-width: 0;
+        .build-name {
+          color: var(--theme-site-secondary-main);
+        }
       }
     }
 
     .build-equip {
-      @media only screen and (max-width: 830px) {
-        flex-grow: 1;
+      height: 100%;
+      align-items: center;
+      border-left: 1px dotted var(--theme-border-light);
+      flex-wrap: wrap;
+      
+      @media only screen and (max-width: 560px) {
+        border-left: 0;
+      }
+      
+      @media only screen and (max-width: 930px) {
+        height: auto;
+      }
+
+      .weapons {
+        width: 135px;
+        height: 70px;
+        padding: 10px;
+      }
+
+      .artifacts {
+        min-width: 270px;
+        height: 70px;
+        padding: 10px;
+      
+        @media only screen and (max-width: 560px) {
+          min-width: 0;
+        }
+      }
+    }
+
+    .build-stat {
+      min-width: 380px;
+      border-left: 1px dotted var(--theme-border-light);
+      padding-left: 10px;
+      flex-wrap: wrap;
+      
+      @media only screen and (max-width: 930px) {
+        width: 100%;
+        border-left: 0;
         border-top: 1px dotted var(--theme-border-light);
+      }
+
+      .mainstats {
+        width: 160px;
+        padding: 5px 10px;
+      }
+
+      .stats {
+        width: 200px;
+        padding: 5px 10px;
       }
     }
   }
 
   .build-details {
+    width: 100%;
     height: auto;
     font-size: 0.9rem;
     padding-bottom: 10px;
     border-top: 1px dotted var(--theme-border-light);
 
     .notes {
-      min-width: 300px;
+      width: 100%;
+      padding: 10px;
 
       &:hover {
         cursor: default;
@@ -134,7 +176,8 @@
     }
 
     .sources {
-      min-width: 360px;
+      width: 100%;
+      padding: 10px;
     }
   }
 </style>

@@ -26,7 +26,7 @@
 </div>
 
 <div class="content-col build">
-  <div class="build-box types">
+  <div class="types">
     <span class="build-heading">{$l10n['type'][$lang]}:</span>
     {#each build.type as type, i}
       {i !== 0 ? ' · ' : ''}{$l10n[type] ? $l10n[type][$lang] : type}
@@ -37,23 +37,23 @@
     style={$lang === 'en' ? '--text-size: 0.8rem' : '--text-size: 0.9rem'}
   >
     <div class="content-row">
-      <div class="content-row build-box weapons">
+      <div class="content-row weapons">
         <BuildWeapons weapons={build.weapon} />
       </div>
-      <div class="content-row build-box artifacts">
+      <div class="content-row artifacts">
         <BuildArtifactSet artifacts={build.artifact} --artifact-margin="0 15px 0 0" />
       </div>
     </div>
   </div>
   <div class="content-row build-details">
-    <div class="content-row build-box mainstat-stats">
+    <div class="content-row mainstat-stats">
       <BuildMainStats mainstat={build.mainstat} />
       <BuildStats stats={build.stats} />
     </div>
-    <div class="build-box notes">
+    <div class="notes">
       <BuildNotes {build} />
     </div>
-    <div class="build-box sources">
+    <div class="sources">
       <BuildSource references={build.source} />
     </div>
     {#if allowEdit}
@@ -145,5 +145,15 @@
         min-width: 300px;
       }
     }
+  }
+
+  .types,
+  .weapons,
+  .artifacts,
+  .mainstat-stats,
+  .notes,
+  .sources {
+    padding: 10px;
+    flex-wrap: nowrap;
   }
 </style>
