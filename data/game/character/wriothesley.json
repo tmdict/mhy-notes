@@ -1,0 +1,16 @@
+{
+  "id": "wriothesley",
+  "type": "character",
+  "rarity": 5,
+  "vision": "cryo",
+  "weapon": "catalyst",
+  "released": "4.1.1",
+  "data": {
+    "en": {
+      "name": "Wriothesley"
+    },
+    "zh": {
+      "name": "莱欧斯利"
+    }
+  }
+}
