@@ -117,10 +117,6 @@
     flex-direction: column;
     margin: 7px 0 0 5px;
     line-height: 1.4em;
-
-    @media only screen and (max-width: 570px) {
-      display: none;
-    }
   }
 
   #build-list {
@@ -135,7 +131,7 @@
       padding: 0 0 5px 5px;
       border-bottom: 1px solid var(--theme-site-primary-main);
 
-      @media only screen and (max-width: 830px) {
+      @media only screen and (max-width: 940px) {
         display: none;
       }
 

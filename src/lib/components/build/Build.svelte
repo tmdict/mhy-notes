@@ -115,7 +115,7 @@
         border-left: 0;
       }
       
-      @media only screen and (max-width: 930px) {
+      @media only screen and (max-width: 940px) {
         height: auto;
       }
 
@@ -142,7 +142,7 @@
       padding-left: 10px;
       flex-wrap: wrap;
       
-      @media only screen and (max-width: 930px) {
+      @media only screen and (max-width: 940px) {
         width: 100%;
         border-left: 0;
         border-top: 1px dotted var(--theme-border-light);
@@ -151,11 +151,19 @@
       .mainstats {
         width: 160px;
         padding: 5px 10px;
+      
+        @media only screen and (max-width: 940px) {
+          padding: 5px 0;
+        }
       }
 
       .stats {
         width: 200px;
         padding: 5px 10px;
+      
+        @media only screen and (max-width: 940px) {
+          padding: 5px 0;
+        }
       }
     }
   }
