@@ -163,6 +163,10 @@
         width: 100%;
         flex-wrap: wrap;
 
+        .type {
+          margin-right: 6px;
+        }
+
         a {
           margin: 4px;
         }
