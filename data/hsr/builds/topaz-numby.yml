@@ -1,0 +1,34 @@
+---
+character: topaz-numby
+type:
+  - dps
+  - debuff
+
+light-cone:
+  - worrisome-blissful
+  - cruising-in-the-stellar-sea
+
+relic:
+  - set: [firesmith-of-lava-forging, musketeer-of-wild-wheat]
+    p: 2
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - atk
+  sphere:
+    - fire
+  rope:
+    - atk
+
+stats:
+  - atk: '3,000'
+  - cr: '80%'
+  - cdmg: '160%'
+  - spd: '119'

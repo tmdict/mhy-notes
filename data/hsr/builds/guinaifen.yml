@@ -1,0 +1,32 @@
+---
+character: guinaifen
+type:
+  - support
+  - debuff
+
+light-cone:
+  - eyes-of-the-prey
+  - good-night-and-sleep-well
+
+relic:
+  - set: [firesmith-of-lava-forging, musketeer-of-wild-wheat]
+    p: 2
+
+ornament:
+  - set: [space-sealing-station]
+    p: 2
+
+mainstat:
+  body:
+    - atk
+  feet:
+    - spd
+  sphere:
+    - fire
+  rope:
+    - atk
+
+stats:
+  - atk: '3,200'
+  - spd: '140'
+  - ehr: '91%'

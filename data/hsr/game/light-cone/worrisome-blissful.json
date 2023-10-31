@@ -1,0 +1,16 @@
+{
+  "id": "worrisome-blissful",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "hunt",
+  "data": {
+    "en": {
+      "name": "Worrisome, Blissful",
+      "description": "Increase the wearer's CRIT Rate by {{18//21//24//27//30%}} and their follow-up attacks' DMG by {{30//35//40//45//50%}}. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by {{12//14//16//18//20%}}."
+    },
+    "zh": {
+      "name": "烦恼着，幸福着",
+      "description": "使装备者暴击率提高{{18//21//24//27//30%}}，追加攻击造成的伤害提高{{30//35//40//45//50%}}。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高{{12//14//16//18//20%}}。"
+    }
+  }
+}
