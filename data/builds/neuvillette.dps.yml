@@ -36,6 +36,10 @@ stats:
 
 talent: 'A > Q = E'
 
+notes:
+  en: 'Q > Swap > CA > E > CA > Swap > CA > E'
+  zh: 'Q > Swap > CA > E > CA > Swap > CA > E'
+
 source:
   - ccb: default
   - ysmxt: default

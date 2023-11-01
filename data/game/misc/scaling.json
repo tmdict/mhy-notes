@@ -934,6 +934,19 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
     },
+    "wriothesley": {
+      "base-stat": ["cdmg"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [],
+      "sand": ["atk", "em"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["a"]
+    },
     "xiangling": {
       "base-stat": ["em"],
       "a": ["atk"],
