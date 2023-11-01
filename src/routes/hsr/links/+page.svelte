@@ -30,6 +30,12 @@
 
   const resource = [
     {
+      name: 'edisonsmathsclub HSR Resource Compilation',
+      lang: ['English'],
+      url: 'https://docs.google.com/spreadsheets/d/1SEcgt5EKCwNgLYlc6dMGVjX3puBRAIABlOKDtSajzE8/edit',
+      description: 'Links to various HSR guides.'
+    },
+    {
       name: 'Haku.shin',
       lang: ['English', '中文', '한국어'],
       url: 'https://hsr.hakush.in/',
