@@ -304,7 +304,8 @@
     "prospectors-drill",
     "range-gauge",
     "the-dockhands-assistant",
-    "tome-of-the-eternal-flow"
+    "tome-of-the-eternal-flow",
+    "fleuve-cendre-ferryman"
   ],
   "name2id": {
     "geo": 0,
@@ -611,6 +612,7 @@
     "prospectors-drill": 301,
     "range-gauge": 302,
     "the-dockhands-assistant": 303,
-    "tome-of-the-eternal-flow": 304
+    "tome-of-the-eternal-flow": 304,
+    "fleuve-cendre-ferryman": 305
   }
 }

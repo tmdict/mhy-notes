@@ -5,34 +5,31 @@
 
   const links = [
     {
-      new: true,
       name: 'character-builds',
       url: 'builds',
       type: 'genshin-impact',
       updated: '2023-10-31'
     },
     {
-      new: true,
       name: 'character-stat-scaling',
       url: 'character-scaling',
       type: 'genshin-impact',
       updated: '2023-10-31'
     },
     {
+      new: true,
       name: 'commission-achievements',
       url: 'achievements',
       type: 'genshin-impact',
-      updated: '2023-02-05'
+      updated: '2023-11-04'
     },
     {
-      new: true,
       name: 'craftable-weapons',
       url: 'craftable-weapons',
       type: 'genshin-impact',
       updated: '2023-10-26'
     },
     {
-      new: true,
       name: 'hsr-builds',
       url: 'hsr/builds',
       type: 'honkai-star-rail',

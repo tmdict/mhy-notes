@@ -1,7 +1,7 @@
 <script>
   import { browser } from '$app/environment';
   import { slide } from 'svelte/transition';
-  import { rarity, weapons as weaponsData } from '@store/gamedata';
+  import { misc, rarity, weapons as weaponsData } from '@store/gamedata';
   import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
@@ -13,64 +13,9 @@
 
   const faq = { en: CraftableWeaponsEn, zh: CraftableWeaponsZh };
 
-  const data = {
-    northlander: {
-      bow: {
-        'prototype-crescent': 0,
-        'hamayumi': 0,
-        'compound-bow': 0,
-      },
-      catalyst: {
-        'prototype-amber': 0,
-        'hakushin-ring': 0,
-        'frostbearer': 0,
-        'mappa-mare': 0,
-      },
-      claymore: {
-        'prototype-archaic': 0,
-        'katsuragikiri-nagamasa': 0,
-        'snow-tombed-starsilver': 0,
-        'whiteblind': 0,
-      },
-      polearm: {
-        'prototype-starglitter': 0,
-        'kitain-cross-spear': 0,
-        'dragonspine-spear': 0,
-        'crescent-pike': 0,
-      },
-      sword: {
-        'prototype-rancour': 0,
-        'amenoma-kageuchi': 0,
-        'iron-sting': 0,
-      }
-    },
-    midlander: {
-      bow: {
-        'kings-squire': 0,
-        'song-of-stillness': 0,
-      },
-      catalyst: {
-        'fruit-of-fulfillment': 0,
-        'flowing-purity': 0,
-      },
-      claymore: {
-        'forest-regalia': 0,
-        'tidal-shadow': 0,
-      },
-      polearm: {
-        'moonpiercer': 0,
-        'rightful-reward': 0,
-      },
-      sword: {
-        'sapwood-blade': 0,
-        'finale-of-the-deep': 0,
-      }
-    }
-  };
-  
   // Initialize craftable weapon data
   if ($localData['billets'] && Object.keys($localData['billets']).length === 0) {
-    $localData = { ...$localData, billets: data };
+    $localData = { ...$localData, billets: $misc['craftable-weapons'].data };
     browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
   }
 
