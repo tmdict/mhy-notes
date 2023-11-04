@@ -166,7 +166,7 @@
 
 <style lang="scss">
   #content {
-    margin-top: 40px;
+    margin: 20px 0;
     min-width: 260px;
   }
 

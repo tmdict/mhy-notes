@@ -77,7 +77,7 @@
 <style lang="scss">
   .col {
     width: 75px;
-    padding: 5px;
+    padding: 5px 2px;
     overflow-wrap: break-word;
 
     @media only screen and (max-width: 960px) {
