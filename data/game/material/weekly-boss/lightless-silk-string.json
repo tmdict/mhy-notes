@@ -1,0 +1,10 @@
+{
+  "id": "lightless-silk-string",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "warden-of-the-last-oasis",
+  "characters": [
+    "charlotte"
+  ]
+}

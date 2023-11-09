@@ -1,0 +1,9 @@
+{
+  "id": "lightless-eye-of-the-maelstrom",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "warden-of-the-last-oasis",
+  "characters": [
+  ]
+}

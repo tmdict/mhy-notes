@@ -1,0 +1,16 @@
+{
+  "id": "furina",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "sword",
+  "released": "4.2.0",
+  "data": {
+    "en": {
+      "name": "Furina"
+    },
+    "zh": {
+      "name": "芙宁娜"
+    }
+  }
+}

@@ -305,7 +305,10 @@
     "range-gauge",
     "the-dockhands-assistant",
     "tome-of-the-eternal-flow",
-    "fleuve-cendre-ferryman"
+    "fleuve-cendre-ferryman",
+    "charlotte",
+    "furina",
+    "splendor-of-tranquil-waters"
   ],
   "name2id": {
     "geo": 0,
@@ -613,6 +616,9 @@
     "range-gauge": 302,
     "the-dockhands-assistant": 303,
     "tome-of-the-eternal-flow": 304,
-    "fleuve-cendre-ferryman": 305
+    "fleuve-cendre-ferryman": 305,
+    "charlotte": 306,
+    "furina": 307,
+    "splendor-of-tranquil-waters": 308
   }
 }

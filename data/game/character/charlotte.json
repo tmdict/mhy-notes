@@ -1,0 +1,16 @@
+{
+  "id": "charlotte",
+  "type": "character",
+  "rarity": 4,
+  "vision": "cryo",
+  "weapon": "catalyst",
+  "released": "4.1.0",
+  "data": {
+    "en": {
+      "name": "Charlotte"
+    },
+    "zh": {
+      "name": "夏洛蒂"
+    }
+  }
+}

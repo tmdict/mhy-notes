@@ -1,0 +1,10 @@
+{
+  "id": "lightless-mass",
+  "type": "material",
+  "materialType": "weekly-boss",
+  "rarity": 5,
+  "source": "warden-of-the-last-oasis",
+  "characters": [
+    "furina"
+  ]
+}
