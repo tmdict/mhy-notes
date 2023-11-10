@@ -16,8 +16,8 @@ weapon:
 artifact:
   - set: [gilded-dreams]
     p: 4
-  - set: [thundering-fury, gladiators-finale]
-    p: 2
+  - set: [golden-troupe]
+    p: 4
 
 mainstat:
   sand:

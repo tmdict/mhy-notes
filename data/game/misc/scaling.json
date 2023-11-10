@@ -146,6 +146,21 @@
       "circlet": ["crit-abbr", "hp"],
       "recommended-talent": ["q"]
     },
+    "charlotte": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C1": ["atk"] }
+      ],
+      "sand": ["er"],
+      "goblet": ["atk"],
+      "circlet": ["heal"],
+      "recommended-talent": ["q"]
+    },
     "chongyun": {
       "base-stat": ["atk"],
       "a": ["atk"],
@@ -303,6 +318,21 @@
       "goblet": ["cryo"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
+    },
+    "furina": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["hp"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["hp"],
+      "constellation": [
+        { "C6": ["hp"] }
+      ],
+      "sand": ["er"],
+      "goblet": ["hp"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["q"]
     },
     "ganyu": {
       "base-stat": ["cdmg"],

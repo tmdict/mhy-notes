@@ -11,8 +11,8 @@ name:
 weapon:
   - name: cashflow-supervision
     r: 0
-  - name: ballad-of-the-boundless-blue
-    r: 5
+  - name: the-widsith
+    r: 0
 
 artifact:
   - set: [marechaussee-hunter]
@@ -28,8 +28,8 @@ mainstat:
     - crit
 
 stats:
-  - crit: ''
-  - atk: ''
+  - crit: '70% / 200%'
+  - atk: '2,300'
   - em: ''
   - er: ''
 

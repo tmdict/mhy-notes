@@ -1,0 +1,38 @@
+---
+character: furina
+c: 0
+type:
+  - sub-dps
+  - support
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: splendor-of-tranquil-waters
+    r: 0
+  - name: fleuve-cendre-ferryman
+    r: 5
+
+artifact:
+  - set: [golden-troupe]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - hp
+  circlet:
+    - crit
+
+stats:
+  - er: '170%'
+  - crit: '80% / 210%'
+  - hp: '39,000'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
