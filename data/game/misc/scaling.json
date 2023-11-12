@@ -329,8 +329,8 @@
       "constellation": [
         { "C6": ["hp"] }
       ],
-      "sand": ["er"],
-      "goblet": ["hp"],
+      "sand": ["er", "hp"],
+      "goblet": ["hp", "hydro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
     },
