@@ -6,7 +6,7 @@ type:
   - reaction
 name:
   en: 'Aggravate DPS'
-  zh: '雷伤'
+  zh: '超激化'
 
 weapon:
   - name: lost-prayer-to-the-sacred-winds
