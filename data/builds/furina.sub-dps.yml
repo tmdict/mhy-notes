@@ -21,8 +21,10 @@ artifact:
 mainstat:
   sand:
     - er
+    - hp
   goblet:
     - hp
+    - hydro
   circlet:
     - crit
 
