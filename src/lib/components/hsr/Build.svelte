@@ -342,13 +342,13 @@
 
         li {
           font-size: 0.85em;
-          margin: 5px 0;
+          margin: 6px 0;
           line-height: 1em; // ZH li line-ht is smaller
           border-bottom: 1px dotted var(--theme-border-light);
 
           &.divider {
-            padding-bottom: 5px;
-            border-bottom: 1px solid var(--theme-border-dark);
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--theme-border-strong);
           }
 
           .highlight {
