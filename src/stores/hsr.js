@@ -20,7 +20,8 @@ const parsed = Object.values(buildData).map((d) => {
   d.default.mainstat.feet.forEach(f => d.default.tags.add(f));
   d.default.mainstat.sphere.forEach(s => d.default.tags.add(s));
   d.default.mainstat.rope.forEach(r => d.default.tags.add(r));
-  d.default.stats.forEach(s => d.default.tags.add(Object.keys(s)[0]));
+  d.default.stats.priority.forEach(s => d.default.tags.add(Object.keys(s)[0]));
+  if (d.default.stats.common) d.default.stats.common.forEach(s => d.default.tags.add(Object.keys(s)[0]));
   // Extract relics
   d.default.relic.forEach(r => r.set.forEach(s => d.default.tags.add(s)));
   d.default.ornament.forEach(o => o.set.forEach(s => d.default.tags.add(s)));

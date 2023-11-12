@@ -12,10 +12,14 @@
 
   <ul>
     <li>Rounded to nearest 1: Speed, Effect Hit Rate, Heal</li>
-    <li>Rounded to nearest 5: Crit Rate%, Crit Dmg%, Effect Res%, Energy Rechard%, Break Effect</li>
+    <li>Rounded to nearest 5: Crit Rate%, Crit Dmg%, Effect Res%, Energy Recharge%, Break Effect</li>
     <li>Rounded to nearest 100: HP, Attack, Defense</li>
   </ul>
 
+<p>
+  Recommended stats are ordered by their priority. Stats below a solid line are other common substats in non-prioritzed list.
+</p>
+  
 <p>
   Sometimes a range ("<code>-</code>")is given if there is a huge difference due to recommended light cones or relic primary stats. If different builds are recommended (different primary stats or relic/ornament), a difference in stat is separated by a slash ("<code>/</code>").
 </p>

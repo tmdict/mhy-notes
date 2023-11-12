@@ -27,7 +27,9 @@ mainstat:
     - def
 
 stats:
-  - atk: '1,600'
-  - def: '3,500-4,400'
+  priority:
   - spd: '129'
+  - def: '3,500-4,400'
   - ehr: '63%'
+  common:
+  - atk: '1,600'

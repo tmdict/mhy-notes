@@ -27,9 +27,11 @@ mainstat:
     - er
 
 stats:
+  priority:
+  - spd: '140'
+  - cdmg: "210%"
+  common:
   - atk: '1,500'
   - def: "1,500"
-  - cdmg: "210%"
-  - spd: '140'
   - er: '130%'
   - res: '30%'

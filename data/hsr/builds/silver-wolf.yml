@@ -31,10 +31,12 @@ mainstat:
     - breakeff
 
 stats:
-  - atk: '1,900'
+  priority:
+  - spd: '150'
+  - ehr: '62% / 100%'
   - cr: '5% / 55%'
   - cdmg: '50% / 132%'
-  - spd: '150'
+  common:
+  - atk: '1,900'
   - er: '120%'
-  - ehr: '62% / 100%'
   - breakeff: '0% / 170%'

@@ -4,7 +4,6 @@
   import { hsr } from '@store/hsr';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
-  import { rarity } from '@store/gamedata';
 
   export let build;
   export let alt = false;
@@ -138,17 +137,30 @@
   </div>
 
   <div class="content-col stats separator">
+    {#if build.stats.priority}
     <ul>
-      {#each build.stats as stat}
+      {#each build.stats.priority as stat, i}
         {@const [id, value] = Object.entries(stat).flat()}
-        <li style='--line-ht: 1.1em'>
+        <li class:divider={i === build.stats.priority.length - 1 }>
           <span class:highlight={$hsrBuildsFilters.stat.common.includes(id)}>
-            {$l10n[id][$lang]}:
+            {$l10n[id][$lang]}{#if value !== ''}:{/if}
           </span>
           <span class="stat-value">{value}</span>
         </li>
       {/each}
+      {#if build.stats.common}
+        {#each build.stats.common as stat}
+          {@const [id, value] = Object.entries(stat).flat()}
+          <li>
+            <span class:highlight={$hsrBuildsFilters.stat.common.includes(id)}>
+              {$l10n[id][$lang]}{#if value !== ''}:{/if}
+            </span>
+            <span class="stat-value">{value}</span>
+          </li>
+        {/each}
+      {/if}
     </ul>
+    {/if}
   </div>
 </div>
 
@@ -330,9 +342,14 @@
 
         li {
           font-size: 0.85em;
-          margin: 6px 0;
+          margin: 5px 0;
           line-height: 1em; // ZH li line-ht is smaller
           border-bottom: 1px dotted var(--theme-border-light);
+
+          &.divider {
+            padding-bottom: 5px;
+            border-bottom: 1px solid var(--theme-border-dark);
+          }
 
           .highlight {
             color: var(--theme-site-primary-main);

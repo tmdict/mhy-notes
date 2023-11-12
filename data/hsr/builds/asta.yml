@@ -27,9 +27,11 @@ mainstat:
     - er
 
 stats:
+  priority:
+  - spd: '147'
+  common:
   - atk: '1,500'
   - hp: '3,900'
   - def: "1,400-1,500"
-  - spd: '147'
   - er: '120%'
   - breakeff: '30-55%'

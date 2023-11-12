@@ -27,6 +27,8 @@ mainstat:
     - atk
 
 stats:
-  - atk: '3,200'
+  priority:
   - spd: '140'
+  - atk: '3,200'
+  common:
   - ehr: '91%'

@@ -28,8 +28,10 @@ mainstat:
     - hp
 
 stats:
-  - atk: '1,500'
-  - hp: '6,500-7,600'
+  priority:
   - cr: '65%'
   - cdmg: '190%'
   - spd: '106-141'
+  - hp: '6,500-7,600'
+  common:
+  - atk: '1,500'

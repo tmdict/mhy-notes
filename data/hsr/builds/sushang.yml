@@ -30,8 +30,9 @@ mainstat:
     - breakeff
 
 stats:
-  - atk: '2,600'
+  priority:
   - cr: '70%'
   - cdmg: '135%'
   - spd: '116'
   - breakeff: '85% / 200%'
+  - atk: '2,600'

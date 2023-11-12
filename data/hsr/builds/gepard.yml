@@ -27,8 +27,10 @@ mainstat:
     - er
 
 stats:
-  - atk: '1,400'
-  - def: '3,300-3,700'
+  priority:
   - spd: '126'
+  - def: '3,300-3,700'
   - ehr: '63-87%'
+  common:
+  - atk: '1,400'
   - er: '120%'

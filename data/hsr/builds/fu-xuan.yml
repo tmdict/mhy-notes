@@ -27,8 +27,10 @@ mainstat:
     - er
 
 stats:
+  priority:
   - hp: '7,700-8,900'
-  - def: "1,100-1,500"
   - spd: '139'
-  - er: '130%'
   - res: '35%'
+  common:
+  - def: "1,100-1,500"
+  - er: '130%'

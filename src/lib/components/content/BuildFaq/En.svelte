@@ -70,7 +70,16 @@
     </ol>
 
     <p>
-      The stat reference values are rounded to the nearest 10th/100th place. Note these values are meant to be the optimal value based on a character's damage curve and can be very difficult to reach, we recommend using them as a reference, or as a long term goal to aim for. Due to these being aggregated data, accuracies may be lost, please use linked source materials for accurate, in-depth analysis.
+      Recommended stats are rounded using the following criteria:
+    </p>
+    
+    <ul>
+      <li>Rounded to nearest 5: Crit Rate%, Crit Dmg%, Energy Recharge%, EM, Heal%</li>
+      <li>Rounded to nearest 100: HP, Attack, Defense</li>
+    </ul>
+    
+    <p>
+      Note these values are meant to be optimal endgame values based on a character's damage curve and can be very difficult to reach, we recommend using them as a reference, or as a long term goal to aim for. Due to these being aggregated data, accuracy may be lost, use linked source materials for accurate, in-depth analysis.
     </p>
   </span>
 

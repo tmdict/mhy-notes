@@ -28,9 +28,11 @@ mainstat:
     - er
 
 stats:
-  - atk: '2,700-3,200'
-  - hp: '6,500-7,600'
+  priority:
   - cr: '65%'
   - cdmg: '130%'
+  - atk: '2,700-3,200'
   - spd: '99'
+  common:
+  - hp: '6,500-7,600'
   - er: '120%'

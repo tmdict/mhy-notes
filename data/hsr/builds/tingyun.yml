@@ -27,8 +27,10 @@ mainstat:
     - er
 
 stats:
+  priority:
+  - spd: '153'
   - atk: '2,700'
+  common:
   - hp: '2,700'
   - def: "1,400"
-  - spd: '153'
   - er: '120%'

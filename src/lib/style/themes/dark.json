@@ -20,6 +20,7 @@
 
     "border-gold": "#baaf81",
     "border-light": "#888",
+    "border-dark": "#ccc",
 
     "rarity-1": "#76787c",
     "rarity-2": "#4e7e6c",

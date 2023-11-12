@@ -27,9 +27,13 @@ mainstat:
     - er
 
 stats:
+  priority:
+  - spd: '139'
+  - ehr: '68%'
+  - cr: ''
+  - cdmg: ''
+  common:
   - atk: '1,600'
   - hp: '2,900-3,700'
   - def: '1,200'
-  - spd: '139'
   - er: '120%'
-  - ehr: '68%'

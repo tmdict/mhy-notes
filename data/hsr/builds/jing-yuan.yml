@@ -29,7 +29,8 @@ mainstat:
     - atk
 
 stats:
-  - atk: '2,800-3,300'
+  priority:
   - cr: '70%'
   - cdmg: '140-180%'
   - spd: '108-133'
+  - atk: '2,800-3,300'

@@ -27,8 +27,10 @@ mainstat:
     - er
 
 stats:
-  - hp: '6,800'
+  priority:
   - spd: '138'
-  - heal: '45-57%'
+  - hp: '6,800'
   - res: '40%'
+  common:
+  - heal: '45-57%'
   - er: '120%'
