@@ -5,8 +5,8 @@ type:
   - healer
   - support
 name:
-  en: 'Support'
-  zh: '辅助'
+  en: 'Healer'
+  zh: '治疗'
 
 weapon:
   - name: prototype-amber
@@ -16,6 +16,8 @@ weapon:
 
 artifact:
   - set: [noblesse-oblige]
+    p: 4
+  - set: [tenacity-of-the-millelith]
     p: 4
 
 mainstat:

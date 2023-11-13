@@ -17,6 +17,8 @@ weapon:
 artifact:
   - set: [marechaussee-hunter]
     p: 4
+  - set: [shimenawas-reminiscence]
+    p: 4
 
 mainstat:
   sand:

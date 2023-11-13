@@ -17,6 +17,8 @@ weapon:
 artifact:
   - set: [golden-troupe]
     p: 4
+  - set: [tenacity-of-the-millelith]
+    p: 4
 
 mainstat:
   sand:

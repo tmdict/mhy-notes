@@ -10,6 +10,7 @@
 
   const exampleBuild = {
     character: 'kaedehara-kazuha',
+    charname: { en: 'Kaedehara Kazuha', zh: '枫原万叶' },
     c: 6,
     type: ['dps'],
     name: { en: 'DPS', zh: '主C' },
@@ -37,8 +38,13 @@
     <div class="character-example example">
       <div class="box">
         <BuildCharacter character={exampleBuild.character} constellation={exampleBuild.c} />
-        <div class="build-box">
-          {exampleBuild.name[$lang] ? exampleBuild.name[$lang] : exampleBuild.name[lang.default()]}
+        <div class="content-col names">
+          <div class="character-name">
+            {exampleBuild.charname[$lang]}
+          </div>
+          <div class="build-name">
+            {exampleBuild.name[$lang]}
+          </div>
         </div>
       </div>
     </div>
@@ -146,6 +152,23 @@
 
   .character-example {
     grid-area: character-example;
+
+    .names {
+      font-size: var(--text-size, 0.8rem);
+      width: 80px;
+      padding-left: 10px;
+      justify-content: center;
+      
+      .character-name {
+        font-weight: bold;
+        margin-bottom: 5px;
+        overflow-wrap: anywhere;
+      }
+
+      .build-name {
+        color: var(--theme-site-secondary-main);
+      }
+    }
   }
 
   .character-content {
