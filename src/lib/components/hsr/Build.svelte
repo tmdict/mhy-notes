@@ -343,7 +343,7 @@
         li {
           font-size: 0.85em;
           margin: 6px 0;
-          line-height: 1em; // ZH li line-ht is smaller
+          line-height: 1em;
           border-bottom: 1px dotted var(--theme-border-light);
 
           &.divider {

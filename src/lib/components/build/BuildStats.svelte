@@ -12,7 +12,7 @@
   <ol>
     {#each stats as stat}
       {@const [id, value] = Object.entries(stat).flat()}
-      <li style={$lang === 'en' ? '--line-ht: 1.1em' : '--line-ht: 1.1em'}>
+      <li>
         {$l10n[id] ? $l10n[id][$lang] : 'undefined'}{#if value !== ''}: <span class="highlight">{value}</span>{/if}
       </li>
     {/each}
@@ -34,7 +34,7 @@
 
     li {
       margin: 5px 0;
-      line-height: 1.1em; // ZH li line-ht is smaller
+      line-height: 1.1em;
     }
   }
 
