@@ -29,7 +29,7 @@ mainstat:
     - def
 
 stats:
-  - crit: '60% / 120%'
+  - crit: '60-80% / 120-190%'
   - def: '2,600'
   - atk: '1,200'
   - er: ''

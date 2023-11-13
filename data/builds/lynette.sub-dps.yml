@@ -29,9 +29,9 @@ mainstat:
     - crit
 
 stats:
-  - crit: '60% / 150%'
-  - er: '180%'
-  - atk: '1,600'
+  - crit: '70% / 150%'
+  - er: '170-180%'
+  - atk: '1,300-1,600'
 
 talent: 'Q > E'
 

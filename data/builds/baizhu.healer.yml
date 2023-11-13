@@ -2,10 +2,11 @@
 character: baizhu
 c: 0
 type:
+  - healer
   - support
 name:
-  en: 'Support'
-  zh: '辅助'
+  en: 'Healer'
+  zh: '治疗'
 
 weapon:
   - name: jadefalls-splendor
@@ -30,7 +31,7 @@ mainstat:
 
 stats:
   - er: '170%'
-  - hp: '46,000'
+  - hp: '40,000-46,000'
   - atk: '1,100'
 
 talent: 'Q > E'

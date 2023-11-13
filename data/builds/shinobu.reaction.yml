@@ -33,7 +33,7 @@ mainstat:
     - crit
 
 stats:
-  - em: '960'
+  - em: '965'
   - hp: '22,000'
   - er: ''
   - atk: '1,100'

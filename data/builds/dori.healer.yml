@@ -5,8 +5,8 @@ type:
   - healer
   - support
 name:
-  en: 'Support'
-  zh: '辅助'
+  en: 'Healer'
+  zh: '治疗'
 
 weapon:
   - name: sacrificial-greatsword
@@ -31,9 +31,9 @@ mainstat:
 
 stats:
   - crit: ''
-  - er: '180%'
+  - er: '150-180%'
   - hp: '39,000'
-  - em: ''
+  - atk: '1,100'
 
 talent: 'Q > E'
 

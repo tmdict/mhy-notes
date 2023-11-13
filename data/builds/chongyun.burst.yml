@@ -23,8 +23,6 @@ artifact:
 mainstat:
   sand:
     - atk
-    - er
-    - em
   goblet:
     - cryo
   circlet:

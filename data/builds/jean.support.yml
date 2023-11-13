@@ -35,7 +35,7 @@ mainstat:
 stats:
   - crit: ''
   - atk: '2,200'
-  - er: '180%'
+  - er: '165-180%'
   - heal: '60%'
 
 talent: 'Q = E > A'

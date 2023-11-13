@@ -30,7 +30,6 @@ mainstat:
   circlet:
     - heal
     - hp
-    - cr
 
 stats:
   - hp: '27,000'

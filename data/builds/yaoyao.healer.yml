@@ -5,8 +5,8 @@ type:
   - healer
   - support
 name:
-  en: 'Support'
-  zh: '辅助'
+  en: 'Healer'
+  zh: '治疗'
 
 weapon:
   - name: favonius-lance
@@ -29,7 +29,7 @@ mainstat:
     - heal
 
 stats:
-  - hp: '47,000'
+  - hp: '39,000-47,000'
   - er: ''
   - cr: '30%'
   - atk: '1,100'

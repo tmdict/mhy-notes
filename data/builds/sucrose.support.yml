@@ -29,7 +29,7 @@ mainstat:
     - em
 
 stats:
-  - em: '760'
+  - em: '755'
   - er: ''
   - atk: '1,100'
   - crit: ''

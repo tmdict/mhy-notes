@@ -33,7 +33,7 @@ mainstat:
 
 stats:
   - er: ''
-  - em: '440'
+  - em: '445'
   - atk: '2,400'
   - heal: '35%'
 

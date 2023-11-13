@@ -6,7 +6,7 @@ type:
   - support
 name:
   en: 'Bloom Support'
-  zh: '辅助'
+  zh: '绽放辅助'
 
 weapon:
   - name: sacrificial-greatsword
@@ -30,9 +30,9 @@ mainstat:
 
 stats:
   - er: '200%'
-  - em: '710'
+  - em: '550-715'
   - crit: ''
-  - atk: '1,400'
+  - atk: '1,100-1,400'
 
 talent: 'Q > E > A'
 
