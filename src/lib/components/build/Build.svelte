@@ -97,6 +97,7 @@
         .character-name {
           font-weight: bold;
           margin-bottom: 5px;
+          overflow-wrap: anywhere;
         }
 
         .build-name {
@@ -149,7 +150,7 @@
       }
 
       .mainstats {
-        width: 160px;
+        width: 150px;
         padding: 5px 10px;
       
         @media only screen and (max-width: 940px) {
@@ -158,7 +159,7 @@
       }
 
       .stats {
-        width: 200px;
+        width: 220px;
         padding: 5px 10px;
       
         @media only screen and (max-width: 940px) {

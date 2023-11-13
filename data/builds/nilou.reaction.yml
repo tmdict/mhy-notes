@@ -6,7 +6,7 @@ type:
   - support
 name:
   en: 'Bloom Support'
-  zh: '辅助'
+  zh: '绽放辅助'
 
 weapon:
   - name: key-of-khaj-nisut
@@ -30,8 +30,8 @@ mainstat:
 
 stats:
   - hp: '70,000'
-  - er: '150%'
-  - em: '450'
+  - er: '120-150%'
+  - em: '280-445'
   - crit: ''
 
 talent: 'Q > E'

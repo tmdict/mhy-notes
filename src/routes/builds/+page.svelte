@@ -148,7 +148,7 @@
       }
 
       .stats {
-        margin-left: 105px;
+        margin-left: 95px;
       }
     }
   }

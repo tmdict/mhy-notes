@@ -5,8 +5,8 @@ type:
   - dps
   - reaction
 name:
-  en: 'DPS'
-  zh: '主C'
+  en: 'Melt DPS'
+  zh: '蒸发C'
 
 weapon:
   - name: amos-bow

@@ -32,6 +32,7 @@ stats:
   - hp: '36,000'
   - er: ''
   - heal: '60%'
+  - atk: '1,200'
 
 talent: 'E > Q'
 
@@ -41,3 +42,4 @@ notes:
 source:
   - ccb: default
   - ysmxt: default
+  - kqm: https://keqingmains.com/barbara/

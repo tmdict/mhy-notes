@@ -30,7 +30,7 @@ mainstat:
 
 stats:
   - er: '170%'
-  - hp: '39,000'
+  - hp: '32,000-39,000'
   - crit: '80% / 210%'
 
 talent: 'Q > E'

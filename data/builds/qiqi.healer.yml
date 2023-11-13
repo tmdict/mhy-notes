@@ -31,9 +31,9 @@ mainstat:
     - atk
 
 stats:
-  - atk: '2,600'
+  - atk: '2,000-2,600'
   - er: ''
-  - heal: '70%'
+  - heal: '75%'
 
 talent: 'Q > E'
 

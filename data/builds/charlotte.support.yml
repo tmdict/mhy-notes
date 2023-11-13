@@ -27,7 +27,7 @@ mainstat:
     - heal
 
 stats:
-  - er: '220%'
+  - er: '175-220%'
   - atk: '1,500'
   - crit: ''
 

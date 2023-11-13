@@ -29,7 +29,7 @@ mainstat:
     - heal
 
 stats:
-  - er: '200%'
+  - er: '205%'
   - hp: '31,000'
   - atk: '1,000'
 

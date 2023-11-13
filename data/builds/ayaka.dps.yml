@@ -29,10 +29,10 @@ mainstat:
     - atk
 
 stats:
-  - cdmg: '250%'
+  - cdmg: '255%'
   - atk: '2,100'
   - er: ''
-  - cr: '40%'
+  - cr: '35-50%'
 
 talent: 'Q > A > E'
 

@@ -15,11 +15,7 @@
 
 <style lang="scss">
   .mainstats {
-    width: 170px;
-
-    @media only screen and (max-width: 460px) {
-      width: 160px;
-    }
+    width: 150px;
   }
 
   .hidden {

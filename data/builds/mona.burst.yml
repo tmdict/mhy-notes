@@ -6,8 +6,8 @@ type:
   - reaction
   - sub-dps
 name:
-  en: 'Burst'
-  zh: '爆发'
+  en: 'Burst DPS'
+  zh: '爆发C'
 
 weapon:
   - name: the-widsith
@@ -32,7 +32,7 @@ mainstat:
     - crit
 
 stats:
-  - crit: '70% / 150%'
+  - crit: '75% / 150%'
   - er: '180%'
   - atk: '1,700'
   - em: '80'

@@ -11,7 +11,7 @@ name:
 weapon:
   - name: thrilling-tales-of-dragon-slayers
     r: 0
-  - name: favonius-codex
+  - name: prototype-amber
     r: 0
 
 artifact:
@@ -29,9 +29,9 @@ mainstat:
     - crit
 
 stats:
-  - er: '210%'
+  - er: '215%'
   - crit: '60% / 120%'
-  - atk: '1,700'
+  - atk: '1,500-1,700'
 
 talent: 'Q > E'
 

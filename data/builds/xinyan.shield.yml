@@ -31,8 +31,8 @@ mainstat:
 
 stats:
   - er: ''
-  - atk: '1,900'
-  - def: '3,100'
+  - atk: '1,700-1,900'
+  - def: '2,700-3,100'
 
 talent: 'E > Q'
 

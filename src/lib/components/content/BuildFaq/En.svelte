@@ -75,7 +75,8 @@
     
     <ul>
       <li>Rounded to nearest 5: Crit Rate%, Crit Dmg%, Energy Recharge%, EM, Heal%</li>
-      <li>Rounded to nearest 100: HP, Attack, Defense</li>
+      <li>Rounded to nearest 100: Attack, Defense</li>
+      <li>Rounded to nearest 1,000: HP</li>
     </ul>
     
     <p>

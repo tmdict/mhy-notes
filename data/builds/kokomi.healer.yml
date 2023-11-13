@@ -32,7 +32,7 @@ mainstat:
 stats:
   - er: ''
   - hp: '48,000'
-  - atk: '1,200'
+  - atk: '1,100-1,200'
   - heal: '60%'
 
 talent: 'E > Q > A'

@@ -30,8 +30,8 @@ mainstat:
     - crit
 
 stats:
-  - crit: '50% / 170%'
-  - em: '270'
+  - crit: '50% / 175-215%'
+  - em: '80-265'
   - atk: '2,400'
 
 talent: 'A > E > Q'
