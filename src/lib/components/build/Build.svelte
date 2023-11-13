@@ -98,6 +98,10 @@
           font-weight: bold;
           margin-bottom: 5px;
           overflow-wrap: anywhere;
+
+          @media only screen and (max-width: 460px) {
+            overflow-wrap: normal;
+          }
         }
 
         .build-name {
