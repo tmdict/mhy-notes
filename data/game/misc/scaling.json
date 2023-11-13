@@ -171,7 +171,7 @@
       "constellation": [
         { "C1": ["atk"] }
       ],
-      "sand": ["atk", "er", "em"],
+      "sand": ["atk"],
       "goblet": ["cryo"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
