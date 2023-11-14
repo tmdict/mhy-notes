@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.0.4",
-    "@sveltejs/adapter-auto": "^2.1.0",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.20.4",
     "@zerodevx/svelte-toast": "^0.9.5",
