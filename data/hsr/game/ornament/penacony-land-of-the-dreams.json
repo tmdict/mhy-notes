@@ -1,0 +1,15 @@
+{
+  "id": "penacony-land-of-the-dreams",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Penacony, Land of the Dreams",
+      "2p": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer."
+    },
+    "zh": {
+      "name": "梦想之地匹诺康尼",
+      "2p": "使装备者的能量恢复效率提高5%。使队伍中与装备者属性相同的我方其他角色造成的伤害提高10%。"
+    }
+  }
+}

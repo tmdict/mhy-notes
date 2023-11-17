@@ -1,0 +1,17 @@
+{
+  "id": "the-ashblazing-grand-duke",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "The Ashblazing Grand Duke",
+      "2p": "Increases the DMG dealt by follow-up attacks by 20%.",
+      "4p": "When the wearer uses follow-up attacks, increases the wearer's ATK by 6% every time the follow-up attack deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a follow-up attack."
+    },
+    "zh": {
+      "name": "毁烬焚骨的大公",
+      "2p": "追加攻击造成的伤害提高20%。",
+      "4p": "装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高6%，最多叠加8次，持续3回合。该效果在装备者下一次施放追加攻击时移除。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "huohuo",
+  "type": "character",
+  "rarity": 5,
+  "path": "abundance",
+  "element": "wind",
+  "released": "1.5.0",
+  "data": {
+    "en": {
+      "name": "Huohuo"
+    },
+    "zh": {
+      "name": "藿藿"
+    }
+  }
+}

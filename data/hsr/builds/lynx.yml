@@ -25,11 +25,12 @@ mainstat:
     - hp
   rope:
     - er
+    - hp
 
 stats:
   priority:
   - spd: '134'
-  - hp: '5,200-6,200'
+  - hp: '5,300-7,400'
   - res: '70%'
   common:
   - def: '1,200'

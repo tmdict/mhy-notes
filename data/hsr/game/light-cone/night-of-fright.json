@@ -1,0 +1,16 @@
+{
+  "id": "night-of-fright",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "abundance",
+  "data": {
+    "en": {
+      "name": "Night of Fright",
+      "description": "Increases the wearer's Energy Regeneration Rate by {{12//14//16//18//20%}}. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to {{10//11//12//13//14%}} of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by {{2.4//2.8//3.2//3.6//4%}}. This effect can stack up to 5 times and lasts for 2 turn(s)."
+    },
+    "zh": {
+      "name": "惊魂夜",
+      "description": "使装备者的能量恢复效率提高{{12//14//16//18//20%}}。我方目标施放终结技时，装备者为当前生命值百分比最低的我方目标回复等同于其{{10//11//12//13//14%}}生命上限的生命值。当装备者为我方目标提供治疗时，使该目标的攻击力提高{{2.4//2.8//3.2//3.6//4%}}，该效果最多叠加5层，持续2回合。"
+    }
+  }
+}
