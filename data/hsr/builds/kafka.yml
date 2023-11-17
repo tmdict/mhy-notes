@@ -6,14 +6,14 @@ type:
 
 light-cone:
   - patience-is-all-you-need
-  - good-night-and-sleep-well
+  - solitary-healing
 
 relic:
-  - set: [band-of-sizzling-thunder]
+  - set: [prisoner-in-deep-confinement]
     p: 4
 
 ornament:
-  - set: [space-sealing-station]
+  - set: [firmament-frontline-glamoth]
     p: 2
 
 mainstat:
@@ -29,6 +29,7 @@ mainstat:
 stats:
   priority:
   - spd: '153'
-  - atk: '3,300-3,600'
+  - atk: '3,300-3,500'
   common:
   - ehr: '26%'
+  - breakeff: '0% / 40%'

@@ -36,6 +36,8 @@
         'messenger-traversing-hackerspace',
         'musketeer-of-wild-wheat',
         'passerby-of-wandering-cloud',
+        'prisoner-in-deep-confinement',
+        'the-ashblazing-grand-duke',
         'wastelander-of-banditry-desert'
       ],
       show: true,
@@ -44,9 +46,11 @@
       values: [
         'belobog-of-the-architects',
         'broken-keel',
+        'firmament-frontline-glamoth',
         'fleet-of-the-ageless',
         'inert-salsotto',
         'pan-cosmic-commercial-enterprise',
+        'penacony-land-of-the-dreams',
         'rutilant-arena',
         'space-sealing-station',
         'talia-kingdom-of-banditry'

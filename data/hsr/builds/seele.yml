@@ -13,7 +13,7 @@ relic:
     p: 4
 
 ornament:
-  - set: [inert-salsotto]
+  - set: [firmament-frontline-glamoth]
     p: 2
 
 mainstat:
@@ -29,7 +29,7 @@ mainstat:
 
 stats:
   priority:
-  - cr: '80%'
-  - cdmg: '160%'
+  - cr: '75%'
+  - cdmg: '150%'
   - spd: '124-131'
-  - atk: '3,100'
+  - atk: '3,200'

@@ -9,11 +9,11 @@ light-cone:
   - good-night-and-sleep-well
 
 relic:
-  - set: [firesmith-of-lava-forging, musketeer-of-wild-wheat]
-    p: 2
+  - set: [prisoner-in-deep-confinement]
+    p: 4
 
 ornament:
-  - set: [space-sealing-station]
+  - set: [firmament-frontline-glamoth]
     p: 2
 
 mainstat:
@@ -29,6 +29,6 @@ mainstat:
 stats:
   priority:
   - spd: '140'
-  - atk: '3,200'
+  - atk: '3,100'
   common:
-  - ehr: '91%'
+  - ehr: '57-91%'

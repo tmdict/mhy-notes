@@ -9,8 +9,8 @@ light-cone:
   - good-night-and-sleep-well
 
 relic:
-  - set: [eagle-of-twilight-line, musketeer-of-wild-wheat]
-    p: 2
+  - set: [prisoner-in-deep-confinement]
+    p: 4
 
 ornament:
   - set: [pan-cosmic-commercial-enterprise]
@@ -29,7 +29,7 @@ mainstat:
 stats:
   priority:
   - spd: '136'
-  - atk: '3,700'
+  - atk: '3,600'
   - ehr: '68%'
   common:
   - cr: '5%'

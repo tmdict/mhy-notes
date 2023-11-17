@@ -9,11 +9,11 @@ light-cone:
   - eyes-of-the-prey
 
 relic:
-  - set: [champion-of-streetwise-boxing]
+  - set: [prisoner-in-deep-confinement]
     p: 4
 
 ornament:
-  - set: [space-sealing-station]
+  - set: [firmament-frontline-glamoth]
     p: 2
 
 mainstat:
@@ -29,6 +29,6 @@ mainstat:
 stats:
   priority:
   - spd: '137'
-  - atk: '3,400'
+  - atk: '3,200'
   common:
   - ehr: '37-58%'

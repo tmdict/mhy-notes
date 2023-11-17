@@ -13,7 +13,7 @@ relic:
     p: 4
 
 ornament:
-  - set: [space-sealing-station]
+  - set: [firmament-frontline-glamoth]
     p: 2
   - set: [pan-cosmic-commercial-enterprise]
     p: 2
@@ -38,4 +38,4 @@ stats:
   - ehr: '0% / 73%'
   common:
   - atk: '2,100 / 2,900'
-  - er: '100% / 120%'
+  - er: '120%'

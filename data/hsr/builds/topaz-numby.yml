@@ -9,8 +9,8 @@ light-cone:
   - cruising-in-the-stellar-sea
 
 relic:
-  - set: [firesmith-of-lava-forging, musketeer-of-wild-wheat]
-    p: 2
+  - set: [the-ashblazing-grand-duke]
+    p: 4
 
 ornament:
   - set: [inert-salsotto]
@@ -32,4 +32,4 @@ stats:
   - cr: '80%'
   - cdmg: '160%'
   - spd: '119'
-  - atk: '3,000'
+  - atk: '2,800'

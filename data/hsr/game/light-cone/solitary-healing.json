@@ -1,0 +1,16 @@
+{
+  "id": "solitary-healing",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "destruction",
+  "data": {
+    "en": {
+      "name": "Solitary Healing",
+      "description": "Increases the wearer's Break Effect by {{20//25//30//35//40%}}. When the wearer uses their Ultimate, increases DoT dealt by the wearer by {{24//30//36//42//48%}}, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates {{4//4.5//5//5.5//6}} Energy for the wearer."
+    },
+    "zh": {
+      "name": "孤独的疗愈",
+      "description": "使装备者的击破特攻提高{{20//25//30//35//40%}}。当装备者施放终结技时，使装备者造成的持续伤害提高{{24//30//36//42//48%}}，持续2回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复{{4//4.5//5//5.5//6}}点能量。"
+    }
+  }
+}

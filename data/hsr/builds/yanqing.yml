@@ -13,7 +13,7 @@ relic:
     p: 4
 
 ornament:
-  - set: [space-sealing-station]
+  - set: [firmament-frontline-glamoth]
     p: 2
 
 mainstat:
@@ -32,4 +32,4 @@ stats:
   - cr: '30%'
   - cdmg: '180-210%'
   - spd: '143'
-  - atk: '3,100'
+  - atk: '2,900'

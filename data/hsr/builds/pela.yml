@@ -13,6 +13,8 @@ relic:
     p: 4
 
 ornament:
+  - set: [penacony-land-of-the-dreams]
+    p: 2
   - set: [fleet-of-the-ageless]
     p: 2
 

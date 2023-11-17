@@ -13,6 +13,8 @@ relic:
     p: 4
 
 ornament:
+  - set: [penacony-land-of-the-dreams]
+    p: 2
   - set: [fleet-of-the-ageless]
     p: 2
 
@@ -33,6 +35,6 @@ stats:
   - cdmg: ''
   - atk: '1,800'
   common:
-  - hp: '4,300'
+  - hp: '4,100'
   - def: "1,300"
-  - er: '130%'
+  - er: '125%'
