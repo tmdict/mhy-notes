@@ -31,8 +31,8 @@ stats:
   priority:
   - spd: '134'
   - hp: '5,300-7,400'
-  - res: '70%'
+  - res: '40-70%'
   common:
   - def: '1,200'
-  - heal: '72%'
+  - heal: '45-72%'
   - er: '120%'

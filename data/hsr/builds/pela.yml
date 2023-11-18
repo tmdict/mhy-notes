@@ -25,6 +25,7 @@ mainstat:
     - spd
   sphere:
     - hp
+    - def
   rope:
     - er
 
@@ -36,6 +37,6 @@ stats:
   - cdmg: ''
   common:
   - atk: '1,600'
-  - hp: '2,900-3,700'
+  - hp: '2,900 / 3,700'
   - def: '1,200'
   - er: '120%'

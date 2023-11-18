@@ -28,8 +28,8 @@ mainstat:
 
 stats:
   priority:
-  - spd: '139'
+  - spd: '135-139'
   - def: '3,700-4,300'
-  - ehr: '63%'
+  - ehr: '63-87%'
   common:
   - atk: '1,200'

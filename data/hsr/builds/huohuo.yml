@@ -29,9 +29,9 @@ mainstat:
 stats:
   priority:
   - spd: '143'
-  - hp: '6,100'
+  - hp: '5,700-6,100'
   - res: '45%'
   common:
-  - def: '1,100'
-  - heal: '35-60%'
-  - er: '130%'
+  - def: '1,000'
+  - heal: '35-63%'
+  - er: '120-130%'

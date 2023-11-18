@@ -32,11 +32,11 @@ mainstat:
 
 stats:
   priority:
-  - spd: '141 / 150'
+  - spd: '141-150'
   - ehr: '62% / 101%'
   - cr: '5% / 55%'
   - cdmg: '50% / 130%'
   common:
-  - atk: '1,700 / 1,900'
+  - atk: '1,700-1,900'
   - er: '120%'
   - breakeff: '0% / 170%'

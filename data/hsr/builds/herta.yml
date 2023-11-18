@@ -29,7 +29,7 @@ mainstat:
 
 stats:
   priority:
-  - cr: '75%'
-  - cdmg: '155%'
-  - atk: '2,700'
+  - cr: '65-75%'
+  - cdmg: '140-155%'
+  - atk: '2,500-2,700'
   - spd: '109'

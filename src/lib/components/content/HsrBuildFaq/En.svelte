@@ -12,7 +12,7 @@
 
   <ul>
     <li>Rounded to nearest 1: Speed, Effect Hit Rate, Heal</li>
-    <li>Rounded to nearest 5: Crit Rate%, Crit Dmg%, Effect Res%, Energy Recharge%, Break Effect</li>
+    <li>Rounded to nearest 5: Crit Rate%, Crit Dmg%, Effect Res%, Energy Recharge%, Break Effect%</li>
     <li>Rounded to nearest 100: HP, Attack, Defense</li>
   </ul>
 

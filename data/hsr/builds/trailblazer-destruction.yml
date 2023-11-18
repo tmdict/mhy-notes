@@ -31,5 +31,5 @@ stats:
   priority:
   - cr: '60%'
   - cdmg: '120%'
-  - atk: '2,800'
   - spd: '134'
+  - atk: '2,800'

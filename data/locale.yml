@@ -63,8 +63,8 @@ boss-materials:
   en: 'Boss Materials'
   zh: 'BOSS素材'
 breakeff:
-  en: 'Break Eff'
-  zh: '击破'
+  en: 'Break%'
+  zh: '击破%'
 buff:
   en: 'Buff'
   zh: '增益'

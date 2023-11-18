@@ -38,6 +38,7 @@
         'passerby-of-wandering-cloud',
         'prisoner-in-deep-confinement',
         'the-ashblazing-grand-duke',
+        'thief-of-shooting-meteor',
         'wastelander-of-banditry-desert'
       ],
       show: true,

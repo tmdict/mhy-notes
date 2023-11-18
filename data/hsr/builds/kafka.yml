@@ -29,7 +29,7 @@ mainstat:
 stats:
   priority:
   - spd: '153'
-  - atk: '3,300-3,500'
+  - atk: '3,200-3,500'
   common:
   - ehr: '26%'
-  - breakeff: '0% / 40%'
+  - breakeff: '0% / 32-40%'
