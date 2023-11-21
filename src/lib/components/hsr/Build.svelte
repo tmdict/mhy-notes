@@ -172,8 +172,8 @@
 
     .content-col {
       justify-content: center;
+      padding: 5px 0;
 
-      &.info,
       &.stats {
         justify-content: start;
       }
@@ -192,13 +192,13 @@
 
       img {
         height: 120px;
-        margin: 10px;
+        margin: 0 10px;
       }
     }
 
     .info {
       width: 100px;
-      margin: 10px;
+      margin: 0 10px;
 
       @media only screen and (max-width: 460px) {
         width: 200px;
