@@ -33,7 +33,7 @@
       name: 'hsr-builds',
       url: 'hsr/builds',
       type: 'honkai-star-rail',
-      updated: '2023-11-17'
+      updated: '2024-01-05'
     },
     {
       name: 'links',
@@ -48,10 +48,11 @@
       updated: '2022-12-02'
     },
     {
+      new: true,
       name: 'talent-materials',
       url: 'talent-materials',
       type: 'genshin-impact',
-      updated: '2023-11-09'
+      updated: '2024-01-05'
     },
     {
       name: 'links',
@@ -60,10 +61,11 @@
       updated: '2023-10-25'
     },
     {
+      new: true,
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
       type: 'genshin-impact',
-      updated: '2023-11-09'
+      updated: '2024-01-05'
     }
   ].sort((a, b) => b.updated.localeCompare(a.updated));
 
