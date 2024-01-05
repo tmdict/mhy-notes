@@ -1,0 +1,16 @@
+{
+  "id": "hanya",
+  "type": "character",
+  "rarity": 4,
+  "path": "harmony",
+  "element": "physical",
+  "released": "1.5.1",
+  "data": {
+    "en": {
+      "name": "Hanya"
+    },
+    "zh": {
+      "name": "寒鸦"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "argenti",
+  "type": "character",
+  "rarity": 5,
+  "path": "erudition",
+  "element": "physical",
+  "released": "1.5.1",
+  "data": {
+    "en": {
+      "name": "Argenti"
+    },
+    "zh": {
+      "name": "银枝"
+    }
+  }
+}

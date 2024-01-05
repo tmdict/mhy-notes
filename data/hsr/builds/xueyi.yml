@@ -1,0 +1,37 @@
+---
+character: xueyi
+type:
+  - dps
+  - aoe
+
+light-cone:
+  - on-the-fall-of-an-aeon
+  - under-the-blue-sky
+
+relic:
+  - set: [genius-of-brilliant-stars]
+    p: 4
+
+ornament:
+  - set: [inert-salsotto]
+    p: 2
+
+mainstat:
+  body:
+    - cr
+    - cdmg
+  feet:
+    - spd
+  sphere:
+    - atk
+  rope:
+    - breakeff
+
+stats:
+  priority:
+  - cr: '50-65%'
+  - cdmg: '130-150%'
+  - spd: '137'
+  - atk: '2,000-2,800'
+  common:
+  - breakeff: '130%'

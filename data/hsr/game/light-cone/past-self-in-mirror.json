@@ -1,0 +1,16 @@
+{
+  "id": "past-self-in-mirror",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "harmony",
+  "data": {
+    "en": {
+      "name": "Past Self in Mirror",
+      "description": "Increases the wearer's Break Effect by {{60//70//80//90//100%}}. When the wearer uses their Ultimate, increases all allies' DMG by {{24//28//32//36//40%}}, lasting for 3 turn(s). Should the wearer's Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate {{10//12.5//15//17.5//20}} Energy immediately. Effects of the same type cannot stack."
+    },
+    "zh": {
+      "name": "片刻，留在眼底",
+      "description": "使装备者击破特攻提高{{60//70//80//90//100%}}。装备者施放终结技后，使我方全体造成的伤害提高 {{24//28//32//36//40%}}，持续3回合，并且若装备者击破特攻大于等于150%，则恢复1个战技点。\n每个波次开始时，我方全体立即恢复{{10//12.5//15//17.5//20}}点能量，同类技能无法重复生效。"
+    }
+  }
+}

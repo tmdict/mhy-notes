@@ -1,0 +1,16 @@
+{
+  "id": "an-instant-before-a-gaze",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "erudition",
+  "data": {
+    "en": {
+      "name": "An Instant Before A Gaze",
+      "description": "Increases the wearer's CRIT DMG by {{36//42//48//54//60%}}. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their Max Energy. Each point of Energy increases the Ultimate DMG by {{0.36//0.42//0.48//0.54//0.6%}}, up to 180 points of Energy."
+    },
+    "zh": {
+      "name": "片刻，留在眼底",
+      "description": "使装备者的暴击伤害提高{{36//42//48//54//60%}}。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高{{0.36//0.42//0.48//0.54//0.6%}}，最多计入180点。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "under-the-blue-sky",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "destruction",
+  "data": {
+    "en": {
+      "name": "Under the Blue Sky",
+      "description": "Increases the wearer's ATK by {{16//20//24//28//32%}}. When the wearer defeats an enemy, the wearer's CRIT Rate increases by {{12//15//18//21//24%}} for 3 turn(s)."
+    },
+    "zh": {
+      "name": "在蓝天下",
+      "description": "使装备者攻击力提高{{16//20//24//28//32%}}，当装备者消灭敌方目标后，暴击率提高{{12//15//18//21//24%}}，持续3回合。"
+    }
+  }
+}
