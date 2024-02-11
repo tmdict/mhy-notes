@@ -1,15 +1,15 @@
 ---
-character: herta
+character: misha
 type:
   - dps
-  - aoe
+  - st
 
 light-cone:
-  - before-dawn
-  - the-birth-of-the-self
+  - on-the-fall-of-an-aeon
+  - indelible-promise
 
 relic:
-  - set: [the-ashblazing-grand-duke]
+  - set: [hunter-of-glacial-forest]
     p: 4
 
 ornament:
@@ -21,7 +21,7 @@ mainstat:
     - cr
     - cdmg
   feet:
-    - atk
+    - spd
   sphere:
     - ice
   rope:
@@ -29,7 +29,7 @@ mainstat:
 
 stats:
   priority:
-  - cr: '60-70%'
-  - cdmg: '150-170%'
-  - atk: '2,500-2,700'
-  - spd: '109'
+  - cr: '65-80%'
+  - cdmg: '110-140%'
+  - spd: '130'
+  - atk: '2,200'

@@ -1,7 +1,7 @@
 <h5>About</h5>
 
 <p>
-  All build recommendations and reference data are compiled from <a href="https://bbs.nga.cn/read.php?tid=36580156">NGA: 崩铁|全角色参考面板</a>, and supplemented with information from <a href="https://www.prydwen.gg/star-rail/characters/">Prydwen</a>. The build information here are only meant to be used for quick reference, please use the source data for in-depth analysis.
+  All build recommendations and reference data are compiled from <a href="https://bbs.nga.cn/read.php?tid=36580156">崩铁|全角色参考面板</a>, and supplemented with information from <a href="https://www.prydwen.gg/star-rail/characters/">Prydwen</a>. The build information here are only meant to be used for quick reference, please use the source data for in-depth analysis.
 </p>
 
 <h5>Reference Stats</h5>

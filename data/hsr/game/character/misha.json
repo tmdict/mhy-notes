@@ -1,0 +1,16 @@
+{
+  "id": "misha",
+  "type": "character",
+  "rarity": 4,
+  "path": "destruction",
+  "element": "ice",
+  "released": "2.0.0",
+  "data": {
+    "en": {
+      "name": "Misha"
+    },
+    "zh": {
+      "name": "米沙"
+    }
+  }
+}

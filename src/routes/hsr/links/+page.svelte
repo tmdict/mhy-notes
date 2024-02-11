@@ -9,7 +9,7 @@
       description: 'Guides, character reviews, tier list and more.'
     },
     {
-      name: 'NGA: 崩铁|全角色参考面板',
+      name: '崩铁|全角色参考面板',
       lang: ['中文'],
       url: 'https://bbs.nga.cn/read.php?tid=36580156',
       description: '全角色收益曲线、圣遗物思路推荐、参考面板属性。'

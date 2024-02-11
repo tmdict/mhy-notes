@@ -12,7 +12,7 @@
     </p>
 
     <p>
-      The reference build list is similar to infographics, providing summary-style information while offering some of the interactivity and accessibility of a proper guide. Build data are primarily aggregated and condensed from <a href="https://bbs.nga.cn/read.php?tid=25843014">NGA/原神冒险团</a>, supplemented by <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a> and
+      The reference build list is similar to infographics, providing summary-style information while offering some of the interactivity and accessibility of a proper guide. Build data are primarily aggregated and condensed from <a href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a>, supplemented by <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a> and
       <a href="https://keqingmains.com/">KQM</a>.
     </p>
 
@@ -47,7 +47,7 @@
 
     <p>
       In case of conflicting recommendations from different guides, the recommendation from <a
-        href="https://bbs.nga.cn/read.php?tid=25843014">原神冒险团</a
+        href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a
       > is favored due to the optimal stat value recommendations also coming from their guide.
     </p>
   </span>
@@ -66,7 +66,7 @@
       <li>
         <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a>'s artifact substat ranking
       </li>
-      <li><a href="https://bbs.nga.cn/read.php?tid=25843014">原神冒险团</a>'s optimal stats value calculation</li>
+      <li><a href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a>'s optimal stats value calculation</li>
     </ol>
 
     <p>

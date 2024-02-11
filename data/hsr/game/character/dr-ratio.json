@@ -1,0 +1,16 @@
+{
+  "id": "dr-ratio",
+  "type": "character",
+  "rarity": 5,
+  "path": "hunt",
+  "element": "imaginary",
+  "released": "1.6.1",
+  "data": {
+    "en": {
+      "name": "Dr. Ratio"
+    },
+    "zh": {
+      "name": "真理医生"
+    }
+  }
+}

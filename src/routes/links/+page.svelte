@@ -15,9 +15,9 @@
       description: 'Comprehensive theorycrafting and guides.'
     },
     {
-      name: 'NGA: 原神冒险团',
+      name: '全角色参考面板',
       lang: ['中文'],
-      url: 'https://bbs.nga.cn/read.php?tid=25843014',
+      url: 'https://www.miyoushe.com/ys/accountCenter/postList?id=160367110',
       description: '全角色收益曲线、圣遗物思路推荐、参考面板属性。'
     },
     {

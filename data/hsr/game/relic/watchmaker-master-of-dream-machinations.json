@@ -1,0 +1,17 @@
+{
+  "id": "watchmaker-master-of-dream-machinations",
+  "type": "relic",
+  "isOrnament": false,
+  "data": {
+    "en": {
+      "name": "Watchmaker, Master of Dream Machinations",
+      "2p": "Increases Break Effect by 16%.",
+      "4p": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked."
+    },
+    "zh": {
+      "name": "机心戏梦的钟表匠",
+      "2p": "击破特攻提高16%。",
+      "4p": "当装备者对我方目标施放终结技时，我方全体击破特攻提高30%，持续2回合，该效果无法叠加。"
+    }
+  }
+}

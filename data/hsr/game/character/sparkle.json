@@ -1,0 +1,16 @@
+{
+  "id": "sparkle",
+  "type": "character",
+  "rarity": 5,
+  "path": "harmony",
+  "element": "quantum",
+  "released": "2.0.1",
+  "data": {
+    "en": {
+      "name": "Sparkle"
+    },
+    "zh": {
+      "name": "花火"
+    }
+  }
+}

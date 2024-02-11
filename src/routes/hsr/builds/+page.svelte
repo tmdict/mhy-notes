@@ -36,10 +36,12 @@
         'messenger-traversing-hackerspace',
         'musketeer-of-wild-wheat',
         'passerby-of-wandering-cloud',
+        'pioneer-diver-of-dead-waters',
         'prisoner-in-deep-confinement',
         'the-ashblazing-grand-duke',
         'thief-of-shooting-meteor',
-        'wastelander-of-banditry-desert'
+        'wastelander-of-banditry-desert',
+        'watchmaker-master-of-dream-machinations'
       ],
       show: true,
     },

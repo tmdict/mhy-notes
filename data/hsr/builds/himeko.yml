@@ -9,7 +9,7 @@ light-cone:
   - today-is-another-peaceful-day
 
 relic:
-  - set: [firesmith-of-lava-forging, musketeer-of-wild-wheat]
+  - set: [the-ashblazing-grand-duke]
     p: 2
 
 ornament:
@@ -31,5 +31,5 @@ stats:
   priority:
   - cr: '65-75%'
   - cdmg: '130-145%'
-  - atk: '3,500'
+  - atk: '3,300'
   - spd: '105'

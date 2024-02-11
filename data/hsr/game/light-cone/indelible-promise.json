@@ -1,0 +1,16 @@
+{
+  "id": "indelible-promise",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "destruction",
+  "data": {
+    "en": {
+      "name": "Indelible Promise",
+      "description": "Increases the wearer's Break Effect by {{28//35//42//49//56%}}. When the wearer uses their Ultimate, increases CRIT Rate by {{15//18.75//22.5//26.25//30%}}, lasting for 2 turn(s)."
+    },
+    "zh": {
+      "name": "铭记于心的约定",
+      "description": "使装备者的击破特攻提高{{28//35//42//49//56%}}。当装备者释放终结技时，暴击率提高{{15//18.75//22.5//26.25//30%}}，持续2回合。"
+    }
+  }
+}

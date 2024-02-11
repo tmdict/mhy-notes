@@ -1,7 +1,7 @@
 <h5>关于</h5>
 
 <p>
-  角色装备和参考面板数据来源于<a href="https://bbs.nga.cn/read.php?tid=36580156">NGA：崩铁|全角色参考面板</a>，部分信息用<a href="https://www.prydwen.gg/star-rail/characters/">Prydwen</a>补全。推荐把这里的信息当作一个参考，深入分析请使用链接的攻略。
+  角色装备和参考面板数据来源于<a href="https://bbs.nga.cn/read.php?tid=36580156">崩铁|全角色参考面板</a>，部分信息用<a href="https://www.prydwen.gg/star-rail/characters/">Prydwen</a>补全。推荐把这里的信息当作一个参考，深入分析请使用链接的攻略。
 </p>
 
 <h5>参考面板</h5>

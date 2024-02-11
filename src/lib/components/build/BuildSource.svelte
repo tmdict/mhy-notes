@@ -4,7 +4,7 @@
   export let references;
   const sources = {
     ccb: { name: 'GI Helper Team · Community Character Builds', url: 'https://tinyurl.com/genshinbuilds' },
-    ysmxt: { name: 'NGA · 原神冒险团', url: 'https://bbs.nga.cn/read.php?tid=25843014' },
+    ysmxt: { name: '原神冒险团', url: 'https://www.miyoushe.com/ys/accountCenter/postList?id=160367110' },
     kqm: { name: 'Keqing Mains', url: 'https://keqingmains.com/' }
   };
 

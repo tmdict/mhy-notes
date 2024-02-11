@@ -12,7 +12,7 @@
 
     <p>
       这个角色配装参考列表在提供摘要式信息同时加入了一些简单的分类和搜索功能。其数据主要来自于<a
-        href="https://bbs.nga.cn/read.php?tid=25843014">原神冒险团</a
+        href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a
       >、<a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a>和<a
         href="https://keqingmains.com/">KQM</a
       >。
@@ -47,7 +47,7 @@
     </p>
 
     <p>因为参考面板数值来自于<a
-      href="https://bbs.nga.cn/read.php?tid=25843014">原神冒险团</a
+      href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a
     >，一般情况下我们会偏向原神冒险团的推荐。</p>
   </span>
 
@@ -62,7 +62,7 @@
       <li>
         <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a>的词条排名
       </li>
-      <li><a href="https://bbs.nga.cn/read.php?tid=25843014">原神冒险团</a>词条参考面板</li>
+      <li><a href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a>词条参考面板</li>
     </ol>
 
     <p>

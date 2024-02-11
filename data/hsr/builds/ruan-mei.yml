@@ -30,7 +30,7 @@ mainstat:
 
 stats:
   priority:
-  - breakeff: '165-170%'
+  - breakeff: '145-150%'
   - spd: '149'
   common:
   - def: "1,500-1,800"
