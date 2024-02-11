@@ -161,6 +161,22 @@
       "circlet": ["heal"],
       "recommended-talent": ["q"]
     },
+    "chevreuse": {
+      "base-stat": ["hp"],
+      "a": ["atk"],
+      "e": ["atk", "hp"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["hp"],
+      "constellation": [
+        { "C2": ["atk"] },
+        { "C6": ["hp"] }
+      ],
+      "sand": ["hp"],
+      "goblet": ["hp"],
+      "circlet": ["heal", "hp"],
+      "recommended-talent": ["e"]
+    },
     "chongyun": {
       "base-stat": ["atk"],
       "a": ["atk"],
@@ -332,6 +348,36 @@
       "sand": ["er", "hp"],
       "goblet": ["hp", "hydro"],
       "circlet": ["crit-abbr"],
+      "recommended-talent": ["q"]
+    },
+    "gaming": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": [],
+      "a1": ["hp"],
+      "a4": [],
+      "constellation": [
+        { "C1": ["hp"] }
+      ],
+      "sand": ["atk", "em"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
+    "xianyun": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "constellation": [
+        { "C4": ["atk"] }
+      ],
+      "sand": ["er"],
+      "goblet": ["atk"],
+      "circlet": ["heal"],
       "recommended-talent": ["q"]
     },
     "ganyu": {
@@ -636,6 +682,19 @@
       "sand": ["em"],
       "goblet": ["em", "dendro"],
       "circlet": ["em", "crit-abbr"],
+      "recommended-talent": ["e"]
+    },
+    "navia": {
+      "base-stat": ["cdmg"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [],
+      "sand": ["atk", "er"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
     },
     "neuvillette": {

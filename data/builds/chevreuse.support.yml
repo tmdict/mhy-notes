@@ -1,0 +1,40 @@
+---
+character: chevreuse
+c: 0
+type:
+  - support
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: black-tassel
+    r: 0
+  - name: favonius-lance
+    r: 0
+
+artifact:
+  - set: [song-of-days-past]
+    p: 4
+  - set: [noblesse-oblige]
+    p: 4
+
+mainstat:
+  sand:
+    - hp
+  goblet:
+    - hp
+  circlet:
+    - heal
+    - hp
+
+stats:
+  - er: '120-150%'
+  - hp: '40,000'
+  - em: ''
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default

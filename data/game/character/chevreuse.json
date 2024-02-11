@@ -1,0 +1,16 @@
+{
+  "id": "chevreuse",
+  "type": "character",
+  "rarity": 4,
+  "vision": "pyro",
+  "weapon": "polearm",
+  "released": "4.3.1",
+  "data": {
+    "en": {
+      "name": "Chevreuse"
+    },
+    "zh": {
+      "name": "夏沃蕾"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+---
+character: gaming
+c: 6
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: beacon-of-the-reed-sea
+    r: 0
+  - name: serpent-spine
+    r: 0
+
+artifact:
+  - set: [marechaussee-hunter]
+    p: 4
+  - set: [crimson-witch-of-flames]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - em
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - er: ''
+  - crit: '60% / 190%'
+  - em: '160'
+  - atk: '1,900-2,100'
+
+talent: 'E > Q'
+
+source:
+  - ccb: default
+  - ysmxt: default

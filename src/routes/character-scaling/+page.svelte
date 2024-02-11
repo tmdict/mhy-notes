@@ -191,7 +191,7 @@
 
     .col {
       width: 75px;
-      padding: 3px 5px;
+      padding: 3px 5px 3px 0;
     }
 
     .empty {

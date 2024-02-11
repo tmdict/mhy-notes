@@ -1,0 +1,39 @@
+---
+character: xianyun
+c: 2
+type:
+  - healer
+  - support
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: cranes-echoing-call
+    r: 0
+  - name: oathsworn-eye
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [song-of-days-past]
+    p: 4
+
+mainstat:
+  sand:
+    - er
+  goblet:
+    - atk
+  circlet:
+    - heal
+
+stats:
+  - er: '170%'
+  - atk: '2,700'
+
+talent: 'Q > E'
+
+source:
+  - ccb: default
+  - ysmxt: default
