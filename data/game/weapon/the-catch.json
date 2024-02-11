@@ -7,12 +7,10 @@
   "data": {
     "en": {
       "name": "“The Catch”",
-      "passiveName": "Shanty",
       "passiveDescription": "Increases Elemental Burst DMG by {{16//20//24//28//32%}} and Elemental Burst CRIT Rate by {{6//7.5//9//10.5//12%}}."
     },
     "zh": {
       "name": "「渔获」",
-      "passiveName": "船歌",
       "passiveDescription": "元素爆发造成的伤害提升{{16//20//24//28//32%}}，元素爆发的暴击率提升{{6//7.5//9//10.5//12%}}。"
     }
   }

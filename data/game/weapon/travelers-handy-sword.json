@@ -7,12 +7,10 @@
   "data": {
     "en": {
       "name": "Traveler’s Handy Sword",
-      "passiveName": "Journey",
       "passiveDescription": "Each Elemental Orb or Particle collected restores {{1//1.25//1.5//1.75//2%}} HP."
     },
     "zh": {
       "name": "旅行剑",
-      "passiveName": "旅程",
       "passiveDescription": "获得元素晶球或元素微粒时，恢复{{1//1.25//1.5//1.75//2%}}生命值。"
     }
   }

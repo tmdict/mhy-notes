@@ -67,11 +67,8 @@
                       $weaponsData[weapon] ? $l10n[$weaponsData[weapon].subStat][$lang] : ''
                   }<br />
                     ${
-                      details && details['passiveName']
-                        ? '<span class="highlight">' +
-                          details['passiveName'] +
-                          ':</span> ' +
-                          details['passiveDescription']
+                      details
+                        ? details['passiveDescription']
                             .replace(/{{/g, '<span style="color:var(--theme-site-secondary-main)">')
                             .replace(/}}/g, '</span>')
                             .replace(/\/{2}/g, '</span>/<span style="color:var(--theme-site-secondary-main)">')

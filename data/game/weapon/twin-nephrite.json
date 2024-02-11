@@ -7,12 +7,10 @@
   "data": {
     "en": {
       "name": "Twin Nephrite",
-      "passiveName": "Guerilla Tactics",
       "passiveDescription": "Defeating an opponent increases Movement SPD and ATK by {{12//14//16//18//20%}} for 15s."
     },
     "zh": {
       "name": "甲级宝珏",
-      "passiveName": "奔袭战术",
       "passiveDescription": "击败敌人后的15秒内，移动速度和攻击力提升{{12//14//16//18//20%}}。"
     }
   }

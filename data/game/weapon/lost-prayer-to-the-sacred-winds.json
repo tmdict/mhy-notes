@@ -7,12 +7,10 @@
   "data": {
     "en": {
       "name": "Lost Prayer to the Sacred Winds",
-      "passiveName": "Boundless Blessing",
       "passiveDescription": "Increases Movement SPD by 10%. When in battle, gain an {{8//10//12//14//16%}} Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat."
     },
     "zh": {
       "name": "四风原典",
-      "passiveName": "无边际的眷顾",
       "passiveDescription": "移动速度提高10%；在场上每4秒获得{{8//10//12//14//16%}}元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。"
     }
   }

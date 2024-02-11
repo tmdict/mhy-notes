@@ -308,7 +308,16 @@
     "fleuve-cendre-ferryman",
     "charlotte",
     "furina",
-    "splendor-of-tranquil-waters"
+    "splendor-of-tranquil-waters",
+    "chevreuse",
+    "gaming",
+    "navia",
+    "xianyun",
+    "nighttime-whispers-in-the-echoing-woods",
+    "song-of-days-past",
+    "cranes-echoing-call",
+    "ultimate-overlords-mega-magic-sword",
+    "verdict"
   ],
   "name2id": {
     "geo": 0,
@@ -619,6 +628,15 @@
     "fleuve-cendre-ferryman": 305,
     "charlotte": 306,
     "furina": 307,
-    "splendor-of-tranquil-waters": 308
+    "splendor-of-tranquil-waters": 308,
+    "chevreuse": 309,
+    "gaming": 310,
+    "navia": 311,
+    "xianyun": 312,
+    "nighttime-whispers-in-the-echoing-woods": 313,
+    "song-of-days-past": 314,
+    "cranes-echoing-call": 315,
+    "ultimate-overlords-mega-magic-sword": 316,
+    "verdict": 317
   }
 }
