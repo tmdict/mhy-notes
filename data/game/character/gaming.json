@@ -1,0 +1,16 @@
+{
+  "id": "gaming",
+  "type": "character",
+  "rarity": 4,
+  "vision": "pyro",
+  "weapon": "claymore",
+  "released": "4.4.0",
+  "data": {
+    "en": {
+      "name": "Gaming"
+    },
+    "zh": {
+      "name": "嘉明"
+    }
+  }
+}
