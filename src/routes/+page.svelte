@@ -9,14 +9,14 @@
       name: 'character-builds',
       url: 'builds',
       type: 'genshin-impact',
-      updated: '2024-02-11'
+      updated: '2024-03-20'
     },
     {
       new: true,
       name: 'character-stat-scaling',
       url: 'character-scaling',
       type: 'genshin-impact',
-      updated: '2024-02-11'
+      updated: '2024-03-20'
     },
     {
       name: 'commission-achievements',
@@ -31,7 +31,6 @@
       updated: '2023-10-26'
     },
     {
-      new: true,
       name: 'hsr-builds',
       url: 'hsr/builds',
       type: 'honkai-star-rail',
@@ -54,7 +53,7 @@
       name: 'talent-materials',
       url: 'talent-materials',
       type: 'genshin-impact',
-      updated: '2024-02-11'
+      updated: '2024-03-20'
     },
     {
       name: 'links',
@@ -67,7 +66,7 @@
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
       type: 'genshin-impact',
-      updated: '2024-02-11'
+      updated: '2024-03-20'
     }
   ].sort((a, b) => b.updated.localeCompare(a.updated));
 

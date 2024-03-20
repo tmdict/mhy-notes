@@ -177,6 +177,21 @@
       "circlet": ["heal", "hp"],
       "recommended-talent": ["e"]
     },
+    "chiori": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["atk", "def"],
+      "q": ["atk", "def"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C6": ["def"] }
+      ],
+      "sand": ["def"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "chongyun": {
       "base-stat": ["atk"],
       "a": ["atk"],

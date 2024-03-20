@@ -317,7 +317,10 @@
     "song-of-days-past",
     "cranes-echoing-call",
     "ultimate-overlords-mega-magic-sword",
-    "verdict"
+    "verdict",
+    "chiori",
+    "dialogues-of-the-desert-sages",
+    "uraku-misugiri"
   ],
   "name2id": {
     "geo": 0,
@@ -637,6 +640,9 @@
     "song-of-days-past": 314,
     "cranes-echoing-call": 315,
     "ultimate-overlords-mega-magic-sword": 316,
-    "verdict": 317
+    "verdict": 317,
+    "chiori": 318,
+    "dialogues-of-the-desert-sages": 319,
+    "uraku-misugiri": 320
   }
 }
