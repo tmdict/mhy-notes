@@ -36,6 +36,12 @@
       description: 'Links to various HSR guides.'
     },
     {
+      name: 'Fribbels Honkai Star Rail Optimizer',
+      lang: ['English'],
+      url: 'https://fribbels.github.io/hsr-optimizer',
+      description: 'Builds, relic and character recommendation and optmization tool.'
+    },
+    {
       name: 'Haku.shin',
       lang: ['English', '中文', '한국어'],
       url: 'https://hsr.hakush.in/',

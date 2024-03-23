@@ -37,10 +37,11 @@
       updated: '2024-02-11'
     },
     {
+      new: true,
       name: 'links',
       url: 'hsr/links',
       type: 'honkai-star-rail',
-      updated: '2023-10-25'
+      updated: '2024-03-23'
     },
     {
       name: 'leveling-cost',

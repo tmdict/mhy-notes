@@ -63,12 +63,6 @@
       description: 'Team DPS simulator.'
     },
     {
-      name: 'Genshin Impact DMG Calculator',
-      lang: ['English'],
-      url: 'https://gidmgcalculator.github.io/csb-g7is6/',
-      description: 'Genshin Impact damage calculator.'
-    },
-    {
       name: 'Genshin Optimizer',
       lang: ['Multi-lingual · 多语言'],
       url: 'https://frzyc.github.io/genshin-optimizer/#/',
@@ -105,12 +99,6 @@
       description: 'Genshin card generator to create a collage of your Genshin Impact character builds.'
     },
     {
-      name: 'Spiral Abyss Analytics',
-      lang: ['English', '中文'],
-      url: 'https://spiralabyss.org/',
-      description: 'Spiral Abyss data analystics contributed by players who with ★36 Abyssal Stars.'
-    },
-    {
       name: 'Ysin',
       lang: ['中文'],
       url: 'https://yuanshen.xin/',
@@ -127,12 +115,6 @@
       lang: ['中文'],
       url: 'https://space.bilibili.com/24889090',
       description: '原神角色推荐榜。'
-    },
-    {
-      name: '虚空数据库',
-      lang: ['English', '中文'],
-      url: 'https://xk.jdsha.com/',
-      description: 'Database, guides, Abyss statistics and more.'
     },
     {
       name: '椰羊cocogoat',
