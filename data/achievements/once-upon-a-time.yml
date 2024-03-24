@@ -12,8 +12,6 @@ en:
   notes: |
     All three NPCs will appear during the commission (prior to version 3.5 only two random NPCs would appear). Each will give you a different story excerpt.
 
-    After giving one excerpt to Liu Su, the other excerpt will remain in your inventory and can be used during future commissions.
-
     Choosing Part I and Part II of Ring of Raining Blades will give you the “Friends, Travelers, Lend Me Your Ears…” achievement.
   checklist:
     1: "The Wrath of Haishan"
@@ -23,7 +21,7 @@ zh:
   commission:
   - "且听下回分解"
   notes: |
-    刘苏会要求玩家去询问其他NPC，一共有3位（3.5版本前只有两位随机NPC会出现），让玩家和三位NPC对话。交付任务道具后剩下的一本书可以留到下一次任务用。
+    刘苏会要求玩家去询问其他NPC，一共有3位（3.5版本前只有两位随机NPC会出现），让玩家和三位NPC对话。
 
     交付《裁雨声·上》与《裁雨声·中》的话可以获得成就「"旅者且留步…」。
   checklist:
