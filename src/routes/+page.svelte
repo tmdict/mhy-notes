@@ -5,14 +5,12 @@
 
   const links = [
     {
-      new: true,
       name: 'character-builds',
       url: 'builds',
       type: 'genshin-impact',
       updated: '2024-03-20'
     },
     {
-      new: true,
       name: 'character-stat-scaling',
       url: 'character-scaling',
       type: 'genshin-impact',
@@ -34,10 +32,9 @@
       name: 'hsr-builds',
       url: 'hsr/builds',
       type: 'honkai-star-rail',
-      updated: '2024-02-11'
+      updated: '2024-04-06'
     },
     {
-      new: true,
       name: 'links',
       url: 'hsr/links',
       type: 'honkai-star-rail',
@@ -50,7 +47,6 @@
       updated: '2022-12-02'
     },
     {
-      new: true,
       name: 'talent-materials',
       url: 'talent-materials',
       type: 'genshin-impact',
@@ -63,7 +59,6 @@
       updated: '2024-02-11'
     },
     {
-      new: true,
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
       type: 'genshin-impact',

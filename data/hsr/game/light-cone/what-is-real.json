@@ -1,0 +1,16 @@
+{
+  "id": "what-is-real",
+  "type": "light-cone",
+  "rarity": 4,
+  "path": "abundance",
+  "data": {
+    "en": {
+      "name": "What Is Real?",
+      "description": "Increases the wearer's Break Effect by {{24//30//36//42//48%}}. After using Basic ATK, restores HP for the wearer by an amount equal to {{2//2.5//3//3.5//4%}} of Max HP plus 800."
+    },
+    "zh": {
+      "name": "何物为真",
+      "description": "使装备者的击破特攻提高{{24//30//36//42//48%}}。施放普攻后，装备者回复等同于{{2//2.5//3//3.5//4%}}生命上限+800点的生命值。"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "inherently-unjust-destiny",
+  "type": "light-cone",
+  "rarity": 5,
+  "path": "preservation",
+  "data": {
+    "en": {
+      "name": "Inherently Unjust Destiny",
+      "description": "Increases the wearer's DEF by {{40//46//52//58//64%}}. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by {{40//46//52//58//64%}}, lasting for 2 turn(s). When the wearer's follow-up attack hits an enemy target, there is a {{100//115//130//145//160%}} base chance to increase the DMG taken by the attacked enemy target by {{10//11.5//13//14.5//16%}}, lasting for 2 turn(s)."
+    },
+    "zh": {
+      "name": "命运从未公平",
+      "description": "使装备者的防御力提高{{40//46//52//58//64%}}，当装备者为我方目标提供护盾时，使装备者的暴击伤害提高{{40//46//52//58//64%}}，持续2回合。当装备者发动追加攻击击中敌方目标时，有{{100//115//130//145//160%}}的基础概率使受到攻击的敌方目标受到的伤害提高{{10//11.5//13//14.5//16%}}，持续2回合。"
+    }
+  }
+}

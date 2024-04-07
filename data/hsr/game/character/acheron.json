@@ -1,0 +1,16 @@
+{
+  "id": "acheron",
+  "type": "character",
+  "rarity": 5,
+  "path": "nihility",
+  "element": "lightning",
+  "released": "2.1.0",
+  "data": {
+    "en": {
+      "name": "Acheron"
+    },
+    "zh": {
+      "name": "黄泉"
+    }
+  }
+}

@@ -52,9 +52,11 @@
         'firmament-frontline-glamoth',
         'fleet-of-the-ageless',
         'inert-salsotto',
+        "izumo-gensei-and-takama-divine-realm",
         'pan-cosmic-commercial-enterprise',
         'penacony-land-of-the-dreams',
         'rutilant-arena',
+        "sigonia-the-unclaimed-desolation",
         'space-sealing-station',
         'talia-kingdom-of-banditry'
       ],

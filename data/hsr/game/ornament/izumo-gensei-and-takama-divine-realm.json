@@ -1,0 +1,15 @@
+{
+  "id": "izumo-gensei-and-takama-divine-realm",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Izumo Gensei and Takama Divine Realm",
+      "2p": "Increases the wearer's ATK by 12%. When entering battle, if at least one other ally follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%."
+    },
+    "zh": {
+      "name": "出云显世与高天神国",
+      "2p": "使装备者的攻击力提高12%。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高12%。"
+    }
+  }
+}

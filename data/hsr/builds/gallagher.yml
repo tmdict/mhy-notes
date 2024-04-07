@@ -1,0 +1,38 @@
+---
+character: gallagher
+type:
+  - sustain
+  - healer
+
+light-cone:
+  - what-is-real
+  - perfect-timing
+
+relic:
+  - set: [watchmaker-master-of-dream-machinations, messenger-traversing-hackerspace]
+    p: 2
+
+ornament:
+  - set: [broken-keel]
+    p: 2
+
+mainstat:
+  body:
+    - heal
+  feet:
+    - spd
+  sphere:
+    - def
+  rope:
+    - er
+
+stats:
+  priority:
+  - spd: '152'
+  - breakeff: '50-100%'
+  - res: '40-70%'
+  common:
+  - hp: '3,400-5,500'
+  - def: '1,200-1,300'
+  - heal: '85-88%'
+  - er: '120%'

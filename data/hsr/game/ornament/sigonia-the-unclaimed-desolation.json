@@ -1,0 +1,15 @@
+{
+  "id": "sigonia-the-unclaimed-desolation",
+  "type": "ornament",
+  "isOrnament": true,
+  "data": {
+    "en": {
+      "name": "Sigonia, the Unclaimed Desolation",
+      "2p": "Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s)."
+    },
+    "zh": {
+      "name": "无主荒星茨冈尼亚",
+      "2p": "使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。"
+    }
+  }
+}

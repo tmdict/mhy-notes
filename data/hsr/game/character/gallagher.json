@@ -1,0 +1,16 @@
+{
+  "id": "gallagher",
+  "type": "character",
+  "rarity": 4,
+  "path": "abundance",
+  "element": "fire",
+  "released": "2.1.0",
+  "data": {
+    "en": {
+      "name": "Gallagher"
+    },
+    "zh": {
+      "name": "加拉赫"
+    }
+  }
+}
