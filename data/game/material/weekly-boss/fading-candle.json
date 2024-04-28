@@ -1,11 +1,10 @@
 {
-  "id": "lightless-mass",
+  "id": "fading-candle",
   "type": "material",
   "materialType": "weekly-boss",
   "rarity": 5,
-  "source": "all-devouring-narwhal",
+  "source": "the-knave",
   "characters": [
-    "furina",
-    "gaming"
+    "arlecchino"
   ]
 }

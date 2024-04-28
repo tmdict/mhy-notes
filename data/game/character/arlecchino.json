@@ -1,0 +1,16 @@
+{
+  "id": "arlecchino",
+  "type": "character",
+  "rarity": 5,
+  "vision": "pyro",
+  "weapon": "polearm",
+  "released": "4.6.0",
+  "data": {
+    "en": {
+      "name": "Arlecchino"
+    },
+    "zh": {
+      "name": "阿蕾奇诺"
+    }
+  }
+}

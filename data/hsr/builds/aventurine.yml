@@ -1,0 +1,34 @@
+---
+character: aventurine
+type:
+  - sustain
+  - shield
+
+light-cone:
+  - inherently-unjust-destiny
+  - moment-of-victory
+
+relic:
+  - set: [knight-of-purity-palace]
+    p: 4
+
+ornament:
+  - set: [broken-keel]
+    p: 2
+
+mainstat:
+  body:
+    - def
+  feet:
+    - spd
+  sphere:
+    - imaginary
+  rope:
+    - def
+
+stats:
+  priority:
+  - def: '3,800-4,600'
+  - spd: '110'
+  - cr: '30-35%'
+  - cdmg: '105-115%'

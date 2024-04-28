@@ -1,0 +1,11 @@
+{
+  "id": "the-knave",
+  "type": "enemy",
+  "enemyType": "weekly-boss",
+  "order": 10,
+  "drop": [
+    "fading-candle",
+    "silken-feather",
+    "denial-and-judgment"
+  ]
+}
