@@ -2,8 +2,8 @@
   "id": "aventurine",
   "type": "character",
   "rarity": 5,
-  "path": "imaginary",
-  "element": "preservation",
+  "path": "preservation",
+  "element": "imaginary",
   "released": "2.1.1",
   "data": {
     "en": {
