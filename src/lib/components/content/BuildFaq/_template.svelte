@@ -5,7 +5,7 @@
   import BuildCharacter from '$lib/components/build/BuildCharacter.svelte';
   import BuildMainStats from '$lib/components/build/BuildMainStats.svelte';
   import BuildNotes from '$lib/components/build/BuildNotes.svelte';
-  import BuildStats from '$lib/components/build/BuildStats.svelte';
+  import BuildSubStats from '$lib/components/build/BuildSubStats.svelte';
   import BuildWeapons from '$lib/components/build/BuildWeapons.svelte';
 
   const exampleBuild = {
@@ -69,7 +69,7 @@
     <div class="mainstat-content content"><slot name="mainstat" /></div>
     <div class="stat-example example">
       <div class="box">
-        <BuildStats stats={exampleBuild.stats} />
+        <BuildSubStats stats={exampleBuild.stats} />
       </div>
     </div>
     <div class="stat-content content"><slot name="stat" /></div>

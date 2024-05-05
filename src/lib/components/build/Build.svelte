@@ -8,7 +8,7 @@
   import BuildManage from '$lib/components/build/BuildManage.svelte';
   import BuildNotes from '$lib/components/build/BuildNotes.svelte';
   import BuildSource from '$lib/components/build/BuildSource.svelte';
-  import BuildStats from '$lib/components/build/BuildStats.svelte';
+  import BuildSubStats from '$lib/components/build/BuildSubStats.svelte';
   import BuildWeapons from '$lib/components/build/BuildWeapons.svelte';
 
   export let build;
@@ -32,7 +32,7 @@
     class="content-row build-info"
     style={$lang === 'en' ? '--text-size: 0.8rem' : '--text-size: 0.9rem'}
   >
-    <div class="content-row build-box">
+    <div class="content-row build-character">
       <BuildCharacter character={build.character} constellation={build.c} />
       <div class="content-col names">
         <div class="character-name">
@@ -43,21 +43,19 @@
         </div>
       </div>
     </div>
-    <div class="content-row build-equip">
-      <div class="weapons">
-        <BuildWeapons weapons={build.weapon} />
-      </div>
-      <div class="artifacts content-row">
-        <BuildArtifactSet artifacts={build.artifact} />
-      </div>
+    <div class="content-row weapons">
+      <BuildWeapons weapons={build.weapon} />
     </div>
     <div class="content-row build-stat">
       <div class="mainstats">
         <BuildMainStats mainstat={build.mainstat} showHeader={false} />
       </div>
-      <div class="stats">
-        <BuildStats stats={build.stats} showHeader={false} />
+      <div class="substats">
+        <BuildSubStats stats={build.stats} showHeader={false} />
       </div>
+    </div>
+    <div class="content-row artifacts">
+      <BuildArtifactSet artifacts={build.artifact} />
     </div>
   </div>
   {#if showDetail}
@@ -74,6 +72,12 @@
 </div>
 
 <style lang="scss">
+  .build {
+    @media only screen and (max-width: 940px) {
+      border-top: 1px solid var(--theme-border-strong);
+    }
+  }
+
   .build:hover {
     background: var(--theme-bg-highlight);
     cursor: pointer;
@@ -85,7 +89,7 @@
     font-size: var(--text-size, 0.8rem);
     flex-wrap: wrap;
 
-    .build-box {
+    .build-character {
       padding: 10px;
       flex-wrap: wrap;
 
@@ -110,41 +114,17 @@
       }
     }
 
-    .build-equip {
-      height: 100%;
-      align-items: center;
-      border-left: 1px dotted var(--theme-border-light);
-      flex-wrap: wrap;
-      
-      @media only screen and (max-width: 560px) {
-        border-left: 0;
-      }
-      
-      @media only screen and (max-width: 940px) {
-        height: auto;
-      }
-
-      .weapons {
-        width: 135px;
-        height: 70px;
-        padding: 10px;
-      }
-
-      .artifacts {
-        min-width: 270px;
-        height: 70px;
-        padding: 10px;
-      
-        @media only screen and (max-width: 560px) {
-          min-width: 0;
-        }
-      }
+    .weapons {
+      width: 135px;
+      height: 70px;
+      padding: 10px;
     }
 
     .build-stat {
       min-width: 380px;
       border-left: 1px dotted var(--theme-border-light);
-      padding-left: 10px;
+      border-right: 1px dotted var(--theme-border-light);
+      padding: 0 10px;
       flex-wrap: wrap;
       align-items: center;
       font-size: 0.95em;
@@ -157,21 +137,34 @@
       }
 
       .mainstats {
-        width: 150px;
-        padding: 5px 10px;
+        width: 130px;
+        padding: 5px 0;
       
         @media only screen and (max-width: 940px) {
           padding: 5px 0;
         }
       }
 
-      .stats {
+      .substats {
         width: 220px;
         padding: 5px 10px;
       
         @media only screen and (max-width: 940px) {
           padding: 5px 0;
         }
+      }
+    }
+
+    .artifacts {
+      min-width: 260px;
+      height: 70px;
+      margin-left: 10px;
+      padding: 10px;
+      
+      @media only screen and (max-width: 940px) {
+        width: 100%;
+        border-top: 1px dotted var(--theme-border-light);
+        margin-left: 0;
       }
     }
   }

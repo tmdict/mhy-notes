@@ -450,7 +450,7 @@ stats:
   en: 'Stats'
   zh: '属性数据'
 stats-priority:
-  en: 'Stats Priority'
+  en: 'Sub Stats Priority'
   zh: '词条优先级'
 stats-reference:
   en: 'Reference'

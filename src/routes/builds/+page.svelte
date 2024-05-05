@@ -75,9 +75,9 @@
   <div id="build-list">
     <div class="content-row header">
       <div class="content-row weapons">{$l10n['weapon'][$lang]}</div>
-      <div class="content-row artifacts">{$l10n['artifact'][$lang]}</div>
       <div class="content-row mainstats">{$l10n['mainstat'][$lang]}</div>
-      <div class="content-row stats">{$l10n['stats-priority'][$lang]}</div>
+      <div class="content-row substats">{$l10n['stats-priority'][$lang]}</div>
+      <div class="content-row artifacts">{$l10n['artifact'][$lang]}</div>
     </div>
     {#if filteredSavedBuilds.length > 0}
       <div class="header"><h4>{$l10n['saved-builds'][$lang]}</h4></div>
@@ -128,7 +128,7 @@
       font-size: 0.8rem;
       font-weight: bold;
       margin: 5px 4px 0;
-      padding: 0 0 5px 5px;
+      border-top: 1px solid var(--theme-site-primary-main);
       border-bottom: 1px solid var(--theme-site-primary-main);
 
       @media only screen and (max-width: 940px) {
@@ -137,18 +137,26 @@
 
       .weapons {
         margin-left: 155px;
-      }
-
-      .artifacts {
-        margin-left: 85px;
+        padding: 5px 0;
       }
 
       .mainstats {
-        margin-left: 235px;
+        margin-left: 76.5px;
+        padding: 5px 0;
+        padding-left: 15px;
+        border-left: 1px dotted var(--theme-border-light);
       }
 
-      .stats {
-        margin-left: 95px;
+      .substats {
+        margin-left: 85px;
+        padding: 5px 0;
+      }
+
+      .artifacts {
+        margin-left: 106.5px;
+        padding: 5px 0;
+        padding-left: 25px;
+        border-left: 1px dotted var(--theme-border-light);
       }
     }
   }

@@ -7,7 +7,7 @@
   import BuildManage from '$lib/components/build/BuildManage.svelte';
   import BuildNotes from '$lib/components/build/BuildNotes.svelte';
   import BuildSource from '$lib/components/build/BuildSource.svelte';
-  import BuildStats from '$lib/components/build/BuildStats.svelte';
+  import BuildSubStats from '$lib/components/build/BuildSubStats.svelte';
   import BuildWeapons from '$lib/components/build/BuildWeapons.svelte';
 
   export let build;
@@ -48,7 +48,7 @@
   <div class="content-row build-details">
     <div class="content-row mainstat-stats">
       <BuildMainStats mainstat={build.mainstat} />
-      <BuildStats stats={build.stats} />
+      <BuildSubStats stats={build.stats} />
     </div>
     <div class="notes">
       <BuildNotes {build} />

@@ -5,7 +5,7 @@
   export let showHeader = true;
 </script>
 
-<div class="content-col stats">
+<div class="content-col substats">
   <div class="build-heading" class:hidden={!showHeader}>
     {$l10n['stats-priority'][$lang]} <span class="highlight">({$l10n['stats-reference'][$lang]})</span>
   </div>
@@ -20,7 +20,7 @@
 </div>
 
 <style lang="scss">
-  .stats {
+  .substats {
     width: 220px;
 
     @media only screen and (max-width: 460px) {
