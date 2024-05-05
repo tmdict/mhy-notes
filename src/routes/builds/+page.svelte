@@ -136,12 +136,12 @@
       }
 
       .weapons {
-        margin-left: 155px;
+        margin-left: 160px;
         padding: 5px 0;
       }
 
       .mainstats {
-        margin-left: 76.5px;
+        margin-left: 71.5px;
         padding: 5px 0;
         padding-left: 15px;
         border-left: 1px dotted var(--theme-border-light);
