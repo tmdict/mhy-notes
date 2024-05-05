@@ -25,7 +25,7 @@
         id={item}
         src="{name}/{item}"
         ext={name === 'vision' ? 'svg' : 'png'}
-        size={name === 'artifact' ? '35px' : '25px'}
+        size={name === 'artifact' ? '45px' : '25px'}
         margin="0 5px 0 0"
       />
       {#if ['vision', 'weapon-type'].includes(name)}
@@ -62,11 +62,11 @@
     .quick {
       padding: 2px 10px 2px 5px;
       min-width: 60px;
-      border-right: 1px dotted var(--theme-border-light);
       overflow-wrap: anywhere;
       align-items: center;
 
       &:hover {
+        color: var(--theme-site-primary-alt);
         background: var(--theme-bg-highlight);
         cursor: pointer;
       }
@@ -82,6 +82,7 @@
 
     .common {
       width: 35px;
+      border-left: 1px dotted var(--theme-border-light);
 
       &:hover {
         background: var(--theme-bg-highlight);
@@ -89,7 +90,8 @@
       }
 
       &.active {
-        background: var(--theme-bg-highlight);
+        background: var(--theme-site-primary-main);
+        border: 2px var(--theme-bg-container-main) solid;
       }
     }
   }
