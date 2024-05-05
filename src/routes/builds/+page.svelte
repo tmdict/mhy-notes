@@ -10,7 +10,7 @@
   import BuildFilter from '$lib/components/build/BuildFilter.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
 
-  let expandAllFilters = false;
+  let expandAllFilters = true;
   let showFaq = false;
   let filteredBuilds = $builds;
   let filteredSavedBuilds = $localData['builds'];

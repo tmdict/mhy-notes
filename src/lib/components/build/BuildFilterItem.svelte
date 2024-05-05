@@ -13,7 +13,7 @@
   role="presentation"
 >
   <div
-    class="quick list-{type === 'icon' ? 'icon' : 'text'}"
+    class="quick content-row list-{type === 'icon' ? 'icon' : 'text'}"
     class:active={$buildsFilters[name].quick === item}
     role="button"
     tabindex="0"
@@ -25,9 +25,12 @@
         id={item}
         src="{name}/{item}"
         ext={name === 'vision' ? 'svg' : 'png'}
-        size="35px"
-        margin="0"
+        size={name === 'artifact' ? '35px' : '25px'}
+        margin="0 5px 0 0"
       />
+      {#if ['vision', 'weapon-type'].includes(name)}
+        {$l10n[item][$lang]}
+      {/if}
     {:else}
       {$l10n[item][$lang]}
     {/if}
@@ -57,10 +60,11 @@
     }
 
     .quick {
-      padding: 2px 5px;
+      padding: 2px 10px 2px 5px;
       min-width: 60px;
       border-right: 1px dotted var(--theme-border-light);
       overflow-wrap: anywhere;
+      align-items: center;
 
       &:hover {
         background: var(--theme-bg-highlight);

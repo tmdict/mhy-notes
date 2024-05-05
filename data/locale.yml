@@ -62,6 +62,9 @@ base-stat:
 boss-materials:
   en: 'Boss Materials'
   zh: 'BOSS素材'
+bow:
+  en: 'Bow'
+  zh: '弓'
 breakeff:
   en: 'Break%'
   zh: '击破%'
@@ -86,6 +89,9 @@ builds:
 burst:
   en: 'Burst'
   zh: '爆发'
+catalyst:
+  en: 'Catalyst'
+  zh: '法器'
 cdmg:
   en: 'CDmg%'
   zh: '暴伤'
@@ -110,6 +116,9 @@ checklist:
 circlet:
   en: 'Circlet'
   zh: '冠'
+claymore:
+  en: 'Claymore'
+  zh: '双手剑'
 clear:
   en: 'Clear'
   zh: '清空'
@@ -356,6 +365,9 @@ optional:
 order:
   en: 'Order'
   zh: '秩序'
+polearm:
+  en: 'Polearm'
+  zh: '长柄武器'
 physical:
   en: 'Physical'
   zh: '物'
@@ -458,6 +470,9 @@ sumeru:
 sustain:
   en: 'Sustain'
   zh: '生存'
+sword:
+  en: 'Sword'
+  zh: '单手剑'
 reaction:
   en: 'Reaction'
   zh: '元素反应'
