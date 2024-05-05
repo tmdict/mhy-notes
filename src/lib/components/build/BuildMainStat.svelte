@@ -19,14 +19,13 @@
 <style lang="scss">
   .mainstat {
     align-items: center;
-    padding: 4px 0;
+    padding: 3px 0;
 
     .icon {
       margin: 0 5px 0 2px;
 
       img {
-        width: 20px;
-        background: #999;
+        width: 16px;
       }
     }
   }

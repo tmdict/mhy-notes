@@ -32,9 +32,9 @@
     margin: 0;
     padding: 0 0 0 25px;
 
-    li {
-      margin: 5px 0;
-      line-height: 1.1em;
+    li:not(:last-child) {
+      padding: 1px 0;
+      border-bottom: 1px dotted var(--theme-border-light);
     }
   }
 

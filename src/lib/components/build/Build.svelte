@@ -146,11 +146,14 @@
       border-left: 1px dotted var(--theme-border-light);
       padding-left: 10px;
       flex-wrap: wrap;
+      align-items: center;
+      font-size: 0.95em;
       
       @media only screen and (max-width: 940px) {
         width: 100%;
         border-left: 0;
         border-top: 1px dotted var(--theme-border-light);
+        font-size: 1em;
       }
 
       .mainstats {
