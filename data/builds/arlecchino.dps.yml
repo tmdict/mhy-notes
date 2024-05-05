@@ -1,0 +1,38 @@
+---
+character: arlecchino
+c: 1
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: crimson-moons-semblance
+    r: 0
+  - name: deathmatch
+    r: 0
+
+artifact:
+  - set: [fragment-of-harmonic-whimsy]
+    p: 4
+  - set: [gladiators-finale]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - pyro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 165-195%'
+  - atk: '1,900-2,300'
+
+talent: 'A > Q = E'
+
+source:
+  - ccb: default
+  - ysmxt: default

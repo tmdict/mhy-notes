@@ -71,6 +71,22 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
     },
+    "arlecchino": {
+      "base-stat": ["cdmg"],
+      "a": ["atk"],
+      "e": ["atk", "hp"],
+      "q": ["atk"],
+      "a1": ["hp"],
+      "a4": ["atk"],
+      "constellation": [
+        { "C2": ["atk"] },
+        { "C6": ["atk"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["a"]
+    },
     "baizhu": {
       "base-stat": ["hp"],
       "a": ["atk"],
