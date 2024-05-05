@@ -3,12 +3,6 @@
 
   const guides = [
     {
-      name: 'Genshin Community Character Builds',
-      lang: ['English'],
-      url: 'https://tinyurl.com/genshinbuilds',
-      description: 'Character builds by Genshin Impact Helper Team.'
-    },
-    {
       name: 'Keqing Mains',
       lang: ['English'],
       url: 'https://keqingmains.com/',
@@ -20,12 +14,6 @@
       url: 'https://www.miyoushe.com/ys/accountCenter/postList?id=160367110',
       description: '全角色收益曲线、圣遗物思路推荐、参考面板属性。'
     },
-    {
-      name: '原神冒险团',
-      lang: ['中文'],
-      url: 'https://mp.weixin.qq.com/s/Yk5mart2PBupmFL2jKQWmA',
-      description: '原神角色攻略、探索解谜、入坑指南。'
-    }
   ];
 
   const achievements = [
@@ -61,6 +49,12 @@
       lang: ['English', 'Español', '日本語', '中文'],
       url: 'https://gcsim.app/',
       description: 'Team DPS simulator.'
+    },
+    {
+      name: 'Genshin Community Character Builds',
+      lang: ['English'],
+      url: 'https://tinyurl.com/genshinbuilds',
+      description: 'Character builds by Genshin Impact Helper Team.'
     },
     {
       name: 'Genshin Optimizer',
@@ -121,6 +115,12 @@
       lang: ['English', '中文'],
       url: 'https://cocogoat.work/',
       description: '网页圣遗物管理·成就扫描。'
+    },
+    {
+      name: '原神冒险团',
+      lang: ['中文'],
+      url: 'https://mp.weixin.qq.com/s/Yk5mart2PBupmFL2jKQWmA',
+      description: '原神角色攻略、探索解谜、入坑指南。'
     }
   ];
 </script>

@@ -41,6 +41,5 @@ notes:
   en: 'E > (before E duration ends) Q to refresh E'
 
 source:
-  - ccb: default
   - ysmxt: default
   - kqm: https://keqingmains.com/kokomi/

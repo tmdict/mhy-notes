@@ -38,6 +38,5 @@ stats:
 talent: 'Q > E'
 
 source:
-  - ccb: default
   - ysmxt: default
   - kqm: https://keqingmains.com/lisa/

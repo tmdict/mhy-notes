@@ -36,6 +36,5 @@ stats:
 talent: 'A > Q > E'
 
 source:
-  - ccb: default
   - ysmxt: default
   - kqm: https://keqingmains.com/ganyu/

@@ -36,6 +36,5 @@ stats:
 talent: 'Q > A > E'
 
 source:
-  - ccb: default
   - ysmxt: default
   - kqm: https://keqingmains.com/ningguang/

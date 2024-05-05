@@ -38,5 +38,4 @@ stats:
 talent: 'A > E > Q'
 
 source:
-  - ccb: default
   - ysmxt: default

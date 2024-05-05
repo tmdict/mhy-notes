@@ -12,8 +12,7 @@
     </p>
 
     <p>
-      The reference build list is similar to infographics, providing summary-style information while offering some of the interactivity and accessibility of a proper guide. Build data are primarily aggregated and condensed from <a href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a>, supplemented by <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a> and
-      <a href="https://keqingmains.com/">KQM</a>.
+      The reference build list is similar to infographics, providing summary-style information while offering some of the interactivity and accessibility of a proper guide. Build data are primarily aggregated and condensed from <a href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a>, supplemented by <a href="https://keqingmains.com/">KQM</a>.
     </p>
 
     <p>
@@ -63,10 +62,8 @@
     <p>Stats to focus on as well as a reference value to aim for. This is a combination of:</p>
 
     <ol>
-      <li>
-        <a href="https://tinyurl.com/genshinbuilds">Genshin Community Character Builds</a>'s artifact substat ranking
-      </li>
       <li><a href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a>'s optimal stats value calculation</li>
+      <li><a href="https://keqingmains.com/">KQM</a>'s artifact substat ranking</li>
     </ol>
 
     <p>

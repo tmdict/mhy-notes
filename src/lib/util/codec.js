@@ -10,7 +10,7 @@ const typeReplacer = [
   'sub-dps',
   'support'
 ];
-const sourceReplacer = ['ccb', 'ysmxt', 'kqm', 'custom'];
+const sourceReplacer = ['ysmxt', 'kqm', 'custom'];
 const statReplacer = [
   'atk',
   'crit',

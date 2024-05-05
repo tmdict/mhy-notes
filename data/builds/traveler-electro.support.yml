@@ -35,6 +35,5 @@ stats:
 talent: 'E > Q'
 
 source:
-  - ccb: default
   - ysmxt: default
   - kqm: https://keqingmains.com/electro-traveler/
