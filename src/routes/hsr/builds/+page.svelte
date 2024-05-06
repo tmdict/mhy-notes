@@ -101,10 +101,10 @@
 </script>
 
 <svelte:head>
-  <title>{$l10n['hsr'][$lang]} · {$l10n['builds'][$lang]} | mHY-notes</title>
+  <title>{$l10n['builds'][$lang]} | mHY-notes</title>
 </svelte:head>
 
-<h1>{$l10n['hsr'][$lang]} · {$l10n['builds'][$lang]}</h1>
+<h1>{$l10n['builds'][$lang]}</h1>
 
 <div class="menu">
   <a href="/#" on:click|preventDefault={() => expandAllFilters()}>
