@@ -8,62 +8,42 @@
       new: true,
       name: 'character-builds',
       url: 'builds',
-      type: 'genshin-impact',
       updated: '2024-05-04'
     },
     {
       new: true,
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      type: 'genshin-impact',
       updated: '2024-05-04'
     },
     {
       name: 'commission-achievements',
       url: 'achievements',
-      type: 'genshin-impact',
       updated: '2023-11-04'
     },
     {
       name: 'craftable-weapons',
       url: 'craftable-weapons',
-      type: 'genshin-impact',
       updated: '2023-10-26'
-    },
-    {
-      name: 'hsr-builds',
-      url: 'hsr/builds',
-      type: 'honkai-star-rail',
-      updated: '2024-04-28'
-    },
-    {
-      name: 'links',
-      url: 'hsr/links',
-      type: 'honkai-star-rail',
-      updated: '2024-03-23'
     },
     {
       name: 'leveling-cost',
       url: 'leveling-cost',
-      type: 'genshin-impact',
       updated: '2022-12-02'
     },
     {
       name: 'talent-materials',
       url: 'talent-materials',
-      type: 'genshin-impact',
       updated: '2024-04-28'
     },
     {
       name: 'links',
       url: 'links',
-      type: 'genshin-impact',
       updated: '2024-02-11'
     },
     {
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      type: 'genshin-impact',
       updated: '2024-04-28'
     }
   ].sort((a, b) => b.updated.localeCompare(a.updated));
@@ -82,7 +62,6 @@
     <div class="content-col link" class:alt={i % 2 === 0}>
       <div class="content-row">
         <div class="name">{$l10n[link.name][$lang]}</div>
-        <div class="type {link.type}">{$l10n[link.type][$lang]}</div>
         <div class="label">{link.updated}</div>
         {#if link.new}<div class="new">Updated</div>{/if}
       </div>
@@ -130,7 +109,6 @@
         }
       }
 
-      .type,
       .label,
       .new {
         background: var(--theme-bg-site);
@@ -145,24 +123,12 @@
         }
       }
 
-      .type {
-        font-weight: bold;
-      }
-
-      .type.genshin-impact {
-        color: #72a6c0;
-      }
-
-      .type.honkai-star-rail {
-        color: #6c6192;
-      }
-
       .label {
-        color: #bfbfbf;
+        color: #f7d87c;
       }
 
       .new {
-        color: #f7d87c;
+        color: #72a6c0;
       }
     }
   }

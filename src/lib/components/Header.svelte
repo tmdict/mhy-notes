@@ -62,12 +62,9 @@
 
     <div class="content-row content-menu">
       <div class="group">
-        <span class="type">{$l10n.genshin[$lang]}:</span>
         <a href="/builds" style="margin-left:0;">{$l10n['builds'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/character-scaling">{$l10n['character-scaling'][$lang]}</a>
-        <span class="separator">·</span>
-        <a href="/achievements">{$l10n['achievements'][$lang]}</a>
       </div>
       <div class="group">
         <a href="/talent-materials">{$l10n['talent-materials'][$lang]}</a>
@@ -77,14 +74,11 @@
         <a href="/leveling-cost">{$l10n['leveling-cost'][$lang]}</a>
         <span class="separator">·</span>
         <a href="/craftable-weapons">{$l10n['craftable-weapons'][$lang]}</a>
-        <span class="separator">·</span>
-        <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
       <div class="group">
-        <span class="type">{$l10n.hsr[$lang]}:</span>
-        <a href="/hsr/builds" style="margin-left:0;">{$l10n['builds'][$lang]}</a>
+        <a href="/achievements">{$l10n['achievements'][$lang]}</a>
         <span class="separator">·</span>
-        <a href="/hsr/links">{$l10n['links'][$lang]}</a>
+        <a href="/links">{$l10n['links'][$lang]}</a>
       </div>
     </div>
   </div>
@@ -163,10 +157,6 @@
         width: 100%;
         flex-wrap: wrap;
 
-        .type {
-          margin-right: 6px;
-        }
-
         a {
           margin: 4px;
         }
@@ -177,14 +167,6 @@
         }
       }
     }
-  }
-
-  .type {
-    text-decoration: none;
-    color: var(--theme-site-primary-sub);
-    text-transform: uppercase;
-    margin: 0 4px;
-    padding: 0 2px;
   }
 
   a {
