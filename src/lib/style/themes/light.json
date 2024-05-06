@@ -1,12 +1,12 @@
 {
   "name": "light",
   "colors": {
-    "site-primary-main": "#98416d",
+    "site-primary-main": "#c05b4d",
     "site-primary-alt": "#2e86ab",
-    "site-primary-sub": "#98416d",
+    "site-primary-sub": "#c05b4d",
 
     "site-secondary-main": "#2e86ab",
-    "site-secondary-alt": "#98416d",
+    "site-secondary-alt": "#c05b4d",
     "site-secondary-sub": "#eee",
 
     "bg-site": "#222",

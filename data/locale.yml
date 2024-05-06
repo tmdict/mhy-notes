@@ -245,12 +245,6 @@ fontaine:
 freedom:
   en: 'Freedom'
   zh: '自由'
-genshin:
-  en: 'Genshin'
-  zh: '原神'
-genshin-impact:
-  en: 'Genshin Impact'
-  zh: '原神'
 geo:
   en: 'Geo'
   zh: '岩'
@@ -278,9 +272,6 @@ honkai-star-rail:
 hp:
   en: 'HP'
   zh: '生'
-hsr:
-  en: 'HSR'
-  zh: '星穹铁道'
 hsr-builds:
   en: 'HSR · Builds'
   zh: '星穹铁道 · 配装参考'

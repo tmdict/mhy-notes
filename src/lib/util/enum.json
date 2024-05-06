@@ -320,7 +320,11 @@
     "verdict",
     "chiori",
     "dialogues-of-the-desert-sages",
-    "uraku-misugiri"
+    "uraku-misugiri",
+    "arlecchino",
+    "fragment-of-harmonic-whimsy",
+    "unfinished-reverie",
+    "crimson-moons-semblance"
   ],
   "name2id": {
     "geo": 0,
@@ -643,6 +647,10 @@
     "verdict": 317,
     "chiori": 318,
     "dialogues-of-the-desert-sages": 319,
-    "uraku-misugiri": 320
+    "uraku-misugiri": 320,
+    "arlecchino": 321,
+    "fragment-of-harmonic-whimsy": 322,
+    "unfinished-reverie": 323,
+    "crimson-moons-semblance": 324
   }
 }
