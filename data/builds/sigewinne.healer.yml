@@ -1,0 +1,38 @@
+---
+character: sigewinne
+c: 1
+type:
+  - healer
+  - support
+name:
+  en: 'Healer'
+  zh: '治疗'
+
+weapon:
+  - name: silvershower-heartstrings
+    r: 0
+  - name: favonius-warbow
+    r: 0
+
+artifact:
+  - set: [song-of-days-past]
+    p: 4
+  - set: [ocean-hued-clam, tenacity-of-the-millelith]
+    p: 2
+
+mainstat:
+  sand:
+    - hp
+  goblet:
+    - hp
+  circlet:
+    - hp
+
+stats:
+  - hp: '60,000'
+  - er: ''
+
+talent: 'E = Q > A'
+
+source:
+  - ysytl: default

@@ -12,8 +12,8 @@
 
     <p>
       这个角色配装参考列表在提供摘要式信息同时加入了一些简单的分类和搜索功能。其数据主要来自于<a
-        href="https://www.miyoushe.com/ys/accountCenter/postList?id=160367110">原神冒险团</a
-      >和<a
+        href="https://www.miyoushe.com/ys/collection/10772">原神冒险团</a
+      >，<a href="https://www.miyoushe.com/ys/collection/2558464">原神角色一图流攻略</a>和<a
         href="https://keqingmains.com/">KQM</a
       >。
     </p>

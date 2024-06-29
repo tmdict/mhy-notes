@@ -1,0 +1,16 @@
+{
+  "id": "clorinde",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "sword",
+  "released": "4.7.0",
+  "data": {
+    "en": {
+      "name": "Clorinde"
+    },
+    "zh": {
+      "name": "克洛琳德"
+    }
+  }
+}

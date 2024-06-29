@@ -223,6 +223,21 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
     },
+    "clorinde": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["atk", "hp"],
+      "q": ["atk", "hp"],
+      "a1": ["atk"],
+      "a4": [],
+      "constellation": [
+        { "C1": ["atk"] }
+      ],
+      "sand": ["atk", "em"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "collei": {
       "base-stat": ["atk"],
       "a": ["atk"],
@@ -872,6 +887,19 @@
       "circlet": ["heal", "em"],
       "recommended-talent": ["q"]
     },
+    "sethos": {
+      "base-stat": ["em"],
+      "a": ["atk", "em"],
+      "e": ["atk"],
+      "q": ["em"],
+      "a1": [],
+      "a4": ["em"],
+      "constellation": [],
+      "sand": ["em"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["a"]
+    },
     "shenhe": {
       "base-stat": ["atk"],
       "a": ["atk"],
@@ -897,6 +925,21 @@
       "goblet": ["anemo"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
+    },
+    "sigewinne": {
+      "base-stat": ["hp"],
+      "a": ["atk"],
+      "e": ["hp"],
+      "q": ["hp"],
+      "a1": ["hp"],
+      "a4": [],
+      "constellation": [
+        { "C2": ["hp"] }
+      ],
+      "sand": ["hp"],
+      "goblet": ["hp"],
+      "circlet": ["hp"],
+      "recommended-talent": ["a"]
     },
     "sucrose": {
       "base-stat": ["anemo"],

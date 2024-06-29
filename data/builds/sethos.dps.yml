@@ -1,0 +1,38 @@
+---
+character: sethos
+c: 6
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: hunters-path
+    r: 0
+  - name: slingshot
+    r: 0
+
+artifact:
+  - set: [wanderers-troupe]
+    p: 4
+  - set: [gilded-dreams]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '80% / 160%'
+  - em: '350'
+  - atk: '1,350'
+
+talent: 'A > Q = E'
+
+source:
+  - ysytl: default

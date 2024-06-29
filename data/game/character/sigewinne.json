@@ -1,0 +1,16 @@
+{
+  "id": "sigewinne",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "bow",
+  "released": "4.7.1",
+  "data": {
+    "en": {
+      "name": "Sigewinne"
+    },
+    "zh": {
+      "name": "希格雯"
+    }
+  }
+}

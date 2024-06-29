@@ -3,7 +3,8 @@
 
   export let references;
   const sources = {
-    ysmxt: { name: '原神冒险团', url: 'https://www.miyoushe.com/ys/accountCenter/postList?id=160367110' },
+    ysmxt: { name: '原神冒险团', url: 'https://www.miyoushe.com/ys/collection/10772' },
+    ysytl: { name: '原神角色一图流攻略', url: 'https://www.miyoushe.com/ys/collection/2558464' },
     kqm: { name: 'Keqing Mains', url: 'https://keqingmains.com/' }
   };
 

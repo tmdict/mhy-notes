@@ -324,7 +324,13 @@
     "arlecchino",
     "fragment-of-harmonic-whimsy",
     "unfinished-reverie",
-    "crimson-moons-semblance"
+    "crimson-moons-semblance",
+    "clorinde",
+    "sethos",
+    "sigewinne",
+    "absolution",
+    "cloudforged",
+    "silvershower-heartstrings"
   ],
   "name2id": {
     "geo": 0,
@@ -651,6 +657,12 @@
     "arlecchino": 321,
     "fragment-of-harmonic-whimsy": 322,
     "unfinished-reverie": 323,
-    "crimson-moons-semblance": 324
+    "crimson-moons-semblance": 324,
+    "clorinde": 325,
+    "sethos": 326,
+    "sigewinne": 327,
+    "absolution": 328,
+    "cloudforged": 329,
+    "silvershower-heartstrings": 330
   }
 }

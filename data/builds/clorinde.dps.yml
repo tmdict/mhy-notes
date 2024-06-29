@@ -1,0 +1,41 @@
+---
+character: clorinde
+c: 0
+type:
+  - dps
+  - reaction
+name:
+  en: 'Electro DPS'
+  zh: '雷伤'
+
+weapon:
+  - name: absolution
+    r: 0
+  - name: finale-of-the-deep
+    r: 0
+
+artifact:
+  - set: [fragment-of-harmonic-whimsy]
+    p: 4
+  - set: [thundering-fury]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - em
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '65% / 200%'
+  - atk: '2,000'
+  - em: ''
+  - er: '120%'
+
+talent: 'E = Q > A'
+
+source:
+  - ysytl: default
