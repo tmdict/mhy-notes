@@ -1,9 +1,12 @@
 {
-  "id": "philosophies-of-equity",
+  "id": "equity",
   "type": "material",
   "materialType": "talent-book",
-  "rarity": 4,
-  "group": "equity",
+  "group": [
+    { "rarity": 2, "id": "teachings-of" },
+    { "rarity": 3, "id": "guide-to" },
+    { "rarity": 4, "id": "philosophies-of" }
+  ],
   "day": 1,
   "region": 5,
   "characters": [

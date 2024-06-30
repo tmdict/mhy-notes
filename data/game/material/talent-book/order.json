@@ -1,9 +1,12 @@
 {
-  "id": "philosophies-of-order",
+  "id": "order",
   "type": "material",
   "materialType": "talent-book",
-  "rarity": 4,
-  "group": "order",
+  "group": [
+    { "rarity": 2, "id": "teachings-of" },
+    { "rarity": 3, "id": "guide-to" },
+    { "rarity": 4, "id": "philosophies-of" }
+  ],
   "day": 3,
   "region": 5,
   "characters": [

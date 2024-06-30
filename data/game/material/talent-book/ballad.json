@@ -1,9 +1,12 @@
 {
-  "id": "teachings-of-ballad",
+  "id": "ballad",
   "type": "material",
   "materialType": "talent-book",
-  "rarity": 2,
-  "group": "ballad",
+  "group": [
+    { "rarity": 2, "id": "teachings-of" },
+    { "rarity": 3, "id": "guide-to" },
+    { "rarity": 4, "id": "philosophies-of" }
+  ],
   "day": 3,
   "region": 1,
   "characters": [

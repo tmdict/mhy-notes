@@ -18,19 +18,15 @@
 
   const talentMaterials = Object.values($materials)
     .filter((material) => material.materialType === 'talent-book')
-    .sort((m1, m2) => m1.region - m2.region || m1.day - m2.day || m1.rarity - m2.rarity)
+    .sort((m1, m2) => m1.region - m2.region || m1.day - m2.day)
     .reduce((talents, talent) => {
       // Group materials by region, day and rarity
       talents[talent.region] = talents[talent.region] || {};
       talents[talent.region][talent.day] = talents[talent.region][talent.day] || {};
-      talents[talent.region][talent.day].id = talents[talent.region][talent.day].id || talent.group;
+      talents[talent.region][talent.day].id = talents[talent.region][talent.day].id || talent.id;
       talents[talent.region][talent.day].characters =
         talents[talent.region][talent.day].characters || talent.characters;
-      talents[talent.region][talent.day].group = talents[talent.region][talent.day].group || [];
-      talents[talent.region][talent.day].group.push({
-        id: talent.id,
-        rarity: talent.rarity
-      });
+      talents[talent.region][talent.day].group = talents[talent.region][talent.day].group || talent.group;
       return talents;
     }, {});
 </script>
@@ -66,7 +62,7 @@
           <h3>{$l10n[material.id][$lang]}</h3>
           <div class="content-row divider">
             {#each material.group as book}
-              <Icon id={book.id} src="material-talent-book/{book.id}" rarity={book.rarity} />
+              <Icon id="{book.id}-{material.id}" src="material-talent-book/{book.id}-{material.id}" rarity={book.rarity} />
             {/each}
           </div>
           <div class="content-row">

@@ -1,0 +1,18 @@
+{
+  "id": "admonition",
+  "type": "material",
+  "materialType": "talent-book",
+  "group": [
+    { "rarity": 2, "id": "teachings-of" },
+    { "rarity": 3, "id": "guide-to" },
+    { "rarity": 4, "id": "philosophies-of" }
+  ],
+  "day": 1,
+  "region": 4,
+  "characters": [
+    "tighnari",
+    "cyno",
+    "candace",
+    "faruzan"
+  ]
+}

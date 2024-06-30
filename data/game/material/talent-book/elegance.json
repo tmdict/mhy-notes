@@ -1,9 +1,12 @@
 {
-  "id": "philosophies-of-elegance",
+  "id": "elegance",
   "type": "material",
   "materialType": "talent-book",
-  "rarity": 4,
-  "group": "elegance",
+  "group": [
+    { "rarity": 2, "id": "teachings-of" },
+    { "rarity": 3, "id": "guide-to" },
+    { "rarity": 4, "id": "philosophies-of" }
+  ],
   "day": 2,
   "region": 3,
   "characters": [

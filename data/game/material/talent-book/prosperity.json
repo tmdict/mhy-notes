@@ -1,9 +1,12 @@
 {
-  "id": "philosophies-of-prosperity",
+  "id": "prosperity",
   "type": "material",
   "materialType": "talent-book",
-  "rarity": 4,
-  "group": "prosperity",
+  "group": [
+    { "rarity": 2, "id": "teachings-of" },
+    { "rarity": 3, "id": "guide-to" },
+    { "rarity": 4, "id": "philosophies-of" }
+  ],
   "day": 1,
   "region": 2,
   "characters": [
