@@ -1,0 +1,16 @@
+{
+  "id": "emilie",
+  "type": "character",
+  "rarity": 5,
+  "vision": "dendro",
+  "weapon": "polearm",
+  "released": "4.8.1",
+  "data": {
+    "en": {
+      "name": "Emilie"
+    },
+    "zh": {
+      "name": "艾梅莉埃"
+    }
+  }
+}

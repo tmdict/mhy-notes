@@ -330,7 +330,9 @@
     "sigewinne",
     "absolution",
     "cloudforged",
-    "silvershower-heartstrings"
+    "silvershower-heartstrings",
+    "emilie",
+    "lumidouce-elegy"
   ],
   "name2id": {
     "geo": 0,
@@ -663,6 +665,8 @@
     "sigewinne": 327,
     "absolution": 328,
     "cloudforged": 329,
-    "silvershower-heartstrings": 330
+    "silvershower-heartstrings": 330,
+    "emilie": 331,
+    "lumidouce-elegy": 332
   }
 }
