@@ -324,6 +324,21 @@
       "circlet": ["heal"],
       "recommended-talent": ["q"]
     },
+    "emilie": {
+      "base-stat": ["cdmg"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": ["atk"],
+      "constellation": [
+        { "C6": ["atk"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["dendro"],
+      "circlet": ["crit-abbr", "hp"],
+      "recommended-talent": ["e"]
+    },
     "eula": {
       "base-stat": ["cdmg"],
       "a": ["atk"],
@@ -421,9 +436,9 @@
       "constellation": [
         { "C4": ["atk"] }
       ],
-      "sand": ["er"],
+      "sand": ["er", "atk"],
       "goblet": ["atk"],
-      "circlet": ["heal"],
+      "circlet": ["atk", "heal"],
       "recommended-talent": ["q"]
     },
     "ganyu": {
@@ -481,6 +496,21 @@
       "goblet": ["atk", "anemo"],
       "circlet": ["heal", "crit-abbr"],
       "recommended-talent": ["e", "q"]
+    },
+    "kachina": {
+      "base-stat": ["geo"],
+      "a": ["atk"],
+      "e": ["def"],
+      "q": ["def"],
+      "a1": [],
+      "a4": ["def"],
+      "constellation": [
+        { "C6": ["def"] }
+      ],
+      "sand": ["def", "er"],
+      "goblet": ["geo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
     },
     "kaedehara-kazuha": {
       "base-stat": ["em"],
@@ -714,6 +744,21 @@
       "goblet": ["hydro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
+    },
+    "mualani": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["hp"],
+      "q": ["hp"],
+      "a1": [],
+      "a4": ["hp"],
+      "constellation": [
+        { "C1": ["hp"] }
+      ],
+      "sand": ["hp", "em"],
+      "goblet": ["hydro"],
+      "circlet": ["crit-abbr", "hp"],
+      "recommended-talent": ["e"]
     },
     "nahida": {
       "base-stat": ["em"],

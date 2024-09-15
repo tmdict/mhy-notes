@@ -5,14 +5,16 @@
 
   const links = [
     {
+      new: true,
       name: 'character-builds',
       url: 'builds',
-      updated: '2024-06-29'
+      updated: '2024-09-14'
     },
     {
+      new: true,
       name: 'character-stat-scaling',
       url: 'character-scaling',
-      updated: '2024-06-29'
+      updated: '2024-09-14'
     },
     {
       name: 'commission-achievements',
@@ -20,9 +22,10 @@
       updated: '2023-11-04'
     },
     {
+      new: true,
       name: 'craftable-weapons',
       url: 'craftable-weapons',
-      updated: '2023-10-26'
+      updated: '2024-09-14'
     },
     {
       name: 'leveling-cost',
@@ -33,7 +36,7 @@
       new: true,
       name: 'talent-materials',
       url: 'talent-materials',
-      updated: '2024-08-18'
+      updated: '2024-09-14'
     },
     {
       name: 'links',
@@ -44,7 +47,7 @@
       new: true,
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
-      updated: '2024-08-18'
+      updated: '2024-09-14'
     }
   ].sort((a, b) => b.updated.localeCompare(a.updated));
 

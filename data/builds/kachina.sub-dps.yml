@@ -1,0 +1,37 @@
+---
+character: kachina
+c: 0
+type:
+  - sub-dps
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: favonius-lance
+    r: 0
+  - name: footprint-of-the-rainbow
+    r: 0
+
+artifact:
+  - set: [scroll-of-the-hero-of-cinder-city]
+    p: 4
+
+mainstat:
+  sand:
+    - def
+    - er
+  goblet:
+    - geo
+  circlet:
+    - crit
+
+stats:
+  - er: '120%'
+  - crit: '60% / 120%'
+  - def: '1,800'
+
+talent: 'E > Q'
+
+source:
+  - ysytl: default

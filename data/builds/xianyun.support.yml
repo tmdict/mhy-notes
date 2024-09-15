@@ -23,9 +23,11 @@ artifact:
 mainstat:
   sand:
     - er
+    - atk
   goblet:
     - atk
   circlet:
+    - atk
     - heal
 
 stats:
