@@ -332,7 +332,18 @@
     "cloudforged",
     "silvershower-heartstrings",
     "emilie",
-    "lumidouce-elegy"
+    "lumidouce-elegy",
+    "kachina",
+    "mualani",
+    "obsidian-codex",
+    "scroll-of-the-hero-of-cinder-city",
+    "ash-graven-drinking-horn",
+    "chain-breaker",
+    "earth-shaker",
+    "flute-of-ezpitzal",
+    "footprint-of-the-rainbow",
+    "ring-of-yaxche",
+    "surfs-up"
   ],
   "name2id": {
     "geo": 0,
@@ -667,6 +678,17 @@
     "cloudforged": 329,
     "silvershower-heartstrings": 330,
     "emilie": 331,
-    "lumidouce-elegy": 332
+    "lumidouce-elegy": 332,
+    "kachina": 333,
+    "mualani": 334,
+    "obsidian-codex": 335,
+    "scroll-of-the-hero-of-cinder-city": 336,
+    "ash-graven-drinking-horn": 337,
+    "chain-breaker": 338,
+    "earth-shaker": 339,
+    "flute-of-ezpitzal": 340,
+    "footprint-of-the-rainbow": 341,
+    "ring-of-yaxche": 342,
+    "surfs-up": 343
   }
 }

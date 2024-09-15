@@ -1,0 +1,16 @@
+{
+  "id": "kachina",
+  "type": "character",
+  "rarity": 4,
+  "vision": "geo",
+  "weapon": "polearm",
+  "released": "5.0.0",
+  "data": {
+    "en": {
+      "name": "Kachina"
+    },
+    "zh": {
+      "name": "卡齐娜"
+    }
+  }
+}

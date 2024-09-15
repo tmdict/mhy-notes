@@ -134,9 +134,15 @@ commission-achievements:
 completed:
   en: 'Incomplete'
   zh: '未完成'
+conflict:
+  en: 'Conflict'
+  zh: '纷争'
 constellation:
   en: 'Const'
   zh: '命座'
+contention:
+  en: 'Contention'
+  zh: '角逐'
 cr:
   en: 'CR%'
   zh: '暴击'
@@ -299,6 +305,9 @@ ingenuity:
 justice:
   en: 'Justice'
   zh: '正义'
+kindling:
+  en: 'Kindling'
+  zh: '焚燔'
 level-up:
   en: 'Level Up'
   zh: '升级'
@@ -341,6 +350,9 @@ mondstadt:
 name:
   en: 'Name'
   zh: '名称'
+natlan:
+  en: 'Natlan'
+  zh: '纳塔'
 nihility:
   en: 'Nihility'
   zh: '虚无'

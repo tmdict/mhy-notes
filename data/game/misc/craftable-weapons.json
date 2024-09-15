@@ -53,6 +53,23 @@
          "sapwood-blade": 0,
          "finale-of-the-deep": 0
       }
+    },
+    "borderland": {
+      "bow": {
+         "chain-breaker": 0
+      },
+      "catalyst": {
+         "ring-of-yaxche": 0
+      },
+      "claymore": {
+         "earth-shaker": 0
+      },
+      "polearm": {
+         "footprint-of-the-rainbow": 0
+      },
+      "sword": {
+         "flute-of-ezpitzal": 0
+      }
     }
   }
 }

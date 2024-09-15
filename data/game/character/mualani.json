@@ -1,0 +1,16 @@
+{
+  "id": "mualani",
+  "type": "character",
+  "rarity": 5,
+  "vision": "hydro",
+  "weapon": "catalyst",
+  "released": "5.0.0",
+  "data": {
+    "en": {
+      "name": "Mualani"
+    },
+    "zh": {
+      "name": "玛拉妮"
+    }
+  }
+}

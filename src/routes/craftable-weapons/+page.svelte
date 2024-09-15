@@ -14,8 +14,31 @@
   const faq = { en: CraftableWeaponsEn, zh: CraftableWeaponsZh };
 
   // Initialize craftable weapon data
-  if ($localData['billets'] && Object.keys($localData['billets']).length === 0) {
-    $localData = { ...$localData, billets: $misc['craftable-weapons'].data };
+  if ($localData['billets']) {
+    if (Object.keys($localData['billets']).length === 0) {
+      $localData = { ...$localData, billets: $misc['craftable-weapons'].data };
+    } else {
+      Object.keys($misc['craftable-weapons'].data).forEach((billetType) => {
+        // If new billet group
+        if (!(billetType in $localData['billets'])) {
+          $localData['billets'] = {
+            ...$localData['billets'],
+            [billetType]: $misc['craftable-weapons'].data[billetType]
+          };
+        }
+        // If new weapon
+        Object.keys($misc['craftable-weapons'].data[billetType]).forEach((weaponType) => {
+          Object.keys($misc['craftable-weapons'].data[billetType][weaponType]).forEach((weapon) => {
+            if (!(weapon in $localData['billets'][billetType][weaponType])) {
+              $localData['billets'][billetType][weaponType] = {
+                ...$localData['billets'][billetType][weaponType],
+                [weapon]: 0
+              };
+            }
+          });
+        });
+      });
+    }
     browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
   }
 
