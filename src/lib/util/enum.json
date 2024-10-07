@@ -343,7 +343,9 @@
     "flute-of-ezpitzal",
     "footprint-of-the-rainbow",
     "ring-of-yaxche",
-    "surfs-up"
+    "surfs-up",
+    "kinich",
+    "fang-of-the-mountain-king"
   ],
   "name2id": {
     "geo": 0,
@@ -689,6 +691,8 @@
     "flute-of-ezpitzal": 340,
     "footprint-of-the-rainbow": 341,
     "ring-of-yaxche": 342,
-    "surfs-up": 343
+    "surfs-up": 343,
+    "kinich": 344,
+    "fang-of-the-mountain-king": 345
   }
 }

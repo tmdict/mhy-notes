@@ -1,0 +1,16 @@
+{
+  "id": "kinich",
+  "type": "character",
+  "rarity": 5,
+  "vision": "dendro",
+  "weapon": "catalyst",
+  "released": "5.0.1",
+  "data": {
+    "en": {
+      "name": "Kinich"
+    },
+    "zh": {
+      "name": "基尼奇"
+    }
+  }
+}

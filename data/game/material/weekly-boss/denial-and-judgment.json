@@ -4,5 +4,7 @@
   "materialType": "weekly-boss",
   "rarity": 5,
   "source": "the-knave",
-  "characters": []
+  "characters": [
+    "kinich"
+  ]
 }
