@@ -7,7 +7,7 @@
   "data": {
     "en": {
       "name": "Tome of the Eternal Flow",
-      "passiveDescription": "HP is increased by {{16//20//24//28//32%}}. When current HP increases or decreases, Charged Attack DMG will be increased by {{14//18//22//26//30%}} for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, {{8//9//10//11//12}} Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+      "passiveDescription": "HP is increased by {{16//20//24//28//32%}}. When current HP increases or decreases, Charged Attack DMG will be increased by {{14//18//22//26//30%}} for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack’s duration refreshes, {{8//9//10//11//12}} Energy will be restored. This Energy restoration effect can be triggered once every 12s."
     },
     "zh": {
       "name": "万世流涌大典",

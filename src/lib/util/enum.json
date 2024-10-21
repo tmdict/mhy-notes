@@ -345,7 +345,10 @@
     "ring-of-yaxche",
     "surfs-up",
     "kinich",
-    "fang-of-the-mountain-king"
+    "fang-of-the-mountain-king",
+    "xilonen",
+    "peak-patrol-song",
+    "sturdy-bone"
   ],
   "name2id": {
     "geo": 0,
@@ -693,6 +696,9 @@
     "ring-of-yaxche": 342,
     "surfs-up": 343,
     "kinich": 344,
-    "fang-of-the-mountain-king": 345
+    "fang-of-the-mountain-king": 345,
+    "xilonen": 346,
+    "peak-patrol-song": 347,
+    "sturdy-bone": 348
   }
 }

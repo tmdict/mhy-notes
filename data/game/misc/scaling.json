@@ -426,21 +426,6 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
     },
-    "xianyun": {
-      "base-stat": ["atk"],
-      "a": ["atk"],
-      "e": ["atk"],
-      "q": ["atk"],
-      "a1": [],
-      "a4": ["atk"],
-      "constellation": [
-        { "C4": ["atk"] }
-      ],
-      "sand": ["er", "atk"],
-      "goblet": ["atk"],
-      "circlet": ["atk", "heal"],
-      "recommended-talent": ["q"]
-    },
     "ganyu": {
       "base-stat": ["cdmg"],
       "a": ["atk"],
@@ -601,6 +586,21 @@
       "goblet": ["electro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
+    },
+    "kinich": {
+      "base-stat": ["cdmg"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": [],
+      "a1": [],
+      "a4": ["atk"],
+      "constellation": [
+        { "C4": ["atk"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["dendro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
     },
     "kirara": {
       "base-stat": ["hp"],
@@ -1170,6 +1170,21 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
     },
+    "xianyun": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "constellation": [
+        { "C4": ["atk"] }
+      ],
+      "sand": ["er", "atk"],
+      "goblet": ["atk"],
+      "circlet": ["atk", "heal"],
+      "recommended-talent": ["q"]
+    },
     "xiao": {
       "base-stat": ["cr"],
       "a": ["atk"],
@@ -1182,6 +1197,21 @@
       "goblet": ["anemo", "atk"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
+    },
+    "xilonen": {
+      "base-stat": ["def"],
+      "a": ["atk", "def"],
+      "e": ["def"],
+      "q": ["def"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C4": ["def"] }
+      ],
+      "sand": ["def", "er"],
+      "goblet": ["def"],
+      "circlet": ["def", "heal"],
+      "recommended-talent": ["e"]
     },
     "xingqiu": {
       "base-stat": ["atk"],

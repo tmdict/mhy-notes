@@ -7,7 +7,7 @@
   "data": {
     "en": {
       "name": "Crane’s Echoing Call",
-      "passiveDescription": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal {{28//41//54//67//80%}} increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore {{2.5//2.75//3//3.25//3.5}} Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field."
+      "passiveDescription": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members’ Plunging Attacks will deal {{28//41//54//67//80%}} increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore {{2.5//2.75//3//3.25//3.5}} Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field."
     },
     "zh": {
       "name": "鹤鸣余音",

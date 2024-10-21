@@ -1,0 +1,38 @@
+---
+character: kinich
+c: 0
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: fang-of-the-mountain-king
+    r: 0
+  - name: earth-shaker
+    r: 0
+
+artifact:
+  - set: [obsidian-codex]
+    p: 4
+  - set: [unfinished-reverie]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - dendro
+  circlet:
+    - crit
+
+stats:
+  - crit: '40% / 180%'
+  - atk: '2,000-2,200'
+  - er: '120%'
+
+talent: 'E > Q'
+
+source:
+  - ysytl: default

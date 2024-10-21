@@ -1,0 +1,16 @@
+{
+  "id": "xilonen",
+  "type": "character",
+  "rarity": 5,
+  "vision": "geo",
+  "weapon": "sword",
+  "released": "5.1.0",
+  "data": {
+    "en": {
+      "name": "Xilonen"
+    },
+    "zh": {
+      "name": "希诺宁"
+    }
+  }
+}

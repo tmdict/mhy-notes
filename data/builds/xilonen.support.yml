@@ -1,0 +1,39 @@
+---
+character: xilonen
+c: 0
+type:
+  - healer
+  - support
+name:
+  en: 'Support'
+  zh: '辅助'
+
+weapon:
+  - name: peak-patrol-song
+    r: 0
+  - name: favonius-sword
+    r: 0
+
+artifact:
+  - set: [scroll-of-the-hero-of-cinder-city]
+    p: 4
+
+mainstat:
+  sand:
+    - def
+    - er
+  goblet:
+    - def
+  circlet:
+    - def
+    - heal
+
+stats:
+  - er: '180%'
+  - def: '2,800-3,000'
+  - crit: ''
+
+talent: 'E > Q'
+
+source:
+  - ysytl: default
