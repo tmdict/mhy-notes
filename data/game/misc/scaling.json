@@ -177,6 +177,21 @@
       "circlet": ["heal"],
       "recommended-talent": ["q"]
     },
+    "chasca": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C2": ["atk"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["atk"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "chevreuse": {
       "base-stat": ["hp"],
       "a": ["atk"],
@@ -846,6 +861,19 @@
       "goblet": ["geo"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
+    },
+    "ororon": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "constellation": [],
+      "sand": ["atk"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["q"]
     },
     "qiqi": {
       "base-stat": ["heal"],

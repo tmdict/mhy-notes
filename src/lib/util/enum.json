@@ -348,7 +348,13 @@
     "fang-of-the-mountain-king",
     "xilonen",
     "peak-patrol-song",
-    "sturdy-bone"
+    "sturdy-bone",
+    "chasca",
+    "ororon",
+    "astral-vultures-crimson-plumage",
+    "calamity-of-eshu",
+    "flower-wreathed-feathers",
+    "waveriding-whirl"
   ],
   "name2id": {
     "geo": 0,
@@ -699,6 +705,12 @@
     "fang-of-the-mountain-king": 345,
     "xilonen": 346,
     "peak-patrol-song": 347,
-    "sturdy-bone": 348
+    "sturdy-bone": 348,
+    "chasca": 349,
+    "ororon": 350,
+    "astral-vultures-crimson-plumage": 351,
+    "calamity-of-eshu": 352,
+    "flower-wreathed-feathers": 353,
+    "waveriding-whirl": 354
   }
 }

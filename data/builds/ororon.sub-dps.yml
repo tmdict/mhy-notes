@@ -1,0 +1,37 @@
+---
+character: ororon
+c: 0
+type:
+  - sub-dps
+name:
+  en: 'Off-Field DPS'
+  zh: '脱手副C'
+
+weapon:
+  - name: elegy-for-the-end
+    r: 0
+  - name: favonius-warbow
+    r: 0
+
+artifact:
+  - set: [scroll-of-the-hero-of-cinder-city]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 120-160%'
+  - atk: '1,600-1,800'
+  - er: '160%'
+
+talent: 'Q > E'
+
+source:
+  - ysytl: default

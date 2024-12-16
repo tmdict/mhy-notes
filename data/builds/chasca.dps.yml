@@ -1,0 +1,37 @@
+---
+character: chasca
+c: 2
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: astral-vultures-crimson-plumage
+    r: 0
+  - name: flower-wreathed-feathers
+    r: 0
+
+artifact:
+  - set: [obsidian-codex]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - atk
+  circlet:
+    - crit
+
+stats:
+  - crit: '40% / 200-230%'
+  - atk: '2,400'
+  - em: ''
+  - er: '120%'
+
+talent: 'E >= Q'
+
+source:
+  - ysytl: default
