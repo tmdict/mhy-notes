@@ -12,7 +12,7 @@
   import { highlight } from '$lib/util/highlight';
 
   let searchTerm = '';
-  let filters = ['mondstadt', 'liyue', 'inazuma', 'sumeru', 'fontaine'];
+  let filters = ['mondstadt', 'liyue', 'inazuma', 'sumeru', 'fontaine', 'natlan'];
 
   let filteredList = cloneDeep($achievements);
   let currentFilter = { field: '', value: '' };

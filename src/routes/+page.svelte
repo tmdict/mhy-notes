@@ -5,21 +5,20 @@
 
   const links = [
     {
-      new: true,
       name: 'character-builds',
       url: 'builds',
       updated: '2025-01-19'
     },
     {
-      new: true,
       name: 'character-stat-scaling',
       url: 'character-scaling',
       updated: '2025-01-19'
     },
     {
+      new: true,
       name: 'commission-achievements',
       url: 'achievements',
-      updated: '2023-11-04'
+      updated: '2025-01-19'
     },
     {
       name: 'craftable-weapons',
@@ -32,7 +31,6 @@
       updated: '2022-12-02'
     },
     {
-      new: true,
       name: 'talent-materials',
       url: 'talent-materials',
       updated: '2025-01-19'
@@ -43,7 +41,6 @@
       updated: '2024-02-11'
     },
     {
-      new: true,
       name: 'weekly-boss-mat',
       url: 'weekly-boss-materials',
       updated: '2025-01-19'
