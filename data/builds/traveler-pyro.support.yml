@@ -1,41 +1,40 @@
 ---
-character: xilonen
-c: 0
+character: traveler-pyro
+c: 6
 type:
-  - healer
   - support
 name:
   en: 'Support'
   zh: '辅助'
 
 weapon:
-  - name: peak-patrol-song
-    r: 0
   - name: favonius-sword
+    r: 0
+  - name: peak-patrol-song
     r: 0
 
 artifact:
   - set: [scroll-of-the-hero-of-cinder-city]
     p: 4
-  - set: [archaic-petra]
+  - set: [noblesse-oblige]
     p: 4
 
 mainstat:
   sand:
-    - def
     - er
+    - atk
   goblet:
-    - def
+    - pyro
   circlet:
-    - def
-    - heal
+    - crit
 
 stats:
-  - er: '180%'
-  - def: '2,800-3,000'
+  - er: '200%'
   - crit: ''
+  - atk: ''
+  - def: ''
 
 talent: 'E > Q'
 
 source:
-  - ysytl: default
+  - ysmxt: default

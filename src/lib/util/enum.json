@@ -354,7 +354,12 @@
     "astral-vultures-crimson-plumage",
     "calamity-of-eshu",
     "flower-wreathed-feathers",
-    "waveriding-whirl"
+    "waveriding-whirl",
+    "citlali",
+    "mavuika",
+    "a-thousand-blazing-suns",
+    "starcallers-watch",
+    "traveler-pyro"
   ],
   "name2id": {
     "geo": 0,
@@ -711,6 +716,11 @@
     "astral-vultures-crimson-plumage": 351,
     "calamity-of-eshu": 352,
     "flower-wreathed-feathers": 353,
-    "waveriding-whirl": 354
+    "waveriding-whirl": 354,
+    "citlali": 355,
+    "mavuika": 356,
+    "a-thousand-blazing-suns": 357,
+    "starcallers-watch": 358,
+    "traveler-pyro": 359
   }
 }

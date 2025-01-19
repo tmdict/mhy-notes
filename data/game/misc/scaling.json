@@ -238,6 +238,22 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["q"]
     },
+    "citlali": {
+      "base-stat": ["em"],
+      "a": ["atk"],
+      "e": ["atk", "em"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "constellation": [
+        { "C1": ["em"] },
+        { "C4": ["em"] }
+      ],
+      "sand": ["em", "er"],
+      "goblet": ["em"],
+      "circlet": ["em"],
+      "recommended-talent": ["e"]
+    },
     "clorinde": {
       "base-stat": ["cr"],
       "a": ["atk"],
@@ -734,6 +750,21 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
     },
+    "mavuika": {
+      "base-stat": ["cdmg"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C6": ["atk"] }
+      ],
+      "sand": ["em", "atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["q"]
+    },
     "mika": {
       "base-stat": ["hp"],
       "a": ["atk"],
@@ -1138,6 +1169,22 @@
       "sand": ["atk"],
       "goblet": ["hydro"],
       "circlet": ["hp"],
+      "recommended-talent": ["e"]
+    },
+    "traveler-pyro": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C4": ["hp"] },
+        { "C6": ["atk"] }
+      ],
+      "sand": ["er", "atk"],
+      "goblet": ["pyro"],
+      "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
     },
     "venti": {

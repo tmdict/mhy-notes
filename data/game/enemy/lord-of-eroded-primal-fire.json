@@ -1,0 +1,11 @@
+{
+  "id": "lord-of-eroded-primal-fire",
+  "type": "enemy",
+  "enemyType": "weekly-boss",
+  "order": 11,
+  "drop": [
+    "eroded-horn",
+    "eroded-sunfire",
+    "eroded-scale-feather"
+  ]
+}

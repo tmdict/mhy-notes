@@ -1,0 +1,16 @@
+{
+  "id": "citlali",
+  "type": "character",
+  "rarity": 5,
+  "vision": "cryo",
+  "weapon": "catalyst",
+  "released": "5.3.0",
+  "data": {
+    "en": {
+      "name": "Citlali"
+    },
+    "zh": {
+      "name": "茜特菈莉"
+    }
+  }
+}

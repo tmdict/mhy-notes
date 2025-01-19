@@ -1,11 +1,10 @@
 {
-  "id": "denial-and-judgment",
+  "id": "eroded-horn",
   "type": "material",
   "materialType": "weekly-boss",
   "rarity": 5,
-  "source": "the-knave",
+  "source": "lord-of-eroded-primal-fire",
   "characters": [
-    "kinich",
-    "citlali"
+    "mavuika"
   ]
 }

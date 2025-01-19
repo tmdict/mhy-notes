@@ -1,5 +1,5 @@
 ---
-character: chasca
+character: mavuika
 c: 2
 type:
   - dps
@@ -8,32 +8,32 @@ name:
   zh: '主C'
 
 weapon:
-  - name: astral-vultures-crimson-plumage
+  - name: a-thousand-blazing-suns
     r: 0
-  - name: flower-wreathed-feathers
+  - name: serpent-spine
     r: 0
 
 artifact:
   - set: [obsidian-codex]
     p: 4
-  - set: [marechaussee-hunter]
+  - set: [scroll-of-the-hero-of-cinder-city]
     p: 4
 
 mainstat:
   sand:
+    - em
     - atk
   goblet:
-    - atk
+    - pyro
   circlet:
     - crit
 
 stats:
-  - crit: '40% / 200-230%'
-  - atk: '2,400'
-  - em: ''
-  - er: '120%'
+  - crit: '40% / 200-220%'
+  - atk: '1,800'
+  - em: '200'
 
-talent: 'E >= Q'
+talent: 'Q > E > A'
 
 source:
   - ysytl: default

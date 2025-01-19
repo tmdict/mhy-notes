@@ -1,0 +1,40 @@
+---
+character: citlali
+c: 2
+type:
+  - shield
+  - support
+name:
+  en: 'Shield Support'
+  zh: '盾'
+
+weapon:
+  - name: starcallers-watch
+    r: 0
+  - name: thrilling-tales-of-dragon-slayers
+    r: 5
+
+artifact:
+  - set: [scroll-of-the-hero-of-cinder-city]
+    p: 4
+  - set: [tenacity-of-the-millelith]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - em
+  circlet:
+    - em
+
+stats:
+  - er: '185%'
+  - em: '900'
+  - crit: ''
+
+talent: 'E > Q'
+
+source:
+  - ysmxt: default

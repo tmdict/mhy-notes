@@ -16,6 +16,8 @@ weapon:
 artifact:
   - set: [scroll-of-the-hero-of-cinder-city]
     p: 4
+  - set: [noblesse-oblige]
+    p: 4
 
 mainstat:
   sand:
