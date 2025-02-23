@@ -359,7 +359,11 @@
     "mavuika",
     "a-thousand-blazing-suns",
     "starcallers-watch",
-    "traveler-pyro"
+    "traveler-pyro",
+    "lan-yan",
+    "yumemizuki-mizuki",
+    "sunny-morning-sleep-in",
+    "tamayuratei-no-ohanashi"
   ],
   "name2id": {
     "geo": 0,
@@ -721,6 +725,10 @@
     "mavuika": 356,
     "a-thousand-blazing-suns": 357,
     "starcallers-watch": 358,
-    "traveler-pyro": 359
+    "traveler-pyro": 359,
+    "lan-yan": 360,
+    "yumemizuki-mizuki": 361,
+    "sunny-morning-sleep-in": 362,
+    "tamayuratei-no-ohanashi": 363
   }
 }

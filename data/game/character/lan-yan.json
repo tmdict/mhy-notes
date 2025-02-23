@@ -1,0 +1,16 @@
+{
+  "id": "lan-yan",
+  "type": "character",
+  "rarity": 4,
+  "vision": "anemo",
+  "weapon": "catalyst",
+  "released": "5.3.1",
+  "data": {
+    "en": {
+      "name": "Lan Yan"
+    },
+    "zh": {
+      "name": "蓝砚"
+    }
+  }
+}

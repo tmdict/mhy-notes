@@ -1,0 +1,38 @@
+---
+character: yumemizuki-mizuki
+c: 0
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: sunny-morning-sleep-in
+    r: 0
+  - name: sacrificial-fragments
+    r: 0
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [obsidian-codex]
+    p: 4
+
+mainstat:
+  sand:
+    - em
+    - er
+  goblet:
+    - em
+  circlet:
+    - em
+
+stats:
+  - em: '800-900'
+  - er: '120%'
+
+talent: 'E > Q'
+
+source:
+  - ysytl: default

@@ -1,0 +1,16 @@
+{
+  "id": "yumemizuki-mizuki",
+  "type": "character",
+  "rarity": 5,
+  "vision": "anemo",
+  "weapon": "catalyst",
+  "released": "5.4.0",
+  "data": {
+    "en": {
+      "name": "Yumemizuki Mizuki"
+    },
+    "zh": {
+      "name": "梦见月瑞希"
+    }
+  }
+}

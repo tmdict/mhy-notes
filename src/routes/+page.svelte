@@ -5,17 +5,18 @@
 
   const links = [
     {
+      new: true,
       name: 'character-builds',
       url: 'builds',
-      updated: '2025-01-19'
-    },
-    {
-      name: 'character-stat-scaling',
-      url: 'character-scaling',
-      updated: '2025-01-19'
+      updated: '2025-02-22'
     },
     {
       new: true,
+      name: 'character-stat-scaling',
+      url: 'character-scaling',
+      updated: '2025-02-22'
+    },
+    {
       name: 'commission-achievements',
       url: 'achievements',
       updated: '2025-01-19'

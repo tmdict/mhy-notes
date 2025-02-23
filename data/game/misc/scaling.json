@@ -694,6 +694,19 @@
       "circlet": ["heal", "em"],
       "recommended-talent": ["e"]
     },
+    "lan-yan": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["em"],
+      "constellation": [],
+      "sand": ["atk", "er"],
+      "goblet": ["atk", "anemo"],
+      "circlet": ["atk", "crit-abbr"],
+      "recommended-talent": ["e"]
+    },
     "layla": {
       "base-stat": ["hp"],
       "a": ["atk"],
@@ -1390,6 +1403,21 @@
       "goblet": ["pyro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
+    },
+    "yumemizuki-mizuki": {
+      "base-stat": ["em"],
+      "a": ["atk"],
+      "e": ["atk", "em"],
+      "q": ["atk", "em"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C1": ["em"] }
+      ],
+      "sand": ["em", "er"],
+      "goblet": ["em"],
+      "circlet": ["em"],
+      "recommended-talent": ["e"]
     },
     "yun-jin": {
       "base-stat": ["er"],

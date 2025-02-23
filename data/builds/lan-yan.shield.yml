@@ -1,0 +1,43 @@
+---
+character: lan-yan
+c: 0
+type:
+  - shield
+  - support
+name:
+  en: 'Shield Support'
+  zh: '盾'
+
+weapon:
+  - name: starcallers-watch
+    r: 0
+  - name: thrilling-tales-of-dragon-slayers
+    r: 5
+
+artifact:
+  - set: [viridescent-venerer]
+    p: 4
+  - set: [golden-troupe]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+    - er
+  goblet:
+    - atk
+    - anemo
+  circlet:
+    - atk
+    - crit
+
+stats:
+  - er: '280%'
+  - crit: ''
+  - atk: ''
+  - em: ''
+
+talent: 'E > Q'
+
+source:
+  - ysytl: default
