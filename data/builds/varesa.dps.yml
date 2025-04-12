@@ -1,0 +1,39 @@
+---
+character: varesa
+c: 0
+type:
+  - dps
+name:
+  en: 'DPS'
+  zh: '主C'
+
+weapon:
+  - name: vivid-notions
+    r: 0
+  - name: the-widsith
+    r: 0
+
+artifact:
+  - set: [long-nights-oath]
+    p: 4
+  - set: [obsidian-codex]
+    p: 4
+
+mainstat:
+  sand:
+    - atk
+  goblet:
+    - electro
+  circlet:
+    - crit
+
+stats:
+  - crit: '70% / 150-170%'
+  - atk: '1,800-2,100'
+  - er: '130%'
+  - em: ''
+
+talent: 'A > Q > E'
+
+source:
+  - ysytl: default

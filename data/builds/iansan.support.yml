@@ -1,6 +1,6 @@
 ---
-character: traveler-pyro
-c: 6
+character: iansan
+c: 2
 type:
   - support
 name:
@@ -8,10 +8,10 @@ name:
   zh: '辅助'
 
 weapon:
-  - name: favonius-sword
+  - name: calamity-queller
     r: 0
-  - name: peak-patrol-song
-    r: 0
+  - name: tamayuratei-no-ohanashi
+    r: 5
 
 artifact:
   - set: [scroll-of-the-hero-of-cinder-city]
@@ -22,19 +22,21 @@ artifact:
 mainstat:
   sand:
     - er
-    - atk
   goblet:
-    - pyro
+    - atk
   circlet:
-    - crit
+    - atk
 
 stats:
-  - er: '200%'
-  - crit: ''
-  - atk: ''
-  - def: ''
+  - er: '180-200%'
+  - atk: '2,800'
+  - cr: '30%'
 
-talent: 'E > Q'
+talent: 'Q > E'
+
+notes:
+  en: 'E > NAx1 > Q'
+  zh: 'E > NAx1 > Q'
 
 source:
   - ysytl: default

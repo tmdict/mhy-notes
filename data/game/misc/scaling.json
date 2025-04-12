@@ -500,6 +500,22 @@
       "circlet": ["crit-abbr"],
       "recommended-talent": ["a"]
     },
+    "iansan": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": ["atk"],
+      "constellation": [
+        { "C1": ["atk"] },
+        { "C4": ["atk"] }
+      ],
+      "sand": ["er"],
+      "goblet": ["atk"],
+      "circlet": ["atk"],
+      "recommended-talent": ["q", "e"]
+    },
     "jean": {
       "base-stat": ["heal"],
       "a": ["atk"],
@@ -1199,6 +1215,22 @@
       "goblet": ["pyro"],
       "circlet": ["crit-abbr"],
       "recommended-talent": ["e"]
+    },
+    "varesa": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C1": ["atk"] },
+        { "C4": ["atk"] }
+      ],
+      "sand": ["atk"],
+      "goblet": ["electro"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["a", "q"]
     },
     "venti": {
       "base-stat": ["er"],

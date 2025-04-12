@@ -363,7 +363,12 @@
     "lan-yan",
     "yumemizuki-mizuki",
     "sunny-morning-sleep-in",
-    "tamayuratei-no-ohanashi"
+    "tamayuratei-no-ohanashi",
+    "iansan",
+    "varesa",
+    "finale-of-the-deep-galleries",
+    "long-nights-oath",
+    "vivid-notions"
   ],
   "name2id": {
     "geo": 0,
@@ -729,6 +734,11 @@
     "lan-yan": 360,
     "yumemizuki-mizuki": 361,
     "sunny-morning-sleep-in": 362,
-    "tamayuratei-no-ohanashi": 363
+    "tamayuratei-no-ohanashi": 363,
+    "iansan": 364,
+    "varesa": 365,
+    "finale-of-the-deep-galleries": 366,
+    "long-nights-oath": 367,
+    "vivid-notions": 368
   }
 }

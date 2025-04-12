@@ -1,0 +1,16 @@
+{
+  "id": "iansan",
+  "type": "character",
+  "rarity": 4,
+  "vision": "electro",
+  "weapon": "polearm",
+  "released": "5.5.0",
+  "data": {
+    "en": {
+      "name": "Iansan"
+    },
+    "zh": {
+      "name": "伊安珊"
+    }
+  }
+}

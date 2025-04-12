@@ -1,0 +1,16 @@
+{
+  "id": "varesa",
+  "type": "character",
+  "rarity": 5,
+  "vision": "electro",
+  "weapon": "catalyst",
+  "released": "5.5.0",
+  "data": {
+    "en": {
+      "name": "Varesa"
+    },
+    "zh": {
+      "name": "瓦雷莎"
+    }
+  }
+}
