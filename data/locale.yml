@@ -17,9 +17,6 @@ a1:
 a4:
   en: 'Ascend 4'
   zh: '升级4'
-abundance:
-  en: 'Abundance'
-  zh: '丰饶'
 achievements:
   en: 'Achievements'
   zh: '成就'
@@ -32,9 +29,6 @@ all:
 anemo:
   en: 'Anemo'
   zh: '风'
-aoe:
-  en: 'AOE'
-  zh: '对群'
 artifact-mainstats:
   en: 'Artifact Main Stats'
   zh: '圣遗物主词条'
@@ -65,12 +59,6 @@ boss-materials:
 bow:
   en: 'Bow'
   zh: '弓'
-breakeff:
-  en: 'Break%'
-  zh: '击破%'
-buff:
-  en: 'Buff'
-  zh: '增益'
 build-editor:
   en: 'Build Editor'
   zh: '配装编辑器'
@@ -170,9 +158,6 @@ day2:
 day3:
   en: 'Wed · Sat'
   zh: '周三 · 周六'
-debuff:
-  en: 'Debuff'
-  zh: '减益'
 def:
   en: 'DEF'
   zh: '防'
@@ -182,9 +167,6 @@ delete:
 dendro:
   en: 'Dendro'
   zh: '草'
-destruction:
-  en: 'Destruction'
-  zh: '毁灭'
 diligence:
   en: 'Diligence'
   zh: '勤劳'
@@ -200,9 +182,6 @@ e:
 edit:
   en: 'Edit'
   zh: '编辑'
-ehr:
-  en: 'EHR%'
-  zh: '命中'
 electro:
   en: 'Electro'
   zh: '雷'
@@ -227,9 +206,6 @@ equity:
 er:
   en: 'ER%'
   zh: '充'
-erudition:
-  en: 'Erudition'
-  zh: '智识'
 expand-all:
   en: 'Expand All'
   zh: '展开全部'
@@ -242,9 +218,6 @@ faq:
 filters:
   en: 'Filters'
   zh: '筛选'
-fire:
-  en: 'Fire'
-  zh: '火'
 fontaine:
   en: 'Fontaine'
   zh: '枫丹'
@@ -263,9 +236,6 @@ gold:
 guides:
   en: 'Guides'
   zh: '攻略'
-harmony:
-  en: 'Harmony'
-  zh: '同谐'
 heal:
   en: 'Heal'
   zh: '治'
@@ -278,21 +248,9 @@ honkai-star-rail:
 hp:
   en: 'HP'
   zh: '生'
-hsr-builds:
-  en: 'HSR · Builds'
-  zh: '星穹铁道 · 配装参考'
-hunt:
-  en: 'Hunt'
-  zh: '巡猎'
 hydro:
   en: 'Hydro'
   zh: '水'
-ice:
-  en: 'Ice'
-  zh: '冰'
-imaginary:
-  en: 'Imaginary'
-  zh: '虚数'
 import-data:
   en: 'Import Data'
   zh: '上传数据库'
@@ -317,12 +275,6 @@ leveling-cost:
 light:
   en: 'Light'
   zh: '天光'
-light-cone:
-  en: 'Light Cone'
-  zh: '光锥'
-lightning:
-  en: 'Lightning'
-  zh: '雷'
 link:
   en: 'Link'
   zh: '链接'
@@ -353,9 +305,6 @@ name:
 natlan:
   en: 'Natlan'
   zh: '纳塔'
-nihility:
-  en: 'Nihility'
-  zh: '虚无'
 normal-attack:
   en: 'Normal Attack'
   zh: '普通攻击'
@@ -377,9 +326,6 @@ physical:
 praxis:
   en: 'Praxis'
   zh: '笃行'
-preservation:
-  en: 'Preservation'
-  zh: '存护'
 preview:
   en: 'Preview'
   zh: '预览'
@@ -392,9 +338,6 @@ pyro:
 q:
   en: 'Q'
   zh: 'Q'
-quantum:
-  en: 'Quantum'
-  zh: '量子'
 quickswap:
   en: 'Quickswap'
   zh: '速切'
@@ -410,9 +353,6 @@ reference-stats:
 relic:
   en: 'Relic'
   zh: '遗器'
-res:
-  en: 'Res%'
-  zh: '抵抗'
 resistance:
   en: 'Resistance'
   zh: '抗争'
@@ -440,15 +380,9 @@ share:
 shield:
   en: 'Shield'
   zh: '盾'
-st:
-  en: 'ST'
-  zh: '对单'
 sources:
   en: 'Sources'
   zh: '参考来源'
-spd:
-  en: 'SPD'
-  zh: '速度'
 stats:
   en: 'Stats'
   zh: '属性数据'
@@ -470,9 +404,6 @@ support:
 sumeru:
   en: 'Sumeru'
   zh: '须弥'
-sustain:
-  en: 'Sustain'
-  zh: '生存'
 sword:
   en: 'Sword'
   zh: '单手剑'
@@ -521,6 +452,3 @@ weekly-talent-mat:
 weekly-boss-mat:
   en: 'Weekly Boss Materials'
   zh: '周常BOSS素材'
-wind:
-  en: 'Wind'
-  zh: '风'
