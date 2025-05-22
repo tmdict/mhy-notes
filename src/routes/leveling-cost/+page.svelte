@@ -60,7 +60,7 @@
   <div id="content">
     <div class="header">
       <div class="content-row">
-        <div class="empty" />
+        <div class="empty"></div>
         <div class="levelup">{$l10n['level-up'][$lang]}</div>
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
@@ -74,7 +74,7 @@
   <div id="content">
     <div class="header">
       <div class="content-row">
-        <div class="empty" />
+        <div class="empty"></div>
         <div class="levelup">{$l10n['level-up'][$lang]}</div>
       </div>
     </div>
@@ -87,7 +87,7 @@
   <div id="content">
     <div class="header">
       <div class="content-row">
-        <div class="empty" />
+        <div class="empty"></div>
         <div class="levelup">{$l10n['level-up'][$lang]}</div>
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
@@ -101,7 +101,7 @@
   <div id="content">
     <div class="header">
       <div class="content-row">
-        <div class="empty" />
+        <div class="empty"></div>
         <div class="levelup">{$l10n['level-up'][$lang]}</div>
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>

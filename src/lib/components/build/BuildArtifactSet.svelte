@@ -24,7 +24,7 @@
           margin="0 2px"
           hasTooltip={true}
           tooltipContent={`
-          <span class="heading">${details ? details['name'] : set}</span><br>
+          <span class="heading">${details ? details['name'] : set}</span><br />
           ${
             details
               ? '<span class="highlight">' +

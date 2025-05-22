@@ -85,7 +85,7 @@
                   rarity={$rarity[weapon]}
                   hasTooltip={true}
                   tooltipContent={`
-                    <span class="heading">${details ? details['name'] : weapon}</span><br>
+                    <span class="heading">${details ? details['name'] : weapon}</span><br />
                     <span class="highlight">${$l10n['sub-stat'][$lang]}:</span> ${
                       $weaponsData[weapon] ? $l10n[$weaponsData[weapon].subStat][$lang] : ''
                   }<br />

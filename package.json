@@ -15,6 +15,7 @@
   "devDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.0.4",
     "@sveltejs/adapter-static": "^3.0.4",
+    "@sveltejs/enhanced-img": "^0.6.0",
     "@sveltejs/kit": "^2.5.27",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "fdir": "^6.3.0",
@@ -26,7 +27,7 @@
     "normalize.css": "^8.0.1",
     "rimraf": "^6.0.1",
     "sass": "^1.78.0",
-    "svelte": "^5.0.0-next.272",
+    "svelte": "^5.32.1",
     "svelte-check": "^4.0.2",
     "svelte-preprocess": "^6.0.2",
     "tippy.js": "^6.3.7",

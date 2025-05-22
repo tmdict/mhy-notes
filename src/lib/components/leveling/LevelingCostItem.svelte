@@ -14,7 +14,7 @@
     <Icon {id} src="leveling-cost/{imgSrc}" {rarity} size="30px" margin="0" />
     <div class="count">{count.toLocaleString('en-US')}</div>
   {:else}
-    <div class="placeholder" />
+    <div class="placeholder"></div>
   {/if}
 </div>
 

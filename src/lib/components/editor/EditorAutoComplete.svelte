@@ -91,7 +91,7 @@
       autocomplete="off"
     />
     <div class:showAutocompleteResults class="autocomplete-results-container" autocomplete="off">
-      <div class="click-catcher" role="button" tabindex="0" on:click={hideResults} on:keydown={hideResults} />
+      <div class="click-catcher" role="button" tabindex="0" on:click={hideResults} on:keydown={hideResults}></div>
       <ul class="results-list" class:border-none={!matches.length}>
         {#each matches as match, index (match)}
           <li
