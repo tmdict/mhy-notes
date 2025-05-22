@@ -1,7 +1,7 @@
 <script>
   import { rarity, weapons as weaponsData } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   export let images;
   export let weapons;
@@ -19,10 +19,10 @@
       on:mouseenter={() => (isHover = weapon.name)}
       on:mouseleave={() => (isHover = '')}
     >
-      <IconEnhanced
+      <Icon
         id={weapon.name}
         title={details ? details['name'] : weapon.name}
-        iconSrc={isHover === weapon.name
+        src={isHover === weapon.name
           ? images[`/src/lib/img/weapon/ascension/${weapon.name}.png`]
           : images[`/src/lib/img/weapon/${weapon.name}.png`]}
         rarity={$rarity[weapon.name]}

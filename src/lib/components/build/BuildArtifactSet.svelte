@@ -1,7 +1,7 @@
 <script>
   import { artifacts as artifactsData, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   export let images;
   export let artifacts;
@@ -16,11 +16,10 @@
     {#each artifact.set as set}
       {@const details = data[set] ? data[set].data[$lang] : false}
       <div class="artifact" role="button" tabindex="0" on:click|stopPropagation on:keydown|stopPropagation>
-        <IconEnhanced
+        <Icon
           id={set}
           title={details ? details['name'] : set}
-          src="artifact/{set}"
-          iconSrc={images[`/src/lib/img/artifact/${set}.png`]}
+          src={images[`/src/lib/img/artifact/${set}.png`]}
           rarity={$rarity[set]}
           size="50px"
           margin="0 2px"

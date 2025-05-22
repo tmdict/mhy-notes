@@ -4,7 +4,7 @@
   import { misc, rarity, weapons as weaponsData } from '@store/gamedata';
   import { localData } from '@store/localdata';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
   import CraftableWeaponsEn from '$lib/components/content/CraftableWeaponsFaq/En.svelte';
   import CraftableWeaponsZh from '$lib/components/content/CraftableWeaponsFaq/Zh.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
@@ -83,15 +83,15 @@
       {#each Object.entries(craftables) as [type, weapons]}
         <div class="content-col type">
           <div class="header">
-            <IconEnhanced id="{billet}-{type}" iconSrc={images[`/src/lib/img/billet/${billet}-${type}.png`]} />
+            <Icon id="{billet}-{type}" src={images[`/src/lib/img/billet/${billet}-${type}.png`]} />
           </div>
           {#each Object.entries(weapons) as [weapon, count]}
             {@const details = $weaponsData[weapon] ? $weaponsData[weapon].data[$lang] : false}
             <div class="content-row weapon">
               <div class="weapon-icon" role="presentation">
-                <IconEnhanced
+                <Icon
                   id={weapon}
-                  iconSrc={images[`/src/lib/img/weapon/ascension/${weapon}.png`]}
+                  src={images[`/src/lib/img/weapon/ascension/${weapon}.png`]}
                   rarity={$rarity[weapon]}
                   hasTooltip={true}
                   tooltipContent={`

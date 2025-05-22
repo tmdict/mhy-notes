@@ -1,6 +1,5 @@
 <script>
   import { getContext } from 'svelte';
-  import Icon from './Icon.svelte';
   import LangSelect from '$lib/components/LangSelect.svelte';
 
   import { l10n, lang } from '@store/site';
@@ -8,16 +7,26 @@
   import ToggleDark from '$lib/svg/moon.svelte';
   import ToggleLight from '$lib/svg/sun.svelte';
 
+  import Top from '$lib/img/top.png?enhanced';
+  import TopAlt from '$lib/img/top_alt.png?enhanced';
+  import TopLight from '$lib/img/top_l.png?enhanced';
+  import TopLightAlt from '$lib/img/top_alt_l.png?enhanced';
+
   const { theme, toggle } = getContext('theme');
   let spin = false;
+  let isHover = false;
 
   $: isDark = $theme.name === 'dark';
-  $: lightExt = !isDark ? '_l' : '';
-  $: topImg = 'top' + lightExt;
 
   function spinIcon(duration) {
     spin = true;
     setTimeout(() => (spin = false), duration);
+  }
+
+  function getTopImg() {
+    return isDark 
+      ? (isHover ? TopAlt : Top)
+      : (isHover ? TopLightAlt : TopLight);
   }
 </script>
 
@@ -26,10 +35,10 @@
     <div class="content-row content-top">
       <a
         href="/"
-        on:mouseenter={() => (topImg = 'top_alt' + lightExt)}
-        on:mouseleave={() => (topImg = 'top' + lightExt)}
+        on:mouseenter={() => (isHover = true)}
+        on:mouseleave={() => (isHover = false)}
       >
-        <Icon id="mHY-notes" src={topImg} size="100px" margin="0" />
+        <enhanced:img src={getTopImg()} class="top-img" alt="top" />
       </a>
 
       <div class="content-col nav">
@@ -92,6 +101,12 @@
     width: 100%;
     max-width: 940px;
     margin: 0 auto;
+
+    .top-img {
+      width: 100px;
+      height: 100px;
+      margin: 0;
+    }
   }
 
   .content-col {

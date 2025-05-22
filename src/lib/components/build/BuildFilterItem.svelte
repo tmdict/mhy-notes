@@ -1,7 +1,7 @@
 <script>
   import { buildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   export let images;
   export let name;
@@ -22,16 +22,16 @@
     on:keydown={() => buildsFilters.updateQuickFilter(name, item)}
   >
     {#if type === 'icon' && name === 'artifact'}
-      <IconEnhanced
+      <Icon
         id={item}
-        iconSrc={images[`/src/lib/img/artifact/${item}.png`]}
+        src={images[`/src/lib/img/artifact/${item}.png`]}
         size="45px"
         margin="0 5px 0 0"
       />
     {:else if type === 'icon' && name === 'weapon-type'}
-      <IconEnhanced
+      <Icon
         id={item}
-        iconSrc={images[`/src/lib/img/weapon-type/${item}.png`]}
+        src={images[`/src/lib/img/weapon-type/${item}.png`]}
         size="25px"
         margin="0 5px 0 0"
       />
@@ -39,10 +39,10 @@
         {$l10n[item][$lang]}
       {/if}
     {:else if type === 'icon' && name === 'vision'}
-      <IconEnhanced
+      <Icon
         enhance={false}
         id={item}
-        iconSrc="/img/{name}/{item}.svg"
+        src="/img/{name}/{item}.svg"
         size="25px"
         margin="0 5px 0 0"
       />

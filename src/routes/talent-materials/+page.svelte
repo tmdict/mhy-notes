@@ -1,7 +1,7 @@
 <script>
   import { characters, materials, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   // Load images to be enhanced
   const images = import.meta.glob(
@@ -61,9 +61,9 @@
           <div class="content-col days-small-col"><h2>{weekdays[parseInt(weekday) - 1][$lang]}</h2></div>
           <div class="content-row divider">
             {#each weaponMaterials[region][weekday] as weaponMat}
-              <IconEnhanced
+              <Icon
                 id={weaponMat}
-                iconSrc={images[`/src/lib/img/material-weapon-ascension/${weaponMat}.png`]}
+                src={images[`/src/lib/img/material-weapon-ascension/${weaponMat}.png`]}
                 rarity={$rarity[weaponMat]}
                 size="40px"
               />
@@ -72,19 +72,19 @@
           <h3>{$l10n[material.id][$lang]}</h3>
           <div class="content-row divider">
             {#each material.group as book}
-              <IconEnhanced
+              <Icon
                 id="{book.id}-{material.id}"
-                iconSrc={images[`/src/lib/img/material-talent-book/${book.id}-${material.id}.png`]}
+                src={images[`/src/lib/img/material-talent-book/${book.id}-${material.id}.png`]}
                 rarity={book.rarity}
               />
             {/each}
           </div>
           <div class="content-row">
             {#each material.characters as character}
-              <IconEnhanced
+              <Icon
                 id={character}
                 title={$characters[character] ? $characters[character].data[$lang].name : character}
-                iconSrc={images[`/src/lib/img/character/${character}.png`]}
+                src={images[`/src/lib/img/character/${character}.png`]}
                 rarity={$rarity[character]}
               />
             {/each}

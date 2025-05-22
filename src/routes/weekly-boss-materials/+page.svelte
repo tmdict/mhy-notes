@@ -1,7 +1,7 @@
 <script>
   import { characters, enemies, materials, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   // Load images to be enhanced
   const images = import.meta.glob(
@@ -46,18 +46,18 @@
   {#each Object.entries(bossMaterials) as [boss, bossData], idx}
     <div class="content-row boss" class:alt={idx % 2 === 1}>
       <div class="content-row">
-        <IconEnhanced id={boss} iconSrc={images[`/src/lib/img/enemy/${boss}.png`]} size="220px" />
+        <Icon id={boss} src={images[`/src/lib/img/enemy/${boss}.png`]} size="220px" />
 
         <div class="content-col">
           {#each Object.entries(bossData) as [name, material]}
             <div class="content-row">
-              <IconEnhanced id={name} iconSrc={images[`/src/lib/img/material-weekly-boss/${name}.png`]} rarity={material.rarity} />
+              <Icon id={name} src={images[`/src/lib/img/material-weekly-boss/${name}.png`]} rarity={material.rarity} />
               {#if material.characters.length > 0}
               {#each material.characters as character}
-                <IconEnhanced
+                <Icon
                   id={character}
                   title={$characters[character] ? $characters[character].data[$lang].name : character}
-                  iconSrc={images[`/src/lib/img/character/${character}.png`]}
+                  src={images[`/src/lib/img/character/${character}.png`]}
                   rarity={$rarity[character]}
                 />
               {/each}

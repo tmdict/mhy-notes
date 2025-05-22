@@ -1,7 +1,7 @@
 <script>
   import { characters, rarity } from '@store/gamedata';
   import { lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   export let images;
   export let character;
@@ -10,10 +10,10 @@
 </script>
 
 <div class="content-row character">
-  <IconEnhanced
+  <Icon
     id={character}
     title={$characters[character] ? $characters[character].data[$lang].name : character}
-    iconSrc={images[`/src/lib/img/character/${character}.png`]}
+    src={images[`/src/lib/img/character/${character}.png`]}
     rarity={$rarity[character]}
     {size}
     margin="0"

@@ -2,7 +2,7 @@
   import { charScalingFilters } from '@store/filterlist';
   import { characters, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+  import Icon from '$lib/components/Icon.svelte';
 
   export let data;
   export let baseKey;
@@ -29,10 +29,10 @@
 
 <div class="col" class:icon class:fill>
   {#if baseKey === 'icon'}
-    <IconEnhanced
+    <Icon
       id={data.id}
       title={$characters[data.id] ? $characters[data.id].data[$lang].name : data.id}
-      iconSrc={images[`/src/lib/img/character/${data.id}.png`]}
+      src={images[`/src/lib/img/character/${data.id}.png`]}
       rarity={$rarity[data.id]}
       size="50px"
       margin="0"
