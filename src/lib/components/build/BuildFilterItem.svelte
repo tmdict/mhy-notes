@@ -2,7 +2,9 @@
   import { buildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
+  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
 
+  export let images;
   export let name;
   export let type;
   export let item;
@@ -20,12 +22,19 @@
     on:click={() => buildsFilters.updateQuickFilter(name, item)}
     on:keydown={() => buildsFilters.updateQuickFilter(name, item)}
   >
-    {#if type === 'icon'}
+    {#if type === 'icon' && name === 'artifact'}
+      <IconEnhanced
+        id={item}
+        iconSrc={images[`/src/lib/img/artifact/${item}.png`]}
+        size="45px"
+        margin="0 5px 0 0"
+      />
+    {:else if type === 'icon'}
       <Icon
         id={item}
         src="{name}/{item}"
         ext={name === 'vision' ? 'svg' : 'png'}
-        size={name === 'artifact' ? '45px' : '25px'}
+        size="25px"
         margin="0 5px 0 0"
       />
       {#if ['vision', 'weapon-type'].includes(name)}

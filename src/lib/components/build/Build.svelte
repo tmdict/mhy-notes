@@ -12,6 +12,7 @@
   import BuildWeapons from '$lib/components/build/BuildWeapons.svelte';
 
   export let build;
+  export let images;
   export let alt = false;
   export let showDetail = false;
 
@@ -33,7 +34,11 @@
     style={$lang === 'en' ? '--text-size: 0.8rem' : '--text-size: 0.9rem'}
   >
     <div class="content-row build-character">
-      <BuildCharacter character={build.character} constellation={build.c} />
+      <BuildCharacter
+        {images}
+        character={build.character}
+        constellation={build.c}
+      />
       <div class="content-col names">
         <div class="character-name">
           {$characters[build.character].data[$lang].name}
@@ -44,7 +49,8 @@
       </div>
     </div>
     <div class="content-row weapons">
-      <BuildWeapons weapons={build.weapon} />
+      <BuildWeapons {images} weapons={build.weapon}
+      />
     </div>
     <div class="content-row build-stat">
       <div class="mainstats">
@@ -55,7 +61,7 @@
       </div>
     </div>
     <div class="content-row artifacts">
-      <BuildArtifactSet artifacts={build.artifact} />
+      <BuildArtifactSet {images} artifacts={build.artifact} />
     </div>
   </div>
   {#if showDetail}

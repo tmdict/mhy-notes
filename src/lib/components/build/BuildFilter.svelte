@@ -4,6 +4,7 @@
   import { l10n, lang } from '@store/site';
   import BuildFilterItem from '$lib/components/build/BuildFilterItem.svelte';
 
+  export let images;
   export let filter;
   export let showFilter = false;
   if (['type', 'vision'].includes(filter.name)) {
@@ -21,7 +22,7 @@
   {#if showFilter}
     <div class="content-row">
       {#each filter.filter as item}
-        <BuildFilterItem name={filter.name} type={filter.type} {item} />
+        <BuildFilterItem {images} name={filter.name} type={filter.type} {item} />
       {/each}
       <div>
         <a class="clear" href="/#" on:click|preventDefault={() => buildsFilters.resetByType(filter.name)}>

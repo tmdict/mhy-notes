@@ -10,6 +10,16 @@
   import BuildFilter from '$lib/components/build/BuildFilter.svelte';
   import ManageData from '$lib/components/ManageData.svelte';
 
+  // Load images to be enhanced
+  const images = import.meta.glob(
+    "$lib/img/**/*.png", {
+      eager: true,
+      query: {
+        enhanced: true,
+      },
+    }
+  );
+
   let expandAllFilters = true;
   let showFaq = false;
   let filteredBuilds = $builds;
@@ -68,7 +78,7 @@
   {#if expandAllFilters}
     <div id="filter-list" transition:slide={{ duration: 200 }}>
       {#each Object.entries($buildfilters) as [n, f]}
-        <BuildFilter filter={{ name: n, type: f.type, filter: [...f.filter].sort() }} />
+        <BuildFilter {images} filter={{ name: n, type: f.type, filter: [...f.filter].sort() }} />
       {/each}
     </div>
   {/if}
@@ -82,13 +92,13 @@
     {#if filteredSavedBuilds.length > 0}
       <div class="header"><h4>{$l10n['saved-builds'][$lang]}</h4></div>
       {#each filteredSavedBuilds as build, i}
-        <Build {build} alt={i % 2 === 1} />
+        <Build {images} {build} alt={i % 2 === 1} />
       {/each}
       <div class="header"></div>
       <div class="header"></div>
     {/if}
     {#each filteredBuilds as build, i (build.character + build.name.en)}
-      <Build {build} alt={i % 2 === 1} />
+      <Build {images} {build} alt={i % 2 === 1} />
     {/each}
   </div>
 </div>

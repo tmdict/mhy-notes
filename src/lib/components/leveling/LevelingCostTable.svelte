@@ -3,6 +3,7 @@
   import { l10n, lang } from '@store/site';
   import LevelingCostItem from '$lib/components/leveling/LevelingCostItem.svelte';
 
+  export let images;
   export let tableData;
   export let keys;
   export let total;
@@ -23,7 +24,7 @@
       {#each characterKeys as key}
         <div class="content-col">
           {#each Object.entries(total[key]) as [id, data]}
-            <LevelingCostItem {id} count={data.count} rarity={data.rarity} />
+            <LevelingCostItem {images} {id} count={data.count} rarity={data.rarity} />
           {/each}
         </div>
       {/each}
@@ -40,7 +41,7 @@
         {#each Object.values(keys) as characterKeys, n}
           <div class="content-row group" class:separator={n < Object.keys(keys).length - 1}>
             {#each characterKeys as key}
-              <LevelingCostItem id={data.cost[key].id} count={data.cost[key].count} rarity={data.cost[key].rarity} />
+              <LevelingCostItem {images} id={data.cost[key].id} count={data.cost[key].count} rarity={data.cost[key].rarity} />
             {/each}
           </div>
         {/each}

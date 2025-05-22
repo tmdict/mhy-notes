@@ -1,7 +1,17 @@
 <script>
   import { characters, materials, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import Icon from '$lib/components/Icon.svelte';
+  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
+
+  // Load images to be enhanced
+  const images = import.meta.glob(
+    "$lib/img/**/*.png", {
+      eager: true,
+      query: {
+        enhanced: true,
+      },
+    }
+  );
 
   const weekdays = [$l10n['day1'], $l10n['day2'], $l10n['day3']];
 
@@ -51,9 +61,9 @@
           <div class="content-col days-small-col"><h2>{weekdays[parseInt(weekday) - 1][$lang]}</h2></div>
           <div class="content-row divider">
             {#each weaponMaterials[region][weekday] as weaponMat}
-              <Icon
+              <IconEnhanced
                 id={weaponMat}
-                src="material-weapon-ascension/{weaponMat}"
+                iconSrc={images[`/src/lib/img/material-weapon-ascension/${weaponMat}.png`]}
                 rarity={$rarity[weaponMat]}
                 size="40px"
               />
@@ -62,15 +72,19 @@
           <h3>{$l10n[material.id][$lang]}</h3>
           <div class="content-row divider">
             {#each material.group as book}
-              <Icon id="{book.id}-{material.id}" src="material-talent-book/{book.id}-{material.id}" rarity={book.rarity} />
+              <IconEnhanced
+                id="{book.id}-{material.id}"
+                iconSrc={images[`/src/lib/img/material-talent-book/${book.id}-${material.id}.png`]}
+                rarity={book.rarity}
+              />
             {/each}
           </div>
           <div class="content-row">
             {#each material.characters as character}
-              <Icon
+              <IconEnhanced
                 id={character}
                 title={$characters[character] ? $characters[character].data[$lang].name : character}
-                src="character/{character}"
+                iconSrc={images[`/src/lib/img/character/${character}.png`]}
                 rarity={$rarity[character]}
               />
             {/each}

@@ -3,6 +3,16 @@
   import { l10n, lang } from '@store/site';
   import LevelingCostTable from '$lib/components/leveling/LevelingCostTable.svelte';
 
+  // Load images to be enhanced
+  const images = import.meta.glob(
+    "$lib/img/leveling-cost/*.png", {
+      eager: true,
+      query: {
+        enhanced: true,
+      },
+    }
+  );
+
   const character = {
     level: ['heros-wit', 'adventurers-experience', 'mora-level'],
     ascension: ['jewel', 'normal-boss', 'local-specialty', 'common-material', 'mora-ascension']
@@ -65,7 +75,7 @@
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
     </div>
-    <LevelingCostTable tableData={$misc['leveling-character'].data} keys={character} total={characterTotal} />
+    <LevelingCostTable {images} tableData={$misc['leveling-character'].data} keys={character} total={characterTotal} />
   </div>
 </div>
 
@@ -78,7 +88,7 @@
         <div class="levelup">{$l10n['level-up'][$lang]}</div>
       </div>
     </div>
-    <LevelingCostTable tableData={$misc['leveling-talent'].data} keys={talent} total={talentTotal} />
+    <LevelingCostTable {images} tableData={$misc['leveling-talent'].data} keys={talent} total={talentTotal} />
   </div>
 </div>
 
@@ -92,7 +102,7 @@
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
     </div>
-    <LevelingCostTable tableData={$misc['leveling-weapon5'].data} keys={weapon} total={weapon5Total} />
+    <LevelingCostTable {images} tableData={$misc['leveling-weapon5'].data} keys={weapon} total={weapon5Total} />
   </div>
 </div>
 
@@ -106,7 +116,7 @@
         <div class="ascension">{$l10n['ascension'][$lang]}</div>
       </div>
     </div>
-    <LevelingCostTable tableData={$misc['leveling-weapon4'].data} keys={weapon} total={weapon4Total} />
+    <LevelingCostTable {images} tableData={$misc['leveling-weapon4'].data} keys={weapon} total={weapon4Total} />
   </div>
 </div>
 

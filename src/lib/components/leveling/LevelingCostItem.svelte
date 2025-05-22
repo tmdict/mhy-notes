@@ -1,6 +1,7 @@
 <script>
-  import Icon from '$lib/components/Icon.svelte';
+  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
 
+  export let images;
   export let id;
   const mora = ['mora-level', 'mora-ascension'].includes(id);
 
@@ -11,7 +12,7 @@
 
 <div class="icon" class:empty={count < 1} class:mora>
   {#if count > 0}
-    <Icon {id} src="leveling-cost/{imgSrc}" {rarity} size="30px" margin="0" />
+    <IconEnhanced {id} iconSrc={images[`/src/lib/img/leveling-cost/${imgSrc}.png`]} {rarity} size="30px" margin="0" />
     <div class="count">{count.toLocaleString('en-US')}</div>
   {:else}
     <div class="placeholder"></div>

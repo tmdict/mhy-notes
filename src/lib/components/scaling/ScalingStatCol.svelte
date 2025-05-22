@@ -2,13 +2,14 @@
   import { charScalingFilters } from '@store/filterlist';
   import { characters, rarity } from '@store/gamedata';
   import { l10n, lang } from '@store/site';
-  import Icon from '$lib/components/Icon.svelte';
+  import IconEnhanced from '$lib/components/IconEnhanced.svelte';
 
   export let data;
   export let baseKey;
   export let isRecommended = false;
   export let icon = false;
   export let fill = false;
+  export let images = {}
 
   const colors = {
     anemo: 'anemo',
@@ -28,10 +29,10 @@
 
 <div class="col" class:icon class:fill>
   {#if baseKey === 'icon'}
-    <Icon
+    <IconEnhanced
       id={data.id}
       title={$characters[data.id] ? $characters[data.id].data[$lang].name : data.id}
-      src="character/{data.id}"
+      iconSrc={images[`/src/lib/img/character/${data.id}.png`]}
       rarity={$rarity[data.id]}
       size="50px"
       margin="0"
