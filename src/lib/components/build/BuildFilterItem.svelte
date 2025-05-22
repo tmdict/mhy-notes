@@ -1,7 +1,6 @@
 <script>
   import { buildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
-  import Icon from '$lib/components/Icon.svelte';
   import IconEnhanced from '$lib/components/IconEnhanced.svelte';
 
   export let images;
@@ -29,11 +28,21 @@
         size="45px"
         margin="0 5px 0 0"
       />
-    {:else if type === 'icon'}
-      <Icon
+    {:else if type === 'icon' && name === 'weapon-type'}
+      <IconEnhanced
         id={item}
-        src="{name}/{item}"
-        ext={name === 'vision' ? 'svg' : 'png'}
+        iconSrc={images[`/src/lib/img/weapon-type/${item}.png`]}
+        size="25px"
+        margin="0 5px 0 0"
+      />
+      {#if ['vision', 'weapon-type'].includes(name)}
+        {$l10n[item][$lang]}
+      {/if}
+    {:else if type === 'icon' && name === 'vision'}
+      <IconEnhanced
+        enhance={false}
+        id={item}
+        iconSrc="/img/{name}/{item}.svg"
         size="25px"
         margin="0 5px 0 0"
       />

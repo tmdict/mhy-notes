@@ -1,6 +1,7 @@
 <script>
   import { tooltip } from '$lib/util/tooltip';
 
+  export let enhance = true;
   export let iconSrc;
   export let id;
   export let title = id;
@@ -25,13 +26,23 @@
     }
   }}
 >
-  <enhanced:img
-    class="icon-img"
-    src={iconSrc.default}
-    {title} alt={id}
-    style="--icon-size: {size}"
-    loading="lazy"
-  />
+  {#if enhance}
+    <enhanced:img
+      class="icon-img"
+      src={iconSrc.default}
+      {title} alt={id}
+      style="--icon-size: {size}"
+      loading="lazy"
+    />
+  {:else}
+    <img
+      class="icon-img"
+      src={iconSrc}
+      {title} alt={id}
+      style="--icon-size: {size}"
+      loading="lazy"
+    />
+  {/if}
 </div>
 
 <style lang="scss">
