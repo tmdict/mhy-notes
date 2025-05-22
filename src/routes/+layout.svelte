@@ -1,10 +1,10 @@
 <script>
-  import { SvelteToast } from '@zerodevx/svelte-toast';
+  //import { SvelteToast } from '@zerodevx/svelte-toast';
   import Footer from '$lib/components/Footer.svelte';
   import Header from '$lib/components/Header.svelte';
   import ThemeContext from '$lib/components/ThemeContext.svelte';
 
-  const toastOptions = { duration: 1500 };
+  //const toastOptions = { duration: 1500 };
 </script>
 
 <ThemeContext>
@@ -22,7 +22,7 @@
       </div>
     </div>
   </main>
-  <SvelteToast options={toastOptions} />
+  <!-- <SvelteToast options={toastOptions} /> -->
 </ThemeContext>
 
 <style lang="scss" global>

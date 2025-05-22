@@ -1,5 +1,5 @@
 <script>
-  import { toast } from '@zerodevx/svelte-toast';
+  //import { toast } from '@zerodevx/svelte-toast';
   import { browser } from '$app/environment';
   import { localData } from '@store/localdata';
   import { l10n, lang, toastOption } from '@store/site';
@@ -19,9 +19,9 @@
         const imported = JSON.parse(reader.result);
         $localData = imported;
         browser && localStorage.setItem('tmdict.genshin.data', reader.result);
-        toast.push('Import successful!', $toastOption['success']);
+        //toast.push('Import successful!', $toastOption['success']);
       } catch (err) {
-        toast.push(`Import failed: ${err}`, $toastOption['error']);
+        //toast.push(`Import failed: ${err}`, $toastOption['error']);
       }
     };
     reader.readAsText(files[0]);

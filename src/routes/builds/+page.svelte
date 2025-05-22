@@ -52,11 +52,11 @@
   <a href="/#" class={expandAllFilters ? 'show' : 'collapse'} on:click|preventDefault={() => expandAllFilters = !expandAllFilters}>
     {#if !expandAllFilters}{$l10n['expand-all'][$lang]}{:else}{$l10n['close-all'][$lang]}{/if} {$l10n['filters'][$lang]}
   </a>
-  <span class="menu-separator" />
+  <span class="menu-separator"></span>
   <a href="/builds/edit">{$l10n['create-builds'][$lang]}</a>
-  <span class="menu-separator" />
+  <span class="menu-separator"></span>
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
-  <span class="menu-separator" />
+  <span class="menu-separator"></span>
   <ManageData />
 </div>
 {#if showFaq}
@@ -84,8 +84,8 @@
       {#each filteredSavedBuilds as build, i}
         <Build {build} alt={i % 2 === 1} />
       {/each}
-      <div class="header" />
-      <div class="header" />
+      <div class="header"></div>
+      <div class="header"></div>
     {/if}
     {#each filteredBuilds as build, i (build.character + build.name.en)}
       <Build {build} alt={i % 2 === 1} />

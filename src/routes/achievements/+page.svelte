@@ -87,7 +87,7 @@
 
     <div class="menu">
       <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
-      <span class="menu-separator" />
+      <span class="menu-separator"></span>
       <ManageData />
     </div>
 
@@ -96,11 +96,11 @@
         <a
           class:active={filter === currentFilter.value}
           href="/#"
-          on:click|preventDefault={() => (currentFilter = { field: 'region', value: filter })}>{$l10n[filter][$lang]}</a
+          on:click|preventDefault={() => (currentFilter = { field: 'region', value: filter })}>{$l10n[filter][$lang]}</a>
         >{' · '}
       {/each}
       <a href="/#" on:click|preventDefault={() => (sortByCompletion = !sortByCompletion)}>{$l10n.completed[$lang]}</a>
-      <span class="menu-separator" />
+      <span class="menu-separator"></span>
       <a href="/#" on:click|preventDefault={clearAll}>{$l10n['clear-all'][$lang]}</a>
     </div>
   </div>

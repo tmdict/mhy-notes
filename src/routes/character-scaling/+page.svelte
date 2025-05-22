@@ -92,7 +92,7 @@
     >{$l10n['filters'][$lang]}
     {#if showFilter}-{:else}+{/if}</a
   >
-  <span class="menu-separator" />
+  <span class="menu-separator"></span>
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
 </div>
 

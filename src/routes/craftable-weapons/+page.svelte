@@ -57,7 +57,7 @@
 
 <div class="menu">
   <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
-  <span class="menu-separator" />
+  <span class="menu-separator"></span>
   <ManageData />
 </div>
 
@@ -85,7 +85,7 @@
                   rarity={$rarity[weapon]}
                   hasTooltip={true}
                   tooltipContent={`
-                    <span class="heading">${details ? details['name'] : weapon}</span><br />
+                    <span class="heading">${details ? details['name'] : weapon}</span><br>
                     <span class="highlight">${$l10n['sub-stat'][$lang]}:</span> ${
                       $weaponsData[weapon] ? $l10n[$weaponsData[weapon].subStat][$lang] : ''
                   }<br />

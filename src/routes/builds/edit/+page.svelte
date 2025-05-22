@@ -1,5 +1,5 @@
 <script>
-  import { toast } from '@zerodevx/svelte-toast';
+  //import { toast } from '@zerodevx/svelte-toast';
   import lzstring from 'lz-string';
   import { browser } from '$app/environment';
   import { availableInputs, buildEditor } from '@store/editor';
@@ -34,7 +34,7 @@
         const importedBuild = decodeBuild(extractBuild(lzstring.decompressFromEncodedURIComponent(link)));
         $buildEditor = parser.importToEditor(importedBuild, buildEditor.getKeys, $lang);
       } catch (err) {
-        toast.push(`Cannot read build: ${err}`, $toastOption['error']);
+        //toast.push(`Cannot read build: ${err}`, $toastOption['error']);
       }
     }
   }
@@ -53,7 +53,7 @@
 
   function copyToClipboard(link) {
     navigator.clipboard.writeText(window.location.hostname + link);
-    toast.push('Copied to clipboard!', $toastOption['success']);
+    //toast.push('Copied to clipboard!', $toastOption['success']);
   }
 
   function saveBuild() {
@@ -69,12 +69,12 @@
         if (browser) {
           localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
         }
-        toast.push('Build saved.', $toastOption['success']);
+        //toast.push('Build saved.', $toastOption['success']);
       } else {
-        toast.push('Duplicate build!', $toastOption['error']);
+        //toast.push('Duplicate build!', $toastOption['error']);
       }
     } catch (err) {
-      toast.push(`Something went wrong: ${err}`, $toastOption['error']);
+      //toast.push(`Something went wrong: ${err}`, $toastOption['error']);
     }
   }
 </script>

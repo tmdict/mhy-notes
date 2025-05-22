@@ -1,5 +1,5 @@
 <script>
-  import { toast } from '@zerodevx/svelte-toast';
+  //import { toast } from '@zerodevx/svelte-toast';
   import lzstring from 'lz-string';
   import { browser } from '$app/environment';
   import { localData } from '@store/localdata';
@@ -19,19 +19,19 @@
       const afterDeletion = $localData['builds'].filter((b) => b.id != build.id);
       $localData = { ...$localData, builds: afterDeletion };
       browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
-      toast.push('Build deleted.', $toastOption['success']);
+      //toast.push('Build deleted.', $toastOption['success']);
     } catch (err) {
-      toast.push(`Something went wrong: ${err}`, $toastOption['error']);
+      //toast.push(`Something went wrong: ${err}`, $toastOption['error']);
     }
   }
 </script>
 
 <div class="menu manage">
   <a on:click|stopPropagation href="/builds/build#{encoded}">{$l10n['link'][$lang]}</a>
-  <span class="menu-separator" />
+  <span class="menu-separator"></span>
   <a on:click|stopPropagation href="/builds/edit#{encoded}">{$l10n['edit'][$lang]}</a>
   {#if 'id' in build}
-    <span class="menu-separator" />
+    <span class="menu-separator"></span>
     <a href="/#" on:click|stopPropagation|preventDefault={deleteBuild}>{$l10n['delete'][$lang]}</a>
   {/if}
 </div>
