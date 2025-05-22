@@ -4,12 +4,21 @@
   import { l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
+  // Load images to be enhanced
+  const images = import.meta.glob(
+    "$lib/img/character/*.png", {
+      eager: true,
+      query: {
+        enhanced: true,
+      },
+    }
+  );
+
   export let data;
   export let baseKey;
   export let isRecommended = false;
   export let icon = false;
   export let fill = false;
-  export let images = {}
 
   const colors = {
     anemo: 'anemo',

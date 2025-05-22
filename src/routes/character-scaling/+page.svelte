@@ -8,16 +8,6 @@
   import ScalingFaqEn from '$lib/components/content/ScalingFaq/En.svelte';
   import ScalingFaqZh from '$lib/components/content/ScalingFaq/Zh.svelte';
 
-  // Load images to be enhanced
-  const images = import.meta.glob(
-    "$lib/img/character/*.png", {
-      eager: true,
-      query: {
-        enhanced: true,
-      },
-    }
-  );
-
   const statFilter = [
     'hp',
     'atk',
@@ -144,7 +134,7 @@
   {#each filteredScalings as data, n (data.id)}
     <div class="content-row row" class:alt={n % 2 === 1} transition:fade>
       <div class="content-row group basic separator">
-        <ScalingStatCol {data} baseKey="icon" {images} icon={true} />
+        <ScalingStatCol {data} baseKey="icon" icon={true} />
         <ScalingStatCol {data} baseKey="name" />
         <ScalingStatCol {data} baseKey="base-stat" />
       </div>
