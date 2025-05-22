@@ -1,0 +1,11 @@
+{
+  "id": "the-game-before-the-gate",
+  "type": "enemy",
+  "enemyType": "weekly-boss",
+  "order": 12,
+  "drop": [
+    "ascended-sample-knight",
+    "ascended-sample-rook",
+    "ascended-sample-queen"
+  ]
+}

@@ -368,7 +368,11 @@
     "varesa",
     "finale-of-the-deep-galleries",
     "long-nights-oath",
-    "vivid-notions"
+    "vivid-notions",
+    "escoffier",
+    "ifa",
+    "sequence-of-solitude",
+    "symphonist-of-scents"
   ],
   "name2id": {
     "geo": 0,
@@ -739,6 +743,10 @@
     "varesa": 365,
     "finale-of-the-deep-galleries": 366,
     "long-nights-oath": 367,
-    "vivid-notions": 368
+    "vivid-notions": 368,
+    "escoffier": 369,
+    "ifa": 370,
+    "sequence-of-solitude": 371,
+    "symphonist-of-scents": 372
   }
 }

@@ -370,6 +370,22 @@
       "circlet": ["crit-abbr", "hp"],
       "recommended-talent": ["e"]
     },
+    "escoffier": {
+      "base-stat": ["cr"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": ["atk"],
+      "a4": [],
+      "constellation": [
+        { "C2": ["atk"] },
+        { "C6": ["atk"] }
+      ],
+      "sand": ["er", "atk"],
+      "goblet": ["cryo"],
+      "circlet": ["crit-abbr"],
+      "recommended-talent": ["e", "q"]
+    },
     "eula": {
       "base-stat": ["cdmg"],
       "a": ["atk"],
@@ -501,7 +517,7 @@
       "recommended-talent": ["a"]
     },
     "iansan": {
-      "base-stat": ["atk"],
+      "base-stat": ["em"],
       "a": ["atk"],
       "e": ["atk"],
       "q": ["atk"],
@@ -515,6 +531,21 @@
       "goblet": ["atk"],
       "circlet": ["atk"],
       "recommended-talent": ["q", "e"]
+    },
+    "ifa": {
+      "base-stat": ["atk"],
+      "a": ["atk"],
+      "e": ["atk"],
+      "q": ["atk"],
+      "a1": [],
+      "a4": [],
+      "constellation": [
+        { "C6": ["atk"] }
+      ],
+      "sand": ["em", "er"],
+      "goblet": ["em"],
+      "circlet": ["cr"],
+      "recommended-talent": ["e", "q"]
     },
     "jean": {
       "base-stat": ["heal"],

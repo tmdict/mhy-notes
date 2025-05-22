@@ -1,11 +1,10 @@
 {
-  "id": "eroded-horn",
+  "id": "ascended-sample-rook",
   "type": "material",
   "materialType": "weekly-boss",
   "rarity": 5,
-  "source": "lord-of-eroded-primal-fire",
+  "source": "the-game-before-the-gate",
   "characters": [
-    "mavuika",
-    "escoffier"
+    "ifa"
   ]
 }

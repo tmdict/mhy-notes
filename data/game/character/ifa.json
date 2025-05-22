@@ -1,0 +1,16 @@
+{
+  "id": "ifa",
+  "type": "character",
+  "rarity": 4,
+  "vision": "anemo",
+  "weapon": "catalyst",
+  "released": "5.6.0",
+  "data": {
+    "en": {
+      "name": "Ifa"
+    },
+    "zh": {
+      "name": "伊法"
+    }
+  }
+}
