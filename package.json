@@ -28,7 +28,7 @@
     "notyf": "^3.10.0",
     "rimraf": "^6.0.1",
     "sass": "^1.78.0",
-    "svelte": "^5.32.1",
+    "svelte": "^5.33.1",
     "svelte-check": "^4.0.2",
     "svelte-preprocess": "^6.0.2",
     "tippy.js": "^6.3.7",
