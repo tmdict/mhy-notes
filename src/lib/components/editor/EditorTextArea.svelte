@@ -9,7 +9,7 @@
 
 <div class="input-field" style="--input-width: {width}; --input-height: {height}">
   <label for={id}>{label}</label>
-  <textarea class="input" type="textarea" {id} {name} bind:value />
+  <textarea class="input" type="textarea" {id} {name} bind:value></textarea>
 </div>
 
 <style lang="scss">
