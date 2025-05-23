@@ -4,7 +4,7 @@ A collection of simple tools and infographic contents related to games created b
 
 ## Setup
 
-Install [Node.js](https://nodejs.org/) (^16.9.0 or above) and `npm`.
+Install [Node.js](https://nodejs.org/) (22 or above) and `npm`.
 
 Installed dependencies with `npm install`.
 

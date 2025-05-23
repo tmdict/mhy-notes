@@ -5,6 +5,8 @@
   import dark from '$lib/style/themes/dark.json';
   import light from '$lib/style/themes/light.json';
 
+  let { children } = $props();
+
   // Reference: https://dev.to/josef/theming-in-svelte-with-css-variables-53kd
   const availableThemes = { [dark.name]: dark, [light.name]: light };
   const defaultTheme = dark.name;
@@ -38,4 +40,4 @@
   };
 </script>
 
-<slot />
+{@render children?.()}

@@ -1,5 +1,4 @@
 <script>
-  import { slide } from 'svelte/transition';
   import { buildsFilters } from '@store/filterlist';
   import { l10n, lang } from '@store/site';
   import BuildFilterItem from '$lib/components/build/BuildFilterItem.svelte';

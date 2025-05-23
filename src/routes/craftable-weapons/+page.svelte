@@ -42,6 +42,13 @@
     browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
   }
 
+  function preventDefault(fn) {
+    return function (event) {
+      event.preventDefault();
+      fn.call(this, event);
+    };
+  }
+
   function updateCount(billet, type, name, count) {
     const updated = $localData['billets'][billet][type][name] + count;
     $localData['billets'][billet][type][name] = (updated < 0) ? 0 : ((updated > 5) ? 5 : updated);
@@ -56,7 +63,7 @@
 <h1>{$l10n['craftable-weapons'][$lang]}</h1>
 
 <div class="menu">
-  <a href="/#" on:click|preventDefault={() => (showFaq = !showFaq)}>{$l10n['faq'][$lang]}</a>
+  <a href="/#" onclick={preventDefault(() => (showFaq = !showFaq))}>{$l10n['faq'][$lang]}</a>
   <span class="menu-separator"></span>
   <ManageData />
 </div>
@@ -108,16 +115,16 @@
                     class="remove-input"
                     role="button"
                     tabindex="0"
-                    on:click={() => updateCount(billet, type, weapon, -1)}
-                    on:keydown={() => updateCount(billet, type, weapon, -1)}>-</span
+                    onclick={() => updateCount(billet, type, weapon, -1)}
+                    onkeydown={() => updateCount(billet, type, weapon, -1)}>-</span
                   >
                   <div class="count r{count}">{count}</div>
                   <span
                     class="add-input"
                     role="button"
                     tabindex="0"
-                    on:click={() => updateCount(billet, type, weapon, 1)}
-                    on:keydown={() => updateCount(billet, type, weapon, 1)}>+</span
+                    onclick={() => updateCount(billet, type, weapon, 1)}
+                    onkeydown={() => updateCount(billet, type, weapon, 1)}>+</span
                   >
                 </div>
               </div>

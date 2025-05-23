@@ -2,6 +2,8 @@
   import Footer from '$lib/components/Footer.svelte';
   import Header from '$lib/components/Header.svelte';
   import ThemeContext from '$lib/components/ThemeContext.svelte';
+
+  let { children } = $props();
 </script>
 
 <ThemeContext>
@@ -12,7 +14,7 @@
       </div>
 
       <div id="main">
-        <slot />
+        {@render children?.()}
       </div>
       <div id="footer">
         <Footer />
