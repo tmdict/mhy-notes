@@ -10,16 +10,6 @@
   import BuildSubStats from '$lib/components/build/BuildSubStats.svelte';
   import BuildWeapons from '$lib/components/build/BuildWeapons.svelte';
 
-  // Load images to be enhanced
-  const images = import.meta.glob(
-    "$lib/img/**/*.png", {
-      eager: true,
-      query: {
-        enhanced: true,
-      },
-    }
-  );
-
   export let build;
   export let link;
   // Delete does not show in full page because build object is dynamically generated
@@ -29,7 +19,7 @@
 </script>
 
 <div class="content-row header">
-  <BuildCharacter {images} character={build.character} constellation={build.constellation} size="80px" />
+  <BuildCharacter character={build.character} constellation={build.constellation} size="80px" />
   <div class="content-row name">
     <h1>{$characters[build.character].data[$lang].name} · {build.name[$lang] ? build.name[$lang] : build.name[lang.default()]} <a href="./build#{link}">#</a></h1>
   </div>
@@ -48,10 +38,10 @@
   >
     <div class="content-row">
       <div class="content-row weapons">
-        <BuildWeapons {images} weapons={build.weapon} />
+        <BuildWeapons weapons={build.weapon} />
       </div>
       <div class="content-row artifacts">
-        <BuildArtifactSet {images} artifacts={build.artifact} --artifact-margin="0 15px 0 0" />
+        <BuildArtifactSet artifacts={build.artifact} --artifact-margin="0 15px 0 0" />
       </div>
     </div>
   </div>

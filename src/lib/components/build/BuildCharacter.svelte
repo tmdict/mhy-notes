@@ -1,9 +1,8 @@
 <script>
   import { characters, rarity } from '@store/gamedata';
-  import { lang } from '@store/site';
+  import { images, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
-  export let images;
   export let character;
   export let constellation;
   export let size = '50px';
@@ -13,7 +12,7 @@
   <Icon
     id={character}
     title={$characters[character] ? $characters[character].data[$lang].name : character}
-    src={images[`/src/lib/img/character/${character}.png`]}
+    src={$images[`/src/lib/img/character/${character}.png`]}
     rarity={$rarity[character]}
     {size}
     margin="0"

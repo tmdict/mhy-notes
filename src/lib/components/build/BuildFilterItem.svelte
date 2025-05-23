@@ -1,9 +1,8 @@
 <script>
   import { buildsFilters } from '@store/filterlist';
-  import { l10n, lang } from '@store/site';
+  import { images, l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
 
-  export let images;
   export let name;
   export let type;
   export let item;
@@ -24,14 +23,14 @@
     {#if type === 'icon' && name === 'artifact'}
       <Icon
         id={item}
-        src={images[`/src/lib/img/artifact/${item}.png`]}
+        src={$images[`/src/lib/img/artifact/${item}.png`]}
         size="45px"
         margin="0 5px 0 0"
       />
     {:else if type === 'icon' && name === 'weapon-type'}
       <Icon
         id={item}
-        src={images[`/src/lib/img/weapon-type/${item}.png`]}
+        src={$images[`/src/lib/img/weapon-type/${item}.png`]}
         size="25px"
         margin="0 5px 0 0"
       />

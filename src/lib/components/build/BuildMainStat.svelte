@@ -1,15 +1,5 @@
 <script>
-  import { l10n, lang } from '@store/site';
-
-  // Load images to be enhanced
-  const images = import.meta.glob(
-    "$lib/img/artifact-piece/*.png", {
-      eager: true,
-      query: {
-        enhanced: true,
-      },
-    }
-  );
+  import { images, l10n, lang } from '@store/site';
 
   export let type;
   export let stats;
@@ -17,7 +7,7 @@
 
 <div class="content-row mainstat">
   <div class="icon">
-    <enhanced:img class="piece-img" src={images[`/src/lib/img/artifact-piece/${type}.png`].default} alt={type} />
+    <enhanced:img class="piece-img" src={$images[`/src/lib/img/artifact-piece/${type}.png`].default} alt={type} />
   </div>
   <div>
     {#each stats as stat, i}
