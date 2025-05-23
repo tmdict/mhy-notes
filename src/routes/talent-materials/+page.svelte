@@ -1,17 +1,7 @@
 <script>
   import { characters, materials, rarity } from '@store/gamedata';
-  import { l10n, lang } from '@store/site';
+  import { images, l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
-
-  // Load images to be enhanced
-  const images = import.meta.glob(
-    "$lib/img/**/*.png", {
-      eager: true,
-      query: {
-        enhanced: true,
-      },
-    }
-  );
 
   const weekdays = [$l10n['day1'], $l10n['day2'], $l10n['day3']];
 
@@ -63,7 +53,7 @@
             {#each weaponMaterials[region][weekday] as weaponMat}
               <Icon
                 id={weaponMat}
-                src={images[`/src/lib/img/material-weapon-ascension/${weaponMat}.png`]}
+                src={$images[`/src/lib/img/material-weapon-ascension/${weaponMat}.png`]}
                 rarity={$rarity[weaponMat]}
                 size="40px"
               />
@@ -74,7 +64,7 @@
             {#each material.group as book}
               <Icon
                 id="{book.id}-{material.id}"
-                src={images[`/src/lib/img/material-talent-book/${book.id}-${material.id}.png`]}
+                src={$images[`/src/lib/img/material-talent-book/${book.id}-${material.id}.png`]}
                 rarity={book.rarity}
               />
             {/each}
@@ -84,7 +74,7 @@
               <Icon
                 id={character}
                 title={$characters[character] ? $characters[character].data[$lang].name : character}
-                src={images[`/src/lib/img/character/${character}.png`]}
+                src={$images[`/src/lib/img/character/${character}.png`]}
                 rarity={$rarity[character]}
               />
             {/each}

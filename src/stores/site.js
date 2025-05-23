@@ -15,17 +15,14 @@ function createLang() {
 }
 export const lang = createLang();
 
-export const toastOption = readable({
-  success: {
-    theme: {
-      '--toastBackground': 'var(--theme-site-secondary-main)',
-      '--toastBarBackground': 'var(--theme-site-secondary-main)'
-    }
-  },
-  error: {
-    theme: {
-      '--toastBackground': 'var(--theme-site-primary-alt)',
-      '--toastBarBackground': 'var(--theme-site-primary-alt)'
-    }
+// Load images to be enhanced
+const img = import.meta.glob(
+  "$lib/img/**/*.png", {
+    eager: true,
+    query: {
+      enhanced: true,
+    },
   }
-});
+);
+
+export const images = readable(img);

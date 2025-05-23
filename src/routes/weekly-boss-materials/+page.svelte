@@ -1,17 +1,7 @@
 <script>
   import { characters, enemies, materials, rarity } from '@store/gamedata';
-  import { l10n, lang } from '@store/site';
+  import { images, l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
-
-  // Load images to be enhanced
-  const images = import.meta.glob(
-    "$lib/img/**/*.png", {
-      eager: true,
-      query: {
-        enhanced: true,
-      },
-    }
-  );
 
   const bossMaterials = Object.values($enemies)
     .filter((enemy) => enemy.enemyType === 'weekly-boss')
@@ -46,18 +36,18 @@
   {#each Object.entries(bossMaterials) as [boss, bossData], idx}
     <div class="content-row boss" class:alt={idx % 2 === 1}>
       <div class="content-row">
-        <Icon id={boss} src={images[`/src/lib/img/enemy/${boss}.png`]} size="220px" />
+        <Icon id={boss} src={$images[`/src/lib/img/enemy/${boss}.png`]} size="220px" />
 
         <div class="content-col">
           {#each Object.entries(bossData) as [name, material]}
             <div class="content-row">
-              <Icon id={name} src={images[`/src/lib/img/material-weekly-boss/${name}.png`]} rarity={material.rarity} />
+              <Icon id={name} src={$images[`/src/lib/img/material-weekly-boss/${name}.png`]} rarity={material.rarity} />
               {#if material.characters.length > 0}
               {#each material.characters as character}
                 <Icon
                   id={character}
                   title={$characters[character] ? $characters[character].data[$lang].name : character}
-                  src={images[`/src/lib/img/character/${character}.png`]}
+                  src={$images[`/src/lib/img/character/${character}.png`]}
                   rarity={$rarity[character]}
                 />
               {/each}

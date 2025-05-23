@@ -26,4 +26,4 @@ if (browser) {
 export const toast = {
   success: (message) => notyf?.success(message),
   error: (message) => notyf?.error(message)
-}; 
+};
