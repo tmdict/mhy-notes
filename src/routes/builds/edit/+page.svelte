@@ -1,11 +1,11 @@
 <script>
-  //import { toast } from '@zerodevx/svelte-toast';
+  import { toast } from '@store/toast';
   import lzstring from 'lz-string';
   import { browser } from '$app/environment';
   import { availableInputs, buildEditor } from '@store/editor';
   import { characters, weapons } from '@store/gamedata';
   import { localData } from '@store/localdata';
-  import { l10n, lang, toastOption } from '@store/site';
+  import { l10n, lang } from '@store/site';
   import { compressBuild, decodeBuild, encodeBuild, extractBuild, hash } from '$lib/util/codec';
   import { parser } from '$lib/util/parser';
   import { validator } from '$lib/util/validator';
@@ -34,7 +34,7 @@
         const importedBuild = decodeBuild(extractBuild(lzstring.decompressFromEncodedURIComponent(link)));
         $buildEditor = parser.importToEditor(importedBuild, buildEditor.getKeys, $lang);
       } catch (err) {
-        //toast.push(`Cannot read build: ${err}`, $toastOption['error']);
+        toast.error(`Cannot read build: ${err}`);
       }
     }
   }
@@ -53,7 +53,7 @@
 
   function copyToClipboard(link) {
     navigator.clipboard.writeText(window.location.hostname + link);
-    //toast.push('Copied to clipboard!', $toastOption['success']);
+    toast.success('Copied to clipboard!');
   }
 
   function saveBuild() {
@@ -69,12 +69,12 @@
         if (browser) {
           localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
         }
-        //toast.push('Build saved.', $toastOption['success']);
+        toast.success('Build saved.');
       } else {
-        //toast.push('Duplicate build!', $toastOption['error']);
+        toast.error('Duplicate build!');
       }
     } catch (err) {
-      //toast.push(`Something went wrong: ${err}`, $toastOption['error']);
+      toast.error(`Something went wrong: ${err}`);
     }
   }
 </script>

@@ -1,8 +1,8 @@
 <script>
-  //import { toast } from '@zerodevx/svelte-toast';
+  import { toast } from '@store/toast';
   import { browser } from '$app/environment';
   import { localData } from '@store/localdata';
-  import { l10n, lang, toastOption } from '@store/site';
+  import { l10n, lang } from '@store/site';
 
   // Support drag and drop in the future
   function getFilesFromInputEvent({ target }) {
@@ -19,9 +19,9 @@
         const imported = JSON.parse(reader.result);
         $localData = imported;
         browser && localStorage.setItem('tmdict.genshin.data', reader.result);
-        //toast.push('Import successful!', $toastOption['success']);
+        toast.success('Import successful!');
       } catch (err) {
-        //toast.push(`Import failed: ${err}`, $toastOption['error']);
+        toast.error(`Import failed: ${err}`);
       }
     };
     reader.readAsText(files[0]);

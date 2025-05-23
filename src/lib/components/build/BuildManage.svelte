@@ -1,9 +1,9 @@
 <script>
-  //import { toast } from '@zerodevx/svelte-toast';
+  import { toast } from '@store/toast';
   import lzstring from 'lz-string';
   import { browser } from '$app/environment';
   import { localData } from '@store/localdata';
-  import { l10n, lang, toastOption } from '@store/site';
+  import { l10n, lang } from '@store/site';
   import { compressBuild, encodeBuild } from '$lib/util/codec';
 
   export let build;
@@ -19,9 +19,9 @@
       const afterDeletion = $localData['builds'].filter((b) => b.id != build.id);
       $localData = { ...$localData, builds: afterDeletion };
       browser && localStorage.setItem('tmdict.genshin.data', JSON.stringify($localData));
-      //toast.push('Build deleted.', $toastOption['success']);
+      toast.success('Build deleted.');
     } catch (err) {
-      //toast.push(`Something went wrong: ${err}`, $toastOption['error']);
+      toast.error(`Something went wrong: ${err}`);
     }
   }
 </script>
