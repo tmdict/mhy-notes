@@ -1,9 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { enhancedImages } from '@sveltejs/enhanced-img';
+import { defineConfig } from 'vite';
 import ViteYaml from '@modyfi/vite-plugin-yaml';
 
-/** @type {import('vite').UserConfig} */
-const config = {
+export default defineConfig({
   plugins: [
     enhancedImages(),
     sveltekit(),
@@ -14,6 +14,4 @@ const config = {
       allow: ['data']
     }
   }
-};
-
-export default config;
+});
