@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
-import preprocess from 'svelte-preprocess';
+import { sveltePreprocess } from 'svelte-preprocess';
+import { fileURLToPath, URL } from 'url';
 
 //const dev = process.env.NODE_ENV === 'development';
 
@@ -7,9 +8,13 @@ import preprocess from 'svelte-preprocess';
 const config = {
   kit: {
     adapter: adapter(),
-    appDir: 'bin'
+    appDir: 'bin',
+    alias: {
+      '@data': fileURLToPath(new URL('./data', import.meta.url)), // alias to static dir
+      '@store': fileURLToPath(new URL('./src/stores', import.meta.url)) // alias to stores
+    }
   },
-  preprocess: preprocess()
+  preprocess: sveltePreprocess()
 };
 
 export default config;
