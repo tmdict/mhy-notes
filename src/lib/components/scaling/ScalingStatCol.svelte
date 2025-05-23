@@ -1,18 +1,8 @@
 <script>
   import { charScalingFilters } from '@store/filterlist';
   import { characters, rarity } from '@store/gamedata';
-  import { l10n, lang } from '@store/site';
+  import { images, l10n, lang } from '@store/site';
   import Icon from '$lib/components/Icon.svelte';
-
-  // Load images to be enhanced
-  const images = import.meta.glob(
-    "$lib/img/character/*.png", {
-      eager: true,
-      query: {
-        enhanced: true,
-      },
-    }
-  );
 
   export let data;
   export let baseKey;
@@ -41,7 +31,7 @@
     <Icon
       id={data.id}
       title={$characters[data.id] ? $characters[data.id].data[$lang].name : data.id}
-      src={images[`/src/lib/img/character/${data.id}.png`]}
+      src={$images[`/src/lib/img/character/${data.id}.png`]}
       rarity={$rarity[data.id]}
       size="50px"
       margin="0"
